@@ -1,0 +1,121 @@
+[0.000000] (-) TimerEvent: {}
+[0.001311] (-) JobUnselected: {'identifier': 'ORB_SLAM3'}
+[0.004482] (-) JobUnselected: {'identifier': 'astra_camera'}
+[0.006342] (-) JobUnselected: {'identifier': 'astra_camera_msgs'}
+[0.006627] (-) JobUnselected: {'identifier': 'cartographer'}
+[0.006857] (-) JobUnselected: {'identifier': 'cartographer_ros'}
+[0.007010] (-) JobUnselected: {'identifier': 'cartographer_ros_msgs'}
+[0.007170] (-) JobUnselected: {'identifier': 'cartographer_rviz'}
+[0.007372] (-) JobUnselected: {'identifier': 'city_li'}
+[0.007574] (-) JobUnselected: {'identifier': 'faithbot_cartographer'}
+[0.007733] (-) JobUnselected: {'identifier': 'fishbot_description'}
+[0.007890] (-) JobUnselected: {'identifier': 'orbbec_camera'}
+[0.008227] (-) JobUnselected: {'identifier': 'orbbec_camera_msgs'}
+[0.009473] (-) JobUnselected: {'identifier': 'orbbec_description'}
+[0.009664] (-) JobUnselected: {'identifier': 'orbslam3'}
+[0.009784] (-) JobUnselected: {'identifier': 'sllidar_ros2'}
+[0.009965] (-) JobUnselected: {'identifier': 'yahboomcar_description'}
+[0.010095] (city_w) JobQueued: {'identifier': 'city_w', 'dependencies': OrderedDict()}
+[0.010233] (city_w) JobStarted: {'identifier': 'city_w'}
+[0.026778] (city_w) JobProgress: {'identifier': 'city_w', 'progress': 'cmake'}
+[0.027719] (city_w) JobProgress: {'identifier': 'city_w', 'progress': 'build'}
+[0.028714] (city_w) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/faith/Work/carto_ws/build/city_w', '--', '-j8', '-l8'], 'cwd': '/home/faith/Work/carto_ws/build/city_w', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7890/'), ('no_proxy', '127.0.0.1,localhost'), ('LANGUAGE', 'zh_CN.UTF-8'), ('USER', 'faith'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '2243'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/faith/Work/carto_ws/install/orbbec_camera/lib:/home/faith/Work/carto_ws/install/orbbec_camera_msgs/lib:/home/faith/Work/carto_ws/install/cartographer_rviz/lib:/home/faith/Work/carto_ws/install/cartographer_ros/lib:/home/faith/Work/carto_ws/install/cartographer_ros_msgs/lib:/home/faith/Work/carto_ws/install/astra_camera/lib:/home/faith/Work/carto_ws/install/astra_camera_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/faith'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.79.2'), ('DESKTOP_SESSION', 'xfce'), ('NO_PROXY', '127.0.0.1,localhost'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'gail:atk-bridge'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('https_proxy', 'http://127.0.0.1:7890/'), ('COLCON_PREFIX_PATH', '/home/faith/Work/carto_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'faith'), ('http_proxy', 'http://127.0.0.1:7890/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/faith/Work/carto_ws/install/cartographer/lib/aarch64-linux-gnu/pkgconfig:/home/faith/Work/carto_ws/install/cartographer/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', 'c2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/faith/Work/carto_ws/install/cartographer/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/rock-5b:@/tmp/.ICE-unix/2034,unix/rock-5b:/tmp/.ICE-unix/2034'), ('GTK3_MODULES', 'xapp-gtk3-module'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'xfce-'), ('ftp_proxy', 'http://127.0.0.1:7890/'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0.0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'XFCE'), ('XDG_SESSION_DESKTOP', 'xfce'), ('XAUTHORITY', '/home/faith/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-95479d47ec.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXXnz4LGe/agent.2240'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/faith'), ('AMENT_PREFIX_PATH', '/home/faith/Work/carto_ws/install/city_w:/home/faith/Work/carto_ws/install/yahboomcar_description:/home/faith/Work/carto_ws/install/sllidar_ros2:/home/faith/Work/carto_ws/install/orbbec_description:/home/faith/Work/carto_ws/install/orbbec_camera:/home/faith/Work/carto_ws/install/orbbec_camera_msgs:/home/faith/Work/carto_ws/install/fishbot_description:/home/faith/Work/carto_ws/install/faithbot_cartographer:/home/faith/Work/carto_ws/install/city_li:/home/faith/Work/carto_ws/install/cartographer_rviz:/home/faith/Work/carto_ws/install/cartographer_ros:/home/faith/Work/carto_ws/install/cartographer_ros_msgs:/home/faith/Work/carto_ws/install/astra_camera:/home/faith/Work/carto_ws/install/astra_camera_msgs:/opt/ros/humble'), ('LC_MESSAGES', 'en_US.UTF-8'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'XFCE'), ('SHELL', '/usr/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:7a9c5ea3-10ce-4982-b579-3470d8eec9ca'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'xfce'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('XDG_VTNR', '7'), ('PWD', '/home/faith/Work/carto_ws/build/city_w'), ('LC_ALL', 'zh_CN.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-xfce:/etc/xdg:/etc/xdg'), ('FTP_PROXY', 'http://127.0.0.1:7890/'), ('XDG_DATA_DIRS', '/usr/share/xfce4:/usr/local/share/:/usr/share/:/usr/share'), ('PYTHONPATH', '/home/faith/Work/carto_ws/install/yahboomcar_description/lib/python3.10/site-packages:/home/faith/Work/carto_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages:/home/faith/Work/carto_ws/install/fishbot_description/lib/python3.10/site-packages:/home/faith/Work/carto_ws/install/city_li/lib/python3.10/site-packages:/home/faith/Work/carto_ws/install/cartographer_ros_msgs/local/lib/python3.10/dist-packages:/home/faith/Work/carto_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890/'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/faith/Work/carto_ws/install/city_w:/home/faith/Work/carto_ws/install/sllidar_ros2:/home/faith/Work/carto_ws/install/orbbec_description:/home/faith/Work/carto_ws/install/orbbec_camera:/home/faith/Work/carto_ws/install/orbbec_camera_msgs:/home/faith/Work/carto_ws/install/faithbot_cartographer:/home/faith/Work/carto_ws/install/cartographer_rviz:/home/faith/Work/carto_ws/install/cartographer_ros:/home/faith/Work/carto_ws/install/cartographer_ros_msgs:/home/faith/Work/carto_ws/install/cartographer:/home/faith/Work/carto_ws/install/astra_camera:/home/faith/Work/carto_ws/install/astra_camera_msgs:/home/faith/Work/carto_ws/install/yahboomcar_description:/home/faith/Work/carto_ws/install/fishbot_description:/home/faith/Work/carto_ws/install/city_li:/opt/ros/humble')]), 'shell': False}
+[0.099018] (-) TimerEvent: {}
+[0.156312] (city_w) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target wang2_node\x1b[0m\n'}
+[0.199257] (-) TimerEvent: {}
+[0.236328] (city_w) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/wang2_node.dir/src/wang2.cpp.o\x1b[0m\n'}
+[0.299460] (-) TimerEvent: {}
+[0.400262] (-) TimerEvent: {}
+[0.501095] (-) TimerEvent: {}
+[0.601954] (-) TimerEvent: {}
+[0.703042] (-) TimerEvent: {}
+[0.803926] (-) TimerEvent: {}
+[0.904798] (-) TimerEvent: {}
+[1.005688] (-) TimerEvent: {}
+[1.106571] (-) TimerEvent: {}
+[1.207489] (-) TimerEvent: {}
+[1.308328] (-) TimerEvent: {}
+[1.409152] (-) TimerEvent: {}
+[1.510068] (-) TimerEvent: {}
+[1.610789] (-) TimerEvent: {}
+[1.711201] (-) TimerEvent: {}
+[1.811593] (-) TimerEvent: {}
+[1.912039] (-) TimerEvent: {}
+[2.012578] (-) TimerEvent: {}
+[2.113103] (-) TimerEvent: {}
+[2.213613] (-) TimerEvent: {}
+[2.314115] (-) TimerEvent: {}
+[2.414640] (-) TimerEvent: {}
+[2.515133] (-) TimerEvent: {}
+[2.615630] (-) TimerEvent: {}
+[2.716033] (-) TimerEvent: {}
+[2.816431] (-) TimerEvent: {}
+[2.916865] (-) TimerEvent: {}
+[3.017365] (-) TimerEvent: {}
+[3.117873] (-) TimerEvent: {}
+[3.218335] (-) TimerEvent: {}
+[3.319114] (-) TimerEvent: {}
+[3.419859] (-) TimerEvent: {}
+[3.520523] (-) TimerEvent: {}
+[3.621299] (-) TimerEvent: {}
+[3.722168] (-) TimerEvent: {}
+[3.728503] (city_w) StderrLine: {'line': b'\x1b[01m\x1b[K/home/faith/Work/carto_ws/src/city_w/src/wang2.cpp:8:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kextra qualification \xe2\x80\x98\x1b[01m\x1b[KsinglePerson::\x1b[m\x1b[K\xe2\x80\x99 on member \xe2\x80\x98\x1b[01m\x1b[KsinglePerson\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.729414] (city_w) StderrLine: {'line': b'    8 |     \x1b[01;31m\x1b[KsinglePerson\x1b[m\x1b[K::singlePerson(std::string name):Node(name)\n'}
+[3.730480] (city_w) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.731382] (city_w) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[3.731824] (city_w) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[3.732205] (city_w) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[3.732585] (city_w) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[3.732948] (city_w) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[3.733313] (city_w) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[3.733675] (city_w) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[3.734038] (city_w) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[3.734405] (city_w) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[3.734807] (city_w) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[3.735197] (city_w) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[3.735570] (city_w) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/faith/Work/carto_ws/src/city_w/src/wang2.cpp:1\x1b[m\x1b[K:\n'}
+[3.735931] (city_w) StderrLine: {'line': b'\x1b[01m\x1b[K/home/faith/Work/carto_ws/src/city_w/src/wang2.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KsinglePerson::singlePerson(std::string)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.736295] (city_w) StderrLine: {'line': b'\x1b[01m\x1b[K/home/faith/Work/carto_ws/src/city_w/src/wang2.cpp:10:41:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%s\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kchar*\x1b[m\x1b[K\xe2\x80\x99, but argument 5 has type \xe2\x80\x98\x1b[01m\x1b[Kstd::string\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.736672] (city_w) StderrLine: {'line': b'   10 |         RCLCPP_INFO(this->get_logger(), \x1b[01;35m\x1b[K"%s"\x1b[m\x1b[K, name);\n'}
+[3.737036] (city_w) StderrLine: {'line': b'      |                                         \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[3.737402] (city_w) StderrLine: {'line': b'\x1b[01m\x1b[K/home/faith/Work/carto_ws/src/city_w/src/wang2.cpp:10:43:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[3.737766] (city_w) StderrLine: {'line': b'   10 |         RCLCPP_INFO(this->get_logger(), "\x1b[01;36m\x1b[K%s\x1b[m\x1b[K", name);\n'}
+[3.738127] (city_w) StderrLine: {'line': b'      |                                          \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[3.738526] (city_w) StderrLine: {'line': b'      |                                           \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[3.738900] (city_w) StderrLine: {'line': b'      |                                           \x1b[01;36m\x1b[Kchar*\x1b[m\x1b[K\n'}
+[3.739265] (city_w) StderrLine: {'line': b'\x1b[01m\x1b[K/home/faith/Work/carto_ws/src/city_w/src/wang2.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.739631] (city_w) StderrLine: {'line': b'\x1b[01m\x1b[K/home/faith/Work/carto_ws/src/city_w/src/wang2.cpp:20:43:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot call constructor \xe2\x80\x98\x1b[01m\x1b[KsinglePerson::singlePerson\x1b[m\x1b[K\xe2\x80\x99 directly [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.740008] (city_w) StderrLine: {'line': b'   20 |     auto node = \x1b[01;31m\x1b[KsinglePerson::singlePerson("wang2_class")\x1b[m\x1b[K;\n'}
+[3.740371] (city_w) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.740735] (city_w) StderrLine: {'line': b'\x1b[01m\x1b[K/home/faith/Work/carto_ws/src/city_w/src/wang2.cpp:20:43:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kfor a function-style cast, remove the redundant \xe2\x80\x98\x1b[01m\x1b[K::singlePerson\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.741142] (city_w) StderrLine: {'line': b'\x1b[01m\x1b[K/home/faith/Work/carto_ws/src/city_w/src/wang2.cpp:21:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kspin(singlePerson&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.741509] (city_w) StderrLine: {'line': b'   21 |     \x1b[01;31m\x1b[Krclcpp::spin(node)\x1b[m\x1b[K;\n'}
+[3.741914] (city_w) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[3.742285] (city_w) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[3.742680] (city_w) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/faith/Work/carto_ws/src/city_w/src/wang2.cpp:1\x1b[m\x1b[K:\n'}
+[3.743045] (city_w) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:45:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid rclcpp::spin(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.743460] (city_w) StderrLine: {'line': b'   45 | \x1b[01;36m\x1b[Kspin\x1b[m\x1b[K(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr node_ptr);\n'}
+[3.743822] (city_w) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[3.744188] (city_w) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:45:60:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[KsinglePerson\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::node_interfaces::NodeBaseInterface::SharedPtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::node_interfaces::NodeBaseInterface>\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[3.744564] (city_w) StderrLine: {'line': b'   45 | spin(\x1b[01;36m\x1b[Krclcpp::node_interfaces::NodeBaseInterface::SharedPtr node_ptr\x1b[m\x1b[K);\n'}
+[3.744928] (city_w) StderrLine: {'line': b'      |      \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[3.745329] (city_w) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:49:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid rclcpp::spin(rclcpp::Node::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.745700] (city_w) StderrLine: {'line': b'   49 | \x1b[01;36m\x1b[Kspin\x1b[m\x1b[K(rclcpp::Node::SharedPtr node_ptr);\n'}
+[3.746061] (city_w) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[3.746419] (city_w) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:49:30:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[KsinglePerson\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::SharedPtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Node>\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[3.746790] (city_w) StderrLine: {'line': b'   49 | spin(\x1b[01;36m\x1b[Krclcpp::Node::SharedPtr node_ptr\x1b[m\x1b[K);\n'}
+[3.747150] (city_w) StderrLine: {'line': b'      |      \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[3.822369] (-) TimerEvent: {}
+[3.923219] (-) TimerEvent: {}
+[4.024156] (-) TimerEvent: {}
+[4.125242] (-) TimerEvent: {}
+[4.226224] (-) TimerEvent: {}
+[4.327301] (-) TimerEvent: {}
+[4.413609] (city_w) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/wang2_node.dir/build.make:76: CMakeFiles/wang2_node.dir/src/wang2.cpp.o] Error 1\n'}
+[4.414769] (city_w) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/wang2_node.dir/all] Error 2\n'}
+[4.415532] (city_w) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[4.422980] (city_w) CommandEnded: {'returncode': 2}
+[4.427511] (-) TimerEvent: {}
+[4.531196] (-) TimerEvent: {}
+[4.594711] (city_w) JobEnded: {'identifier': 'city_w', 'rc': 2}
+[4.598663] (-) EventReactorShutdown: {}

@@ -1,0 +1,1287 @@
+[0.027s] Invoking command in '/home/faith/Work/carto_ws/build/cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/faith/Work/carto_ws/src/cartographer -DCMAKE_INSTALL_PREFIX=/home/faith/Work/carto_ws/install/cartographer
+[0.244s] -- The C compiler identification is GNU 11.3.0
+[0.389s] -- The CXX compiler identification is GNU 11.3.0
+[0.403s] -- Detecting C compiler ABI info
+[0.620s] -- Detecting C compiler ABI info - done
+[0.630s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.631s] -- Detecting C compile features
+[0.631s] -- Detecting C compile features - done
+[0.636s] -- Detecting CXX compiler ABI info
+[0.850s] -- Detecting CXX compiler ABI info - done
+[0.890s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.891s] -- Detecting CXX compile features
+[0.894s] -- Detecting CXX compile features - done
+[0.899s] -- Build type: Release
+[0.938s] Files /home/faith/Work/carto_ws/build/cartographer/AllFiles.cmake and - differ
+[1.406s] -- Found Python: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[1.411s] -- Looking for pthread.h
+[1.653s] -- Looking for pthread.h - found
+[1.653s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.867s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.871s] -- Found Threads: TRUE  
+[1.895s] -- Found GMock: gmock_main  
+[1.976s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: iostreams 
+[2.001s] -- Found required Ceres dependency: Eigen version 3.4.0 in /usr/include/eigen3
+[2.010s] -- Found required Ceres dependency: glog
+[2.011s] -- Found required Ceres dependency: gflags
+[2.012s] -- Found Ceres version: 2.0.0 installed in: /usr with components: [EigenSparse, SparseLinearAlgebraLibrary, LAPACK, SuiteSparse, CXSparse, SchurSpecializations, Multithreading]
+[2.030s] -- Found Lua: /usr/lib/aarch64-linux-gnu/liblua5.2.so;/usr/lib/aarch64-linux-gnu/libm.so (found version "5.2.4") 
+[2.081s] -- Found Protobuf: /usr/lib/aarch64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3.0.0") 
+[2.090s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[2.091s] -- Checking for one of the modules 'cairo>=1.12.16'
+[2.290s] -- Found Sphinx: /usr/bin/sphinx-build  
+[2.386s] -- Configuring done
+[2.822s] -- Generating done
+[2.834s] -- Build files have been written to: /home/faith/Work/carto_ws/build/cartographer
+[2.890s] Invoked command in '/home/faith/Work/carto_ws/build/cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/faith/Work/carto_ws/src/cartographer -DCMAKE_INSTALL_PREFIX=/home/faith/Work/carto_ws/install/cartographer
+[2.892s] Invoking command in '/home/faith/Work/carto_ws/build/cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/faith/Work/carto_ws/build/cartographer -- -j8 -l8
+[3.064s] [  1%] [34m[1mRunning C++ protocol buffer compiler on /home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/proto/connected_components.proto[0m
+[3.064s] [  1%] [34m[1mRunning C++ protocol buffer compiler on /home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/proto/cell_limits_2d.proto[0m
+[3.067s] [  1%] [34m[1mRunning C++ protocol buffer compiler on /home/faith/Work/carto_ws/src/cartographer/cartographer/transform/proto/transform.proto[0m
+[3.083s] [  1%] [34m[1mRunning C++ protocol buffer compiler on /home/faith/Work/carto_ws/src/cartographer/cartographer/common/proto/ceres_solver_options.proto[0m
+[3.089s] [  1%] [34m[1mRunning C++ protocol buffer compiler on /home/faith/Work/carto_ws/src/cartographer/cartographer/ground_truth/proto/relations.proto[0m
+[3.092s] [  2%] [32mBuilding CXX object googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[3.101s] [  2%] [34m[1mRunning C++ protocol buffer compiler on /home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/proto/grid_2d.proto[0m
+[3.112s] [  2%] [34m[1mRunning C++ protocol buffer compiler on /home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/proto/grid_2d_options.proto[0m
+[3.113s] [  2%] [34m[1mBuilding documentation.[0m
+[3.119s] [  3%] [34m[1mRunning C++ protocol buffer compiler on /home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/proto/hybrid_grid.proto[0m
+[3.119s] [  3%] Built target cartographer_detect_changes
+[3.129s] [  3%] [34m[1mRunning C++ protocol buffer compiler on /home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/proto/local_trajectory_builder_options_3d.proto[0m
+[3.129s] [  3%] [34m[1mRunning C++ protocol buffer compiler on /home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/proto/map_builder_options.proto[0m
+[3.136s] [  3%] [34m[1mRunning C++ protocol buffer compiler on /home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/proto/local_trajectory_builder_options_2d.proto[0m
+[3.146s] [  3%] [34m[1mRunning C++ protocol buffer compiler on /home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/proto/normal_estimation_options_2d.proto[0m
+[3.150s] [  4%] [34m[1mRunning C++ protocol buffer compiler on /home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/proto/map_limits.proto[0m
+[3.153s] [  4%] [34m[1mRunning C++ protocol buffer compiler on /home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/proto/pose_extrapolator_options.proto[0m
+[3.163s] [  5%] [34m[1mRunning C++ protocol buffer compiler on /home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/proto/pose_graph.proto[0m
+[3.170s] [  5%] [34m[1mRunning C++ protocol buffer compiler on /home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/proto/motion_filter_options.proto[0m
+[3.174s] [  5%] [34m[1mRunning C++ protocol buffer compiler on /home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/proto/pose_graph/optimization_problem_options.proto[0m
+[3.179s] [  5%] [34m[1mRunning C++ protocol buffer compiler on /home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/proto/pose_graph/constraint_builder_options.proto[0m
+[3.191s] [  5%] [34m[1mRunning C++ protocol buffer compiler on /home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/proto/probability_grid_range_data_inserter_options_2d.proto[0m
+[3.191s] [  5%] [34m[1mRunning C++ protocol buffer compiler on /home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/proto/range_data_inserter_options_3d.proto[0m
+[3.194s] [  5%] [34m[1mRunning C++ protocol buffer compiler on /home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/proto/pose_graph_options.proto[0m
+[3.199s] [  6%] [34m[1mRunning C++ protocol buffer compiler on /home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/proto/probability_grid.proto[0m
+[3.205s] [  6%] [34m[1mRunning C++ protocol buffer compiler on /home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/proto/range_data_inserter_options.proto[0m
+[3.209s] [  6%] [34m[1mRunning C++ protocol buffer compiler on /home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/proto/scan_matching/ceres_scan_matcher_options_3d.proto[0m
+[3.215s] [  7%] [34m[1mRunning C++ protocol buffer compiler on /home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/proto/scan_matching/ceres_scan_matcher_options_2d.proto[0m
+[3.231s] [  7%] [34m[1mRunning C++ protocol buffer compiler on /home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/proto/scan_matching/fast_correlative_scan_matcher_options_2d.proto[0m
+[3.232s] [  8%] [34m[1mRunning C++ protocol buffer compiler on /home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/proto/scan_matching/real_time_correlative_scan_matcher_options.proto[0m
+[3.238s] [  8%] [34m[1mRunning C++ protocol buffer compiler on /home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/proto/scan_matching/fast_correlative_scan_matcher_options_3d.proto[0m
+[3.242s] [  8%] [34m[1mRunning C++ protocol buffer compiler on /home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/proto/submap_visualization.proto[0m
+[3.246s] [  8%] [34m[1mRunning C++ protocol buffer compiler on /home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/proto/submap.proto[0m
+[3.247s] [  8%] [34m[1mRunning C++ protocol buffer compiler on /home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/proto/serialization.proto[0m
+[3.273s] [  8%] [34m[1mRunning C++ protocol buffer compiler on /home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/proto/trajectory_node_data.proto[0m
+[3.274s] [  9%] [34m[1mRunning C++ protocol buffer compiler on /home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/proto/submaps_options_3d.proto[0m
+[3.274s] [  9%] [34m[1mRunning C++ protocol buffer compiler on /home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/proto/submaps_options_2d.proto[0m
+[3.277s] [ 10%] [34m[1mRunning C++ protocol buffer compiler on /home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/proto/trajectory_builder_options.proto[0m
+[3.279s] [ 10%] [34m[1mRunning C++ protocol buffer compiler on /home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/proto/trajectory.proto[0m
+[3.295s] [ 10%] [34m[1mRunning C++ protocol buffer compiler on /home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/proto/tsdf_range_data_inserter_options_2d.proto[0m
+[3.304s] [ 10%] [34m[1mRunning C++ protocol buffer compiler on /home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/proto/tsdf_2d.proto[0m
+[3.313s] [ 11%] [34m[1mRunning C++ protocol buffer compiler on /home/faith/Work/carto_ws/src/cartographer/cartographer/sensor/proto/adaptive_voxel_filter_options.proto[0m
+[3.328s] [ 11%] [34m[1mRunning C++ protocol buffer compiler on /home/faith/Work/carto_ws/src/cartographer/cartographer/sensor/proto/sensor.proto[0m
+[3.340s] [ 11%] [34m[1mRunning C++ protocol buffer compiler on /home/faith/Work/carto_ws/src/cartographer/cartographer/transform/proto/timestamped_transform.proto[0m
+[3.535s] [ 12%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/common/fixed_ratio_sampler.cc.o[0m
+[3.535s] [ 12%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/common/configuration_file_resolver.cc.o[0m
+[3.541s] [ 13%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/common/internal/testing/thread_pool_for_testing.cc.o[0m
+[3.549s] [ 13%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/common/histogram.cc.o[0m
+[3.549s] [ 13%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/common/internal/ceres_solver_options.cc.o[0m
+[3.551s] [ 13%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/common/lua_parameter_dictionary.cc.o[0m
+[4.061s] [01mRunning Sphinx v4.3.2[39;49;00m
+[5.074s] [01mmaking output directory... [39;49;00mdone
+[5.097s] [01mbuilding [mo]: [39;49;00mtargets for 0 po files that are out of date
+[5.104s] [01mbuilding [html]: [39;49;00mtargets for 6 source files that are out of date
+[5.104s] [01mupdating environment: [39;49;00m[new config] 6 added, 0 changed, 0 removed
+[5.246s] [01mreading sources... [39;49;00m[ 16%] [35mconfiguration[39;49;00m                                        
+[5.267s] [01mreading sources... [39;49;00m[ 33%] [35mcost_functions[39;49;00m                                       
+[5.292s] [01mreading sources... [39;49;00m[ 50%] [35mevaluation[39;49;00m                                           
+[5.338s] [01mreading sources... [39;49;00m[ 66%] [35mindex[39;49;00m                                                
+[5.364s] [01mreading sources... [39;49;00m[ 83%] [35mpbstream_migration[39;49;00m                                   
+[5.382s] [01mreading sources... [39;49;00m[100%] [35mterminology[39;49;00m                                          
+[5.382s] 
+[5.387s] [01mlooking for now-outdated files... [39;49;00mnone found
+[5.397s] [01mpickling environment... [39;49;00mdone
+[5.398s] [01mchecking consistency... [39;49;00mdone
+[5.412s] [01mpreparing documents... [39;49;00mdone
+[5.712s] [01mwriting output... [39;49;00m[ 16%] [32mconfiguration[39;49;00m                                         
+[5.768s] [01mwriting output... [39;49;00m[ 33%] [32mcost_functions[39;49;00m                                        
+[5.899s] [01mwriting output... [39;49;00m[ 50%] [32mevaluation[39;49;00m                                            
+[6.148s] [01mwriting output... [39;49;00m[ 66%] [32mindex[39;49;00m                                                 
+[6.404s] [01mwriting output... [39;49;00m[ 83%] [32mpbstream_migration[39;49;00m                                    
+[6.479s] [01mwriting output... [39;49;00m[100%] [32mterminology[39;49;00m                                           
+[6.480s] 
+[6.551s] [01mgenerating indices... [39;49;00mgenindex done
+[6.595s] [01mwriting additional pages... [39;49;00msearch done
+[6.597s] [01mcopying images... [39;49;00m[ 50%] [33mautogenerate_groundtruth.png[39;49;00m                          
+[6.600s] [01mcopying images... [39;49;00m[100%] [33mhigh_level_system_overview.png[39;49;00m                        
+[6.600s] 
+[6.713s] [01mcopying static files... [39;49;00mdone
+[6.714s] [01mcopying extra files... [39;49;00mdone
+[6.727s] [01mdumping search index in English (code: en)... [39;49;00mdone
+[6.730s] [01mdumping object inventory... [39;49;00mdone
+[6.731s] [01mbuild succeeded.[39;49;00m
+[6.731s] 
+[6.732s] The HTML pages are in html.
+[7.363s] [ 13%] Built target build_doc
+[7.394s] [ 13%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/common/task.cc.o[0m
+[7.563s] [ 13%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/common/thread_pool.cc.o[0m
+[7.727s] [ 14%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/common/time.cc.o[0m
+[9.115s] [ 14%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/ground_truth/autogenerate_ground_truth.cc.o[0m
+[9.474s] [ 14%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/ground_truth/relations_text_file.cc.o[0m
+[11.264s] [ 14%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/io/color.cc.o[0m
+[12.139s] [ 14%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/io/counting_points_processor.cc.o[0m
+[12.157s] [ 15%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/io/coloring_points_processor.cc.o[0m
+[12.540s] [ 15%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/io/draw_trajectories.cc.o[0m
+[13.691s] [ 15%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/io/file_writer.cc.o[0m
+[19.123s] [ 16%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/io/fixed_ratio_sampling_points_processor.cc.o[0m
+[20.170s] [ 16%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/io/frame_id_filtering_points_processor.cc.o[0m
+[21.458s] [ 16%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/io/hybrid_grid_points_processor.cc.o[0m
+[24.307s] [ 16%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/io/image.cc.o[0m
+[26.400s] [ 17%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/io/intensity_to_color_points_processor.cc.o[0m
+[28.113s] [ 17%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/io/internal/in_memory_proto_stream.cc.o[0m
+[29.322s] [ 17%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/io/internal/mapping_state_serialization.cc.o[0m
+[34.796s] [ 18%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/io/internal/pbstream_info.cc.o[0m
+[36.827s] [ 18%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/io/internal/pbstream_migrate.cc.o[0m
+[38.855s] [ 18%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/io/min_max_range_filtering_points_processor.cc.o[0m
+[39.789s] [ 18%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/io/outlier_removing_points_processor.cc.o[0m
+[40.032s] [ 19%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/io/pcd_writing_points_processor.cc.o[0m
+[40.196s] [ 19%] [32m[1mLinking CXX static library ../lib/libgtest.a[0m
+[40.820s] [ 19%] Built target gtest
+[40.860s] [ 19%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/io/ply_writing_points_processor.cc.o[0m
+[43.248s] [ 19%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/io/points_batch.cc.o[0m
+[43.872s] [ 20%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[46.646s] [ 20%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/io/points_processor_pipeline_builder.cc.o[0m
+[48.194s] [ 21%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/io/probability_grid_points_processor.cc.o[0m
+[48.543s] [ 21%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/io/proto_stream.cc.o[0m
+[48.957s] [ 21%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/io/proto_stream_deserializer.cc.o[0m
+[50.306s] [ 21%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/io/serialization_format_migration.cc.o[0m
+[52.833s] [ 21%] [32m[1mLinking CXX static library ../lib/libgmock.a[0m
+[53.114s] [ 21%] Built target gmock
+[53.220s] [ 21%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[53.676s] [ 22%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/io/submap_painter.cc.o[0m
+[55.237s] [ 22%] [32m[1mLinking CXX static library ../lib/libgmock_main.a[0m
+[55.533s] [ 22%] Built target gmock_main
+[55.576s] [ 22%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/io/vertical_range_filtering_points_processor.cc.o[0m
+[57.374s] [ 22%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/io/xray_points_processor.cc.o[0m
+[57.500s] [ 22%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/io/xyz_writing_points_processor.cc.o[0m
+[57.511s] [ 23%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/2d/grid_2d.cc.o[0m
+[60.138s] [ 23%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/2d/probability_grid.cc.o[0m
+[62.038s] [ 23%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/2d/probability_grid_range_data_inserter_2d.cc.o[0m
+[65.257s] [ 23%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/2d/submap_2d.cc.o[0m
+[66.564s] [ 24%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/3d/range_data_inserter_3d.cc.o[0m
+[67.083s] [ 24%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/3d/submap_3d.cc.o[0m
+[67.620s] [ 24%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/detect_floors.cc.o[0m
+[67.977s] [ 24%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/imu_tracker.cc.o[0m
+[69.870s] [ 25%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/internal/2d/local_slam_result_2d.cc.o[0m
+[70.886s] [ 25%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/internal/2d/local_trajectory_builder_2d.cc.o[0m
+[71.613s] [ 25%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/internal/2d/local_trajectory_builder_options_2d.cc.o[0m
+[73.717s] [ 25%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/internal/2d/normal_estimation_2d.cc.o[0m
+[79.224s] [ 25%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/internal/2d/pose_graph_2d.cc.o[0m
+[81.311s] [ 26%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/internal/2d/scan_matching/ceres_scan_matcher_2d.cc.o[0m
+[81.611s] [ 26%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/internal/2d/ray_to_pixel_mask.cc.o[0m
+[81.844s] In file included from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/transform/transform.h:26[m[K,
+[81.845s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/sensor/rangefinder_point.h:24[m[K,
+[81.846s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/sensor/point_cloud.h:24[m[K,
+[81.846s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/sensor/compressed_point_cloud.h:25[m[K,
+[81.847s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/sensor/range_data.h:21[m[K,
+[81.847s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/trajectory_node.h:27[m[K,
+[81.848s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/2d/map_limits.h:28[m[K,
+[81.848s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/2d/grid_2d.h:22[m[K,
+[81.848s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/2d/submap_2d.h:25[m[K,
+[81.849s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/internal/2d/local_trajectory_builder_2d.h:24[m[K,
+[81.849s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/internal/2d/local_trajectory_builder_2d.cc:17[m[K:
+[81.850s] /home/faith/Work/carto_ws/src/cartographer/cartographer/transform/rigid_transform.h: In instantiation of ‘[01m[Kcartographer::transform::Rigid2<FloatType>::Rotation2D cartographer::transform::Rigid2<FloatType>::rotation() const [with FloatType = double; cartographer::transform::Rigid2<FloatType>::Rotation2D = Eigen::Rotation2D<double>][m[K’:
+[81.850s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/internal/2d/local_trajectory_builder_2d.cc:97:44:[m[K   required from here
+[81.851s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/transform/rigid_transform.h:68:14:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[KEigen::Rotation2D<double>[m[K’ when C++17 is enabled changed to match C++14 in GCC 10.1
+[81.851s]    68 |   Rotation2D [01;36m[Krotation[m[K() const { return rotation_; }
+[81.851s]       |              [01;36m[K^~~~~~~~[m[K
+[82.290s] In file included from [01m[K/usr/include/eigen3/Eigen/Geometry:41[m[K,
+[82.290s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/2d/map_limits.h:24[m[K,
+[82.291s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/2d/grid_2d.h:22[m[K,
+[82.292s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/2d/submap_2d.h:25[m[K,
+[82.292s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/internal/2d/local_trajectory_builder_2d.h:24[m[K,
+[82.293s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/internal/2d/local_trajectory_builder_2d.cc:17[m[K:
+[82.294s] /usr/include/eigen3/Eigen/src/Geometry/Rotation2D.h: In instantiation of ‘[01m[Ktypename Eigen::internal::cast_return_type<Eigen::Rotation2D<Scalar>, Eigen::Rotation2D<NewScalarType> >::type Eigen::Rotation2D<Scalar>::cast() const [with NewScalarType = float; _Scalar = double; typename Eigen::internal::cast_return_type<Eigen::Rotation2D<Scalar>, Eigen::Rotation2D<NewScalarType> >::type = Eigen::Rotation2D<float>][m[K’:
+[82.294s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/transform/rigid_transform.h:63:64:[m[K   required from ‘[01m[Kcartographer::transform::Rigid2<OtherType> cartographer::transform::Rigid2<FloatType>::cast() const [with OtherType = float; FloatType = double][m[K’
+[82.295s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/internal/2d/local_trajectory_builder_2d.cc:248:74:[m[K   required from here
+[82.295s] [01m[K/usr/include/eigen3/Eigen/src/Geometry/Rotation2D.h:142:109:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[KEigen::Rotation2D<float>[m[K’ when C++17 is enabled changed to match C++14 in GCC 10.1
+[82.296s]   142 |   EIGEN_DEVICE_FUNC inline typename internal::cast_return_type<Rotation2D,Rotation2D<NewScalarType> >::type [01;36m[Kcast[m[K() const
+[82.297s]       |                                                                                                             [01;36m[K^~~~[m[K
+[82.360s] /usr/include/eigen3/Eigen/src/Geometry/Rotation2D.h: In instantiation of ‘[01m[Kstatic Eigen::Rotation2D<Scalar> Eigen::Rotation2D<Scalar>::Identity() [with _Scalar = double][m[K’:
+[82.361s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/transform/rigid_transform.h:40:74:[m[K   required from ‘[01m[Kcartographer::transform::Rigid2<FloatType>::Rigid2() [with FloatType = double][m[K’
+[82.361s] [01m[K/usr/include/c++/11/bits/unique_ptr.h:962:30:[m[K   required from ‘[01m[Ktypename std::_MakeUniq<_Tp>::__single_object std::make_unique(_Args&& ...) [with _Tp = cartographer::transform::Rigid2<double>; _Args = {}; typename std::_MakeUniq<_Tp>::__single_object = std::unique_ptr<cartographer::transform::Rigid2<double> >][m[K’
+[82.362s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/internal/2d/local_trajectory_builder_2d.cc:84:64:[m[K   required from here
+[82.362s] [01m[K/usr/include/eigen3/Eigen/src/Geometry/Rotation2D.h:152:46:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[KEigen::Rotation2D<double>[m[K’ when C++17 is enabled changed to match C++14 in GCC 10.1
+[82.363s]   152 |   EIGEN_DEVICE_FUNC static inline Rotation2D [01;36m[KIdentity[m[K() { return Rotation2D(0); }
+[82.363s]       |                                              [01;36m[K^~~~~~~~[m[K
+[82.635s] [ 26%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/internal/2d/scan_matching/correlative_scan_matcher_2d.cc.o[0m
+[82.701s] [ 26%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/internal/2d/scan_matching/fast_correlative_scan_matcher_2d.cc.o[0m
+[83.511s] In file included from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/transform/transform.h:26[m[K,
+[83.512s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/sensor/rangefinder_point.h:24[m[K,
+[83.512s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/sensor/point_cloud.h:24[m[K,
+[83.513s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/sensor/compressed_point_cloud.h:25[m[K,
+[83.513s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/sensor/range_data.h:21[m[K,
+[83.513s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/trajectory_node.h:27[m[K,
+[83.514s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/2d/map_limits.h:28[m[K,
+[83.514s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/2d/grid_2d.h:22[m[K,
+[83.514s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/2d/submap_2d.h:25[m[K,
+[83.515s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/internal/2d/local_trajectory_builder_2d.h:24[m[K,
+[83.515s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/internal/2d/local_trajectory_builder_2d.cc:17[m[K:
+[83.516s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/transform/rigid_transform.h:[m[K In member function ‘[01m[Kcartographer::transform::Rigid2<OtherType> cartographer::transform::Rigid2<FloatType>::cast() const [with OtherType = float; FloatType = double][m[K’:
+[83.516s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/transform/rigid_transform.h:63:64:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[KEigen::Rotation2D<float>[m[K’ when C++17 is enabled changed to match C++14 in GCC 10.1
+[83.516s]    63 |                              [01;36m[Krotation_.template cast<OtherType>()[m[K);
+[83.517s]       |                              [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[84.055s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/transform/rigid_transform.h:[m[K In constructor ‘[01m[Kcartographer::transform::Rigid2<FloatType>::Rigid2() [with FloatType = double][m[K’:
+[84.056s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/transform/rigid_transform.h:40:74:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[KEigen::Rotation2D<double>[m[K’ when C++17 is enabled changed to match C++14 in GCC 10.1
+[84.057s]    40 |   Rigid2() : translation_(Vector::Zero()), rotation_([01;36m[KRotation2D::Identity()[m[K) {}
+[84.057s]       |                                                      [01;36m[K~~~~~~~~~~~~~~~~~~~~^~[m[K
+[84.200s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/transform/rigid_transform.h:[m[K In member function ‘[01m[Kcartographer::transform::Rigid2<OtherType> cartographer::transform::Rigid2<FloatType>::cast() const [with OtherType = float; FloatType = double][m[K’:
+[84.200s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/transform/rigid_transform.h:63:64:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[KEigen::Rotation2D<float>[m[K’ when C++17 is enabled changed to match C++14 in GCC 10.1
+[84.201s]    63 |                              [01;36m[Krotation_.template cast<OtherType>()[m[K);
+[84.201s]       |                              [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[84.312s] In file included from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/sensor/rangefinder_point.h:24[m[K,
+[84.312s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/sensor/point_cloud.h:24[m[K,
+[84.313s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/sensor/compressed_point_cloud.h:25[m[K,
+[84.313s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/sensor/range_data.h:21[m[K,
+[84.314s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/trajectory_node.h:27[m[K,
+[84.314s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/2d/map_limits.h:28[m[K,
+[84.315s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/2d/grid_2d.h:22[m[K,
+[84.315s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/2d/submap_2d.h:25[m[K,
+[84.315s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/internal/2d/local_trajectory_builder_2d.h:24[m[K,
+[84.316s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/internal/2d/local_trajectory_builder_2d.cc:17[m[K:
+[84.316s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/transform/transform.h:[m[K In function ‘[01m[Kcartographer::transform::Rigid3<FloatType> cartographer::transform::Embed3D(const cartographer::transform::Rigid2<FloatType>&) [with T = double][m[K’:
+[84.317s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/transform/transform.h:113:45:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[KEigen::Rotation2D<double>[m[K’ when C++17 is enabled changed to match C++14 in GCC 10.1
+[84.317s]   113 |       Eigen::AngleAxis<T>([01;36m[Ktransform.rotation()[m[K.angle(),
+[84.317s]       |                           [01;36m[K~~~~~~~~~~~~~~~~~~^~[m[K
+[84.321s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/transform/transform.h:[m[K In function ‘[01m[Kcartographer::transform::Rigid3<FloatType> cartographer::transform::Embed3D(const cartographer::transform::Rigid2<FloatType>&) [with T = float][m[K’:
+[84.321s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/transform/transform.h:113:45:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[KEigen::Rotation2D<float>[m[K’ when C++17 is enabled changed to match C++14 in GCC 10.1
+[84.322s]   113 |       Eigen::AngleAxis<T>([01;36m[Ktransform.rotation()[m[K.angle(),
+[84.322s]       |                           [01;36m[K~~~~~~~~~~~~~~~~~~^~[m[K
+[84.735s] [ 26%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/internal/2d/scan_matching/occupied_space_cost_function_2d.cc.o[0m
+[85.772s] [ 27%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/internal/2d/overlapping_submaps_trimmer_2d.cc.o[0m
+[85.804s] [ 28%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/internal/2d/scan_matching/real_time_correlative_scan_matcher_2d.cc.o[0m
+[87.266s] [ 28%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/internal/2d/scan_matching/tsdf_match_cost_function_2d.cc.o[0m
+[87.273s] In file included from [01m[K/usr/include/eigen3/Eigen/Geometry:41[m[K,
+[87.273s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/internal/2d/pose_graph_2d.h:29[m[K,
+[87.274s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/internal/2d/pose_graph_2d.cc:17[m[K:
+[87.274s] /usr/include/eigen3/Eigen/src/Geometry/Rotation2D.h: In instantiation of ‘[01m[KEigen::Rotation2D<Scalar> Eigen::Rotation2D<Scalar>::inverse() const [with _Scalar = double][m[K’:
+[87.274s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/transform/rigid_transform.h:75:50:[m[K   required from ‘[01m[Kcartographer::transform::Rigid2<FloatType> cartographer::transform::Rigid2<FloatType>::inverse() const [with FloatType = double][m[K’
+[87.276s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/internal/2d/pose_graph_2d.cc:112:74:[m[K   required from here
+[87.276s] [01m[K/usr/include/eigen3/Eigen/src/Geometry/Rotation2D.h:98:39:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[KEigen::Rotation2D<double>[m[K’ when C++17 is enabled changed to match C++14 in GCC 10.1
+[87.277s]    98 |   EIGEN_DEVICE_FUNC inline Rotation2D [01;36m[Kinverse[m[K() const { return Rotation2D(-m_angle); }
+[87.277s]       |                                       [01;36m[K^~~~~~~[m[K
+[87.945s] In file included from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/transform/transform.h:26[m[K,
+[87.945s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/sensor/rangefinder_point.h:24[m[K,
+[87.945s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/sensor/point_cloud.h:24[m[K,
+[87.945s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/sensor/compressed_point_cloud.h:25[m[K,
+[87.945s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/sensor/range_data.h:21[m[K,
+[87.945s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/trajectory_node.h:27[m[K,
+[87.946s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/2d/map_limits.h:28[m[K,
+[87.946s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/2d/grid_2d.h:22[m[K,
+[87.946s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/internal/2d/scan_matching/fast_correlative_scan_matcher_2d.h:33[m[K,
+[87.946s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/internal/2d/scan_matching/fast_correlative_scan_matcher_2d.cc:17[m[K:
+[87.946s] /home/faith/Work/carto_ws/src/cartographer/cartographer/transform/rigid_transform.h: In instantiation of ‘[01m[Kcartographer::transform::Rigid2<FloatType>::Rotation2D cartographer::transform::Rigid2<FloatType>::rotation() const [with FloatType = double; cartographer::transform::Rigid2<FloatType>::Rotation2D = Eigen::Rotation2D<double>][m[K’:
+[87.947s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/internal/2d/scan_matching/fast_correlative_scan_matcher_2d.cc:235:77:[m[K   required from here
+[87.947s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/transform/rigid_transform.h:68:14:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[KEigen::Rotation2D<double>[m[K’ when C++17 is enabled changed to match C++14 in GCC 10.1
+[87.947s]    68 |   Rotation2D [01;36m[Krotation[m[K() const { return rotation_; }
+[87.947s]       |              [01;36m[K^~~~~~~~[m[K
+[87.948s] In file included from [01m[K/usr/include/eigen3/Eigen/Geometry:41[m[K,
+[87.948s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/2d/map_limits.h:24[m[K,
+[87.948s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/2d/grid_2d.h:22[m[K,
+[87.948s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/internal/2d/scan_matching/fast_correlative_scan_matcher_2d.h:33[m[K,
+[87.948s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/internal/2d/scan_matching/fast_correlative_scan_matcher_2d.cc:17[m[K:
+[87.948s] /usr/include/eigen3/Eigen/src/Geometry/Rotation2D.h: In instantiation of ‘[01m[Ktypename Eigen::internal::cast_return_type<Eigen::Rotation2D<Scalar>, Eigen::Rotation2D<NewScalarType> >::type Eigen::Rotation2D<Scalar>::cast() const [with NewScalarType = float; _Scalar = double; typename Eigen::internal::cast_return_type<Eigen::Rotation2D<Scalar>, Eigen::Rotation2D<NewScalarType> >::type = Eigen::Rotation2D<float>][m[K’:
+[87.949s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/internal/2d/scan_matching/fast_correlative_scan_matcher_2d.cc:239:39:[m[K   required from here
+[87.949s] [01m[K/usr/include/eigen3/Eigen/src/Geometry/Rotation2D.h:142:109:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[KEigen::Rotation2D<float>[m[K’ when C++17 is enabled changed to match C++14 in GCC 10.1
+[87.949s]   142 |   EIGEN_DEVICE_FUNC inline typename internal::cast_return_type<Rotation2D,Rotation2D<NewScalarType> >::type [01;36m[Kcast[m[K() const
+[87.949s]       |                                                                                                             [01;36m[K^~~~[m[K
+[87.965s] /usr/include/eigen3/Eigen/src/Geometry/Rotation2D.h: In instantiation of ‘[01m[KEigen::Rotation2D<Scalar> Eigen::Rotation2D<Scalar>::operator*(const Eigen::Rotation2D<Scalar>&) const [with _Scalar = double][m[K’:
+[87.965s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/internal/2d/scan_matching/fast_correlative_scan_matcher_2d.cc:258:73:[m[K   required from here
+[87.965s] [01m[K/usr/include/eigen3/Eigen/src/Geometry/Rotation2D.h:101:39:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[KEigen::Rotation2D<double>[m[K’ when C++17 is enabled changed to match C++14 in GCC 10.1
+[87.965s]   101 |   EIGEN_DEVICE_FUNC inline Rotation2D [01;36m[Koperator[m[K*(const Rotation2D& other) const
+[87.966s]       |                                       [01;36m[K^~~~~~~~[m[K
+[88.541s] In file included from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/transform/transform.h:26[m[K,
+[88.541s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/sensor/rangefinder_point.h:24[m[K,
+[88.541s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/sensor/point_cloud.h:24[m[K,
+[88.541s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/sensor/compressed_point_cloud.h:25[m[K,
+[88.541s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/sensor/range_data.h:21[m[K,
+[88.541s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/trajectory_node.h:27[m[K,
+[88.542s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/2d/map_limits.h:28[m[K,
+[88.542s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/2d/grid_2d.h:22[m[K,
+[88.542s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/internal/2d/scan_matching/ceres_scan_matcher_2d.h:25[m[K,
+[88.542s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/internal/2d/scan_matching/ceres_scan_matcher_2d.cc:17[m[K:
+[88.542s] /home/faith/Work/carto_ws/src/cartographer/cartographer/transform/rigid_transform.h: In instantiation of ‘[01m[Kcartographer::transform::Rigid2<FloatType>::Rotation2D cartographer::transform::Rigid2<FloatType>::rotation() const [with FloatType = double; cartographer::transform::Rigid2<FloatType>::Rotation2D = Eigen::Rotation2D<double>][m[K’:
+[88.542s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/internal/2d/scan_matching/ceres_scan_matcher_2d.cc:71:66:[m[K   required from here
+[88.542s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/transform/rigid_transform.h:68:14:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[KEigen::Rotation2D<double>[m[K’ when C++17 is enabled changed to match C++14 in GCC 10.1
+[88.542s]    68 |   Rotation2D [01;36m[Krotation[m[K() const { return rotation_; }
+[88.542s]       |              [01;36m[K^~~~~~~~[m[K
+[89.261s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/internal/2d/scan_matching/fast_correlative_scan_matcher_2d.cc:[m[K In member function ‘[01m[Kbool cartographer::mapping::scan_matching::FastCorrelativeScanMatcher2D::MatchWithSearchParameters(cartographer::mapping::scan_matching::SearchParameters, const Rigid2d&, const cartographer::sensor::PointCloud&, float, float*, cartographer::transform::Rigid2d*) const[m[K’:
+[89.261s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/internal/2d/scan_matching/fast_correlative_scan_matcher_2d.cc:239:39:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[KEigen::Rotation2D<float>[m[K’ when C++17 is enabled changed to match C++14 in GCC 10.1
+[89.261s]   239 |           [01;36m[Kinitial_rotation.cast<float>()[m[K.angle(), Eigen::Vector3f::UnitZ())));
+[89.261s]       |           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[89.262s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/internal/2d/scan_matching/fast_correlative_scan_matcher_2d.cc:258:26:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[KEigen::Rotation2D<double>[m[K’ when C++17 is enabled changed to match C++14 in GCC 10.1
+[89.262s]   258 |         [01;36m[Kinitial_rotation * Eigen::Rotation2Dd(best_candidate.orientation)[m[K);
+[89.262s]       |         [01;36m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[89.263s] In file included from [01m[K/usr/include/eigen3/Eigen/Geometry:41[m[K,
+[89.263s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/2d/map_limits.h:24[m[K,
+[89.263s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/2d/grid_2d.h:22[m[K,
+[89.263s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/internal/2d/scan_matching/fast_correlative_scan_matcher_2d.h:33[m[K,
+[89.263s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/internal/2d/scan_matching/fast_correlative_scan_matcher_2d.cc:17[m[K:
+[89.264s] [01m[K/usr/include/eigen3/Eigen/src/Geometry/Rotation2D.h:[m[K In member function ‘[01m[Ktypename Eigen::internal::cast_return_type<Eigen::Rotation2D<Scalar>, Eigen::Rotation2D<NewScalarType> >::type Eigen::Rotation2D<Scalar>::cast() const [with NewScalarType = float; _Scalar = double][m[K’:
+[89.264s] [01m[K/usr/include/eigen3/Eigen/src/Geometry/Rotation2D.h:142:109:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[KEigen::Rotation2D<float>[m[K’ when C++17 is enabled changed to match C++14 in GCC 10.1
+[89.264s]   142 |   EIGEN_DEVICE_FUNC inline typename internal::cast_return_type<Rotation2D,Rotation2D<NewScalarType> >::type [01;36m[Kcast[m[K() const
+[89.264s]       |                                                                                                             [01;36m[K^~~~[m[K
+[89.274s] [01m[K/usr/include/eigen3/Eigen/src/Geometry/Rotation2D.h:[m[K In member function ‘[01m[KEigen::Rotation2D<Scalar> Eigen::Rotation2D<Scalar>::operator*(const Eigen::Rotation2D<Scalar>&) const [with _Scalar = double][m[K’:
+[89.274s] [01m[K/usr/include/eigen3/Eigen/src/Geometry/Rotation2D.h:101:39:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[KEigen::Rotation2D<double>[m[K’ when C++17 is enabled changed to match C++14 in GCC 10.1
+[89.274s]   101 |   EIGEN_DEVICE_FUNC inline Rotation2D [01;36m[Koperator[m[K*(const Rotation2D& other) const
+[89.274s]       |                                       [01;36m[K^~~~~~~~[m[K
+[89.701s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/internal/2d/scan_matching/fast_correlative_scan_matcher_2d.cc:[m[K In member function ‘[01m[Kbool cartographer::mapping::scan_matching::FastCorrelativeScanMatcher2D::MatchWithSearchParameters(cartographer::mapping::scan_matching::SearchParameters, const Rigid2d&, const cartographer::sensor::PointCloud&, float, float*, cartographer::transform::Rigid2d*) const[m[K’:
+[89.701s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/internal/2d/scan_matching/fast_correlative_scan_matcher_2d.cc:239:39:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[KEigen::Rotation2D<float>[m[K’ when C++17 is enabled changed to match C++14 in GCC 10.1
+[89.701s]   239 |           [01;36m[Kinitial_rotation.cast<float>()[m[K.angle(), Eigen::Vector3f::UnitZ())));
+[89.701s]       |           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[89.701s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/internal/2d/scan_matching/fast_correlative_scan_matcher_2d.cc:235:77:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[KEigen::Rotation2D<double>[m[K’ when C++17 is enabled changed to match C++14 in GCC 10.1
+[89.702s]   235 |   const Eigen::Rotation2Dd initial_rotation = [01;36m[Kinitial_pose_estimate.rotation()[m[K;
+[89.702s]       |                                               [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[89.723s] [ 28%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/internal/2d/tsd_value_converter.cc.o[0m
+[90.790s] [ 28%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/internal/2d/tsdf_2d.cc.o[0m
+[91.579s] In file included from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/transform/transform.h:26[m[K,
+[91.579s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/sensor/rangefinder_point.h:24[m[K,
+[91.579s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/sensor/point_cloud.h:24[m[K,
+[91.580s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/sensor/compressed_point_cloud.h:25[m[K,
+[91.580s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/sensor/range_data.h:21[m[K,
+[91.580s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/trajectory_node.h:27[m[K,
+[91.580s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/2d/map_limits.h:28[m[K,
+[91.580s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/2d/grid_2d.h:22[m[K,
+[91.580s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/internal/2d/scan_matching/real_time_correlative_scan_matcher_2d.h:44[m[K,
+[91.580s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/internal/2d/scan_matching/real_time_correlative_scan_matcher_2d.cc:17[m[K:
+[91.580s] /home/faith/Work/carto_ws/src/cartographer/cartographer/transform/rigid_transform.h: In instantiation of ‘[01m[Kcartographer::transform::Rigid2<FloatType>::Rotation2D cartographer::transform::Rigid2<FloatType>::rotation() const [with FloatType = double; cartographer::transform::Rigid2<FloatType>::Rotation2D = Eigen::Rotation2D<double>][m[K’:
+[91.580s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/internal/2d/scan_matching/real_time_correlative_scan_matcher_2d.cc:123:77:[m[K   required from here
+[91.580s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/transform/rigid_transform.h:68:14:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[KEigen::Rotation2D<double>[m[K’ when C++17 is enabled changed to match C++14 in GCC 10.1
+[91.580s]    68 |   Rotation2D [01;36m[Krotation[m[K() const { return rotation_; }
+[91.580s]       |              [01;36m[K^~~~~~~~[m[K
+[91.581s] In file included from [01m[K/usr/include/eigen3/Eigen/Geometry:41[m[K,
+[91.581s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/2d/map_limits.h:24[m[K,
+[91.581s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/2d/grid_2d.h:22[m[K,
+[91.581s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/internal/2d/scan_matching/real_time_correlative_scan_matcher_2d.h:44[m[K,
+[91.581s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/internal/2d/scan_matching/real_time_correlative_scan_matcher_2d.cc:17[m[K:
+[91.581s] /usr/include/eigen3/Eigen/src/Geometry/Rotation2D.h: In instantiation of ‘[01m[Ktypename Eigen::internal::cast_return_type<Eigen::Rotation2D<Scalar>, Eigen::Rotation2D<NewScalarType> >::type Eigen::Rotation2D<Scalar>::cast() const [with NewScalarType = float; _Scalar = double; typename Eigen::internal::cast_return_type<Eigen::Rotation2D<Scalar>, Eigen::Rotation2D<NewScalarType> >::type = Eigen::Rotation2D<float>][m[K’:
+[91.581s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/internal/2d/scan_matching/real_time_correlative_scan_matcher_2d.cc:127:39:[m[K   required from here
+[91.581s] [01m[K/usr/include/eigen3/Eigen/src/Geometry/Rotation2D.h:142:109:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[KEigen::Rotation2D<float>[m[K’ when C++17 is enabled changed to match C++14 in GCC 10.1
+[91.581s]   142 |   EIGEN_DEVICE_FUNC inline typename internal::cast_return_type<Rotation2D,Rotation2D<NewScalarType> >::type [01;36m[Kcast[m[K() const
+[91.581s]       |                                                                                                             [01;36m[K^~~~[m[K
+[91.595s] /usr/include/eigen3/Eigen/src/Geometry/Rotation2D.h: In instantiation of ‘[01m[KEigen::Rotation2D<Scalar> Eigen::Rotation2D<Scalar>::operator*(const Eigen::Rotation2D<Scalar>&) const [with _Scalar = double][m[K’:
+[91.596s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/internal/2d/scan_matching/real_time_correlative_scan_matcher_2d.cc:147:71:[m[K   required from here
+[91.596s] [01m[K/usr/include/eigen3/Eigen/src/Geometry/Rotation2D.h:101:39:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[KEigen::Rotation2D<double>[m[K’ when C++17 is enabled changed to match C++14 in GCC 10.1
+[91.596s]   101 |   EIGEN_DEVICE_FUNC inline Rotation2D [01;36m[Koperator[m[K*(const Rotation2D& other) const
+[91.596s]       |                                       [01;36m[K^~~~~~~~[m[K
+[92.194s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/internal/2d/scan_matching/real_time_correlative_scan_matcher_2d.cc:[m[K In member function ‘[01m[Kdouble cartographer::mapping::scan_matching::RealTimeCorrelativeScanMatcher2D::Match(const Rigid2d&, const cartographer::sensor::PointCloud&, const cartographer::mapping::Grid2D&, cartographer::transform::Rigid2d*) const[m[K’:
+[92.195s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/internal/2d/scan_matching/real_time_correlative_scan_matcher_2d.cc:127:39:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[KEigen::Rotation2D<float>[m[K’ when C++17 is enabled changed to match C++14 in GCC 10.1
+[92.195s]   127 |           [01;36m[Kinitial_rotation.cast<float>()[m[K.angle(), Eigen::Vector3f::UnitZ())));
+[92.195s]       |           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[92.195s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/internal/2d/scan_matching/real_time_correlative_scan_matcher_2d.cc:147:24:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[KEigen::Rotation2D<double>[m[K’ when C++17 is enabled changed to match C++14 in GCC 10.1
+[92.195s]   147 |       [01;36m[Kinitial_rotation * Eigen::Rotation2Dd(best_candidate.orientation)[m[K);
+[92.195s]       |       [01;36m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[92.196s] In file included from [01m[K/usr/include/eigen3/Eigen/Geometry:41[m[K,
+[92.196s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/2d/map_limits.h:24[m[K,
+[92.197s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/2d/grid_2d.h:22[m[K,
+[92.197s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/internal/2d/scan_matching/real_time_correlative_scan_matcher_2d.h:44[m[K,
+[92.197s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/internal/2d/scan_matching/real_time_correlative_scan_matcher_2d.cc:17[m[K:
+[92.197s] [01m[K/usr/include/eigen3/Eigen/src/Geometry/Rotation2D.h:[m[K In member function ‘[01m[Ktypename Eigen::internal::cast_return_type<Eigen::Rotation2D<Scalar>, Eigen::Rotation2D<NewScalarType> >::type Eigen::Rotation2D<Scalar>::cast() const [with NewScalarType = float; _Scalar = double][m[K’:
+[92.197s] [01m[K/usr/include/eigen3/Eigen/src/Geometry/Rotation2D.h:142:109:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[KEigen::Rotation2D<float>[m[K’ when C++17 is enabled changed to match C++14 in GCC 10.1
+[92.197s]   142 |   EIGEN_DEVICE_FUNC inline typename internal::cast_return_type<Rotation2D,Rotation2D<NewScalarType> >::type [01;36m[Kcast[m[K() const
+[92.197s]       |                                                                                                             [01;36m[K^~~~[m[K
+[92.207s] [01m[K/usr/include/eigen3/Eigen/src/Geometry/Rotation2D.h:[m[K In member function ‘[01m[KEigen::Rotation2D<Scalar> Eigen::Rotation2D<Scalar>::operator*(const Eigen::Rotation2D<Scalar>&) const [with _Scalar = double][m[K’:
+[92.208s] [01m[K/usr/include/eigen3/Eigen/src/Geometry/Rotation2D.h:101:39:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[KEigen::Rotation2D<double>[m[K’ when C++17 is enabled changed to match C++14 in GCC 10.1
+[92.208s]   101 |   EIGEN_DEVICE_FUNC inline Rotation2D [01;36m[Koperator[m[K*(const Rotation2D& other) const
+[92.208s]       |                                       [01;36m[K^~~~~~~~[m[K
+[92.212s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/internal/2d/scan_matching/real_time_correlative_scan_matcher_2d.cc:[m[K In function ‘[01m[Kfloat cartographer::mapping::scan_matching::{anonymous}::ComputeCandidateScore(const cartographer::mapping::TSDF2D&, const DiscreteScan2D&, int, int)[m[K’:
+[92.212s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/internal/2d/scan_matching/real_time_correlative_scan_matcher_2d.cc:47:47:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[Kstd::pair<float, float>[m[K’ when C++17 is enabled changed to match C++14 in GCC 10.1
+[92.213s]    47 |         tsdf.GetTSDAndWeight(proposed_xy_index[01;36m[K)[m[K;
+[92.213s]       |                                               [01;36m[K^[m[K
+[92.365s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/internal/2d/scan_matching/real_time_correlative_scan_matcher_2d.cc:[m[K In member function ‘[01m[Kdouble cartographer::mapping::scan_matching::RealTimeCorrelativeScanMatcher2D::Match(const Rigid2d&, const cartographer::sensor::PointCloud&, const cartographer::mapping::Grid2D&, cartographer::transform::Rigid2d*) const[m[K’:
+[92.365s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/internal/2d/scan_matching/real_time_correlative_scan_matcher_2d.cc:127:39:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[KEigen::Rotation2D<float>[m[K’ when C++17 is enabled changed to match C++14 in GCC 10.1
+[92.365s]   127 |           [01;36m[Kinitial_rotation.cast<float>()[m[K.angle(), Eigen::Vector3f::UnitZ())));
+[92.365s]       |           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[92.365s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/internal/2d/scan_matching/real_time_correlative_scan_matcher_2d.cc:123:77:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[KEigen::Rotation2D<double>[m[K’ when C++17 is enabled changed to match C++14 in GCC 10.1
+[92.365s]   123 |   const Eigen::Rotation2Dd initial_rotation = [01;36m[Kinitial_pose_estimate.rotation()[m[K;
+[92.365s]       |                                               [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[92.396s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/internal/2d/scan_matching/real_time_correlative_scan_matcher_2d.cc:[m[K In member function ‘[01m[Kvoid cartographer::mapping::scan_matching::RealTimeCorrelativeScanMatcher2D::ScoreCandidates(const cartographer::mapping::Grid2D&, const std::vector<std::vector<Eigen::Array<int, 2, 1> > >&, const cartographer::mapping::scan_matching::SearchParameters&, std::vector<cartographer::mapping::scan_matching::Candidate2D>*) const[m[K’:
+[92.396s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/internal/2d/scan_matching/real_time_correlative_scan_matcher_2d.cc:151:6:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[Kstd::pair<float, float>[m[K’ when C++17 is enabled changed to match C++14 in GCC 10.1
+[92.397s]   151 | void [01;36m[KRealTimeCorrelativeScanMatcher2D[m[K::ScoreCandidates(
+[92.397s]       |      [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[92.634s] [ 29%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/internal/2d/tsdf_range_data_inserter_2d.cc.o[0m
+[94.711s] [ 29%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/internal/3d/local_slam_result_3d.cc.o[0m
+[96.595s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/internal/2d/tsdf_2d.cc:[m[K In member function ‘[01m[Kstd::pair<float, float> cartographer::mapping::TSDF2D::GetTSDAndWeight(const Array2i&) const[m[K’:
+[96.595s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/internal/2d/tsdf_2d.cc:89:39:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[Kstd::pair<float, float>[m[K’ when C++17 is enabled changed to match C++14 in GCC 10.1
+[96.595s]    89 |     const Eigen::Array2i& cell_index) [01;36m[Kconst[m[K {
+[96.595s]       |                                       [01;36m[K^~~~~[m[K
+[97.988s] [ 29%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/internal/3d/local_trajectory_builder_3d.cc.o[0m
+[98.906s] [ 29%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/internal/3d/local_trajectory_builder_options_3d.cc.o[0m
+[99.789s] [ 30%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/internal/3d/pose_graph_3d.cc.o[0m
+[101.445s] [ 30%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/internal/3d/scan_matching/ceres_scan_matcher_3d.cc.o[0m
+[101.510s] [ 30%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/internal/3d/scan_matching/fast_correlative_scan_matcher_3d.cc.o[0m
+[104.013s] [ 30%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/internal/3d/scan_matching/intensity_cost_function_3d.cc.o[0m
+[105.135s] [ 31%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/internal/3d/scan_matching/low_resolution_matcher.cc.o[0m
+[105.169s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/internal/2d/tsdf_range_data_inserter_2d.cc:[m[K In member function ‘[01m[Kvoid cartographer::mapping::TSDFRangeDataInserter2D::UpdateCell(const Array2i&, float, float, cartographer::mapping::TSDF2D*) const[m[K’:
+[105.169s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/internal/2d/tsdf_range_data_inserter_2d.cc:231:76:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[Kstd::pair<float, float>[m[K’ when C++17 is enabled changed to match C++14 in GCC 10.1
+[105.169s]   231 |   const std::pair<float, float> tsd_and_weight = tsdf->GetTSDAndWeight(cell[01;36m[K)[m[K;
+[105.169s]       |                                                                            [01;36m[K^[m[K
+[106.197s] [ 31%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/internal/3d/scan_matching/precomputation_grid_3d.cc.o[0m
+[107.780s] [ 31%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/internal/3d/scan_matching/real_time_correlative_scan_matcher_3d.cc.o[0m
+[112.677s] [ 31%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/internal/3d/scan_matching/rotational_scan_matcher.cc.o[0m
+[113.047s] [ 32%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/internal/collated_trajectory_builder.cc.o[0m
+[114.306s] [ 32%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/internal/connected_components.cc.o[0m
+[114.655s] [ 32%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/internal/constraints/constraint_builder.cc.o[0m
+[117.828s] [ 32%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/internal/constraints/constraint_builder_2d.cc.o[0m
+[118.375s] [ 33%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/internal/constraints/constraint_builder_3d.cc.o[0m
+[119.976s] [ 33%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/internal/eigen_quaterniond_from_two_vectors.cc.o[0m
+[124.183s] [ 33%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/internal/global_trajectory_builder.cc.o[0m
+[124.820s] In file included from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/transform/transform.h:26[m[K,
+[124.821s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/sensor/rangefinder_point.h:24[m[K,
+[124.821s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/sensor/point_cloud.h:24[m[K,
+[124.821s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/sensor/compressed_point_cloud.h:25[m[K,
+[124.821s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/sensor/range_data.h:21[m[K,
+[124.821s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/trajectory_node.h:27[m[K,
+[124.821s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/2d/map_limits.h:28[m[K,
+[124.822s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/2d/grid_2d.h:22[m[K,
+[124.822s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/2d/submap_2d.h:25[m[K,
+[124.822s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/internal/constraints/constraint_builder_2d.h:35[m[K,
+[124.822s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/internal/constraints/constraint_builder_2d.cc:17[m[K:
+[124.822s] /home/faith/Work/carto_ws/src/cartographer/cartographer/transform/rigid_transform.h: In instantiation of ‘[01m[Kcartographer::transform::Rigid2<FloatType>::Rotation2D cartographer::transform::Rigid2<FloatType>::rotation() const [with FloatType = double; cartographer::transform::Rigid2<FloatType>::Rotation2D = Eigen::Rotation2D<double>][m[K’:
+[124.822s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/transform/rigid_transform.h:94:19:[m[K   required from ‘[01m[Kcartographer::transform::Rigid2<FloatType> cartographer::transform::operator*(const cartographer::transform::Rigid2<FloatType>&, const cartographer::transform::Rigid2<FloatType>&) [with FloatType = double][m[K’
+[124.823s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/internal/constraints/constraint_builder_2d.cc:197:36:[m[K   required from here
+[124.823s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/transform/rigid_transform.h:68:14:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[KEigen::Rotation2D<double>[m[K’ when C++17 is enabled changed to match C++14 in GCC 10.1
+[124.823s]    68 |   Rotation2D [01;36m[Krotation[m[K() const { return rotation_; }
+[124.823s]       |              [01;36m[K^~~~~~~~[m[K
+[127.972s] [ 33%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/internal/imu_based_pose_extrapolator.cc.o[0m
+[128.458s] [ 34%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/internal/motion_filter.cc.o[0m
+[128.715s] [ 34%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/internal/optimization/ceres_pose.cc.o[0m
+[129.912s] [ 34%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/internal/optimization/cost_functions/spa_cost_function_2d.cc.o[0m
+[130.576s] [ 34%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/internal/optimization/optimization_problem_2d.cc.o[0m
+[133.544s] [ 35%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/internal/optimization/optimization_problem_3d.cc.o[0m
+[134.157s] [ 35%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/internal/optimization/optimization_problem_options.cc.o[0m
+[134.852s] [ 35%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/internal/range_data_collator.cc.o[0m
+[136.753s] [ 36%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/internal/scan_matching/real_time_correlative_scan_matcher.cc.o[0m
+[137.746s] In file included from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/transform/transform.h:26[m[K,
+[137.746s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/sensor/rangefinder_point.h:24[m[K,
+[137.747s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/sensor/point_cloud.h:24[m[K,
+[137.747s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/sensor/compressed_point_cloud.h:25[m[K,
+[137.747s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/sensor/range_data.h:21[m[K,
+[137.747s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/trajectory_node.h:27[m[K,
+[137.747s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/submaps.h:30[m[K,
+[137.747s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/pose_graph_interface.h:25[m[K,
+[137.747s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/internal/optimization/cost_functions/spa_cost_function_2d.h:20[m[K,
+[137.747s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/internal/optimization/cost_functions/spa_cost_function_2d.cc:17[m[K:
+[137.747s] /home/faith/Work/carto_ws/src/cartographer/cartographer/transform/rigid_transform.h: In instantiation of ‘[01m[Kcartographer::transform::Rigid2<FloatType>::Rotation2D cartographer::transform::Rigid2<FloatType>::rotation() const [with FloatType = double; cartographer::transform::Rigid2<FloatType>::Rotation2D = Eigen::Rotation2D<double>][m[K’:
+[137.747s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/internal/optimization/cost_functions/spa_cost_function_2d.cc:90:45:[m[K   required from here
+[137.747s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/transform/rigid_transform.h:68:14:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[KEigen::Rotation2D<double>[m[K’ when C++17 is enabled changed to match C++14 in GCC 10.1
+[137.747s]    68 |   Rotation2D [01;36m[Krotation[m[K() const { return rotation_; }
+[137.747s]       |              [01;36m[K^~~~~~~~[m[K
+[139.728s] [ 36%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/internal/submap_controller.cc.o[0m
+[140.012s] [ 36%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/internal/trajectory_connectivity_state.cc.o[0m
+[141.377s] [ 36%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/map_builder.cc.o[0m
+[142.588s] [ 37%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/map_builder_interface.cc.o[0m
+[142.876s] [ 37%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/pose_extrapolator.cc.o[0m
+[148.379s] [ 37%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/pose_extrapolator_interface.cc.o[0m
+[149.523s] [ 37%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/pose_graph.cc.o[0m
+[150.003s] In file included from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/transform/transform.h:26[m[K,
+[150.003s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/sensor/rangefinder_point.h:24[m[K,
+[150.003s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/sensor/point_cloud.h:24[m[K,
+[150.003s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/sensor/compressed_point_cloud.h:25[m[K,
+[150.003s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/sensor/range_data.h:21[m[K,
+[150.004s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/trajectory_node.h:27[m[K,
+[150.004s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/submaps.h:30[m[K,
+[150.004s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/pose_graph_interface.h:25[m[K,
+[150.004s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/internal/optimization/optimization_problem_interface.h:28[m[K,
+[150.004s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/internal/optimization/optimization_problem_2d.h:31[m[K,
+[150.004s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/internal/optimization/optimization_problem_2d.cc:17[m[K:
+[150.004s] /home/faith/Work/carto_ws/src/cartographer/cartographer/transform/rigid_transform.h: In instantiation of ‘[01m[Kcartographer::transform::Rigid2<FloatType>::Rotation2D cartographer::transform::Rigid2<FloatType>::rotation() const [with FloatType = double; cartographer::transform::Rigid2<FloatType>::Rotation2D = Eigen::Rotation2D<double>][m[K’:
+[150.004s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/transform/rigid_transform.h:71:45:[m[K   required from ‘[01m[Kdouble cartographer::transform::Rigid2<FloatType>::normalized_angle() const [with FloatType = double][m[K’
+[150.004s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/internal/optimization/optimization_problem_2d.cc:80:33:[m[K   required from here
+[150.004s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/transform/rigid_transform.h:68:14:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[KEigen::Rotation2D<double>[m[K’ when C++17 is enabled changed to match C++14 in GCC 10.1
+[150.005s]    68 |   Rotation2D [01;36m[Krotation[m[K() const { return rotation_; }
+[150.005s]       |              [01;36m[K^~~~~~~~[m[K
+[150.365s] [ 38%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/pose_graph_trimmer.cc.o[0m
+[153.418s] [ 38%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/probability_values.cc.o[0m
+[155.187s] [ 38%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/range_data_inserter_interface.cc.o[0m
+[157.004s] [ 38%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/trajectory_builder_interface.cc.o[0m
+[158.817s] [ 39%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/trajectory_node.cc.o[0m
+[160.078s] [ 39%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/value_conversion_tables.cc.o[0m
+[160.169s] [ 39%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/metrics/counter.cc.o[0m
+[160.866s] [ 39%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/metrics/gauge.cc.o[0m
+[161.587s] [ 40%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/metrics/histogram.cc.o[0m
+[162.401s] [ 40%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/metrics/register.cc.o[0m
+[162.811s] [ 40%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/sensor/compressed_point_cloud.cc.o[0m
+[164.040s] [ 40%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/sensor/fixed_frame_pose_data.cc.o[0m
+[165.075s] [ 41%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/sensor/imu_data.cc.o[0m
+[165.201s] [ 41%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/sensor/internal/collator.cc.o[0m
+[165.899s] [ 41%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/sensor/internal/ordered_multi_queue.cc.o[0m
+[166.273s] [ 41%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/sensor/internal/trajectory_collator.cc.o[0m
+[169.688s] [ 42%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/sensor/internal/voxel_filter.cc.o[0m
+[170.721s] [ 42%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/sensor/landmark_data.cc.o[0m
+[170.937s] [ 42%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/sensor/odometry_data.cc.o[0m
+[172.745s] [ 42%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/sensor/point_cloud.cc.o[0m
+[173.749s] [ 43%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/sensor/range_data.cc.o[0m
+[176.314s] [ 43%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/sensor/timed_point_cloud_data.cc.o[0m
+[176.748s] [ 43%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/transform/rigid_transform.cc.o[0m
+[177.091s] [ 44%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/transform/timestamped_transform.cc.o[0m
+[177.225s] [ 44%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/transform/transform.cc.o[0m
+[179.662s] [ 44%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/transform/transform_interpolation_buffer.cc.o[0m
+[181.308s] [ 44%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/common/proto/ceres_solver_options.pb.cc.o[0m
+[181.880s] [ 45%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/ground_truth/proto/relations.pb.cc.o[0m
+[182.077s] [ 45%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/proto/cell_limits_2d.pb.cc.o[0m
+[183.320s] [ 45%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/proto/connected_components.pb.cc.o[0m
+[183.566s] [ 45%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/proto/grid_2d.pb.cc.o[0m
+[183.842s] [ 46%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/proto/grid_2d_options.pb.cc.o[0m
+[184.723s] [ 46%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/proto/hybrid_grid.pb.cc.o[0m
+[185.398s] [ 46%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/proto/local_trajectory_builder_options_2d.pb.cc.o[0m
+[185.595s] [ 46%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/proto/local_trajectory_builder_options_3d.pb.cc.o[0m
+[185.970s] [ 47%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/proto/map_builder_options.pb.cc.o[0m
+[186.284s] [ 47%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/proto/map_limits.pb.cc.o[0m
+[186.351s] [ 47%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/proto/motion_filter_options.pb.cc.o[0m
+[187.798s] [ 47%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/proto/normal_estimation_options_2d.pb.cc.o[0m
+[187.835s] [ 48%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/proto/pose_extrapolator_options.pb.cc.o[0m
+[187.901s] [ 48%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/proto/pose_graph.pb.cc.o[0m
+[188.014s] [ 48%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/proto/pose_graph/constraint_builder_options.pb.cc.o[0m
+[188.145s] [ 48%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/proto/pose_graph/optimization_problem_options.pb.cc.o[0m
+[189.051s] [ 49%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/proto/pose_graph_options.pb.cc.o[0m
+[189.441s] [ 49%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/proto/probability_grid.pb.cc.o[0m
+[189.825s] [ 49%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/proto/probability_grid_range_data_inserter_options_2d.pb.cc.o[0m
+[190.445s] [ 49%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/proto/range_data_inserter_options.pb.cc.o[0m
+[190.556s] [ 50%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/proto/range_data_inserter_options_3d.pb.cc.o[0m
+[190.758s] In file included from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/transform/transform.h:26[m[K,
+[190.758s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/transform/transform.cc:17[m[K:
+[190.758s] /home/faith/Work/carto_ws/src/cartographer/cartographer/transform/rigid_transform.h: In instantiation of ‘[01m[Kcartographer::transform::Rigid2<FloatType>::Rotation2D cartographer::transform::Rigid2<FloatType>::rotation() const [with FloatType = double; cartographer::transform::Rigid2<FloatType>::Rotation2D = Eigen::Rotation2D<double>][m[K’:
+[190.758s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/transform/transform.cc:52:40:[m[K   required from here
+[190.758s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/transform/rigid_transform.h:68:14:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[KEigen::Rotation2D<double>[m[K’ when C++17 is enabled changed to match C++14 in GCC 10.1
+[190.759s]    68 |   Rotation2D [01;36m[Krotation[m[K() const { return rotation_; }
+[190.759s]       |              [01;36m[K^~~~~~~~[m[K
+[190.759s] /home/faith/Work/carto_ws/src/cartographer/cartographer/transform/rigid_transform.h: In instantiation of ‘[01m[Kcartographer::transform::Rigid2<FloatType>::Rotation2D cartographer::transform::Rigid2<FloatType>::rotation() const [with FloatType = float; cartographer::transform::Rigid2<FloatType>::Rotation2D = Eigen::Rotation2D<float>][m[K’:
+[190.759s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/transform/transform.cc:60:40:[m[K   required from here
+[190.759s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/transform/rigid_transform.h:68:14:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[KEigen::Rotation2D<float>[m[K’ when C++17 is enabled changed to match C++14 in GCC 10.1
+[191.260s] [ 50%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/proto/scan_matching/ceres_scan_matcher_options_2d.pb.cc.o[0m
+[191.376s] [ 50%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/proto/scan_matching/ceres_scan_matcher_options_3d.pb.cc.o[0m
+[191.560s] [ 50%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/proto/scan_matching/fast_correlative_scan_matcher_options_2d.pb.cc.o[0m
+[191.815s] [ 51%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/proto/scan_matching/fast_correlative_scan_matcher_options_3d.pb.cc.o[0m
+[192.087s] [ 51%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/proto/scan_matching/real_time_correlative_scan_matcher_options.pb.cc.o[0m
+[192.143s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/transform/transform.cc:[m[K In function ‘[01m[Kcartographer::transform::proto::Rigid2d cartographer::transform::ToProto(const Rigid2d&)[m[K’:
+[192.143s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/transform/transform.cc:52:40:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[KEigen::Rotation2D<double>[m[K’ when C++17 is enabled changed to match C++14 in GCC 10.1
+[192.143s]    52 |   proto.set_rotation([01;36m[Ktransform.rotation()[m[K.angle());
+[192.143s]       |                      [01;36m[K~~~~~~~~~~~~~~~~~~^~[m[K
+[192.146s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/transform/transform.cc:[m[K In function ‘[01m[Kcartographer::transform::proto::Rigid2f cartographer::transform::ToProto(const Rigid2f&)[m[K’:
+[192.146s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/transform/transform.cc:60:40:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[KEigen::Rotation2D<float>[m[K’ when C++17 is enabled changed to match C++14 in GCC 10.1
+[192.146s]    60 |   proto.set_rotation([01;36m[Ktransform.rotation()[m[K.angle());
+[192.146s]       |                      [01;36m[K~~~~~~~~~~~~~~~~~~^~[m[K
+[192.373s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/transform/transform.cc:[m[K In function ‘[01m[Kcartographer::transform::proto::Rigid2d cartographer::transform::ToProto(const Rigid2d&)[m[K’:
+[192.373s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/transform/transform.cc:52:40:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[KEigen::Rotation2D<double>[m[K’ when C++17 is enabled changed to match C++14 in GCC 10.1
+[192.374s]    52 |   proto.set_rotation([01;36m[Ktransform.rotation()[m[K.angle());
+[192.374s]       |                      [01;36m[K~~~~~~~~~~~~~~~~~~^~[m[K
+[192.376s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/transform/transform.cc:[m[K In function ‘[01m[Kcartographer::transform::proto::Rigid2f cartographer::transform::ToProto(const Rigid2f&)[m[K’:
+[192.376s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/transform/transform.cc:60:40:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[KEigen::Rotation2D<float>[m[K’ when C++17 is enabled changed to match C++14 in GCC 10.1
+[192.376s]    60 |   proto.set_rotation([01;36m[Ktransform.rotation()[m[K.angle());
+[192.376s]       |                      [01;36m[K~~~~~~~~~~~~~~~~~~^~[m[K
+[192.565s] [ 51%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/proto/serialization.pb.cc.o[0m
+[192.896s] [ 52%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/proto/submap.pb.cc.o[0m
+[192.916s] [ 52%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/proto/submap_visualization.pb.cc.o[0m
+[193.083s] [ 52%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/proto/submaps_options_2d.pb.cc.o[0m
+[193.317s] [ 52%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/proto/submaps_options_3d.pb.cc.o[0m
+[193.598s] [ 53%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/proto/trajectory.pb.cc.o[0m
+[194.645s] [ 53%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/proto/trajectory_builder_options.pb.cc.o[0m
+[194.656s] [ 53%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/proto/trajectory_node_data.pb.cc.o[0m
+[195.682s] [ 53%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/proto/tsdf_2d.pb.cc.o[0m
+[195.814s] [ 54%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/proto/tsdf_range_data_inserter_options_2d.pb.cc.o[0m
+[196.540s] [ 54%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/sensor/proto/adaptive_voxel_filter_options.pb.cc.o[0m
+[196.786s] [ 54%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/sensor/proto/sensor.pb.cc.o[0m
+[196.860s] [ 54%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/transform/proto/timestamped_transform.pb.cc.o[0m
+[197.241s] [ 55%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/transform/proto/transform.pb.cc.o[0m
+[200.517s] [ 55%] [32m[1mLinking CXX static library libcartographer.a[0m
+[200.943s] [ 55%] Built target cartographer
+[200.976s] [ 55%] [32mBuilding CXX object CMakeFiles/cartographer_pbstream.dir/cartographer/io/pbstream_main.cc.o[0m
+[200.994s] [ 55%] [32mBuilding CXX object CMakeFiles/cartographer_compute_relations_metrics.dir/cartographer/ground_truth/compute_relations_metrics_main.cc.o[0m
+[201.019s] [ 55%] [32mBuilding CXX object CMakeFiles/cartographer_autogenerate_ground_truth.dir/cartographer/ground_truth/autogenerate_ground_truth_main.cc.o[0m
+[202.468s] [ 56%] [32m[1mLinking CXX executable cartographer_pbstream[0m
+[202.979s] [ 56%] Built target cartographer_pbstream
+[203.029s] [ 57%] [32mBuilding CXX object CMakeFiles/cartographer_test_library.dir/cartographer/io/fake_file_writer_test.cc.o[0m
+[203.042s] [ 57%] [32mBuilding CXX object CMakeFiles/cartographer_test_library.dir/cartographer/io/internal/testing/test_helpers.cc.o[0m
+[203.042s] [ 57%] [32mBuilding CXX object CMakeFiles/cartographer_print_configuration.dir/cartographer/common/print_configuration_main.cc.o[0m
+[203.042s] [ 57%] [32mBuilding CXX object CMakeFiles/cartographer_test_library.dir/cartographer/io/fake_file_writer.cc.o[0m
+[205.953s] [ 57%] [32m[1mLinking CXX executable cartographer_print_configuration[0m
+[206.187s] [ 58%] [32m[1mLinking CXX executable cartographer_autogenerate_ground_truth[0m
+[206.254s] [ 58%] Built target cartographer_print_configuration
+[207.243s] [ 58%] Built target cartographer_autogenerate_ground_truth
+[207.332s] [ 58%] [32m[1mLinking CXX executable cartographer_compute_relations_metrics[0m
+[207.469s] [ 58%] [32mBuilding CXX object CMakeFiles/cartographer_test_library.dir/cartographer/mapping/internal/testing/test_helpers.cc.o[0m
+[207.705s] [ 58%] Built target cartographer_compute_relations_metrics
+[215.437s] [ 58%] [32m[1mLinking CXX static library libcartographer_test_library.a[0m
+[215.650s] [ 58%] Built target cartographer_test_library
+[215.696s] [ 58%] [32mBuilding CXX object CMakeFiles/cartographer.common.configuration_files_test.dir/cartographer/common/configuration_files_test.cc.o[0m
+[215.702s] [ 59%] [32mBuilding CXX object CMakeFiles/cartographer.common.fixed_ratio_sampler_test.dir/cartographer/common/fixed_ratio_sampler_test.cc.o[0m
+[215.707s] [ 60%] [32mBuilding CXX object CMakeFiles/cartographer.common.math_test.dir/cartographer/common/math_test.cc.o[0m
+[215.714s] [ 60%] [32mBuilding CXX object CMakeFiles/cartographer.common.task_test.dir/cartographer/common/task_test.cc.o[0m
+[215.714s] [ 60%] [32mBuilding CXX object CMakeFiles/cartographer.common.lua_parameter_dictionary_test.dir/cartographer/common/lua_parameter_dictionary_test.cc.o[0m
+[215.725s] [ 61%] [32mBuilding CXX object CMakeFiles/cartographer.common.internal.rate_timer_test.dir/cartographer/common/internal/rate_timer_test.cc.o[0m
+[215.726s] [ 61%] [32mBuilding CXX object CMakeFiles/cartographer.common.internal.blocking_queue_test.dir/cartographer/common/internal/blocking_queue_test.cc.o[0m
+[216.760s] [ 62%] [32mBuilding CXX object CMakeFiles/cartographer.common.thread_pool_test.dir/cartographer/common/thread_pool_test.cc.o[0m
+[220.807s] [ 62%] [32m[1mLinking CXX executable cartographer.common.math_test[0m
+[221.002s] [ 62%] Built target cartographer.common.math_test
+[221.030s] [ 62%] [32mBuilding CXX object CMakeFiles/cartographer.io.fake_file_writer_test.dir/cartographer/io/fake_file_writer_test.cc.o[0m
+[221.893s] [ 62%] [32m[1mLinking CXX executable cartographer.common.task_test[0m
+[222.102s] [ 62%] Built target cartographer.common.task_test
+[222.130s] [ 63%] [32mBuilding CXX object CMakeFiles/cartographer.io.internal.in_memory_proto_stream_test.dir/cartographer/io/internal/in_memory_proto_stream_test.cc.o[0m
+[222.182s] [ 63%] [32m[1mLinking CXX executable cartographer.common.lua_parameter_dictionary_test[0m
+[222.693s] [ 63%] [32m[1mLinking CXX executable cartographer.common.configuration_files_test[0m
+[222.819s] [ 63%] Built target cartographer.common.lua_parameter_dictionary_test
+[222.895s] [ 63%] [32mBuilding CXX object CMakeFiles/cartographer.io.points_processor_pipeline_builder_test.dir/cartographer/io/points_processor_pipeline_builder_test.cc.o[0m
+[224.365s] [ 63%] Built target cartographer.common.configuration_files_test
+[224.442s] [ 63%] [32mBuilding CXX object CMakeFiles/cartographer.io.probability_grid_points_processor_test.dir/cartographer/io/probability_grid_points_processor_test.cc.o[0m
+[225.175s] [ 63%] [32m[1mLinking CXX executable cartographer.common.internal.rate_timer_test[0m
+[225.790s] [ 63%] Built target cartographer.common.internal.rate_timer_test
+[225.863s] [ 63%] [32mBuilding CXX object CMakeFiles/cartographer.io.proto_stream_deserializer_test.dir/cartographer/io/proto_stream_deserializer_test.cc.o[0m
+[225.936s] [ 63%] [32m[1mLinking CXX executable cartographer.common.fixed_ratio_sampler_test[0m
+[225.973s] [ 63%] [32m[1mLinking CXX executable cartographer.io.fake_file_writer_test[0m
+[225.999s] [ 63%] [32m[1mLinking CXX executable cartographer.common.internal.blocking_queue_test[0m
+[226.140s] [ 63%] Built target cartographer.common.fixed_ratio_sampler_test
+[226.188s] [ 63%] [32mBuilding CXX object CMakeFiles/cartographer.io.proto_stream_test.dir/cartographer/io/proto_stream_test.cc.o[0m
+[226.314s] [ 63%] [32m[1mLinking CXX executable cartographer.common.thread_pool_test[0m
+[226.328s] [ 63%] Built target cartographer.common.internal.blocking_queue_test
+[226.404s] [ 63%] [32mBuilding CXX object CMakeFiles/cartographer.io.serialization_format_migration_test.dir/cartographer/io/serialization_format_migration_test.cc.o[0m
+[226.623s] [ 63%] Built target cartographer.io.fake_file_writer_test
+[226.694s] [ 63%] [32mBuilding CXX object CMakeFiles/cartographer.mapping.2d.map_limits_test.dir/cartographer/mapping/2d/map_limits_test.cc.o[0m
+[226.938s] [ 63%] Built target cartographer.common.thread_pool_test
+[227.010s] [ 63%] [32mBuilding CXX object CMakeFiles/cartographer.mapping.2d.probability_grid_test.dir/cartographer/mapping/2d/probability_grid_test.cc.o[0m
+[227.248s] [ 63%] [32m[1mLinking CXX executable cartographer.io.internal.in_memory_proto_stream_test[0m
+[227.581s] [ 63%] Built target cartographer.io.internal.in_memory_proto_stream_test
+[227.608s] [ 63%] [32mBuilding CXX object CMakeFiles/cartographer.mapping.2d.range_data_inserter_2d_test.dir/cartographer/mapping/2d/range_data_inserter_2d_test.cc.o[0m
+[230.490s] [ 63%] [32m[1mLinking CXX executable cartographer.io.proto_stream_test[0m
+[230.866s] [ 63%] Built target cartographer.io.proto_stream_test
+[230.937s] [ 63%] [32mBuilding CXX object CMakeFiles/cartographer.mapping.2d.submap_2d_test.dir/cartographer/mapping/2d/submap_2d_test.cc.o[0m
+[232.274s] [ 64%] [32m[1mLinking CXX executable cartographer.io.points_processor_pipeline_builder_test[0m
+[233.455s] [ 64%] Built target cartographer.io.points_processor_pipeline_builder_test
+[233.529s] [ 64%] [32mBuilding CXX object CMakeFiles/cartographer.mapping.2d.xy_index_test.dir/cartographer/mapping/2d/xy_index_test.cc.o[0m
+[234.666s] [ 64%] [32m[1mLinking CXX executable cartographer.io.probability_grid_points_processor_test[0m
+[235.045s] [ 64%] Built target cartographer.io.probability_grid_points_processor_test
+[235.073s] [ 64%] [32mBuilding CXX object CMakeFiles/cartographer.mapping.3d.hybrid_grid_test.dir/cartographer/mapping/3d/hybrid_grid_test.cc.o[0m
+[236.405s] [ 65%] [32m[1mLinking CXX executable cartographer.mapping.2d.probability_grid_test[0m
+[237.385s] [ 65%] Built target cartographer.mapping.2d.probability_grid_test
+[237.404s] [ 65%] [32m[1mLinking CXX executable cartographer.mapping.2d.range_data_inserter_2d_test[0m
+[237.460s] [ 65%] [32mBuilding CXX object CMakeFiles/cartographer.mapping.3d.range_data_inserter_3d_test.dir/cartographer/mapping/3d/range_data_inserter_3d_test.cc.o[0m
+[237.648s] [ 65%] [32m[1mLinking CXX executable cartographer.mapping.2d.map_limits_test[0m
+[237.817s] [ 65%] Built target cartographer.mapping.2d.range_data_inserter_2d_test
+[237.897s] [ 65%] [32mBuilding CXX object CMakeFiles/cartographer.mapping.3d.submap_3d_test.dir/cartographer/mapping/3d/submap_3d_test.cc.o[0m
+[238.017s] [ 65%] Built target cartographer.mapping.2d.map_limits_test
+[238.091s] [ 65%] [32mBuilding CXX object CMakeFiles/cartographer.mapping.id_test.dir/cartographer/mapping/id_test.cc.o[0m
+[240.445s] [ 65%] [32m[1mLinking CXX executable cartographer.mapping.2d.xy_index_test[0m
+[241.270s] [ 65%] Built target cartographer.mapping.2d.xy_index_test
+[241.343s] [ 65%] [32mBuilding CXX object CMakeFiles/cartographer.mapping.imu_tracker_test.dir/cartographer/mapping/imu_tracker_test.cc.o[0m
+[242.228s] [ 66%] [32m[1mLinking CXX executable cartographer.io.serialization_format_migration_test[0m
+[242.763s] [ 67%] [32m[1mLinking CXX executable cartographer.io.proto_stream_deserializer_test[0m
+[243.379s] [ 68%] [32m[1mLinking CXX executable cartographer.mapping.2d.submap_2d_test[0m
+[243.780s] [ 68%] Built target cartographer.mapping.2d.submap_2d_test
+[243.808s] [ 68%] [32mBuilding CXX object CMakeFiles/cartographer.mapping.internal.2d.normal_estimation_2d_test.dir/cartographer/mapping/internal/2d/normal_estimation_2d_test.cc.o[0m
+[243.915s] [ 68%] Built target cartographer.io.serialization_format_migration_test
+[243.989s] [ 69%] [32mBuilding CXX object CMakeFiles/cartographer.mapping.internal.2d.overlapping_submaps_trimmer_2d_test.dir/cartographer/mapping/internal/2d/overlapping_submaps_trimmer_2d_test.cc.o[0m
+[243.999s] [ 69%] Built target cartographer.io.proto_stream_deserializer_test
+[244.068s] [ 69%] [32mBuilding CXX object CMakeFiles/cartographer.mapping.internal.2d.pose_graph_2d_test.dir/cartographer/mapping/internal/2d/pose_graph_2d_test.cc.o[0m
+[248.217s] [ 69%] [32m[1mLinking CXX executable cartographer.mapping.3d.range_data_inserter_3d_test[0m
+[248.409s] [ 70%] [32m[1mLinking CXX executable cartographer.mapping.3d.hybrid_grid_test[0m
+[248.492s] [ 70%] Built target cartographer.mapping.3d.range_data_inserter_3d_test
+[248.521s] [ 71%] [32mBuilding CXX object CMakeFiles/cartographer.mapping.internal.2d.ray_to_pixel_mask_test.dir/cartographer/mapping/internal/2d/ray_to_pixel_mask_test.cc.o[0m
+[248.668s] [ 71%] Built target cartographer.mapping.3d.hybrid_grid_test
+[248.697s] [ 71%] [32mBuilding CXX object CMakeFiles/cartographer.mapping.internal.2d.scan_matching.ceres_scan_matcher_2d_test.dir/cartographer/mapping/internal/2d/scan_matching/ceres_scan_matcher_2d_test.cc.o[0m
+[249.111s] [ 71%] [32m[1mLinking CXX executable cartographer.mapping.id_test[0m
+[249.721s] [ 71%] Built target cartographer.mapping.id_test
+[249.797s] [ 72%] [32mBuilding CXX object CMakeFiles/cartographer.mapping.internal.2d.scan_matching.correlative_scan_matcher_test.dir/cartographer/mapping/internal/2d/scan_matching/correlative_scan_matcher_test.cc.o[0m
+[251.742s] [ 73%] [32m[1mLinking CXX executable cartographer.mapping.imu_tracker_test[0m
+[252.276s] [ 73%] [32m[1mLinking CXX executable cartographer.mapping.internal.2d.normal_estimation_2d_test[0m
+[252.366s] [ 73%] Built target cartographer.mapping.imu_tracker_test
+[252.439s] [ 73%] [32mBuilding CXX object CMakeFiles/cartographer.mapping.internal.2d.scan_matching.fast_correlative_scan_matcher_2d_test.dir/cartographer/mapping/internal/2d/scan_matching/fast_correlative_scan_matcher_2d_test.cc.o[0m
+[252.534s] [ 73%] Built target cartographer.mapping.internal.2d.normal_estimation_2d_test
+[252.563s] [ 74%] [32mBuilding CXX object CMakeFiles/cartographer.mapping.internal.2d.scan_matching.interpolated_tsdf_2d_test.dir/cartographer/mapping/internal/2d/scan_matching/interpolated_tsdf_2d_test.cc.o[0m
+[253.686s] In file included from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/transform/transform.h:26[m[K,
+[253.686s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/sensor/rangefinder_point.h:24[m[K,
+[253.686s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/sensor/point_cloud.h:24[m[K,
+[253.686s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/sensor/compressed_point_cloud.h:25[m[K,
+[253.686s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/sensor/range_data.h:21[m[K,
+[253.686s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/trajectory_node.h:27[m[K,
+[253.686s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/submaps.h:30[m[K,
+[253.686s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/pose_graph_interface.h:25[m[K,
+[253.686s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/pose_graph_trimmer.h:21[m[K,
+[253.686s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/internal/2d/overlapping_submaps_trimmer_2d.h:21[m[K,
+[253.687s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/internal/2d/overlapping_submaps_trimmer_2d_test.cc:17[m[K:
+[253.687s] /home/faith/Work/carto_ws/src/cartographer/cartographer/transform/rigid_transform.h: In instantiation of ‘[01m[Kcartographer::transform::Rigid2<FloatType>::Rotation2D cartographer::transform::Rigid2<FloatType>::rotation() const [with FloatType = double; cartographer::transform::Rigid2<FloatType>::Rotation2D = Eigen::Rotation2D<double>][m[K’:
+[253.687s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/transform/transform.h:113:45:[m[K   required from ‘[01m[Kcartographer::transform::Rigid3<FloatType> cartographer::transform::Embed3D(const cartographer::transform::Rigid2<FloatType>&) [with T = double][m[K’
+[253.687s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/internal/2d/overlapping_submaps_trimmer_2d_test.cc:50:46:[m[K   required from here
+[253.687s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/transform/rigid_transform.h:68:14:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[KEigen::Rotation2D<double>[m[K’ when C++17 is enabled changed to match C++14 in GCC 10.1
+[253.687s]    68 |   Rotation2D [01;36m[Krotation[m[K() const { return rotation_; }
+[253.687s]       |              [01;36m[K^~~~~~~~[m[K
+[256.792s] [ 75%] [32m[1mLinking CXX executable cartographer.mapping.3d.submap_3d_test[0m
+[257.112s] In file included from [01m[K/usr/include/eigen3/Eigen/Geometry:41[m[K,
+[257.112s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/2d/map_limits.h:24[m[K,
+[257.112s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/2d/grid_2d.h:22[m[K,
+[257.112s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/internal/2d/scan_matching/ceres_scan_matcher_2d.h:25[m[K,
+[257.112s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/internal/2d/scan_matching/ceres_scan_matcher_2d_test.cc:17[m[K:
+[257.112s] /usr/include/eigen3/Eigen/src/Geometry/Rotation2D.h: In instantiation of ‘[01m[Kstatic Eigen::Rotation2D<Scalar> Eigen::Rotation2D<Scalar>::Identity() [with _Scalar = double][m[K’:
+[257.112s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/transform/rigid_transform.h:40:74:[m[K   required from ‘[01m[Kcartographer::transform::Rigid2<FloatType>::Rigid2() [with FloatType = double][m[K’
+[257.112s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/internal/2d/scan_matching/ceres_scan_matcher_2d_test.cc:64:24:[m[K   required from here
+[257.112s] [01m[K/usr/include/eigen3/Eigen/src/Geometry/Rotation2D.h:152:46:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[KEigen::Rotation2D<double>[m[K’ when C++17 is enabled changed to match C++14 in GCC 10.1
+[257.112s]   152 |   EIGEN_DEVICE_FUNC static inline Rotation2D [01;36m[KIdentity[m[K() { return Rotation2D(0); }
+[257.112s]       |                                              [01;36m[K^~~~~~~~[m[K
+[258.063s] [ 75%] Built target cartographer.mapping.3d.submap_3d_test
+[258.140s] [ 75%] [32mBuilding CXX object CMakeFiles/cartographer.mapping.internal.2d.scan_matching.occupied_space_cost_function_2d_test.dir/cartographer/mapping/internal/2d/scan_matching/occupied_space_cost_function_2d_test.cc.o[0m
+[258.479s] [ 75%] [32m[1mLinking CXX executable cartographer.mapping.internal.2d.ray_to_pixel_mask_test[0m
+[258.516s] [ 75%] [32m[1mLinking CXX executable cartographer.mapping.internal.2d.overlapping_submaps_trimmer_2d_test[0m
+[259.120s] [ 75%] Built target cartographer.mapping.internal.2d.ray_to_pixel_mask_test
+[259.193s] [ 76%] [32mBuilding CXX object CMakeFiles/cartographer.mapping.internal.2d.scan_matching.real_time_correlative_scan_matcher_2d_test.dir/cartographer/mapping/internal/2d/scan_matching/real_time_correlative_scan_matcher_2d_test.cc.o[0m
+[259.882s] [ 76%] Built target cartographer.mapping.internal.2d.overlapping_submaps_trimmer_2d_test
+[259.916s] [ 76%] [32m[1mLinking CXX executable cartographer.mapping.internal.2d.scan_matching.ceres_scan_matcher_2d_test[0m
+[259.955s] [ 76%] [32mBuilding CXX object CMakeFiles/cartographer.mapping.internal.2d.scan_matching.tsdf_match_cost_function_2d_test.dir/cartographer/mapping/internal/2d/scan_matching/tsdf_match_cost_function_2d_test.cc.o[0m
+[261.076s] [ 76%] Built target cartographer.mapping.internal.2d.scan_matching.ceres_scan_matcher_2d_test
+[261.151s] [ 77%] [32mBuilding CXX object CMakeFiles/cartographer.mapping.internal.2d.tsd_value_converter_test.dir/cartographer/mapping/internal/2d/tsd_value_converter_test.cc.o[0m
+[261.814s] In file included from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/transform/transform.h:26[m[K,
+[261.815s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/sensor/rangefinder_point.h:24[m[K,
+[261.815s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/sensor/point_cloud.h:24[m[K,
+[261.815s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/sensor/compressed_point_cloud.h:25[m[K,
+[261.815s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/sensor/range_data.h:21[m[K,
+[261.815s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/trajectory_node.h:27[m[K,
+[261.815s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/2d/map_limits.h:28[m[K,
+[261.815s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/2d/grid_2d.h:22[m[K,
+[261.815s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/internal/2d/scan_matching/fast_correlative_scan_matcher_2d.h:33[m[K,
+[261.815s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/internal/2d/scan_matching/fast_correlative_scan_matcher_2d_test.cc:17[m[K:
+[261.815s] /home/faith/Work/carto_ws/src/cartographer/cartographer/transform/rigid_transform.h: In instantiation of ‘[01m[Kcartographer::transform::Rigid2<FloatType>::Rotation2D cartographer::transform::Rigid2<FloatType>::rotation() const [with FloatType = float; cartographer::transform::Rigid2<FloatType>::Rotation2D = Eigen::Rotation2D<float>][m[K’:
+[261.816s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/transform/transform.h:113:45:[m[K   required from ‘[01m[Kcartographer::transform::Rigid3<FloatType> cartographer::transform::Embed3D(const cartographer::transform::Rigid2<FloatType>&) [with T = float][m[K’
+[261.816s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/internal/2d/scan_matching/fast_correlative_scan_matcher_2d_test.cc:174:48:[m[K   required from here
+[261.816s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/transform/rigid_transform.h:68:14:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[KEigen::Rotation2D<float>[m[K’ when C++17 is enabled changed to match C++14 in GCC 10.1
+[261.816s]    68 |   Rotation2D [01;36m[Krotation[m[K() const { return rotation_; }
+[261.816s]       |              [01;36m[K^~~~~~~~[m[K
+[261.816s] In file included from [01m[K/usr/include/eigen3/Eigen/Geometry:41[m[K,
+[261.816s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/2d/map_limits.h:24[m[K,
+[261.816s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/2d/grid_2d.h:22[m[K,
+[261.816s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/internal/2d/scan_matching/fast_correlative_scan_matcher_2d.h:33[m[K,
+[261.816s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/internal/2d/scan_matching/fast_correlative_scan_matcher_2d_test.cc:17[m[K:
+[261.816s] /usr/include/eigen3/Eigen/src/Geometry/Rotation2D.h: In instantiation of ‘[01m[Kstatic Eigen::Rotation2D<Scalar> Eigen::Rotation2D<Scalar>::Identity() [with _Scalar = double][m[K’:
+[261.817s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/transform/rigid_transform.h:40:74:[m[K   required from ‘[01m[Kcartographer::transform::Rigid2<FloatType>::Rigid2() [with FloatType = double][m[K’
+[261.817s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/internal/2d/scan_matching/fast_correlative_scan_matcher_2d_test.cc:181:24:[m[K   required from here
+[261.817s] [01m[K/usr/include/eigen3/Eigen/src/Geometry/Rotation2D.h:152:46:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[KEigen::Rotation2D<double>[m[K’ when C++17 is enabled changed to match C++14 in GCC 10.1
+[261.817s]   152 |   EIGEN_DEVICE_FUNC static inline Rotation2D [01;36m[KIdentity[m[K() { return Rotation2D(0); }
+[261.817s]       |                                              [01;36m[K^~~~~~~~[m[K
+[261.820s] /usr/include/eigen3/Eigen/src/Geometry/Rotation2D.h: In instantiation of ‘[01m[Ktypename Eigen::internal::cast_return_type<Eigen::Rotation2D<Scalar>, Eigen::Rotation2D<NewScalarType> >::type Eigen::Rotation2D<Scalar>::cast() const [with NewScalarType = float; _Scalar = double; typename Eigen::internal::cast_return_type<Eigen::Rotation2D<Scalar>, Eigen::Rotation2D<NewScalarType> >::type = Eigen::Rotation2D<float>][m[K’:
+[261.820s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/transform/rigid_transform.h:63:64:[m[K   required from ‘[01m[Kcartographer::transform::Rigid2<OtherType> cartographer::transform::Rigid2<FloatType>::cast() const [with OtherType = float; FloatType = double][m[K’
+[261.820s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/internal/2d/scan_matching/fast_correlative_scan_matcher_2d_test.cc:187:5:[m[K   required from here
+[261.820s] [01m[K/usr/include/eigen3/Eigen/src/Geometry/Rotation2D.h:142:109:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[KEigen::Rotation2D<float>[m[K’ when C++17 is enabled changed to match C++14 in GCC 10.1
+[261.820s]   142 |   EIGEN_DEVICE_FUNC inline typename internal::cast_return_type<Rotation2D,Rotation2D<NewScalarType> >::type [01;36m[Kcast[m[K() const
+[261.820s]       |                                                                                                             [01;36m[K^~~~[m[K
+[263.271s] In file included from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/transform/transform.h:26[m[K,
+[263.271s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/sensor/rangefinder_point.h:24[m[K,
+[263.272s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/sensor/point_cloud.h:24[m[K,
+[263.272s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/sensor/compressed_point_cloud.h:25[m[K,
+[263.272s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/sensor/range_data.h:21[m[K,
+[263.272s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/trajectory_node.h:27[m[K,
+[263.272s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/2d/map_limits.h:28[m[K,
+[263.272s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/2d/grid_2d.h:22[m[K,
+[263.272s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/internal/2d/scan_matching/fast_correlative_scan_matcher_2d.h:33[m[K,
+[263.272s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/internal/2d/scan_matching/fast_correlative_scan_matcher_2d_test.cc:17[m[K:
+[263.272s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/transform/rigid_transform.h:[m[K In constructor ‘[01m[Kcartographer::transform::Rigid2<FloatType>::Rigid2() [with FloatType = double][m[K’:
+[263.272s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/transform/rigid_transform.h:40:44:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[KEigen::Rotation2D<double>[m[K’ when C++17 is enabled changed to match C++14 in GCC 10.1
+[263.272s]    40 |   Rigid2() : translation_(Vector::Zero()), [01;36m[Krotation_(Rotation2D::Identity())[m[K {}
+[263.272s]       |                                            [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[263.276s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/transform/rigid_transform.h:[m[K In member function ‘[01m[Kcartographer::transform::Rigid2<OtherType> cartographer::transform::Rigid2<FloatType>::cast() const [with OtherType = float; FloatType = double][m[K’:
+[263.276s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/transform/rigid_transform.h:63:64:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[KEigen::Rotation2D<float>[m[K’ when C++17 is enabled changed to match C++14 in GCC 10.1
+[263.276s]    63 |                              [01;36m[Krotation_.template cast<OtherType>()[m[K);
+[263.277s]       |                              [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[263.481s] [ 77%] [32m[1mLinking CXX executable cartographer.mapping.internal.2d.scan_matching.correlative_scan_matcher_test[0m
+[263.648s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/transform/rigid_transform.h:[m[K In constructor ‘[01m[Kcartographer::transform::Rigid2<FloatType>::Rigid2() [with FloatType = double][m[K’:
+[263.648s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/transform/rigid_transform.h:40:74:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[KEigen::Rotation2D<double>[m[K’ when C++17 is enabled changed to match C++14 in GCC 10.1
+[263.649s]    40 |   Rigid2() : translation_(Vector::Zero()), rotation_([01;36m[KRotation2D::Identity()[m[K) {}
+[263.649s]       |                                                      [01;36m[K~~~~~~~~~~~~~~~~~~~~^~[m[K
+[263.694s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/transform/rigid_transform.h:[m[K In member function ‘[01m[Kcartographer::transform::Rigid2<OtherType> cartographer::transform::Rigid2<FloatType>::cast() const [with OtherType = float; FloatType = double][m[K’:
+[263.695s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/transform/rigid_transform.h:63:64:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[KEigen::Rotation2D<float>[m[K’ when C++17 is enabled changed to match C++14 in GCC 10.1
+[263.695s]    63 |                              [01;36m[Krotation_.template cast<OtherType>()[m[K);
+[263.695s]       |                              [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[264.081s] [ 77%] [32m[1mLinking CXX executable cartographer.mapping.internal.2d.scan_matching.interpolated_tsdf_2d_test[0m
+[264.108s] [ 77%] Built target cartographer.mapping.internal.2d.scan_matching.correlative_scan_matcher_test
+[264.191s] [ 77%] [32mBuilding CXX object CMakeFiles/cartographer.mapping.internal.2d.tsdf_2d_test.dir/cartographer/mapping/internal/2d/tsdf_2d_test.cc.o[0m
+[264.379s] [ 77%] Built target cartographer.mapping.internal.2d.scan_matching.interpolated_tsdf_2d_test
+[264.407s] [ 78%] [32mBuilding CXX object CMakeFiles/cartographer.mapping.internal.2d.tsdf_range_data_inserter_2d_test.dir/cartographer/mapping/internal/2d/tsdf_range_data_inserter_2d_test.cc.o[0m
+[265.684s] [ 78%] [32m[1mLinking CXX executable cartographer.mapping.internal.2d.scan_matching.fast_correlative_scan_matcher_2d_test[0m
+[265.998s] [ 78%] Built target cartographer.mapping.internal.2d.scan_matching.fast_correlative_scan_matcher_2d_test
+[266.024s] [ 78%] [32mBuilding CXX object CMakeFiles/cartographer.mapping.internal.3d.local_trajectory_builder_3d_test.dir/cartographer/mapping/internal/3d/local_trajectory_builder_3d_test.cc.o[0m
+[267.826s] [ 78%] [32m[1mLinking CXX executable cartographer.mapping.internal.2d.scan_matching.occupied_space_cost_function_2d_test[0m
+[268.181s] [ 78%] Built target cartographer.mapping.internal.2d.scan_matching.occupied_space_cost_function_2d_test
+[268.210s] [ 79%] [32mBuilding CXX object CMakeFiles/cartographer.mapping.internal.3d.pose_graph_3d_test.dir/cartographer/mapping/internal/3d/pose_graph_3d_test.cc.o[0m
+[268.251s] In file included from [01m[K/usr/include/eigen3/Eigen/Geometry:41[m[K,
+[268.251s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/internal/2d/pose_graph_2d.h:29[m[K,
+[268.251s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/internal/2d/pose_graph_2d_test.cc:17[m[K:
+[268.251s] /usr/include/eigen3/Eigen/src/Geometry/Rotation2D.h: In instantiation of ‘[01m[Kstatic Eigen::Rotation2D<Scalar> Eigen::Rotation2D<Scalar>::Identity() [with _Scalar = double][m[K’:
+[268.251s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/transform/rigid_transform.h:40:74:[m[K   required from ‘[01m[Kcartographer::transform::Rigid2<FloatType>::Rigid2() [with FloatType = double][m[K’
+[268.251s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/internal/2d/pose_graph_2d_test.cc:40:37:[m[K   required from here
+[268.251s] [01m[K/usr/include/eigen3/Eigen/src/Geometry/Rotation2D.h:152:46:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[KEigen::Rotation2D<double>[m[K’ when C++17 is enabled changed to match C++14 in GCC 10.1
+[268.252s]   152 |   EIGEN_DEVICE_FUNC static inline Rotation2D [01;36m[KIdentity[m[K() { return Rotation2D(0); }
+[268.252s]       |                                              [01;36m[K^~~~~~~~[m[K
+[268.385s] /usr/include/eigen3/Eigen/src/Geometry/Rotation2D.h: In instantiation of ‘[01m[Ktypename Eigen::internal::cast_return_type<Eigen::Rotation2D<Scalar>, Eigen::Rotation2D<NewScalarType> >::type Eigen::Rotation2D<Scalar>::cast() const [with NewScalarType = float; _Scalar = double; typename Eigen::internal::cast_return_type<Eigen::Rotation2D<Scalar>, Eigen::Rotation2D<NewScalarType> >::type = Eigen::Rotation2D<float>][m[K’:
+[268.385s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/transform/rigid_transform.h:63:64:[m[K   required from ‘[01m[Kcartographer::transform::Rigid2<OtherType> cartographer::transform::Rigid2<FloatType>::cast() const [with OtherType = float; FloatType = double][m[K’
+[268.385s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/internal/2d/pose_graph_2d_test.cc:178:63:[m[K   required from here
+[268.385s] [01m[K/usr/include/eigen3/Eigen/src/Geometry/Rotation2D.h:142:109:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[KEigen::Rotation2D<float>[m[K’ when C++17 is enabled changed to match C++14 in GCC 10.1
+[268.385s]   142 |   EIGEN_DEVICE_FUNC inline typename internal::cast_return_type<Rotation2D,Rotation2D<NewScalarType> >::type [01;36m[Kcast[m[K() const
+[268.385s]       |                                                                                                             [01;36m[K^~~~[m[K
+[268.510s] [ 79%] [32m[1mLinking CXX executable cartographer.mapping.internal.2d.tsd_value_converter_test[0m
+[269.110s] [ 79%] Built target cartographer.mapping.internal.2d.tsd_value_converter_test
+[269.182s] [ 79%] [32mBuilding CXX object CMakeFiles/cartographer.mapping.internal.3d.scan_matching.ceres_scan_matcher_3d_test.dir/cartographer/mapping/internal/3d/scan_matching/ceres_scan_matcher_3d_test.cc.o[0m
+[272.022s] In file included from [01m[K/usr/src/googletest/googletest/include/gtest/gtest.h:387[m[K,
+[272.022s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/internal/2d/tsdf_2d_test.cc:22[m[K:
+[272.022s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/internal/2d/tsdf_2d_test.cc:[m[K In member function ‘[01m[Kvirtual void cartographer::mapping::{anonymous}::TSDF2DTest_WriteRead_Test::TestBody()[m[K’:
+[272.022s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/internal/2d/tsdf_2d_test.cc:126:29:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[Kstd::pair<float, float>[m[K’ when C++17 is enabled changed to match C++14 in GCC 10.1
+[272.023s]   126 |         [01;36m[Ktsdf.GetTSDAndWeight(limits.GetCellIndex(Vector2f(-0.5f, 0.5f)))[m[K.first,
+[272.023s]       |         [01;36m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[272.898s] [ 79%] [32m[1mLinking CXX executable cartographer.mapping.internal.2d.scan_matching.tsdf_match_cost_function_2d_test[0m
+[273.222s] [ 79%] Built target cartographer.mapping.internal.2d.scan_matching.tsdf_match_cost_function_2d_test
+[273.250s] [ 79%] [32mBuilding CXX object CMakeFiles/cartographer.mapping.internal.3d.scan_matching.fast_correlative_scan_matcher_3d_test.dir/cartographer/mapping/internal/3d/scan_matching/fast_correlative_scan_matcher_3d_test.cc.o[0m
+[274.017s] [ 79%] [32m[1mLinking CXX executable cartographer.mapping.internal.2d.tsdf_2d_test[0m
+[274.993s] [ 79%] Built target cartographer.mapping.internal.2d.tsdf_2d_test
+[275.069s] [ 79%] [32mBuilding CXX object CMakeFiles/cartographer.mapping.internal.3d.scan_matching.intensity_cost_function_3d_test.dir/cartographer/mapping/internal/3d/scan_matching/intensity_cost_function_3d_test.cc.o[0m
+[276.913s] [ 79%] [32m[1mLinking CXX executable cartographer.mapping.internal.2d.tsdf_range_data_inserter_2d_test[0m
+[277.228s] [ 79%] Built target cartographer.mapping.internal.2d.tsdf_range_data_inserter_2d_test
+[277.257s] [ 79%] [32mBuilding CXX object CMakeFiles/cartographer.mapping.internal.3d.scan_matching.interpolated_grid_test.dir/cartographer/mapping/internal/3d/scan_matching/interpolated_grid_test.cc.o[0m
+[279.522s] In file included from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/transform/transform.h:26[m[K,
+[279.522s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/sensor/rangefinder_point.h:24[m[K,
+[279.523s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/sensor/point_cloud.h:24[m[K,
+[279.523s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/sensor/compressed_point_cloud.h:25[m[K,
+[279.523s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/sensor/range_data.h:21[m[K,
+[279.523s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/trajectory_node.h:27[m[K,
+[279.523s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/2d/map_limits.h:28[m[K,
+[279.523s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/2d/grid_2d.h:22[m[K,
+[279.523s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/2d/submap_2d.h:25[m[K,
+[279.523s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/internal/2d/pose_graph_2d.h:35[m[K,
+[279.523s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/internal/2d/pose_graph_2d_test.cc:17[m[K:
+[279.523s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/transform/rigid_transform.h:[m[K In constructor ‘[01m[Kcartographer::transform::Rigid2<FloatType>::Rigid2() [with FloatType = double][m[K’:
+[279.523s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/transform/rigid_transform.h:40:44:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[KEigen::Rotation2D<double>[m[K’ when C++17 is enabled changed to match C++14 in GCC 10.1
+[279.523s]    40 |   Rigid2() : translation_(Vector::Zero()), [01;36m[Krotation_(Rotation2D::Identity())[m[K {}
+[279.524s]       |                                            [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[279.569s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/transform/rigid_transform.h:[m[K In member function ‘[01m[Kcartographer::transform::Rigid2<OtherType> cartographer::transform::Rigid2<FloatType>::cast() const [with OtherType = float; FloatType = double][m[K’:
+[279.569s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/transform/rigid_transform.h:63:64:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[KEigen::Rotation2D<float>[m[K’ when C++17 is enabled changed to match C++14 in GCC 10.1
+[279.569s]    63 |                              [01;36m[Krotation_.template cast<OtherType>()[m[K);
+[279.569s]       |                              [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[279.614s] In file included from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/sensor/rangefinder_point.h:24[m[K,
+[279.614s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/sensor/point_cloud.h:24[m[K,
+[279.614s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/sensor/compressed_point_cloud.h:25[m[K,
+[279.615s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/sensor/range_data.h:21[m[K,
+[279.615s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/trajectory_node.h:27[m[K,
+[279.615s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/2d/map_limits.h:28[m[K,
+[279.615s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/2d/grid_2d.h:22[m[K,
+[279.615s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/2d/submap_2d.h:25[m[K,
+[279.615s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/internal/2d/pose_graph_2d.h:35[m[K,
+[279.615s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/internal/2d/pose_graph_2d_test.cc:17[m[K:
+[279.615s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/transform/transform.h:[m[K In function ‘[01m[Kcartographer::transform::Rigid3<FloatType> cartographer::transform::Embed3D(const cartographer::transform::Rigid2<FloatType>&) [with T = double][m[K’:
+[279.615s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/transform/transform.h:113:45:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[KEigen::Rotation2D<double>[m[K’ when C++17 is enabled changed to match C++14 in GCC 10.1
+[279.615s]   113 |       Eigen::AngleAxis<T>([01;36m[Ktransform.rotation()[m[K.angle(),
+[279.615s]       |                           [01;36m[K~~~~~~~~~~~~~~~~~~^~[m[K
+[281.143s] [ 79%] [32m[1mLinking CXX executable cartographer.mapping.internal.3d.pose_graph_3d_test[0m
+[282.167s] In file included from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/transform/transform.h:26[m[K,
+[282.167s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/sensor/rangefinder_point.h:24[m[K,
+[282.167s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/sensor/point_cloud.h:24[m[K,
+[282.167s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/sensor/compressed_point_cloud.h:25[m[K,
+[282.167s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/sensor/range_data.h:21[m[K,
+[282.167s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/trajectory_node.h:27[m[K,
+[282.167s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/2d/map_limits.h:28[m[K,
+[282.167s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/2d/grid_2d.h:22[m[K,
+[282.167s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/2d/submap_2d.h:25[m[K,
+[282.167s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/internal/2d/pose_graph_2d.h:35[m[K,
+[282.168s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/internal/2d/pose_graph_2d_test.cc:17[m[K:
+[282.168s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/transform/rigid_transform.h:[m[K In member function ‘[01m[Kcartographer::transform::Rigid2<OtherType> cartographer::transform::Rigid2<FloatType>::cast() const [with OtherType = float; FloatType = double][m[K’:
+[282.168s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/transform/rigid_transform.h:63:64:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[KEigen::Rotation2D<float>[m[K’ when C++17 is enabled changed to match C++14 in GCC 10.1
+[282.168s]    63 |                              [01;36m[Krotation_.template cast<OtherType>()[m[K);
+[282.168s]       |                              [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[282.488s] In file included from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/sensor/rangefinder_point.h:24[m[K,
+[282.488s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/sensor/point_cloud.h:24[m[K,
+[282.488s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/sensor/compressed_point_cloud.h:25[m[K,
+[282.488s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/sensor/range_data.h:21[m[K,
+[282.488s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/trajectory_node.h:27[m[K,
+[282.489s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/2d/map_limits.h:28[m[K,
+[282.489s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/2d/grid_2d.h:22[m[K,
+[282.489s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/2d/submap_2d.h:25[m[K,
+[282.489s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/internal/2d/pose_graph_2d.h:35[m[K,
+[282.489s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/internal/2d/pose_graph_2d_test.cc:17[m[K:
+[282.489s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/transform/transform.h:[m[K In function ‘[01m[Kcartographer::transform::Rigid3<FloatType> cartographer::transform::Embed3D(const cartographer::transform::Rigid2<FloatType>&) [with T = double][m[K’:
+[282.489s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/transform/transform.h:113:45:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[KEigen::Rotation2D<double>[m[K’ when C++17 is enabled changed to match C++14 in GCC 10.1
+[282.489s]   113 |       Eigen::AngleAxis<T>([01;36m[Ktransform.rotation()[m[K.angle(),
+[282.489s]       |                           [01;36m[K~~~~~~~~~~~~~~~~~~^~[m[K
+[282.554s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/transform/transform.h:[m[K In function ‘[01m[Kcartographer::transform::Rigid3<FloatType> cartographer::transform::Embed3D(const cartographer::transform::Rigid2<FloatType>&) [with T = float][m[K’:
+[282.554s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/transform/transform.h:113:45:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[KEigen::Rotation2D<float>[m[K’ when C++17 is enabled changed to match C++14 in GCC 10.1
+[282.554s]   113 |       Eigen::AngleAxis<T>([01;36m[Ktransform.rotation()[m[K.angle(),
+[282.554s]       |                           [01;36m[K~~~~~~~~~~~~~~~~~~^~[m[K
+[282.642s] In file included from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/transform/transform.h:26[m[K,
+[282.642s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/sensor/rangefinder_point.h:24[m[K,
+[282.642s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/sensor/point_cloud.h:24[m[K,
+[282.642s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/sensor/compressed_point_cloud.h:25[m[K,
+[282.642s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/sensor/range_data.h:21[m[K,
+[282.642s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/trajectory_node.h:27[m[K,
+[282.643s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/2d/map_limits.h:28[m[K,
+[282.643s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/2d/grid_2d.h:22[m[K,
+[282.643s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/2d/submap_2d.h:25[m[K,
+[282.643s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/internal/2d/pose_graph_2d.h:35[m[K,
+[282.643s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/internal/2d/pose_graph_2d_test.cc:17[m[K:
+[282.643s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/transform/rigid_transform.h:[m[K In member function ‘[01m[Kcartographer::transform::Rigid2<FloatType> cartographer::transform::Rigid2<FloatType>::inverse() const [with FloatType = double][m[K’:
+[282.643s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/transform/rigid_transform.h:75:50:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[KEigen::Rotation2D<double>[m[K’ when C++17 is enabled changed to match C++14 in GCC 10.1
+[282.643s]    75 |     const Rotation2D rotation = [01;36m[Krotation_.inverse()[m[K;
+[282.643s]       |                                 [01;36m[K~~~~~~~~~~~~~~~~~^~[m[K
+[282.936s] [ 79%] Built target cartographer.mapping.internal.3d.pose_graph_3d_test
+[283.028s] [ 79%] [32mBuilding CXX object CMakeFiles/cartographer.mapping.internal.3d.scan_matching.precomputation_grid_3d_test.dir/cartographer/mapping/internal/3d/scan_matching/precomputation_grid_3d_test.cc.o[0m
+[283.080s] [ 79%] [32m[1mLinking CXX executable cartographer.mapping.internal.3d.local_trajectory_builder_3d_test[0m
+[283.566s] [ 79%] Built target cartographer.mapping.internal.3d.local_trajectory_builder_3d_test
+[283.594s] [ 79%] [32mBuilding CXX object CMakeFiles/cartographer.mapping.internal.3d.scan_matching.real_time_correlative_scan_matcher_3d_test.dir/cartographer/mapping/internal/3d/scan_matching/real_time_correlative_scan_matcher_3d_test.cc.o[0m
+[283.639s] [ 80%] [32m[1mLinking CXX executable cartographer.mapping.internal.3d.scan_matching.ceres_scan_matcher_3d_test[0m
+[284.695s] [ 80%] Built target cartographer.mapping.internal.3d.scan_matching.ceres_scan_matcher_3d_test
+[284.770s] [ 80%] [32mBuilding CXX object CMakeFiles/cartographer.mapping.internal.3d.scan_matching.rotation_delta_cost_functor_3d_test.dir/cartographer/mapping/internal/3d/scan_matching/rotation_delta_cost_functor_3d_test.cc.o[0m
+[285.605s] [ 81%] [32m[1mLinking CXX executable cartographer.mapping.internal.3d.scan_matching.intensity_cost_function_3d_test[0m
+[285.808s] [ 81%] [32m[1mLinking CXX executable cartographer.mapping.internal.2d.scan_matching.real_time_correlative_scan_matcher_2d_test[0m
+[286.248s] [ 81%] Built target cartographer.mapping.internal.3d.scan_matching.intensity_cost_function_3d_test
+[286.323s] [ 81%] [32mBuilding CXX object CMakeFiles/cartographer.mapping.internal.3d.scan_matching.rotational_scan_matcher_test.dir/cartographer/mapping/internal/3d/scan_matching/rotational_scan_matcher_test.cc.o[0m
+[286.866s] [ 81%] Built target cartographer.mapping.internal.2d.scan_matching.real_time_correlative_scan_matcher_2d_test
+[286.940s] [ 81%] [32mBuilding CXX object CMakeFiles/cartographer.mapping.internal.connected_components_test.dir/cartographer/mapping/internal/connected_components_test.cc.o[0m
+[287.848s] [ 81%] [32m[1mLinking CXX executable cartographer.mapping.internal.3d.scan_matching.interpolated_grid_test[0m
+[288.060s] [ 81%] Built target cartographer.mapping.internal.3d.scan_matching.interpolated_grid_test
+[288.089s] [ 81%] [32mBuilding CXX object CMakeFiles/cartographer.mapping.internal.constraints.constraint_builder_2d_test.dir/cartographer/mapping/internal/constraints/constraint_builder_2d_test.cc.o[0m
+[291.200s] [ 82%] [32m[1mLinking CXX executable cartographer.mapping.internal.3d.scan_matching.precomputation_grid_3d_test[0m
+[291.829s] [ 82%] Built target cartographer.mapping.internal.3d.scan_matching.precomputation_grid_3d_test
+[291.907s] [ 82%] [32mBuilding CXX object CMakeFiles/cartographer.mapping.internal.constraints.constraint_builder_3d_test.dir/cartographer/mapping/internal/constraints/constraint_builder_3d_test.cc.o[0m
+[292.578s] [ 82%] [32m[1mLinking CXX executable cartographer.mapping.internal.2d.pose_graph_2d_test[0m
+[292.708s] [ 82%] [32m[1mLinking CXX executable cartographer.mapping.internal.3d.scan_matching.fast_correlative_scan_matcher_3d_test[0m
+[292.999s] [ 82%] Built target cartographer.mapping.internal.3d.scan_matching.fast_correlative_scan_matcher_3d_test
+[293.027s] [ 82%] [32mBuilding CXX object CMakeFiles/cartographer.mapping.internal.motion_filter_test.dir/cartographer/mapping/internal/motion_filter_test.cc.o[0m
+[294.338s] [ 82%] Built target cartographer.mapping.internal.2d.pose_graph_2d_test
+[294.412s] [ 82%] [32mBuilding CXX object CMakeFiles/cartographer.mapping.internal.optimization.cost_functions.landmark_cost_function_2d_test.dir/cartographer/mapping/internal/optimization/cost_functions/landmark_cost_function_2d_test.cc.o[0m
+[294.680s] [ 82%] [32m[1mLinking CXX executable cartographer.mapping.internal.3d.scan_matching.rotational_scan_matcher_test[0m
+[294.875s] [ 82%] Built target cartographer.mapping.internal.3d.scan_matching.rotational_scan_matcher_test
+[294.903s] [ 82%] [32mBuilding CXX object CMakeFiles/cartographer.mapping.internal.optimization.cost_functions.landmark_cost_function_3d_test.dir/cartographer/mapping/internal/optimization/cost_functions/landmark_cost_function_3d_test.cc.o[0m
+[295.377s] [ 82%] [32m[1mLinking CXX executable cartographer.mapping.internal.3d.scan_matching.real_time_correlative_scan_matcher_3d_test[0m
+[295.642s] [ 82%] Built target cartographer.mapping.internal.3d.scan_matching.real_time_correlative_scan_matcher_3d_test
+[295.669s] [ 82%] [32mBuilding CXX object CMakeFiles/cartographer.mapping.internal.optimization.cost_functions.spa_cost_function_2d_test.dir/cartographer/mapping/internal/optimization/cost_functions/spa_cost_function_2d_test.cc.o[0m
+[296.368s] [ 83%] [32m[1mLinking CXX executable cartographer.mapping.internal.3d.scan_matching.rotation_delta_cost_functor_3d_test[0m
+[296.965s] [ 83%] Built target cartographer.mapping.internal.3d.scan_matching.rotation_delta_cost_functor_3d_test
+[297.046s] [ 83%] [32mBuilding CXX object CMakeFiles/cartographer.mapping.internal.optimization.optimization_problem_3d_test.dir/cartographer/mapping/internal/optimization/optimization_problem_3d_test.cc.o[0m
+[297.517s] In file included from [01m[K/usr/include/eigen3/Eigen/Geometry:41[m[K,
+[297.517s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/internal/constraints/constraint_builder_2d.h:28[m[K,
+[297.517s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/internal/constraints/constraint_builder_2d_test.cc:17[m[K:
+[297.517s] /usr/include/eigen3/Eigen/src/Geometry/Rotation2D.h: In instantiation of ‘[01m[Kstatic Eigen::Rotation2D<Scalar> Eigen::Rotation2D<Scalar>::Identity() [with _Scalar = double][m[K’:
+[297.517s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/transform/rigid_transform.h:40:74:[m[K   required from ‘[01m[Kcartographer::transform::Rigid2<FloatType>::Rigid2() [with FloatType = double][m[K’
+[297.517s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/transform/rigid_transform.h:58:48:[m[K   required from ‘[01m[Kstatic cartographer::transform::Rigid2<FloatType> cartographer::transform::Rigid2<FloatType>::Identity() [with FloatType = double][m[K’
+[297.517s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/internal/constraints/constraint_builder_2d_test.cc:89:67:[m[K   required from here
+[297.518s] [01m[K/usr/include/eigen3/Eigen/src/Geometry/Rotation2D.h:152:46:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[KEigen::Rotation2D<double>[m[K’ when C++17 is enabled changed to match C++14 in GCC 10.1
+[297.518s]   152 |   EIGEN_DEVICE_FUNC static inline Rotation2D [01;36m[KIdentity[m[K() { return Rotation2D(0); }
+[297.518s]       |                                              [01;36m[K^~~~~~~~[m[K
+[301.608s] [ 83%] [32m[1mLinking CXX executable cartographer.mapping.internal.constraints.constraint_builder_2d_test[0m
+[302.145s] [ 83%] Built target cartographer.mapping.internal.constraints.constraint_builder_2d_test
+[302.184s] [ 83%] [32mBuilding CXX object CMakeFiles/cartographer.mapping.internal.range_data_collator_test.dir/cartographer/mapping/internal/range_data_collator_test.cc.o[0m
+[305.529s] [ 84%] [32m[1mLinking CXX executable cartographer.mapping.internal.connected_components_test[0m
+[306.264s] [ 84%] Built target cartographer.mapping.internal.connected_components_test
+[306.330s] [ 85%] [32m[1mLinking CXX executable cartographer.mapping.internal.constraints.constraint_builder_3d_test[0m
+[306.339s] [ 85%] [32mBuilding CXX object CMakeFiles/cartographer.mapping.internal.trajectory_connectivity_state_test.dir/cartographer/mapping/internal/trajectory_connectivity_state_test.cc.o[0m
+[306.716s] [ 86%] [32m[1mLinking CXX executable cartographer.mapping.internal.optimization.cost_functions.spa_cost_function_2d_test[0m
+[307.049s] [ 86%] Built target cartographer.mapping.internal.constraints.constraint_builder_3d_test
+[307.128s] [ 87%] [32mBuilding CXX object CMakeFiles/cartographer.mapping.map_builder_test.dir/cartographer/mapping/map_builder_test.cc.o[0m
+[307.143s] [ 87%] Built target cartographer.mapping.internal.optimization.cost_functions.spa_cost_function_2d_test
+[307.218s] [ 87%] [32mBuilding CXX object CMakeFiles/cartographer.mapping.pose_extrapolator_test.dir/cartographer/mapping/pose_extrapolator_test.cc.o[0m
+[307.482s] [ 87%] [32m[1mLinking CXX executable cartographer.mapping.internal.optimization.cost_functions.landmark_cost_function_3d_test[0m
+[308.105s] [ 87%] Built target cartographer.mapping.internal.optimization.cost_functions.landmark_cost_function_3d_test
+[308.179s] [ 88%] [32mBuilding CXX object CMakeFiles/cartographer.mapping.pose_graph_test.dir/cartographer/mapping/pose_graph_test.cc.o[0m
+[309.446s] [ 88%] [32m[1mLinking CXX executable cartographer.mapping.internal.motion_filter_test[0m
+[310.313s] [ 88%] Built target cartographer.mapping.internal.motion_filter_test
+[310.386s] [ 88%] [32mBuilding CXX object CMakeFiles/cartographer.mapping.pose_graph_trimmer_test.dir/cartographer/mapping/pose_graph_trimmer_test.cc.o[0m
+[313.675s] [ 88%] [32m[1mLinking CXX executable cartographer.mapping.internal.optimization.optimization_problem_3d_test[0m
+[313.835s] [ 89%] [32m[1mLinking CXX executable cartographer.mapping.internal.range_data_collator_test[0m
+[314.043s] [ 89%] Built target cartographer.mapping.internal.range_data_collator_test
+[314.071s] [ 90%] [32mBuilding CXX object CMakeFiles/cartographer.mapping.probability_values_test.dir/cartographer/mapping/probability_values_test.cc.o[0m
+[314.297s] In file included from [01m[K/usr/include/eigen3/Eigen/Geometry:41[m[K,
+[314.297s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/internal/optimization/cost_functions/landmark_cost_function_2d.h:21[m[K,
+[314.297s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/internal/optimization/cost_functions/landmark_cost_function_2d_test.cc:17[m[K:
+[314.297s] /usr/include/eigen3/Eigen/src/Geometry/Rotation2D.h: In instantiation of ‘[01m[Kstatic Eigen::Rotation2D<Scalar> Eigen::Rotation2D<Scalar>::Identity() [with _Scalar = double][m[K’:
+[314.297s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/transform/rigid_transform.h:40:74:[m[K   required from ‘[01m[Kcartographer::transform::Rigid2<FloatType>::Rigid2() [with FloatType = double][m[K’
+[314.297s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/mapping/internal/optimization/optimization_problem_2d.h:43:8:[m[K   required from here
+[314.298s] [01m[K/usr/include/eigen3/Eigen/src/Geometry/Rotation2D.h:152:46:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[KEigen::Rotation2D<double>[m[K’ when C++17 is enabled changed to match C++14 in GCC 10.1
+[314.298s]   152 |   EIGEN_DEVICE_FUNC static inline Rotation2D [01;36m[KIdentity[m[K() { return Rotation2D(0); }
+[314.298s]       |                                              [01;36m[K^~~~~~~~[m[K
+[314.319s] [ 90%] Built target cartographer.mapping.internal.optimization.optimization_problem_3d_test
+[314.391s] [ 90%] [32mBuilding CXX object CMakeFiles/cartographer.mapping.submaps_test.dir/cartographer/mapping/submaps_test.cc.o[0m
+[314.824s] [ 90%] [32m[1mLinking CXX executable cartographer.mapping.internal.trajectory_connectivity_state_test[0m
+[315.647s] [ 90%] Built target cartographer.mapping.internal.trajectory_connectivity_state_test
+[315.719s] [ 91%] [32mBuilding CXX object CMakeFiles/cartographer.mapping.trajectory_node_test.dir/cartographer/mapping/trajectory_node_test.cc.o[0m
+[319.692s] [ 91%] [32m[1mLinking CXX executable cartographer.mapping.pose_extrapolator_test[0m
+[319.745s] [ 91%] [32m[1mLinking CXX executable cartographer.mapping.pose_graph_test[0m
+[320.340s] [ 91%] Built target cartographer.mapping.pose_extrapolator_test
+[320.418s] [ 91%] [32mBuilding CXX object CMakeFiles/cartographer.mapping.value_conversion_tables_test.dir/cartographer/mapping/value_conversion_tables_test.cc.o[0m
+[321.288s] [ 91%] Built target cartographer.mapping.pose_graph_test
+[321.364s] [ 92%] [32mBuilding CXX object CMakeFiles/cartographer.sensor.compressed_point_cloud_test.dir/cartographer/sensor/compressed_point_cloud_test.cc.o[0m
+[323.627s] [ 93%] [32m[1mLinking CXX executable cartographer.mapping.internal.optimization.cost_functions.landmark_cost_function_2d_test[0m
+[323.811s] [ 93%] [32m[1mLinking CXX executable cartographer.mapping.pose_graph_trimmer_test[0m
+[323.839s] [ 93%] Built target cartographer.mapping.internal.optimization.cost_functions.landmark_cost_function_2d_test
+[323.918s] [ 93%] [32mBuilding CXX object CMakeFiles/cartographer.sensor.internal.collator_test.dir/cartographer/sensor/internal/collator_test.cc.o[0m
+[324.047s] [ 93%] Built target cartographer.mapping.pose_graph_trimmer_test
+[324.120s] [ 94%] [32mBuilding CXX object CMakeFiles/cartographer.sensor.internal.ordered_multi_queue_test.dir/cartographer/sensor/internal/ordered_multi_queue_test.cc.o[0m
+[325.027s] [ 94%] [32m[1mLinking CXX executable cartographer.mapping.submaps_test[0m
+[325.610s] [ 94%] Built target cartographer.mapping.submaps_test
+[325.686s] [ 94%] [32mBuilding CXX object CMakeFiles/cartographer.sensor.internal.trajectory_collator_test.dir/cartographer/sensor/internal/trajectory_collator_test.cc.o[0m
+[326.583s] [ 94%] [32m[1mLinking CXX executable cartographer.mapping.value_conversion_tables_test[0m
+[326.983s] [ 94%] Built target cartographer.mapping.value_conversion_tables_test
+[327.013s] [ 95%] [32mBuilding CXX object CMakeFiles/cartographer.sensor.internal.voxel_filter_test.dir/cartographer/sensor/internal/voxel_filter_test.cc.o[0m
+[327.451s] [ 95%] [32m[1mLinking CXX executable cartographer.mapping.map_builder_test[0m
+[327.690s] [ 95%] [32m[1mLinking CXX executable cartographer.mapping.trajectory_node_test[0m
+[328.160s] [ 95%] Built target cartographer.mapping.trajectory_node_test
+[328.190s] [ 95%] [32mBuilding CXX object CMakeFiles/cartographer.sensor.landmark_data_test.dir/cartographer/sensor/landmark_data_test.cc.o[0m
+[328.944s] [ 95%] [32m[1mLinking CXX executable cartographer.mapping.probability_values_test[0m
+[329.142s] [ 95%] Built target cartographer.mapping.probability_values_test
+[329.170s] [ 96%] [32mBuilding CXX object CMakeFiles/cartographer.sensor.map_by_time_test.dir/cartographer/sensor/map_by_time_test.cc.o[0m
+[329.583s] [ 96%] Built target cartographer.mapping.map_builder_test
+[329.658s] [ 96%] [32mBuilding CXX object CMakeFiles/cartographer.sensor.point_cloud_test.dir/cartographer/sensor/point_cloud_test.cc.o[0m
+[333.692s] [ 96%] [32m[1mLinking CXX executable cartographer.sensor.internal.ordered_multi_queue_test[0m
+[334.318s] [ 96%] Built target cartographer.sensor.internal.ordered_multi_queue_test
+[334.393s] [ 96%] [32mBuilding CXX object CMakeFiles/cartographer.sensor.range_data_test.dir/cartographer/sensor/range_data_test.cc.o[0m
+[336.417s] [ 96%] [32m[1mLinking CXX executable cartographer.sensor.internal.trajectory_collator_test[0m
+[337.073s] [ 96%] Built target cartographer.sensor.internal.trajectory_collator_test
+[337.150s] [ 96%] [32mBuilding CXX object CMakeFiles/cartographer.transform.rigid_transform_test.dir/cartographer/transform/rigid_transform_test.cc.o[0m
+[337.350s] [ 96%] [32m[1mLinking CXX executable cartographer.sensor.internal.voxel_filter_test[0m
+[337.618s] [ 96%] Built target cartographer.sensor.internal.voxel_filter_test
+[337.645s] [ 96%] [32mBuilding CXX object CMakeFiles/cartographer.transform.timestamped_transform_test.dir/cartographer/transform/timestamped_transform_test.cc.o[0m
+[337.869s] [ 96%] [32m[1mLinking CXX executable cartographer.sensor.compressed_point_cloud_test[0m
+[338.764s] [ 96%] Built target cartographer.sensor.compressed_point_cloud_test
+[338.840s] [ 96%] [32mBuilding CXX object CMakeFiles/cartographer.transform.transform_interpolation_buffer_test.dir/cartographer/transform/transform_interpolation_buffer_test.cc.o[0m
+[339.701s] [ 96%] [32m[1mLinking CXX executable cartographer.sensor.map_by_time_test[0m
+[340.016s] [ 96%] [32m[1mLinking CXX executable cartographer.sensor.landmark_data_test[0m
+[340.081s] [ 96%] Built target cartographer.sensor.map_by_time_test
+[340.157s] [ 96%] [32mBuilding CXX object CMakeFiles/cartographer.transform.transform_test.dir/cartographer/transform/transform_test.cc.o[0m
+[340.299s] [ 96%] Built target cartographer.sensor.landmark_data_test
+[340.450s] In file included from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/transform/transform.h:26[m[K,
+[340.451s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/sensor/rangefinder_point.h:24[m[K,
+[340.451s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/sensor/point_cloud.h:24[m[K,
+[340.452s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/sensor/point_cloud_test.cc:17[m[K:
+[340.452s] /home/faith/Work/carto_ws/src/cartographer/cartographer/transform/rigid_transform.h: In instantiation of ‘[01m[Kcartographer::transform::Rigid2<FloatType>::Rotation2D cartographer::transform::Rigid2<FloatType>::rotation() const [with FloatType = float; cartographer::transform::Rigid2<FloatType>::Rotation2D = Eigen::Rotation2D<float>][m[K’:
+[340.453s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/transform/transform.h:113:45:[m[K   required from ‘[01m[Kcartographer::transform::Rigid3<FloatType> cartographer::transform::Embed3D(const cartographer::transform::Rigid2<FloatType>&) [with T = float][m[K’
+[340.453s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/sensor/point_cloud_test.cc:38:38:[m[K   required from here
+[340.454s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/transform/rigid_transform.h:68:14:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[KEigen::Rotation2D<float>[m[K’ when C++17 is enabled changed to match C++14 in GCC 10.1
+[340.454s]    68 |   Rotation2D [01;36m[Krotation[m[K() const { return rotation_; }
+[340.455s]       |              [01;36m[K^~~~~~~~[m[K
+[344.219s] [ 96%] [32m[1mLinking CXX executable cartographer.sensor.range_data_test[0m
+[344.817s] [ 96%] Built target cartographer.sensor.range_data_test
+[345.278s] [ 97%] [32m[1mLinking CXX executable cartographer.sensor.point_cloud_test[0m
+[345.756s] In file included from [01m[K/usr/include/eigen3/Eigen/Geometry:41[m[K,
+[345.757s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/transform/rigid_transform.h:25[m[K,
+[345.758s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/transform/rigid_transform_test.cc:16[m[K:
+[345.758s] /usr/include/eigen3/Eigen/src/Geometry/Rotation2D.h: In instantiation of ‘[01m[KEigen::Rotation2D<Scalar> Eigen::Rotation2D<Scalar>::inverse() const [with _Scalar = double][m[K’:
+[345.759s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/transform/rigid_transform.h:75:50:[m[K   required from ‘[01m[Kcartographer::transform::Rigid2<FloatType> cartographer::transform::Rigid2<FloatType>::inverse() const [with FloatType = double][m[K’
+[345.759s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/transform/rigid_transform_test.cc:72:3:[m[K   required from ‘[01m[Kvoid cartographer::transform::{anonymous}::RigidTransformTest_Inverse2DTest_Test<gtest_TypeParam_>::TestBody() [with gtest_TypeParam_ = double][m[K’
+[345.760s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/transform/rigid_transform_test.cc:70:1:[m[K   required from here
+[345.760s] [01m[K/usr/include/eigen3/Eigen/src/Geometry/Rotation2D.h:98:39:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[KEigen::Rotation2D<double>[m[K’ when C++17 is enabled changed to match C++14 in GCC 10.1
+[345.761s]    98 |   EIGEN_DEVICE_FUNC inline Rotation2D [01;36m[Kinverse[m[K() const { return Rotation2D(-m_angle); }
+[345.761s]       |                                       [01;36m[K^~~~~~~[m[K
+[345.873s] /usr/include/eigen3/Eigen/src/Geometry/Rotation2D.h: In instantiation of ‘[01m[KEigen::Rotation2D<Scalar> Eigen::Rotation2D<Scalar>::inverse() const [with _Scalar = float][m[K’:
+[345.873s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/transform/rigid_transform.h:75:50:[m[K   required from ‘[01m[Kcartographer::transform::Rigid2<FloatType> cartographer::transform::Rigid2<FloatType>::inverse() const [with FloatType = float][m[K’
+[345.874s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/transform/rigid_transform_test.cc:72:3:[m[K   required from ‘[01m[Kvoid cartographer::transform::{anonymous}::RigidTransformTest_Inverse2DTest_Test<gtest_TypeParam_>::TestBody() [with gtest_TypeParam_ = float][m[K’
+[345.874s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/transform/rigid_transform_test.cc:70:1:[m[K   required from here
+[345.875s] [01m[K/usr/include/eigen3/Eigen/src/Geometry/Rotation2D.h:98:39:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[KEigen::Rotation2D<float>[m[K’ when C++17 is enabled changed to match C++14 in GCC 10.1
+[345.892s] [ 97%] Built target cartographer.sensor.point_cloud_test
+[348.117s] In file included from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/transform/transform.h:26[m[K,
+[348.118s]                  from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/transform/transform_test.cc:17[m[K:
+[348.118s] /home/faith/Work/carto_ws/src/cartographer/cartographer/transform/rigid_transform.h: In instantiation of ‘[01m[Kcartographer::transform::Rigid2<FloatType>::Rotation2D cartographer::transform::Rigid2<FloatType>::rotation() const [with FloatType = double; cartographer::transform::Rigid2<FloatType>::Rotation2D = Eigen::Rotation2D<double>][m[K’:
+[348.119s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/transform/transform.h:113:45:[m[K   required from ‘[01m[Kcartographer::transform::Rigid3<FloatType> cartographer::transform::Embed3D(const cartographer::transform::Rigid2<FloatType>&) [with T = double][m[K’
+[348.119s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/transform/transform_test.cc:69:3:[m[K   required from here
+[348.120s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/transform/rigid_transform.h:68:14:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[KEigen::Rotation2D<double>[m[K’ when C++17 is enabled changed to match C++14 in GCC 10.1
+[348.120s]    68 |   Rotation2D [01;36m[Krotation[m[K() const { return rotation_; }
+[348.121s]       |              [01;36m[K^~~~~~~~[m[K
+[348.439s] [ 98%] [32m[1mLinking CXX executable cartographer.transform.transform_interpolation_buffer_test[0m
+[349.054s] In file included from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/transform/rigid_transform_test.cc:16[m[K:
+[349.055s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/transform/rigid_transform.h:[m[K In member function ‘[01m[Kstd::string cartographer::transform::Rigid2<FloatType>::DebugString() const [with FloatType = double][m[K’:
+[349.055s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/transform/rigid_transform.h:82:56:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[KEigen::Rotation2D<double>[m[K’ when C++17 is enabled changed to match C++14 in GCC 10.1
+[349.056s]    82 |                             translation().y(), [01;36m[Krotation()[m[K.angle());
+[349.056s]       |                                                [01;36m[K~~~~~~~~^~[m[K
+[349.108s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/transform/rigid_transform.h:[m[K In member function ‘[01m[Kcartographer::transform::Rigid2<FloatType> cartographer::transform::Rigid2<FloatType>::inverse() const [with FloatType = float][m[K’:
+[349.108s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/transform/rigid_transform.h:75:22:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[KEigen::Rotation2D<float>[m[K’ when C++17 is enabled changed to match C++14 in GCC 10.1
+[349.109s]    75 |     const Rotation2D [01;36m[Krotation[m[K = rotation_.inverse();
+[349.109s]       |                      [01;36m[K^~~~~~~~[m[K
+[349.111s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/transform/rigid_transform.h:[m[K In member function ‘[01m[Kcartographer::transform::Rigid2<FloatType> cartographer::transform::Rigid2<FloatType>::inverse() const [with FloatType = double][m[K’:
+[349.111s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/transform/rigid_transform.h:75:22:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[KEigen::Rotation2D<double>[m[K’ when C++17 is enabled changed to match C++14 in GCC 10.1
+[349.268s] [ 98%] Built target cartographer.transform.transform_interpolation_buffer_test
+[349.730s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/transform/rigid_transform.h:[m[K In constructor ‘[01m[Kcartographer::transform::Rigid2<FloatType>::Rigid2() [with FloatType = float][m[K’:
+[349.731s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/transform/rigid_transform.h:40:74:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[KEigen::Rotation2D<float>[m[K’ when C++17 is enabled changed to match C++14 in GCC 10.1
+[349.731s]    40 |   Rigid2() : translation_(Vector::Zero()), rotation_([01;36m[KRotation2D::Identity()[m[K) {}
+[349.732s]       |                                                      [01;36m[K~~~~~~~~~~~~~~~~~~~~^~[m[K
+[349.816s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/transform/rigid_transform.h:[m[K In member function ‘[01m[Kstd::string cartographer::transform::Rigid2<FloatType>::DebugString() const [with FloatType = double][m[K’:
+[349.817s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/transform/rigid_transform.h:82:56:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[KEigen::Rotation2D<double>[m[K’ when C++17 is enabled changed to match C++14 in GCC 10.1
+[349.817s]    82 |                             translation().y(), [01;36m[Krotation()[m[K.angle());
+[349.818s]       |                                                [01;36m[K~~~~~~~~^~[m[K
+[349.874s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/transform/rigid_transform.h:[m[K In member function ‘[01m[Kstd::string cartographer::transform::Rigid2<FloatType>::DebugString() const [with FloatType = float][m[K’:
+[349.875s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/transform/rigid_transform.h:82:56:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[KEigen::Rotation2D<float>[m[K’ when C++17 is enabled changed to match C++14 in GCC 10.1
+[349.875s]    82 |                             translation().y(), [01;36m[Krotation()[m[K.angle());
+[349.875s]       |                                                [01;36m[K~~~~~~~~^~[m[K
+[350.095s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/transform/rigid_transform.h:[m[K In function ‘[01m[Kcartographer::transform::Rigid2<FloatType> cartographer::transform::operator*(const cartographer::transform::Rigid2<FloatType>&, const cartographer::transform::Rigid2<FloatType>&) [with FloatType = double][m[K’:
+[350.096s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/transform/rigid_transform.h:95:22:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[KEigen::Rotation2D<double>[m[K’ when C++17 is enabled changed to match C++14 in GCC 10.1
+[350.097s]    95 |       [01;36m[Klhs.rotation() * rhs.rotation()[m[K);
+[350.097s]       |       [01;36m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[350.123s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/transform/rigid_transform.h:[m[K In function ‘[01m[Kcartographer::transform::Rigid2<FloatType> cartographer::transform::operator*(const cartographer::transform::Rigid2<FloatType>&, const cartographer::transform::Rigid2<FloatType>&) [with FloatType = float][m[K’:
+[350.124s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/transform/rigid_transform.h:95:22:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[KEigen::Rotation2D<float>[m[K’ when C++17 is enabled changed to match C++14 in GCC 10.1
+[350.124s]    95 |       [01;36m[Klhs.rotation() * rhs.rotation()[m[K);
+[350.125s]       |       [01;36m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[350.513s] [ 98%] [32m[1mLinking CXX executable cartographer.transform.timestamped_transform_test[0m
+[350.555s] In file included from [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/transform/rigid_transform_test.cc:20[m[K:
+[350.556s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/transform/rigid_transform_test_helpers.h:[m[K In function ‘[01m[KEigen::Transform<T, 2, 2> cartographer::transform::ToEigen(const cartographer::transform::Rigid2<FloatType>&) [with T = double][m[K’:
+[350.556s] [01m[K/home/faith/Work/carto_ws/src/cartographer/cartographer/transform/rigid_transform_test_helpers.h:34:74:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[KEigen::Rotation2D<double>[m[K’ when C++17 is enabled changed to match C++14 in GCC 10.1
+[350.557s]    34 |   return Eigen::Translation<T, 2>(rigid2.translation()) * [01;36m[Krigid2.rotation()[m[K;
+[350.557s]       |                                                           [01;36m[K~~~~~~~~~~~~~~~^~[m[K
+[350.604s] [ 98%] [32m[1mLinking CXX executable cartographer.sensor.internal.collator_test[0m
+[350.811s] [ 98%] Built target cartographer.transform.timestamped_transform_test
+[350.863s] [ 98%] Built target cartographer.sensor.internal.collator_test
+[351.838s] [ 98%] [32m[1mLinking CXX executable cartographer.transform.transform_test[0m
+[352.094s] [ 98%] Built target cartographer.transform.transform_test
+[353.442s] [100%] [32m[1mLinking CXX executable cartographer.transform.rigid_transform_test[0m
+[353.763s] [100%] Built target cartographer.transform.rigid_transform_test
+[353.817s] Invoked command in '/home/faith/Work/carto_ws/build/cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/faith/Work/carto_ws/build/cartographer -- -j8 -l8
+[355.379s] Invoking command in '/home/faith/Work/carto_ws/build/cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/faith/Work/carto_ws/build/cartographer
+[355.405s] -- Install configuration: "Release"
+[355.406s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/share/cartographer/package.xml
+[355.406s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/share/cartographer//configuration_files
+[355.406s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/share/cartographer//configuration_files/trajectory_builder_3d.lua
+[355.407s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/share/cartographer//configuration_files/trajectory_builder.lua
+[355.407s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/share/cartographer//configuration_files/pose_graph.lua
+[355.408s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/share/cartographer//configuration_files/map_builder_server.lua
+[355.408s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/share/cartographer//configuration_files/map_builder.lua
+[355.409s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/share/cartographer//configuration_files/trajectory_builder_2d.lua
+[355.409s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/share/cartographer//cmake
+[355.409s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/share/cartographer//cmake/functions.cmake
+[355.410s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/share/cartographer//cmake/modules
+[355.410s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/share/cartographer//cmake/modules/FindGMock.cmake
+[355.411s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/share/cartographer//cmake/modules/FindEigen3.cmake
+[355.411s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/share/cartographer//cmake/modules/FindLuaGoogle.cmake
+[355.411s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/share/cartographer//cmake/modules/FindSphinx.cmake
+[355.412s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/bin/cartographer_autogenerate_ground_truth
+[355.413s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/bin/cartographer_compute_relations_metrics
+[355.417s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/bin/cartographer_pbstream
+[355.423s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/bin/cartographer_print_configuration
+[355.424s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/lib/libcartographer.a
+[355.445s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/include/cartographer/common/configuration_file_resolver.h
+[355.446s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/include/cartographer/common/fixed_ratio_sampler.h
+[355.446s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/include/cartographer/common/histogram.h
+[355.446s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/include/cartographer/common/lua.h
+[355.447s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/include/cartographer/common/lua_parameter_dictionary.h
+[355.447s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/include/cartographer/common/math.h
+[355.448s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/include/cartographer/common/port.h
+[355.448s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/include/cartographer/common/task.h
+[355.448s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/include/cartographer/common/thread_pool.h
+[355.449s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/include/cartographer/common/time.h
+[355.449s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/include/cartographer/ground_truth/autogenerate_ground_truth.h
+[355.449s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/include/cartographer/ground_truth/relations_text_file.h
+[355.450s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/include/cartographer/io/color.h
+[355.450s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/include/cartographer/io/coloring_points_processor.h
+[355.451s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/include/cartographer/io/counting_points_processor.h
+[355.451s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/include/cartographer/io/draw_trajectories.h
+[355.451s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/include/cartographer/io/file_writer.h
+[355.452s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/include/cartographer/io/fixed_ratio_sampling_points_processor.h
+[355.452s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/include/cartographer/io/frame_id_filtering_points_processor.h
+[355.452s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/include/cartographer/io/hybrid_grid_points_processor.h
+[355.453s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/include/cartographer/io/image.h
+[355.453s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/include/cartographer/io/intensity_to_color_points_processor.h
+[355.454s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/include/cartographer/io/min_max_range_filtering_points_processor.h
+[355.454s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/include/cartographer/io/null_points_processor.h
+[355.454s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/include/cartographer/io/outlier_removing_points_processor.h
+[355.455s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/include/cartographer/io/pcd_writing_points_processor.h
+[355.455s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/include/cartographer/io/ply_writing_points_processor.h
+[355.455s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/include/cartographer/io/points_batch.h
+[355.456s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/include/cartographer/io/points_processor.h
+[355.456s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/include/cartographer/io/points_processor_pipeline_builder.h
+[355.457s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/include/cartographer/io/probability_grid_points_processor.h
+[355.457s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/include/cartographer/io/proto_stream.h
+[355.457s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/include/cartographer/io/proto_stream_deserializer.h
+[355.458s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/include/cartographer/io/proto_stream_interface.h
+[355.458s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/include/cartographer/io/serialization_format_migration.h
+[355.459s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/include/cartographer/io/submap_painter.h
+[355.459s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/include/cartographer/io/vertical_range_filtering_points_processor.h
+[355.459s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/include/cartographer/io/xray_points_processor.h
+[355.460s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/include/cartographer/io/xyz_writing_points_processor.h
+[355.460s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/include/cartographer/mapping/2d/grid_2d.h
+[355.460s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/include/cartographer/mapping/2d/map_limits.h
+[355.461s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/include/cartographer/mapping/2d/probability_grid.h
+[355.462s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/include/cartographer/mapping/2d/probability_grid_range_data_inserter_2d.h
+[355.462s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/include/cartographer/mapping/2d/submap_2d.h
+[355.462s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/include/cartographer/mapping/2d/xy_index.h
+[355.463s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/include/cartographer/mapping/3d/hybrid_grid.h
+[355.463s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/include/cartographer/mapping/3d/range_data_inserter_3d.h
+[355.463s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/include/cartographer/mapping/3d/submap_3d.h
+[355.464s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/include/cartographer/mapping/detect_floors.h
+[355.464s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/include/cartographer/mapping/grid_interface.h
+[355.465s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/include/cartographer/mapping/id.h
+[355.465s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/include/cartographer/mapping/imu_tracker.h
+[355.465s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/include/cartographer/mapping/map_builder.h
+[355.466s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/include/cartographer/mapping/map_builder_interface.h
+[355.466s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/include/cartographer/mapping/pose_extrapolator.h
+[355.466s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/include/cartographer/mapping/pose_extrapolator_interface.h
+[355.467s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/include/cartographer/mapping/pose_graph.h
+[355.467s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/include/cartographer/mapping/pose_graph_interface.h
+[355.467s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/include/cartographer/mapping/pose_graph_trimmer.h
+[355.468s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/include/cartographer/mapping/probability_values.h
+[355.468s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/include/cartographer/mapping/range_data_inserter_interface.h
+[355.468s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/include/cartographer/mapping/submaps.h
+[355.469s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/include/cartographer/mapping/trajectory_builder_interface.h
+[355.469s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/include/cartographer/mapping/trajectory_node.h
+[355.469s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/include/cartographer/mapping/value_conversion_tables.h
+[355.470s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/include/cartographer/metrics/counter.h
+[355.470s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/include/cartographer/metrics/family_factory.h
+[355.471s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/include/cartographer/metrics/gauge.h
+[355.471s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/include/cartographer/metrics/histogram.h
+[355.471s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/include/cartographer/metrics/register.h
+[355.472s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/include/cartographer/sensor/collator_interface.h
+[355.472s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/include/cartographer/sensor/compressed_point_cloud.h
+[355.472s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/include/cartographer/sensor/data.h
+[355.473s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/include/cartographer/sensor/fixed_frame_pose_data.h
+[355.473s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/include/cartographer/sensor/imu_data.h
+[355.473s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/include/cartographer/sensor/landmark_data.h
+[355.474s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/include/cartographer/sensor/map_by_time.h
+[355.474s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/include/cartographer/sensor/odometry_data.h
+[355.475s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/include/cartographer/sensor/point_cloud.h
+[355.475s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/include/cartographer/sensor/range_data.h
+[355.476s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/include/cartographer/sensor/rangefinder_point.h
+[355.477s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/include/cartographer/sensor/timed_point_cloud_data.h
+[355.479s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/include/cartographer/transform/rigid_transform.h
+[355.479s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/include/cartographer/transform/timestamped_transform.h
+[355.481s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/include/cartographer/transform/transform.h
+[355.482s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/include/cartographer/transform/transform_interpolation_buffer.h
+[355.484s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/include/cartographer/io/fake_file_writer.h
+[355.484s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/include/cartographer/transform/rigid_transform_test_helpers.h
+[355.485s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/include/cartographer/common/proto/ceres_solver_options.pb.h
+[355.485s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/include/cartographer/ground_truth/proto/relations.pb.h
+[355.485s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/include/cartographer/mapping/proto/cell_limits_2d.pb.h
+[355.486s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/include/cartographer/mapping/proto/connected_components.pb.h
+[355.486s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/include/cartographer/mapping/proto/grid_2d.pb.h
+[355.486s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/include/cartographer/mapping/proto/grid_2d_options.pb.h
+[355.487s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/include/cartographer/mapping/proto/hybrid_grid.pb.h
+[355.487s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/include/cartographer/mapping/proto/local_trajectory_builder_options_2d.pb.h
+[355.488s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/include/cartographer/mapping/proto/local_trajectory_builder_options_3d.pb.h
+[355.488s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/include/cartographer/mapping/proto/map_builder_options.pb.h
+[355.488s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/include/cartographer/mapping/proto/map_limits.pb.h
+[355.489s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/include/cartographer/mapping/proto/motion_filter_options.pb.h
+[355.489s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/include/cartographer/mapping/proto/normal_estimation_options_2d.pb.h
+[355.489s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/include/cartographer/mapping/proto/pose_extrapolator_options.pb.h
+[355.490s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/include/cartographer/mapping/proto/pose_graph.pb.h
+[355.490s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/include/cartographer/mapping/proto/pose_graph/constraint_builder_options.pb.h
+[355.490s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/include/cartographer/mapping/proto/pose_graph/optimization_problem_options.pb.h
+[355.491s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/include/cartographer/mapping/proto/pose_graph_options.pb.h
+[355.491s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/include/cartographer/mapping/proto/probability_grid.pb.h
+[355.491s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/include/cartographer/mapping/proto/probability_grid_range_data_inserter_options_2d.pb.h
+[355.492s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/include/cartographer/mapping/proto/range_data_inserter_options.pb.h
+[355.492s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/include/cartographer/mapping/proto/range_data_inserter_options_3d.pb.h
+[355.492s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/include/cartographer/mapping/proto/scan_matching/ceres_scan_matcher_options_2d.pb.h
+[355.493s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/include/cartographer/mapping/proto/scan_matching/ceres_scan_matcher_options_3d.pb.h
+[355.493s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/include/cartographer/mapping/proto/scan_matching/fast_correlative_scan_matcher_options_2d.pb.h
+[355.493s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/include/cartographer/mapping/proto/scan_matching/fast_correlative_scan_matcher_options_3d.pb.h
+[355.494s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/include/cartographer/mapping/proto/scan_matching/real_time_correlative_scan_matcher_options.pb.h
+[355.494s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/include/cartographer/mapping/proto/serialization.pb.h
+[355.494s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/include/cartographer/mapping/proto/submap.pb.h
+[355.495s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/include/cartographer/mapping/proto/submap_visualization.pb.h
+[355.495s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/include/cartographer/mapping/proto/submaps_options_2d.pb.h
+[355.495s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/include/cartographer/mapping/proto/submaps_options_3d.pb.h
+[355.496s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/include/cartographer/mapping/proto/trajectory.pb.h
+[355.496s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/include/cartographer/mapping/proto/trajectory_builder_options.pb.h
+[355.496s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/include/cartographer/mapping/proto/trajectory_node_data.pb.h
+[355.497s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/include/cartographer/mapping/proto/tsdf_2d.pb.h
+[355.497s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/include/cartographer/mapping/proto/tsdf_range_data_inserter_options_2d.pb.h
+[355.497s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/include/cartographer/sensor/proto/adaptive_voxel_filter_options.pb.h
+[355.498s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/include/cartographer/sensor/proto/sensor.pb.h
+[355.498s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/include/cartographer/transform/proto/timestamped_transform.pb.h
+[355.498s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/include/cartographer/transform/proto/transform.pb.h
+[355.499s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/share/cartographer/cmake/CartographerTargets.cmake
+[355.499s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/share/cartographer/cmake/CartographerTargets-release.cmake
+[355.499s] -- Installing: /home/faith/Work/carto_ws/install/cartographer/share/cartographer/cartographer-config.cmake
+[355.500s] Invoked command in '/home/faith/Work/carto_ws/build/cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/faith/Work/carto_ws/build/cartographer

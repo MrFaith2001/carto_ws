@@ -1,0 +1,36 @@
+[1.426s] Invoking command in '/home/faith/Work/carto_ws/src/city_li': PYTHONPATH=/home/faith/Work/carto_ws/build/city_li/prefix_override:/home/faith/Work/carto_ws/install/city_li/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/city_li build --build-base /home/faith/Work/carto_ws/build/city_li/build install --record /home/faith/Work/carto_ws/build/city_li/install.log --single-version-externally-managed
+[1.745s] running egg_info
+[1.746s] creating ../../build/city_li/city_li.egg-info
+[1.747s] writing ../../build/city_li/city_li.egg-info/PKG-INFO
+[1.748s] writing dependency_links to ../../build/city_li/city_li.egg-info/dependency_links.txt
+[1.748s] writing entry points to ../../build/city_li/city_li.egg-info/entry_points.txt
+[1.749s] writing requirements to ../../build/city_li/city_li.egg-info/requires.txt
+[1.749s] writing top-level names to ../../build/city_li/city_li.egg-info/top_level.txt
+[1.749s] writing manifest file '../../build/city_li/city_li.egg-info/SOURCES.txt'
+[1.751s] reading manifest file '../../build/city_li/city_li.egg-info/SOURCES.txt'
+[1.752s] writing manifest file '../../build/city_li/city_li.egg-info/SOURCES.txt'
+[1.752s] running build
+[1.753s] running build_py
+[1.753s] creating /home/faith/Work/carto_ws/build/city_li/build
+[1.753s] creating /home/faith/Work/carto_ws/build/city_li/build/lib
+[1.754s] creating /home/faith/Work/carto_ws/build/city_li/build/lib/city_li
+[1.754s] copying city_li/__init__.py -> /home/faith/Work/carto_ws/build/city_li/build/lib/city_li
+[1.754s] running install
+[1.755s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.755s]   warnings.warn(
+[1.756s] running install_lib
+[1.756s] creating /home/faith/Work/carto_ws/install/city_li/lib/python3.10/site-packages/city_li
+[1.756s] copying /home/faith/Work/carto_ws/build/city_li/build/lib/city_li/__init__.py -> /home/faith/Work/carto_ws/install/city_li/lib/python3.10/site-packages/city_li
+[1.756s] byte-compiling /home/faith/Work/carto_ws/install/city_li/lib/python3.10/site-packages/city_li/__init__.py to __init__.cpython-310.pyc
+[1.757s] running install_data
+[1.758s] creating /home/faith/Work/carto_ws/install/city_li/share/ament_index
+[1.758s] creating /home/faith/Work/carto_ws/install/city_li/share/ament_index/resource_index
+[1.758s] creating /home/faith/Work/carto_ws/install/city_li/share/ament_index/resource_index/packages
+[1.759s] copying resource/city_li -> /home/faith/Work/carto_ws/install/city_li/share/ament_index/resource_index/packages
+[1.759s] copying package.xml -> /home/faith/Work/carto_ws/install/city_li/share/city_li
+[1.759s] running install_egg_info
+[1.761s] Copying ../../build/city_li/city_li.egg-info to /home/faith/Work/carto_ws/install/city_li/lib/python3.10/site-packages/city_li-0.0.0-py3.10.egg-info
+[1.762s] running install_scripts
+[1.795s] Installing li4_node script to /home/faith/Work/carto_ws/install/city_li/lib/city_li
+[1.796s] writing list of installed files to '/home/faith/Work/carto_ws/build/city_li/install.log'
+[1.877s] Invoked command in '/home/faith/Work/carto_ws/src/city_li' returned '0': PYTHONPATH=/home/faith/Work/carto_ws/build/city_li/prefix_override:/home/faith/Work/carto_ws/install/city_li/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/city_li build --build-base /home/faith/Work/carto_ws/build/city_li/build install --record /home/faith/Work/carto_ws/build/city_li/install.log --single-version-externally-managed

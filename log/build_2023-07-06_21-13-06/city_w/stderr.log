@@ -1,0 +1,6 @@
+[01m[K/home/faith/Work/carto_ws/src/city_w/src/wang2.cpp:8:5:[m[K [01;31m[Kerror: [m[Kextra qualification ‘[01m[KsinglePerson::[m[K’ on member ‘[01m[KsinglePerson[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+    8 |     [01;31m[KsinglePerson[m[K::singlePerson(std::string name):Node(name)
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/wang2_node.dir/build.make:76: CMakeFiles/wang2_node.dir/src/wang2.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/wang2_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

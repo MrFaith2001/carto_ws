@@ -1,0 +1,38 @@
+[0.086s] Invoking command in '/home/faith/Work/carto_ws/build/faithbot_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/faith/Work/carto_ws/install/fishbot_description:/opt/ros/humble /usr/bin/cmake /home/faith/Work/carto_ws/src/faithbot_cartographer -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/faith/Work/carto_ws/install/faithbot_cartographer
+[0.585s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.586s] -- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.607s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.608s] -- Added test 'lint_cmake' to check CMake code style
+[0.608s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.614s] -- Added test 'xmllint' to check XML markup files
+[0.616s] -- Configuring done
+[0.628s] -- Generating done
+[0.634s] -- Build files have been written to: /home/faith/Work/carto_ws/build/faithbot_cartographer
+[0.654s] Invoked command in '/home/faith/Work/carto_ws/build/faithbot_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/faith/Work/carto_ws/install/fishbot_description:/opt/ros/humble /usr/bin/cmake /home/faith/Work/carto_ws/src/faithbot_cartographer -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/faith/Work/carto_ws/install/faithbot_cartographer
+[0.656s] Invoking command in '/home/faith/Work/carto_ws/build/faithbot_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/faith/Work/carto_ws/install/fishbot_description:/opt/ros/humble /usr/bin/cmake --build /home/faith/Work/carto_ws/build/faithbot_cartographer -- -j8 -l8
+[1.060s] Invoked command in '/home/faith/Work/carto_ws/build/faithbot_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/faith/Work/carto_ws/install/fishbot_description:/opt/ros/humble /usr/bin/cmake --build /home/faith/Work/carto_ws/build/faithbot_cartographer -- -j8 -l8
+[1.203s] Invoking command in '/home/faith/Work/carto_ws/build/faithbot_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/faith/Work/carto_ws/install/fishbot_description:/opt/ros/humble /usr/bin/cmake --install /home/faith/Work/carto_ws/build/faithbot_cartographer
+[1.287s] -- Install configuration: "Release"
+[1.289s] -- Up-to-date: /home/faith/Work/carto_ws/install/faithbot_cartographer/share/ament_index/resource_index/package_run_dependencies/faithbot_cartographer
+[1.301s] -- Up-to-date: /home/faith/Work/carto_ws/install/faithbot_cartographer/share/ament_index/resource_index/parent_prefix_path/faithbot_cartographer
+[1.301s] -- Up-to-date: /home/faith/Work/carto_ws/install/faithbot_cartographer/share/faithbot_cartographer/environment/ament_prefix_path.sh
+[1.302s] -- Installing: /home/faith/Work/carto_ws/install/faithbot_cartographer/share/faithbot_cartographer/environment/ament_prefix_path.dsv
+[1.302s] -- Up-to-date: /home/faith/Work/carto_ws/install/faithbot_cartographer/share/faithbot_cartographer/environment/path.sh
+[1.303s] -- Installing: /home/faith/Work/carto_ws/install/faithbot_cartographer/share/faithbot_cartographer/environment/path.dsv
+[1.303s] -- Up-to-date: /home/faith/Work/carto_ws/install/faithbot_cartographer/share/faithbot_cartographer/local_setup.bash
+[1.304s] -- Up-to-date: /home/faith/Work/carto_ws/install/faithbot_cartographer/share/faithbot_cartographer/local_setup.sh
+[1.304s] -- Up-to-date: /home/faith/Work/carto_ws/install/faithbot_cartographer/share/faithbot_cartographer/local_setup.zsh
+[1.304s] -- Installing: /home/faith/Work/carto_ws/install/faithbot_cartographer/share/faithbot_cartographer/local_setup.dsv
+[1.305s] -- Installing: /home/faith/Work/carto_ws/install/faithbot_cartographer/share/faithbot_cartographer/package.dsv
+[1.305s] -- Up-to-date: /home/faith/Work/carto_ws/install/faithbot_cartographer/share/ament_index/resource_index/packages/faithbot_cartographer
+[1.306s] -- Up-to-date: /home/faith/Work/carto_ws/install/faithbot_cartographer/share/faithbot_cartographer/cmake/faithbot_cartographerConfig.cmake
+[1.306s] -- Up-to-date: /home/faith/Work/carto_ws/install/faithbot_cartographer/share/faithbot_cartographer/cmake/faithbot_cartographerConfig-version.cmake
+[1.307s] -- Up-to-date: /home/faith/Work/carto_ws/install/faithbot_cartographer/share/faithbot_cartographer/package.xml
+[1.308s] -- Up-to-date: /home/faith/Work/carto_ws/install/faithbot_cartographer/share/faithbot_cartographer/config
+[1.308s] -- Up-to-date: /home/faith/Work/carto_ws/install/faithbot_cartographer/share/faithbot_cartographer/config/faithbot_2d.lua
+[1.308s] -- Up-to-date: /home/faith/Work/carto_ws/install/faithbot_cartographer/share/faithbot_cartographer/config/faithbot.lua
+[1.309s] -- Up-to-date: /home/faith/Work/carto_ws/install/faithbot_cartographer/share/faithbot_cartographer/launch
+[1.309s] -- Up-to-date: /home/faith/Work/carto_ws/install/faithbot_cartographer/share/faithbot_cartographer/launch/cartographer.launch.py
+[1.310s] -- Up-to-date: /home/faith/Work/carto_ws/install/faithbot_cartographer/share/faithbot_cartographer/rviz
+[1.310s] -- Up-to-date: /home/faith/Work/carto_ws/install/faithbot_cartographer/share/faithbot_cartographer/rviz/cartographer.rviz
+[1.334s] Invoked command in '/home/faith/Work/carto_ws/build/faithbot_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/faith/Work/carto_ws/install/fishbot_description:/opt/ros/humble /usr/bin/cmake --install /home/faith/Work/carto_ws/build/faithbot_cartographer

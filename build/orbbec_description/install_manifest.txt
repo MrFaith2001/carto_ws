@@ -1,0 +1,15 @@
+/home/faith/Work/carto_ws/install/orbbec_description/share/ament_index/resource_index/package_run_dependencies/orbbec_description
+/home/faith/Work/carto_ws/install/orbbec_description/share/ament_index/resource_index/parent_prefix_path/orbbec_description
+/home/faith/Work/carto_ws/install/orbbec_description/share/orbbec_description/environment/ament_prefix_path.sh
+/home/faith/Work/carto_ws/install/orbbec_description/share/orbbec_description/environment/ament_prefix_path.dsv
+/home/faith/Work/carto_ws/install/orbbec_description/share/orbbec_description/environment/path.sh
+/home/faith/Work/carto_ws/install/orbbec_description/share/orbbec_description/environment/path.dsv
+/home/faith/Work/carto_ws/install/orbbec_description/share/orbbec_description/local_setup.bash
+/home/faith/Work/carto_ws/install/orbbec_description/share/orbbec_description/local_setup.sh
+/home/faith/Work/carto_ws/install/orbbec_description/share/orbbec_description/local_setup.zsh
+/home/faith/Work/carto_ws/install/orbbec_description/share/orbbec_description/local_setup.dsv
+/home/faith/Work/carto_ws/install/orbbec_description/share/orbbec_description/package.dsv
+/home/faith/Work/carto_ws/install/orbbec_description/share/ament_index/resource_index/packages/orbbec_description
+/home/faith/Work/carto_ws/install/orbbec_description/share/orbbec_description/cmake/orbbec_descriptionConfig.cmake
+/home/faith/Work/carto_ws/install/orbbec_description/share/orbbec_description/cmake/orbbec_descriptionConfig-version.cmake
+/home/faith/Work/carto_ws/install/orbbec_description/share/orbbec_description/package.xml

@@ -1,0 +1,22 @@
+[2.172s] Invoking command in '/home/faith/Work/carto_ws/src/fishbot_description': PYTHONPATH=/home/faith/Work/carto_ws/build/fishbot_description/prefix_override:/home/faith/Work/carto_ws/install/fishbot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/fishbot_description build --build-base /home/faith/Work/carto_ws/build/fishbot_description/build install --record /home/faith/Work/carto_ws/build/fishbot_description/install.log --single-version-externally-managed
+[2.685s] running egg_info
+[2.686s] writing ../../build/fishbot_description/fishbot_description.egg-info/PKG-INFO
+[2.687s] writing dependency_links to ../../build/fishbot_description/fishbot_description.egg-info/dependency_links.txt
+[2.687s] writing entry points to ../../build/fishbot_description/fishbot_description.egg-info/entry_points.txt
+[2.687s] writing requirements to ../../build/fishbot_description/fishbot_description.egg-info/requires.txt
+[2.688s] writing top-level names to ../../build/fishbot_description/fishbot_description.egg-info/top_level.txt
+[2.698s] reading manifest file '../../build/fishbot_description/fishbot_description.egg-info/SOURCES.txt'
+[2.699s] writing manifest file '../../build/fishbot_description/fishbot_description.egg-info/SOURCES.txt'
+[2.700s] running build
+[2.700s] running build_py
+[2.700s] running install
+[2.700s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.701s]   warnings.warn(
+[2.701s] running install_lib
+[2.702s] running install_data
+[2.703s] running install_egg_info
+[2.703s] removing '/home/faith/Work/carto_ws/install/fishbot_description/lib/python3.10/site-packages/fishbot_description-0.0.0-py3.10.egg-info' (and everything under it)
+[2.704s] Copying ../../build/fishbot_description/fishbot_description.egg-info to /home/faith/Work/carto_ws/install/fishbot_description/lib/python3.10/site-packages/fishbot_description-0.0.0-py3.10.egg-info
+[2.704s] running install_scripts
+[2.734s] writing list of installed files to '/home/faith/Work/carto_ws/build/fishbot_description/install.log'
+[2.805s] Invoked command in '/home/faith/Work/carto_ws/src/fishbot_description' returned '0': PYTHONPATH=/home/faith/Work/carto_ws/build/fishbot_description/prefix_override:/home/faith/Work/carto_ws/install/fishbot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/fishbot_description build --build-base /home/faith/Work/carto_ws/build/fishbot_description/build install --record /home/faith/Work/carto_ws/build/fishbot_description/install.log --single-version-externally-managed

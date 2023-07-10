@@ -1,0 +1,26 @@
+[0.023s] Invoking command in '/home/faith/Work/carto_ws/build/city_w': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/faith/Work/carto_ws/install/yahboomcar_description:/home/faith/Work/carto_ws/install/fishbot_description:/home/faith/Work/carto_ws/install/city_li:/opt/ros/humble /usr/bin/cmake --build /home/faith/Work/carto_ws/build/city_w -- -j8 -l8
+[0.119s] [35m[1mConsolidate compiler generated dependencies of target wang2_node[0m
+[0.164s] [ 50%] [32mBuilding CXX object CMakeFiles/wang2_node.dir/src/wang2.cpp.o[0m
+[4.303s] [100%] [32m[1mLinking CXX executable wang2_node[0m
+[4.602s] [100%] Built target wang2_node
+[4.643s] Invoked command in '/home/faith/Work/carto_ws/build/city_w' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/faith/Work/carto_ws/install/yahboomcar_description:/home/faith/Work/carto_ws/install/fishbot_description:/home/faith/Work/carto_ws/install/city_li:/opt/ros/humble /usr/bin/cmake --build /home/faith/Work/carto_ws/build/city_w -- -j8 -l8
+[4.752s] Invoking command in '/home/faith/Work/carto_ws/build/city_w': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/faith/Work/carto_ws/install/yahboomcar_description:/home/faith/Work/carto_ws/install/fishbot_description:/home/faith/Work/carto_ws/install/city_li:/opt/ros/humble /usr/bin/cmake --install /home/faith/Work/carto_ws/build/city_w
+[4.780s] -- Install configuration: ""
+[4.781s] -- Installing: /home/faith/Work/carto_ws/install/city_w/share/ament_index/resource_index/package_run_dependencies/city_w
+[4.781s] -- Installing: /home/faith/Work/carto_ws/install/city_w/share/ament_index/resource_index/parent_prefix_path/city_w
+[4.782s] -- Installing: /home/faith/Work/carto_ws/install/city_w/share/city_w/environment/ament_prefix_path.sh
+[4.782s] -- Installing: /home/faith/Work/carto_ws/install/city_w/share/city_w/environment/ament_prefix_path.dsv
+[4.783s] -- Installing: /home/faith/Work/carto_ws/install/city_w/share/city_w/environment/path.sh
+[4.783s] -- Installing: /home/faith/Work/carto_ws/install/city_w/share/city_w/environment/path.dsv
+[4.783s] -- Installing: /home/faith/Work/carto_ws/install/city_w/share/city_w/local_setup.bash
+[4.784s] -- Installing: /home/faith/Work/carto_ws/install/city_w/share/city_w/local_setup.sh
+[4.784s] -- Installing: /home/faith/Work/carto_ws/install/city_w/share/city_w/local_setup.zsh
+[4.785s] -- Installing: /home/faith/Work/carto_ws/install/city_w/share/city_w/local_setup.dsv
+[4.785s] -- Installing: /home/faith/Work/carto_ws/install/city_w/share/city_w/package.dsv
+[4.785s] -- Installing: /home/faith/Work/carto_ws/install/city_w/share/ament_index/resource_index/packages/city_w
+[4.786s] -- Installing: /home/faith/Work/carto_ws/install/city_w/share/city_w/cmake/city_wConfig.cmake
+[4.786s] -- Installing: /home/faith/Work/carto_ws/install/city_w/share/city_w/cmake/city_wConfig-version.cmake
+[4.787s] -- Installing: /home/faith/Work/carto_ws/install/city_w/share/city_w/package.xml
+[4.787s] -- Installing: /home/faith/Work/carto_ws/install/city_w/lib/city_w/wang2_node
+[4.788s] -- Set runtime path of "/home/faith/Work/carto_ws/install/city_w/lib/city_w/wang2_node" to ""
+[4.794s] Invoked command in '/home/faith/Work/carto_ws/build/city_w' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/faith/Work/carto_ws/install/yahboomcar_description:/home/faith/Work/carto_ws/install/fishbot_description:/home/faith/Work/carto_ws/install/city_li:/opt/ros/humble /usr/bin/cmake --install /home/faith/Work/carto_ws/build/city_w

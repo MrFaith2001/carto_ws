@@ -1,0 +1,234 @@
+[0.035s] Invoking command in '/home/faith/Work/carto_ws/build/astra_camera': AMENT_PREFIX_PATH=/home/faith/Work/carto_ws/install/astra_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/faith/Work/carto_ws/install/astra_camera_msgs:/home/faith/Work/carto_ws/install/sllidar_ros2:/home/faith/Work/carto_ws/install/orbbec_description:/home/faith/Work/carto_ws/install/orbbec_camera:/home/faith/Work/carto_ws/install/orbbec_camera_msgs:/home/faith/Work/carto_ws/install/faithbot_cartographer:/home/faith/Work/carto_ws/install/cartographer_rviz:/home/faith/Work/carto_ws/install/cartographer_ros:/home/faith/Work/carto_ws/install/cartographer_ros_msgs:/home/faith/Work/carto_ws/install/cartographer:/home/faith/Work/carto_ws/install/fishbot_description:/opt/ros/humble LD_LIBRARY_PATH=/home/faith/Work/carto_ws/install/astra_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/faith/Work/carto_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/faith/Work/carto_ws/src/ros2_astra_camera/astra_camera -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/faith/Work/carto_ws/install/astra_camera
+[0.240s] -- The C compiler identification is GNU 11.3.0
+[0.480s] -- The CXX compiler identification is GNU 11.3.0
+[0.508s] -- Detecting C compiler ABI info
+[0.738s] -- Detecting C compiler ABI info - done
+[0.775s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.776s] -- Detecting C compile features
+[0.778s] -- Detecting C compile features - done
+[0.784s] -- Detecting CXX compiler ABI info
+[1.012s] -- Detecting CXX compiler ABI info - done
+[1.052s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.053s] -- Detecting CXX compile features
+[1.056s] -- Detecting CXX compile features - done
+[1.062s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.448s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[1.658s] -- Found ament_index_cpp: 1.4.0 (/opt/ros/humble/share/ament_index_cpp/cmake)
+[1.660s] -- Found astra_camera_msgs: 1.0.1 (/home/faith/Work/carto_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake)
+[1.728s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.737s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.752s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.775s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.807s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.312s] -- Found camera_info_manager: 3.1.5 (/opt/ros/humble/share/camera_info_manager/cmake)
+[2.442s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.449s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.733s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.831s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.927s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.948s] -- Looking for pthread.h
+[3.166s] -- Looking for pthread.h - found
+[3.166s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.402s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.406s] -- Found Threads: TRUE  
+[3.775s] -- Found class_loader: 2.2.0 (/opt/ros/humble/share/class_loader/cmake)
+[3.795s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[3.850s] -- Found image_geometry: 3.2.1 (/opt/ros/humble/share/image_geometry/cmake)
+[3.866s] -- Found image_publisher: 3.0.0 (/opt/ros/humble/share/image_publisher/cmake)
+[4.094s] -- Found JPEG: /usr/lib/aarch64-linux-gnu/libjpeg.so (found version "80") 
+[4.095s] -- Found JPEG library using standard module
+[4.096s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[4.096s]   The package name passed to `find_package_handle_standard_args` (JPEG) does
+[4.096s]   not match the name of the calling package (JpegPkg).  This can lead to
+[4.097s]   problems in calling code that expects `find_package` result variables
+[4.097s]   (e.g., `_FOUND`) to follow a certain pattern.
+[4.097s] Call Stack (most recent call first):
+[4.098s]   /usr/local/lib/cmake/libuvc/FindJpegPkg.cmake:58 (find_package_handle_standard_args)
+[4.098s]   /usr/local/lib/cmake/libuvc/libuvcConfig.cmake:13 (find_package)
+[4.099s]   CMakeLists.txt:27 (find_package)
+[4.099s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[4.099s] [0m
+[4.100s] -- Found JPEG: /usr/lib/aarch64-linux-gnu/libjpeg.so  
+[4.102s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[4.104s] -- Checking for module 'libusb-1.0'
+[4.140s] --   Found libusb-1.0, version 1.0.25
+[4.230s] -- libusb-1.0 found using pkgconfig
+[4.250s] -- Found OpenCV: /usr (found version "4.5.4") 
+[4.257s] -- Found std_srvs: 4.2.3 (/opt/ros/humble/share/std_srvs/cmake)
+[4.293s] -- Found tf2: 0.25.2 (/opt/ros/humble/share/tf2/cmake)
+[4.309s] -- Found tf2_eigen: 0.25.2 (/opt/ros/humble/share/tf2_eigen/cmake)
+[4.758s] -- Found tf2_sensor_msgs: 0.25.2 (/opt/ros/humble/share/tf2_sensor_msgs/cmake)
+[4.805s] -- ORRBEC Machine : aarch64
+[4.806s] 
+[4.807s] -- ORRBEC Machine Bits : 64
+[4.807s] 
+[4.807s] -- ORRBEC : arm64
+[5.088s] -- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.366s] -- Configuring done
+[5.477s] -- Generating done
+[5.481s] -- Build files have been written to: /home/faith/Work/carto_ws/build/astra_camera
+[5.520s] Invoked command in '/home/faith/Work/carto_ws/build/astra_camera' returned '0': AMENT_PREFIX_PATH=/home/faith/Work/carto_ws/install/astra_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/faith/Work/carto_ws/install/astra_camera_msgs:/home/faith/Work/carto_ws/install/sllidar_ros2:/home/faith/Work/carto_ws/install/orbbec_description:/home/faith/Work/carto_ws/install/orbbec_camera:/home/faith/Work/carto_ws/install/orbbec_camera_msgs:/home/faith/Work/carto_ws/install/faithbot_cartographer:/home/faith/Work/carto_ws/install/cartographer_rviz:/home/faith/Work/carto_ws/install/cartographer_ros:/home/faith/Work/carto_ws/install/cartographer_ros_msgs:/home/faith/Work/carto_ws/install/cartographer:/home/faith/Work/carto_ws/install/fishbot_description:/opt/ros/humble LD_LIBRARY_PATH=/home/faith/Work/carto_ws/install/astra_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/faith/Work/carto_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/faith/Work/carto_ws/src/ros2_astra_camera/astra_camera -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/faith/Work/carto_ws/install/astra_camera
+[5.520s] Invoking command in '/home/faith/Work/carto_ws/build/astra_camera': AMENT_PREFIX_PATH=/home/faith/Work/carto_ws/install/astra_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/faith/Work/carto_ws/install/astra_camera_msgs:/home/faith/Work/carto_ws/install/sllidar_ros2:/home/faith/Work/carto_ws/install/orbbec_description:/home/faith/Work/carto_ws/install/orbbec_camera:/home/faith/Work/carto_ws/install/orbbec_camera_msgs:/home/faith/Work/carto_ws/install/faithbot_cartographer:/home/faith/Work/carto_ws/install/cartographer_rviz:/home/faith/Work/carto_ws/install/cartographer_ros:/home/faith/Work/carto_ws/install/cartographer_ros_msgs:/home/faith/Work/carto_ws/install/cartographer:/home/faith/Work/carto_ws/install/fishbot_description:/opt/ros/humble LD_LIBRARY_PATH=/home/faith/Work/carto_ws/install/astra_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/faith/Work/carto_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/faith/Work/carto_ws/build/astra_camera -- -j8 -l8
+[5.687s] [ 25%] [32mBuilding CXX object CMakeFiles/astra_camera.dir/src/device_listener.cpp.o[0m
+[5.688s] [ 25%] [32mBuilding CXX object CMakeFiles/astra_camera.dir/src/ob_frame_listener.cpp.o[0m
+[5.688s] [ 25%] [32mBuilding CXX object CMakeFiles/astra_camera.dir/src/ob_timer_filter.cpp.o[0m
+[5.688s] [ 25%] [32mBuilding CXX object CMakeFiles/astra_camera.dir/src/ob_camera_node_factory.cpp.o[0m
+[5.703s] [ 31%] [32mBuilding CXX object CMakeFiles/astra_camera.dir/src/dynamic_params.cpp.o[0m
+[5.709s] [ 37%] [32mBuilding CXX object CMakeFiles/astra_camera.dir/src/point_cloud_proc/point_cloud_xyz.cpp.o[0m
+[5.709s] [ 43%] [32mBuilding CXX object CMakeFiles/astra_camera.dir/src/ob_camera_info.cpp.o[0m
+[5.712s] [ 50%] [32mBuilding CXX object CMakeFiles/astra_camera.dir/src/point_cloud_proc/point_cloud_xyzrgb.cpp.o[0m
+[12.345s] [ 56%] [32mBuilding CXX object CMakeFiles/astra_camera.dir/src/ob_camera_node.cpp.o[0m
+[12.500s] [ 62%] [32mBuilding CXX object CMakeFiles/astra_camera.dir/src/ros_param_backend.cpp.o[0m
+[13.123s] [ 68%] [32mBuilding CXX object CMakeFiles/astra_camera.dir/src/ros_service.cpp.o[0m
+[16.874s] [ 75%] [32mBuilding CXX object CMakeFiles/astra_camera.dir/src/utils.cpp.o[0m
+[18.956s] [ 81%] [32mBuilding CXX object CMakeFiles/astra_camera.dir/src/uvc_camera_driver.cpp.o[0m
+[43.157s] [ 87%] [32m[1mLinking CXX shared library libastra_camera.so[0m
+[48.687s] [ 87%] Built target astra_camera
+[48.771s] [ 93%] [32mBuilding CXX object CMakeFiles/list_devices_node.dir/src/list_devices_node.cpp.o[0m
+[56.394s] [100%] [32m[1mLinking CXX executable list_devices_node[0m
+[59.675s] [100%] Built target list_devices_node
+[59.718s] Invoked command in '/home/faith/Work/carto_ws/build/astra_camera' returned '0': AMENT_PREFIX_PATH=/home/faith/Work/carto_ws/install/astra_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/faith/Work/carto_ws/install/astra_camera_msgs:/home/faith/Work/carto_ws/install/sllidar_ros2:/home/faith/Work/carto_ws/install/orbbec_description:/home/faith/Work/carto_ws/install/orbbec_camera:/home/faith/Work/carto_ws/install/orbbec_camera_msgs:/home/faith/Work/carto_ws/install/faithbot_cartographer:/home/faith/Work/carto_ws/install/cartographer_rviz:/home/faith/Work/carto_ws/install/cartographer_ros:/home/faith/Work/carto_ws/install/cartographer_ros_msgs:/home/faith/Work/carto_ws/install/cartographer:/home/faith/Work/carto_ws/install/fishbot_description:/opt/ros/humble LD_LIBRARY_PATH=/home/faith/Work/carto_ws/install/astra_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/faith/Work/carto_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/faith/Work/carto_ws/build/astra_camera -- -j8 -l8
+[59.888s] Invoking command in '/home/faith/Work/carto_ws/build/astra_camera': AMENT_PREFIX_PATH=/home/faith/Work/carto_ws/install/astra_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/faith/Work/carto_ws/install/astra_camera_msgs:/home/faith/Work/carto_ws/install/sllidar_ros2:/home/faith/Work/carto_ws/install/orbbec_description:/home/faith/Work/carto_ws/install/orbbec_camera:/home/faith/Work/carto_ws/install/orbbec_camera_msgs:/home/faith/Work/carto_ws/install/faithbot_cartographer:/home/faith/Work/carto_ws/install/cartographer_rviz:/home/faith/Work/carto_ws/install/cartographer_ros:/home/faith/Work/carto_ws/install/cartographer_ros_msgs:/home/faith/Work/carto_ws/install/cartographer:/home/faith/Work/carto_ws/install/fishbot_description:/opt/ros/humble LD_LIBRARY_PATH=/home/faith/Work/carto_ws/install/astra_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/faith/Work/carto_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/faith/Work/carto_ws/build/astra_camera
+[59.918s] -- Install configuration: "Debug"
+[59.919s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera/lib/libastra_camera.so
+[60.053s] -- Set runtime path of "/home/faith/Work/carto_ws/install/astra_camera/lib/libastra_camera.so" to ""
+[60.054s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera/lib/libOpenNI2.so
+[60.055s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera/lib//OpenNI2
+[60.055s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera/lib//OpenNI2/Drivers
+[60.056s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera/lib//OpenNI2/Drivers/OniFile.ini
+[60.057s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera/lib//OpenNI2/Drivers/liborbbec.so
+[60.057s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera/lib//OpenNI2/Drivers/libOniFile.so
+[60.058s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera/lib//OpenNI2/Drivers/orbbec.ini
+[60.059s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera/lib/astra_camera/list_devices_node
+[60.061s] -- Set runtime path of "/home/faith/Work/carto_ws/install/astra_camera/lib/astra_camera/list_devices_node" to ""
+[60.062s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera/include
+[60.062s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera/include/astra_camera
+[60.064s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera/include/astra_camera/utils.h
+[60.064s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera/include/astra_camera/device_listener.h
+[60.064s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera/include/astra_camera/ros_param_backend.h
+[60.065s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera/include/astra_camera/types.h
+[60.065s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera/include/astra_camera/ob_timer_filter.h
+[60.065s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera/include/astra_camera/dynamic_params.h
+[60.066s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera/include/astra_camera/uvc_camera_driver.h
+[60.066s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera/include/astra_camera/point_cloud_proc
+[60.067s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera/include/astra_camera/point_cloud_proc/point_cloud_xyz.h
+[60.067s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera/include/astra_camera/point_cloud_proc/point_cloud_xyzrgb.h
+[60.068s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera/include/astra_camera/point_cloud_proc/depth_traits.h
+[60.068s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera/include/astra_camera/constants.h
+[60.068s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera/include/astra_camera/ob_camera_node_factory.h
+[60.069s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera/include/astra_camera/ob_frame_listener.h
+[60.069s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera/include/astra_camera/ob_camera_node.h
+[60.070s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera/include/openni2
+[60.070s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera/include/openni2/SonixCamera.h
+[60.071s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera/include/openni2/PrimeSense.h
+[60.071s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera/include/openni2/openni2_redist
+[60.072s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera/include/openni2/openni2_redist/arm
+[60.072s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera/include/openni2/openni2_redist/arm/OpenNI2
+[60.072s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera/include/openni2/openni2_redist/arm/OpenNI2/Drivers
+[60.073s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera/include/openni2/openni2_redist/arm/OpenNI2/Drivers/OniFile.ini
+[60.073s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera/include/openni2/openni2_redist/arm/OpenNI2/Drivers/liborbbec.so
+[60.074s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera/include/openni2/openni2_redist/arm/OpenNI2/Drivers/libOniFile.so
+[60.074s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera/include/openni2/openni2_redist/arm/OpenNI2/Drivers/orbbec.ini
+[60.074s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera/include/openni2/openni2_redist/arm/OpenNI.ini
+[60.075s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera/include/openni2/openni2_redist/arm/PS1080Console
+[60.075s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera/include/openni2/openni2_redist/arm/libDepthUtils.a
+[60.076s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera/include/openni2/openni2_redist/arm/SimpleRead
+[60.076s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera/include/openni2/openni2_redist/arm/NiViewer
+[60.076s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera/include/openni2/openni2_redist/arm/libOpenNI2.so
+[60.077s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera/include/openni2/openni2_redist/x64
+[60.077s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera/include/openni2/openni2_redist/x64/OpenNI2
+[60.078s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera/include/openni2/openni2_redist/x64/OpenNI2/Drivers
+[60.078s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera/include/openni2/openni2_redist/x64/OpenNI2/Drivers/OniFile.ini
+[60.079s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera/include/openni2/openni2_redist/x64/OpenNI2/Drivers/liborbbec.so
+[60.079s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera/include/openni2/openni2_redist/x64/OpenNI2/Drivers/libOniFile.so
+[60.079s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera/include/openni2/openni2_redist/x64/OpenNI2/Drivers/orbbec.ini
+[60.080s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera/include/openni2/openni2_redist/x64/OpenNI.ini
+[60.080s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera/include/openni2/openni2_redist/x64/libOpenNI2.so
+[60.081s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera/include/openni2/openni2_redist/arm64
+[60.081s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera/include/openni2/openni2_redist/arm64/OpenNI2
+[60.081s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera/include/openni2/openni2_redist/arm64/OpenNI2/Drivers
+[60.082s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera/include/openni2/openni2_redist/arm64/OpenNI2/Drivers/OniFile.ini
+[60.082s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera/include/openni2/openni2_redist/arm64/OpenNI2/Drivers/liborbbec.so
+[60.083s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera/include/openni2/openni2_redist/arm64/OpenNI2/Drivers/libOniFile.so
+[60.083s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera/include/openni2/openni2_redist/arm64/OpenNI2/Drivers/orbbec.ini
+[60.083s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera/include/openni2/openni2_redist/arm64/OpenNI.ini
+[60.084s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera/include/openni2/openni2_redist/arm64/PS1080Console
+[60.084s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera/include/openni2/openni2_redist/arm64/libDepthUtils.a
+[60.085s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera/include/openni2/openni2_redist/arm64/SimpleRead
+[60.085s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera/include/openni2/openni2_redist/arm64/NiViewer
+[60.086s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera/include/openni2/openni2_redist/arm64/libOpenNI2.so
+[60.087s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera/include/openni2/Linux-x86
+[60.088s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera/include/openni2/Linux-x86/OniPlatformLinux-x86.h
+[60.088s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera/include/openni2/KinectProperties.h
+[60.089s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera/include/openni2/Android-Arm
+[60.089s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera/include/openni2/Android-Arm/OniPlatformAndroid-Arm.h
+[60.090s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera/include/openni2/PS1080.h
+[60.091s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera/include/openni2/OniEnums.h
+[60.091s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera/include/openni2/Win32
+[60.092s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera/include/openni2/Win32/OniPlatformWin32.h
+[60.093s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera/include/openni2/OniVersion.h
+[60.093s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera/include/openni2/OniPlatform.h
+[60.094s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera/include/openni2/OniTest.h
+[60.094s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera/include/openni2/util.h
+[60.095s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera/include/openni2/OpenNI.h
+[60.095s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera/include/openni2/MacOSX
+[60.096s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera/include/openni2/MacOSX/OniPlatformMacOSX.h
+[60.096s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera/include/openni2/OniProperties.h
+[60.097s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera/include/openni2/OniCTypes.h
+[60.098s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera/include/openni2/OniCEnums.h
+[60.098s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera/include/openni2/PSLink.h
+[60.098s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera/include/openni2/OniCAPI.h
+[60.099s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera/include/openni2/OniCProperties.h
+[60.099s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera/include/openni2/Linux-Arm
+[60.099s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera/include/openni2/Linux-Arm/OniPlatformLinux-Arm.h
+[60.100s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera/include/openni2/Driver
+[60.100s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera/include/openni2/Driver/OniDriverTypes.h
+[60.101s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera/include/openni2/Driver/OniDriverAPI.h
+[60.102s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera/share/astra_camera//launch
+[60.115s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera/share/astra_camera//launch/multi_dabai_dcw.launch.py
+[60.117s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera/share/astra_camera//launch/multi_dabai_pro.launch.py
+[60.118s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera/share/astra_camera//launch/dabai.launch.py
+[60.119s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera/share/astra_camera//launch/.gitkeep
+[60.119s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera/share/astra_camera//launch/dabai_pro.launch.py
+[60.120s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera/share/astra_camera//launch/multi_dabai.launch.py
+[60.121s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera/share/astra_camera//launch/dabai_dw.launch.py
+[60.122s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera/share/astra_camera//launch/multi_dabai_dw.launch.py
+[60.123s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera/share/astra_camera//launch/multi_astra_mini.launch.py
+[60.123s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera/share/astra_camera//launch/dabai_dcw.launch.py
+[60.124s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera/share/astra_camera//launch/astra_mini.launch.py
+[60.125s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera/share/astra_camera//config
+[60.125s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera/share/astra_camera//config/.gitkeep
+[60.126s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera/share/astra_camera//params
+[60.126s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera/share/astra_camera//params/camera_params_template.yaml
+[60.127s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera/share/astra_camera//params/astra_mini_params.yaml
+[60.128s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera/share/astra_camera//params/.gitkeep
+[60.128s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera/share/astra_camera//params/dabai_dcw_params.yaml
+[60.129s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera/share/astra_camera//params/dabai_pro_params.yaml
+[60.129s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera/share/astra_camera//params/dabai_dw_params.yaml
+[60.130s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera/share/astra_camera//params/dabai_params.yaml
+[60.130s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera/share/astra_camera//rviz
+[60.131s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera/share/astra_camera//rviz/multi_camera.rviz
+[60.131s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera/share/astra_camera//rviz/.gitkeep
+[60.132s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera/share/astra_camera//rviz/pointcloud.rviz
+[60.133s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera/share/astra_camera/environment/library_path.sh
+[60.133s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera/share/astra_camera/environment/library_path.dsv
+[60.134s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera/share/ament_index/resource_index/package_run_dependencies/astra_camera
+[60.134s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera/share/ament_index/resource_index/parent_prefix_path/astra_camera
+[60.135s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera/share/astra_camera/environment/ament_prefix_path.sh
+[60.135s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera/share/astra_camera/environment/ament_prefix_path.dsv
+[60.136s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera/share/astra_camera/environment/path.sh
+[60.136s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera/share/astra_camera/environment/path.dsv
+[60.137s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera/share/astra_camera/local_setup.bash
+[60.138s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera/share/astra_camera/local_setup.sh
+[60.138s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera/share/astra_camera/local_setup.zsh
+[60.139s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera/share/astra_camera/local_setup.dsv
+[60.139s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera/share/astra_camera/package.dsv
+[60.140s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera/share/ament_index/resource_index/packages/astra_camera
+[60.140s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera/share/ament_index/resource_index/rclcpp_components/astra_camera
+[60.149s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera/share/astra_camera/cmake/ament_cmake_export_include_directories-extras.cmake
+[60.150s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera/share/astra_camera/cmake/ament_cmake_export_libraries-extras.cmake
+[60.151s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera/share/astra_camera/cmake/ament_cmake_export_dependencies-extras.cmake
+[60.152s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera/share/astra_camera/cmake/astra_cameraConfig.cmake
+[60.153s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera/share/astra_camera/cmake/astra_cameraConfig-version.cmake
+[60.154s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera/share/astra_camera/package.xml
+[60.155s] Invoked command in '/home/faith/Work/carto_ws/build/astra_camera' returned '0': AMENT_PREFIX_PATH=/home/faith/Work/carto_ws/install/astra_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/faith/Work/carto_ws/install/astra_camera_msgs:/home/faith/Work/carto_ws/install/sllidar_ros2:/home/faith/Work/carto_ws/install/orbbec_description:/home/faith/Work/carto_ws/install/orbbec_camera:/home/faith/Work/carto_ws/install/orbbec_camera_msgs:/home/faith/Work/carto_ws/install/faithbot_cartographer:/home/faith/Work/carto_ws/install/cartographer_rviz:/home/faith/Work/carto_ws/install/cartographer_ros:/home/faith/Work/carto_ws/install/cartographer_ros_msgs:/home/faith/Work/carto_ws/install/cartographer:/home/faith/Work/carto_ws/install/fishbot_description:/opt/ros/humble LD_LIBRARY_PATH=/home/faith/Work/carto_ws/install/astra_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/faith/Work/carto_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/faith/Work/carto_ws/build/astra_camera

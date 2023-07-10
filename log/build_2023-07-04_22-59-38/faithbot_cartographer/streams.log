@@ -1,0 +1,27 @@
+[0.081s] Invoking command in '/home/faith/Work/carto_ws/build/faithbot_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/faith/Work/carto_ws/install/fishbot_description:/opt/ros/humble /usr/bin/cmake --build /home/faith/Work/carto_ws/build/faithbot_cartographer -- -j8 -l8
+[0.811s] Invoked command in '/home/faith/Work/carto_ws/build/faithbot_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/faith/Work/carto_ws/install/fishbot_description:/opt/ros/humble /usr/bin/cmake --build /home/faith/Work/carto_ws/build/faithbot_cartographer -- -j8 -l8
+[0.973s] Invoking command in '/home/faith/Work/carto_ws/build/faithbot_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/faith/Work/carto_ws/install/fishbot_description:/opt/ros/humble /usr/bin/cmake --install /home/faith/Work/carto_ws/build/faithbot_cartographer
+[0.993s] -- Install configuration: "Release"
+[0.993s] -- Up-to-date: /home/faith/Work/carto_ws/install/faithbot_cartographer/share/ament_index/resource_index/package_run_dependencies/faithbot_cartographer
+[0.993s] -- Up-to-date: /home/faith/Work/carto_ws/install/faithbot_cartographer/share/ament_index/resource_index/parent_prefix_path/faithbot_cartographer
+[0.993s] -- Up-to-date: /home/faith/Work/carto_ws/install/faithbot_cartographer/share/faithbot_cartographer/environment/ament_prefix_path.sh
+[0.993s] -- Up-to-date: /home/faith/Work/carto_ws/install/faithbot_cartographer/share/faithbot_cartographer/environment/ament_prefix_path.dsv
+[0.993s] -- Up-to-date: /home/faith/Work/carto_ws/install/faithbot_cartographer/share/faithbot_cartographer/environment/path.sh
+[0.993s] -- Up-to-date: /home/faith/Work/carto_ws/install/faithbot_cartographer/share/faithbot_cartographer/environment/path.dsv
+[0.993s] -- Up-to-date: /home/faith/Work/carto_ws/install/faithbot_cartographer/share/faithbot_cartographer/local_setup.bash
+[0.993s] -- Up-to-date: /home/faith/Work/carto_ws/install/faithbot_cartographer/share/faithbot_cartographer/local_setup.sh
+[0.993s] -- Up-to-date: /home/faith/Work/carto_ws/install/faithbot_cartographer/share/faithbot_cartographer/local_setup.zsh
+[0.994s] -- Up-to-date: /home/faith/Work/carto_ws/install/faithbot_cartographer/share/faithbot_cartographer/local_setup.dsv
+[0.994s] -- Installing: /home/faith/Work/carto_ws/install/faithbot_cartographer/share/faithbot_cartographer/package.dsv
+[0.994s] -- Up-to-date: /home/faith/Work/carto_ws/install/faithbot_cartographer/share/ament_index/resource_index/packages/faithbot_cartographer
+[0.994s] -- Up-to-date: /home/faith/Work/carto_ws/install/faithbot_cartographer/share/faithbot_cartographer/cmake/faithbot_cartographerConfig.cmake
+[0.994s] -- Up-to-date: /home/faith/Work/carto_ws/install/faithbot_cartographer/share/faithbot_cartographer/cmake/faithbot_cartographerConfig-version.cmake
+[0.994s] -- Up-to-date: /home/faith/Work/carto_ws/install/faithbot_cartographer/share/faithbot_cartographer/package.xml
+[0.994s] -- Up-to-date: /home/faith/Work/carto_ws/install/faithbot_cartographer/share/faithbot_cartographer/config
+[0.994s] -- Up-to-date: /home/faith/Work/carto_ws/install/faithbot_cartographer/share/faithbot_cartographer/config/faithbot_2d.lua
+[0.994s] -- Up-to-date: /home/faith/Work/carto_ws/install/faithbot_cartographer/share/faithbot_cartographer/config/faithbot.lua
+[0.994s] -- Up-to-date: /home/faith/Work/carto_ws/install/faithbot_cartographer/share/faithbot_cartographer/launch
+[0.994s] -- Up-to-date: /home/faith/Work/carto_ws/install/faithbot_cartographer/share/faithbot_cartographer/launch/cartographer.launch.py
+[0.994s] -- Up-to-date: /home/faith/Work/carto_ws/install/faithbot_cartographer/share/faithbot_cartographer/rviz
+[0.995s] -- Up-to-date: /home/faith/Work/carto_ws/install/faithbot_cartographer/share/faithbot_cartographer/rviz/cartographer.rviz
+[1.015s] Invoked command in '/home/faith/Work/carto_ws/build/faithbot_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/faith/Work/carto_ws/install/fishbot_description:/opt/ros/humble /usr/bin/cmake --install /home/faith/Work/carto_ws/build/faithbot_cartographer

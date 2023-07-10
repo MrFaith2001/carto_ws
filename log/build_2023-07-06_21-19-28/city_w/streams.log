@@ -1,0 +1,47 @@
+[0.025s] Invoking command in '/home/faith/Work/carto_ws/build/city_w': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/faith/Work/carto_ws/install/yahboomcar_description:/home/faith/Work/carto_ws/install/fishbot_description:/home/faith/Work/carto_ws/install/city_li:/opt/ros/humble /usr/bin/cmake --build /home/faith/Work/carto_ws/build/city_w -- -j8 -l8
+[0.150s] [35m[1mConsolidate compiler generated dependencies of target wang2_node[0m
+[0.205s] [ 50%] [32mBuilding CXX object CMakeFiles/wang2_node.dir/src/wang2.cpp.o[0m
+[3.600s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[3.601s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[3.601s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.602s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.602s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.602s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.603s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.603s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.604s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.604s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.604s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.605s]                  from [01m[K/home/faith/Work/carto_ws/src/city_w/src/wang2.cpp:1[m[K:
+[3.605s] [01m[K/home/faith/Work/carto_ws/src/city_w/src/wang2.cpp:[m[K In constructor ‘[01m[KSinglePerson::SinglePerson(std::string)[m[K’:
+[3.605s] [01m[K/home/faith/Work/carto_ws/src/city_w/src/wang2.cpp:10:41:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 5 has type ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[3.606s]    10 |         RCLCPP_INFO(this->get_logger(), [01;35m[K"%s"[m[K, name);
+[3.606s]       |                                         [01;35m[K^~~~[m[K
+[3.607s] [01m[K/home/faith/Work/carto_ws/src/city_w/src/wang2.cpp:10:43:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[3.607s]    10 |         RCLCPP_INFO(this->get_logger(), "[01;36m[K%s[m[K", name);
+[3.607s]       |                                          [01;36m[K~^[m[K
+[3.608s]       |                                           [01;36m[K|[m[K
+[3.608s]       |                                           [01;36m[Kchar*[m[K
+[4.434s] [100%] [32m[1mLinking CXX executable wang2_node[0m
+[4.671s] [100%] Built target wang2_node
+[4.689s] Invoked command in '/home/faith/Work/carto_ws/build/city_w' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/faith/Work/carto_ws/install/yahboomcar_description:/home/faith/Work/carto_ws/install/fishbot_description:/home/faith/Work/carto_ws/install/city_li:/opt/ros/humble /usr/bin/cmake --build /home/faith/Work/carto_ws/build/city_w -- -j8 -l8
+[4.789s] Invoking command in '/home/faith/Work/carto_ws/build/city_w': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/faith/Work/carto_ws/install/yahboomcar_description:/home/faith/Work/carto_ws/install/fishbot_description:/home/faith/Work/carto_ws/install/city_li:/opt/ros/humble /usr/bin/cmake --install /home/faith/Work/carto_ws/build/city_w
+[4.801s] -- Install configuration: ""
+[4.801s] -- Up-to-date: /home/faith/Work/carto_ws/install/city_w/share/ament_index/resource_index/package_run_dependencies/city_w
+[4.801s] -- Up-to-date: /home/faith/Work/carto_ws/install/city_w/share/ament_index/resource_index/parent_prefix_path/city_w
+[4.802s] -- Up-to-date: /home/faith/Work/carto_ws/install/city_w/share/city_w/environment/ament_prefix_path.sh
+[4.802s] -- Up-to-date: /home/faith/Work/carto_ws/install/city_w/share/city_w/environment/ament_prefix_path.dsv
+[4.803s] -- Up-to-date: /home/faith/Work/carto_ws/install/city_w/share/city_w/environment/path.sh
+[4.803s] -- Up-to-date: /home/faith/Work/carto_ws/install/city_w/share/city_w/environment/path.dsv
+[4.804s] -- Up-to-date: /home/faith/Work/carto_ws/install/city_w/share/city_w/local_setup.bash
+[4.804s] -- Up-to-date: /home/faith/Work/carto_ws/install/city_w/share/city_w/local_setup.sh
+[4.804s] -- Up-to-date: /home/faith/Work/carto_ws/install/city_w/share/city_w/local_setup.zsh
+[4.805s] -- Up-to-date: /home/faith/Work/carto_ws/install/city_w/share/city_w/local_setup.dsv
+[4.806s] -- Installing: /home/faith/Work/carto_ws/install/city_w/share/city_w/package.dsv
+[4.806s] -- Up-to-date: /home/faith/Work/carto_ws/install/city_w/share/ament_index/resource_index/packages/city_w
+[4.806s] -- Up-to-date: /home/faith/Work/carto_ws/install/city_w/share/city_w/cmake/city_wConfig.cmake
+[4.806s] -- Up-to-date: /home/faith/Work/carto_ws/install/city_w/share/city_w/cmake/city_wConfig-version.cmake
+[4.806s] -- Up-to-date: /home/faith/Work/carto_ws/install/city_w/share/city_w/package.xml
+[4.807s] -- Installing: /home/faith/Work/carto_ws/install/city_w/lib/city_w/wang2_node
+[4.807s] -- Set runtime path of "/home/faith/Work/carto_ws/install/city_w/lib/city_w/wang2_node" to ""
+[4.808s] Invoked command in '/home/faith/Work/carto_ws/build/city_w' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/faith/Work/carto_ws/install/yahboomcar_description:/home/faith/Work/carto_ws/install/fishbot_description:/home/faith/Work/carto_ws/install/city_li:/opt/ros/humble /usr/bin/cmake --install /home/faith/Work/carto_ws/build/city_w

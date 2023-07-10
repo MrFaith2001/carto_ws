@@ -1,0 +1,111 @@
+[0.000000] (-) TimerEvent: {}
+[0.001618] (-) JobUnselected: {'identifier': 'astra_camera'}
+[0.002100] (-) JobUnselected: {'identifier': 'astra_camera_msgs'}
+[0.003558] (-) JobUnselected: {'identifier': 'cartographer'}
+[0.003695] (-) JobUnselected: {'identifier': 'cartographer_ros'}
+[0.003816] (-) JobUnselected: {'identifier': 'cartographer_ros_msgs'}
+[0.003934] (-) JobUnselected: {'identifier': 'cartographer_rviz'}
+[0.004051] (-) JobUnselected: {'identifier': 'faithbot_cartographer'}
+[0.004282] (-) JobUnselected: {'identifier': 'fishbot_description'}
+[0.004401] (-) JobUnselected: {'identifier': 'orbbec_camera'}
+[0.004582] (-) JobUnselected: {'identifier': 'orbbec_camera_msgs'}
+[0.004728] (-) JobUnselected: {'identifier': 'orbbec_description'}
+[0.004907] (-) JobUnselected: {'identifier': 'sllidar_ros2'}
+[0.005042] (orbslam3) JobQueued: {'identifier': 'orbslam3', 'dependencies': OrderedDict()}
+[0.005171] (orbslam3) JobStarted: {'identifier': 'orbslam3'}
+[0.028876] (orbslam3) JobProgress: {'identifier': 'orbslam3', 'progress': 'cmake'}
+[0.029755] (orbslam3) Command: {'cmd': ['/usr/bin/cmake', '/home/faith/Work/carto_ws/src/orbslam3_ros2', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/faith/Work/carto_ws/install/orbslam3'], 'cwd': '/home/faith/Work/carto_ws/build/orbslam3', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7890/'), ('no_proxy', '127.0.0.1,localhost'), ('LANGUAGE', 'zh_CN.UTF-8'), ('USER', 'faith'), ('SSH_CLIENT', '192.168.0.105 57604 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/faith/Work/carto_ws/install/orbbec_camera/lib:/home/faith/Work/carto_ws/install/orbbec_camera_msgs/lib:/home/faith/Work/carto_ws/install/cartographer_rviz/lib:/home/faith/Work/carto_ws/install/cartographer_ros/lib:/home/faith/Work/carto_ws/install/cartographer_ros_msgs/lib:/home/faith/Work/carto_ws/install/astra_camera/lib:/home/faith/Work/carto_ws/install/astra_camera_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/faith'), ('OLDPWD', '/home/faith/Work/carto_ws/src'), ('NO_PROXY', '127.0.0.1,localhost'), ('SSH_TTY', '/dev/pts/6'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('https_proxy', 'http://127.0.0.1:7890/'), ('COLCON_PREFIX_PATH', '/home/faith/Work/carto_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'faith'), ('http_proxy', 'http://127.0.0.1:7890/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/faith/Work/carto_ws/install/cartographer/lib/aarch64-linux-gnu/pkgconfig:/home/faith/Work/carto_ws/install/cartographer/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '24'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/faith/Work/carto_ws/install/cartographer/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('ftp_proxy', 'http://127.0.0.1:7890/'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:12.0'), ('LANG', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/faith/Work/carto_ws/install/sllidar_ros2:/home/faith/Work/carto_ws/install/orbbec_description:/home/faith/Work/carto_ws/install/orbbec_camera:/home/faith/Work/carto_ws/install/orbbec_camera_msgs:/home/faith/Work/carto_ws/install/fishbot_description:/home/faith/Work/carto_ws/install/faithbot_cartographer:/home/faith/Work/carto_ws/install/cartographer_rviz:/home/faith/Work/carto_ws/install/cartographer_ros:/home/faith/Work/carto_ws/install/cartographer_ros_msgs:/home/faith/Work/carto_ws/install/astra_camera:/home/faith/Work/carto_ws/install/astra_camera_msgs:/opt/ros/humble'), ('LC_MESSAGES', 'en_US.UTF-8'), ('SHELL', '/usr/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/faith/Work/carto_ws/build/orbslam3'), ('LC_ALL', 'zh_CN.UTF-8'), ('SSH_CONNECTION', '192.168.0.105 57604 192.168.0.106 22'), ('FTP_PROXY', 'http://127.0.0.1:7890/'), ('PYTHONPATH', '/home/faith/Work/carto_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages:/home/faith/Work/carto_ws/install/fishbot_description/lib/python3.10/site-packages:/home/faith/Work/carto_ws/install/cartographer_ros_msgs/local/lib/python3.10/dist-packages:/home/faith/Work/carto_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890/'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/faith/Work/carto_ws/install/sllidar_ros2:/home/faith/Work/carto_ws/install/orbbec_description:/home/faith/Work/carto_ws/install/orbbec_camera:/home/faith/Work/carto_ws/install/orbbec_camera_msgs:/home/faith/Work/carto_ws/install/faithbot_cartographer:/home/faith/Work/carto_ws/install/cartographer_rviz:/home/faith/Work/carto_ws/install/cartographer_ros:/home/faith/Work/carto_ws/install/cartographer_ros_msgs:/home/faith/Work/carto_ws/install/cartographer:/home/faith/Work/carto_ws/install/astra_camera:/home/faith/Work/carto_ws/install/astra_camera_msgs:/home/faith/Work/carto_ws/install/fishbot_description:/opt/ros/humble')]), 'shell': False}
+[0.097810] (-) TimerEvent: {}
+[0.199919] (-) TimerEvent: {}
+[0.301639] (-) TimerEvent: {}
+[0.344375] (orbslam3) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[0.401930] (-) TimerEvent: {}
+[0.504417] (-) TimerEvent: {}
+[0.605885] (-) TimerEvent: {}
+[0.696323] (orbslam3) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[0.706004] (-) TimerEvent: {}
+[0.720418] (orbslam3) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.806370] (-) TimerEvent: {}
+[0.907753] (-) TimerEvent: {}
+[0.978284] (orbslam3) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.988332] (orbslam3) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.990377] (orbslam3) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.991150] (orbslam3) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.996051] (orbslam3) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.007929] (-) TimerEvent: {}
+[1.108941] (-) TimerEvent: {}
+[1.210359] (-) TimerEvent: {}
+[1.262139] (orbslam3) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.297144] (orbslam3) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.299311] (orbslam3) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.301165] (orbslam3) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.310450] (-) TimerEvent: {}
+[1.318456] (orbslam3) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.410730] (-) TimerEvent: {}
+[1.512060] (-) TimerEvent: {}
+[1.613379] (-) TimerEvent: {}
+[1.714734] (-) TimerEvent: {}
+[1.725134] (orbslam3) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[1.815068] (-) TimerEvent: {}
+[1.845297] (orbslam3) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.912709] (orbslam3) StdoutLine: {'line': b'-- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.915176] (-) TimerEvent: {}
+[1.994197] (orbslam3) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.004705] (orbslam3) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.015412] (-) TimerEvent: {}
+[2.020277] (orbslam3) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.044108] (orbslam3) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.078322] (orbslam3) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.115698] (-) TimerEvent: {}
+[2.197397] (orbslam3) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.203060] (orbslam3) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.215872] (-) TimerEvent: {}
+[2.316885] (-) TimerEvent: {}
+[2.418277] (-) TimerEvent: {}
+[2.461727] (orbslam3) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[2.518597] (-) TimerEvent: {}
+[2.525728] (orbslam3) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[2.618893] (-) TimerEvent: {}
+[2.623299] (orbslam3) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.644604] (orbslam3) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[2.719235] (-) TimerEvent: {}
+[2.820624] (-) TimerEvent: {}
+[2.889234] (orbslam3) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[2.890206] (orbslam3) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[2.920951] (-) TimerEvent: {}
+[3.022272] (-) TimerEvent: {}
+[3.123705] (-) TimerEvent: {}
+[3.172349] (orbslam3) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[3.176482] (orbslam3) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[3.223901] (-) TimerEvent: {}
+[3.325085] (-) TimerEvent: {}
+[3.426388] (-) TimerEvent: {}
+[3.455380] (orbslam3) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[3.526721] (-) TimerEvent: {}
+[3.627974] (-) TimerEvent: {}
+[3.650955] (orbslam3) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[3.681315] (orbslam3) StdoutLine: {'line': b'-- Found message_filters: 4.3.3 (/opt/ros/humble/share/message_filters/cmake)\n'}
+[3.708604] (orbslam3) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:23 (find_package):\n'}
+[3.709012] (orbslam3) StderrLine: {'line': b'  By not providing "FindSophus.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[3.709115] (orbslam3) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "Sophus", but\n'}
+[3.709199] (orbslam3) StderrLine: {'line': b'  CMake did not find one.\n'}
+[3.709277] (orbslam3) StderrLine: {'line': b'\n'}
+[3.709354] (orbslam3) StderrLine: {'line': b'  Could not find a package configuration file provided by "Sophus" with any\n'}
+[3.709430] (orbslam3) StderrLine: {'line': b'  of the following names:\n'}
+[3.709505] (orbslam3) StderrLine: {'line': b'\n'}
+[3.709597] (orbslam3) StderrLine: {'line': b'    SophusConfig.cmake\n'}
+[3.709675] (orbslam3) StderrLine: {'line': b'    sophus-config.cmake\n'}
+[3.709767] (orbslam3) StderrLine: {'line': b'\n'}
+[3.709839] (orbslam3) StderrLine: {'line': b'  Add the installation prefix of "Sophus" to CMAKE_PREFIX_PATH or set\n'}
+[3.709914] (orbslam3) StderrLine: {'line': b'  "Sophus_DIR" to a directory containing one of the above files.  If "Sophus"\n'}
+[3.709988] (orbslam3) StderrLine: {'line': b'  provides a separate development package or SDK, be sure it has been\n'}
+[3.710061] (orbslam3) StderrLine: {'line': b'  installed.\n'}
+[3.710133] (orbslam3) StderrLine: {'line': b'\n'}
+[3.710206] (orbslam3) StderrLine: {'line': b'\x1b[0m\n'}
+[3.710279] (orbslam3) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[3.710371] (orbslam3) StdoutLine: {'line': b'See also "/home/faith/Work/carto_ws/build/orbslam3/CMakeFiles/CMakeOutput.log".\n'}
+[3.728053] (-) TimerEvent: {}
+[3.742338] (orbslam3) CommandEnded: {'returncode': 1}
+[3.831354] (-) TimerEvent: {}
+[3.837277] (orbslam3) JobEnded: {'identifier': 'orbslam3', 'rc': 1}
+[3.847810] (-) EventReactorShutdown: {}

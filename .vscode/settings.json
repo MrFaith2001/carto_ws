@@ -1,0 +1,21 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/faith/Work/carto_ws/install/yahboomcar_description/lib/python3.10/site-packages",
+        "/home/faith/Work/carto_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages",
+        "/home/faith/Work/carto_ws/install/fishbot_description/lib/python3.10/site-packages",
+        "/home/faith/Work/carto_ws/install/cartographer_ros_msgs/local/lib/python3.10/dist-packages",
+        "/home/faith/Work/carto_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/faith/Work/carto_ws/install/yahboomcar_description/lib/python3.10/site-packages",
+        "/home/faith/Work/carto_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages",
+        "/home/faith/Work/carto_ws/install/fishbot_description/lib/python3.10/site-packages",
+        "/home/faith/Work/carto_ws/install/cartographer_ros_msgs/local/lib/python3.10/dist-packages",
+        "/home/faith/Work/carto_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "C_Cpp.errorSquiggles": "disabled"
+}

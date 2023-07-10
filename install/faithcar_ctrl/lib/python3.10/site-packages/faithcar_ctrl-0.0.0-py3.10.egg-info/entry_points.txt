@@ -1,0 +1,3 @@
+[console_scripts]
+key_publisher = faithcar_ctrl.keyboard_ctrl:main
+

@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target wang2_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/wang2_node.dir/src/wang2.cpp.o[0m
+[100%] [32m[1mLinking CXX executable wang2_node[0m
+[100%] Built target wang2_node
+-- Install configuration: ""
+-- Up-to-date: /home/faith/Work/carto_ws/install/city_w/share/ament_index/resource_index/package_run_dependencies/city_w
+-- Up-to-date: /home/faith/Work/carto_ws/install/city_w/share/ament_index/resource_index/parent_prefix_path/city_w
+-- Up-to-date: /home/faith/Work/carto_ws/install/city_w/share/city_w/environment/ament_prefix_path.sh
+-- Up-to-date: /home/faith/Work/carto_ws/install/city_w/share/city_w/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/faith/Work/carto_ws/install/city_w/share/city_w/environment/path.sh
+-- Up-to-date: /home/faith/Work/carto_ws/install/city_w/share/city_w/environment/path.dsv
+-- Up-to-date: /home/faith/Work/carto_ws/install/city_w/share/city_w/local_setup.bash
+-- Up-to-date: /home/faith/Work/carto_ws/install/city_w/share/city_w/local_setup.sh
+-- Up-to-date: /home/faith/Work/carto_ws/install/city_w/share/city_w/local_setup.zsh
+-- Up-to-date: /home/faith/Work/carto_ws/install/city_w/share/city_w/local_setup.dsv
+-- Installing: /home/faith/Work/carto_ws/install/city_w/share/city_w/package.dsv
+-- Up-to-date: /home/faith/Work/carto_ws/install/city_w/share/ament_index/resource_index/packages/city_w
+-- Up-to-date: /home/faith/Work/carto_ws/install/city_w/share/city_w/cmake/city_wConfig.cmake
+-- Up-to-date: /home/faith/Work/carto_ws/install/city_w/share/city_w/cmake/city_wConfig-version.cmake
+-- Up-to-date: /home/faith/Work/carto_ws/install/city_w/share/city_w/package.xml
+-- Installing: /home/faith/Work/carto_ws/install/city_w/lib/city_w/wang2_node
+-- Set runtime path of "/home/faith/Work/carto_ws/install/city_w/lib/city_w/wang2_node" to ""

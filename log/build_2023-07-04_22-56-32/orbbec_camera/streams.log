@@ -1,0 +1,111 @@
+[0.008s] Invoking command in '/home/faith/Work/carto_ws/build/orbbec_camera': CMAKE_PREFIX_PATH=/home/faith/Work/carto_ws/install/orbbec_camera_msgs:/home/faith/Work/carto_ws/install/astra_camera:/home/faith/Work/carto_ws/install/astra_camera_msgs:/home/faith/Work/carto_ws/install/sllidar_ros2:/home/faith/Work/carto_ws/install/orbbec_description:/home/faith/Work/carto_ws/install/orbbec_camera:/home/faith/Work/carto_ws/install/faithbot_cartographer:/home/faith/Work/carto_ws/install/cartographer_rviz:/home/faith/Work/carto_ws/install/cartographer_ros:/home/faith/Work/carto_ws/install/cartographer_ros_msgs:/home/faith/Work/carto_ws/install/cartographer:/home/faith/Work/carto_ws/install/fishbot_description:/opt/ros/humble LD_LIBRARY_PATH=/home/faith/Work/carto_ws/install/orbbec_camera_msgs/lib:/home/faith/Work/carto_ws/install/astra_camera/lib:/home/faith/Work/carto_ws/install/astra_camera_msgs/lib:/home/faith/Work/carto_ws/install/orbbec_camera/lib:/home/faith/Work/carto_ws/install/cartographer_rviz/lib:/home/faith/Work/carto_ws/install/cartographer_ros/lib:/home/faith/Work/carto_ws/install/cartographer_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/faith/Work/carto_ws/build/orbbec_camera -- -j8 -l8
+[0.104s] [ 47%] Built target orbbec_camera
+[0.153s] [ 57%] Built target orbbec_camera_node
+[0.160s] [ 68%] Built target ob_cleanup_shm_node
+[0.170s] [ 78%] Built target list_camera_profile_mode_node
+[0.175s] [ 89%] Built target list_devices_node
+[0.193s] [100%] Built target list_depth_work_mode_node
+[0.230s] Invoked command in '/home/faith/Work/carto_ws/build/orbbec_camera' returned '0': CMAKE_PREFIX_PATH=/home/faith/Work/carto_ws/install/orbbec_camera_msgs:/home/faith/Work/carto_ws/install/astra_camera:/home/faith/Work/carto_ws/install/astra_camera_msgs:/home/faith/Work/carto_ws/install/sllidar_ros2:/home/faith/Work/carto_ws/install/orbbec_description:/home/faith/Work/carto_ws/install/orbbec_camera:/home/faith/Work/carto_ws/install/faithbot_cartographer:/home/faith/Work/carto_ws/install/cartographer_rviz:/home/faith/Work/carto_ws/install/cartographer_ros:/home/faith/Work/carto_ws/install/cartographer_ros_msgs:/home/faith/Work/carto_ws/install/cartographer:/home/faith/Work/carto_ws/install/fishbot_description:/opt/ros/humble LD_LIBRARY_PATH=/home/faith/Work/carto_ws/install/orbbec_camera_msgs/lib:/home/faith/Work/carto_ws/install/astra_camera/lib:/home/faith/Work/carto_ws/install/astra_camera_msgs/lib:/home/faith/Work/carto_ws/install/orbbec_camera/lib:/home/faith/Work/carto_ws/install/cartographer_rviz/lib:/home/faith/Work/carto_ws/install/cartographer_ros/lib:/home/faith/Work/carto_ws/install/cartographer_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/faith/Work/carto_ws/build/orbbec_camera -- -j8 -l8
+[0.352s] Invoking command in '/home/faith/Work/carto_ws/build/orbbec_camera': CMAKE_PREFIX_PATH=/home/faith/Work/carto_ws/install/orbbec_camera_msgs:/home/faith/Work/carto_ws/install/astra_camera:/home/faith/Work/carto_ws/install/astra_camera_msgs:/home/faith/Work/carto_ws/install/sllidar_ros2:/home/faith/Work/carto_ws/install/orbbec_description:/home/faith/Work/carto_ws/install/orbbec_camera:/home/faith/Work/carto_ws/install/faithbot_cartographer:/home/faith/Work/carto_ws/install/cartographer_rviz:/home/faith/Work/carto_ws/install/cartographer_ros:/home/faith/Work/carto_ws/install/cartographer_ros_msgs:/home/faith/Work/carto_ws/install/cartographer:/home/faith/Work/carto_ws/install/fishbot_description:/opt/ros/humble LD_LIBRARY_PATH=/home/faith/Work/carto_ws/install/orbbec_camera_msgs/lib:/home/faith/Work/carto_ws/install/astra_camera/lib:/home/faith/Work/carto_ws/install/astra_camera_msgs/lib:/home/faith/Work/carto_ws/install/orbbec_camera/lib:/home/faith/Work/carto_ws/install/cartographer_rviz/lib:/home/faith/Work/carto_ws/install/cartographer_ros/lib:/home/faith/Work/carto_ws/install/cartographer_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/faith/Work/carto_ws/build/orbbec_camera
+[0.365s] -- Install configuration: "Debug"
+[0.366s] -- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/lib/liborbbec_camera.so
+[0.367s] -- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/include
+[0.367s] -- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/include/orbbec_camera
+[0.368s] -- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/include/orbbec_camera/utils.h
+[0.369s] -- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/include/orbbec_camera/ob_camera_node_driver.h
+[0.369s] -- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/include/orbbec_camera/d2c_viewer.h
+[0.370s] -- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/include/orbbec_camera/ros_param_backend.h
+[0.370s] -- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/include/orbbec_camera/dynamic_params.h
+[0.371s] -- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/include/orbbec_camera/constants.h
+[0.372s] -- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/include/orbbec_camera/synced_imu_publisher.h
+[0.376s] -- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/include/orbbec_camera/ob_camera_node.h
+[0.377s] -- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/include/magic_enum
+[0.377s] -- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/include/magic_enum/magic_enum.hpp
+[0.378s] -- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/share/orbbec_camera//launch
+[0.378s] -- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/share/orbbec_camera//launch/femto.launch.xml
+[0.379s] -- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/share/orbbec_camera//launch/gemini2.launch.xml
+[0.379s] -- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/share/orbbec_camera//launch/femto_w.launch.xml
+[0.380s] -- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/share/orbbec_camera//launch/gemini_e_lite.launch.xml
+[0.380s] -- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/share/orbbec_camera//launch/dabai_dw.launch.xml
+[0.381s] -- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/share/orbbec_camera//launch/astra_pro_plus.launch.xml
+[0.384s] -- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/share/orbbec_camera//launch/astra_stereo_u3.launch.xml
+[0.385s] -- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/share/orbbec_camera//launch/astra.launch.xml
+[0.386s] -- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/share/orbbec_camera//launch/astra_mini.launch.xml
+[0.387s] -- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/share/orbbec_camera//launch/dabai.launch.xml
+[0.388s] -- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/share/orbbec_camera//launch/dabai_dcw.launch.xml
+[0.391s] -- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/share/orbbec_camera//launch/gemini_e.launch.xml
+[0.392s] -- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/share/orbbec_camera//launch/astra_embedded_s.launch.xml
+[0.392s] -- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/share/orbbec_camera//launch/multi_camera.launch.xml
+[0.392s] -- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/share/orbbec_camera//launch/dabai_pro.launch.xml
+[0.393s] -- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/share/orbbec_camera//launch/astra_mini_pro.launch.xml
+[0.393s] -- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/share/orbbec_camera//launch/deeya.launch.xml
+[0.393s] -- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/share/orbbec_camera//launch/astra_adv.launch.xml
+[0.393s] -- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/share/orbbec_camera//launch/ob_camera.launch.xml
+[0.394s] -- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/share/orbbec_camera//launch/gemini.launch.xml
+[0.394s] -- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/share/orbbec_camera//launch/dabai_d1.launch.xml
+[0.394s] -- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/share/orbbec_camera//launch/femto_mega.launch.xml
+[0.394s] -- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/share/orbbec_camera//config
+[0.394s] -- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/share/orbbec_camera//config/.gitkeep
+[0.395s] -- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/share/orbbec_camera//config/OrbbecSDKConfig_v1.0.xml
+[0.396s] -- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/include
+[0.399s] -- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/include/libobsensor
+[0.400s] -- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/include/libobsensor/ObSensor.hpp
+[0.400s] -- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/include/libobsensor/hpp
+[0.401s] -- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/include/libobsensor/hpp/Error.hpp
+[0.401s] -- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/include/libobsensor/hpp/Filter.hpp
+[0.401s] -- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/include/libobsensor/hpp/Sensor.hpp
+[0.401s] -- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/include/libobsensor/hpp/Frame.hpp
+[0.402s] -- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/include/libobsensor/hpp/Pipeline.hpp
+[0.402s] -- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/include/libobsensor/hpp/Types.hpp
+[0.402s] -- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/include/libobsensor/hpp/StreamProfile.hpp
+[0.403s] -- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/include/libobsensor/hpp/Context.hpp
+[0.403s] -- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/include/libobsensor/hpp/RecordPlayback.hpp
+[0.403s] -- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/include/libobsensor/hpp/Device.hpp
+[0.403s] -- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/include/libobsensor/hpp/Version.hpp
+[0.403s] -- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/include/libobsensor/h
+[0.404s] -- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/include/libobsensor/h/Device.h
+[0.404s] -- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/include/libobsensor/h/StreamProfile.h
+[0.404s] -- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/include/libobsensor/h/Filter.h
+[0.404s] -- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/include/libobsensor/h/Error.h
+[0.405s] -- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/include/libobsensor/h/Frame.h
+[0.405s] -- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/include/libobsensor/h/Version.h
+[0.405s] -- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/include/libobsensor/h/Pipeline.h
+[0.405s] -- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/include/libobsensor/h/Context.h
+[0.406s] -- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/include/libobsensor/h/Property.h
+[0.406s] -- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/include/libobsensor/h/Sensor.h
+[0.406s] -- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/include/libobsensor/h/RecordPlayback.h
+[0.406s] -- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/include/libobsensor/h/ObTypes.h
+[0.406s] -- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/include/libobsensor/ObSensor.h
+[0.406s] -- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/lib/
+[0.407s] -- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/lib//libOrbbecSDK.so
+[0.407s] -- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/lib//libudev.so.1
+[0.407s] -- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/lib//libudev.so.1.6.3
+[0.407s] -- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/lib//libOrbbecSDK.so.1.5.7
+[0.407s] -- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/lib//libOrbbecSDK.so.1.5
+[0.408s] -- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/lib//libudev.so
+[0.409s] -- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/lib/orbbec_camera/list_devices_node
+[0.409s] -- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/lib/orbbec_camera/ob_cleanup_shm_node
+[0.410s] -- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/lib/orbbec_camera/list_depth_work_mode_node
+[0.411s] -- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/lib/orbbec_camera/list_camera_profile_mode_node
+[0.411s] -- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/lib/orbbec_camera/orbbec_camera_node
+[0.411s] -- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/share/orbbec_camera/environment/library_path.sh
+[0.411s] -- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/share/orbbec_camera/environment/library_path.dsv
+[0.411s] -- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/share/ament_index/resource_index/package_run_dependencies/orbbec_camera
+[0.411s] -- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/share/ament_index/resource_index/parent_prefix_path/orbbec_camera
+[0.411s] -- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/share/orbbec_camera/environment/ament_prefix_path.sh
+[0.411s] -- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/share/orbbec_camera/environment/ament_prefix_path.dsv
+[0.411s] -- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/share/orbbec_camera/environment/path.sh
+[0.411s] -- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/share/orbbec_camera/environment/path.dsv
+[0.411s] -- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/share/orbbec_camera/local_setup.bash
+[0.412s] -- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/share/orbbec_camera/local_setup.sh
+[0.412s] -- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/share/orbbec_camera/local_setup.zsh
+[0.412s] -- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/share/orbbec_camera/local_setup.dsv
+[0.412s] -- Installing: /home/faith/Work/carto_ws/install/orbbec_camera/share/orbbec_camera/package.dsv
+[0.412s] -- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/share/ament_index/resource_index/packages/orbbec_camera
+[0.412s] -- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/share/orbbec_camera/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.412s] -- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/share/orbbec_camera/cmake/ament_cmake_export_libraries-extras.cmake
+[0.412s] -- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/share/orbbec_camera/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.412s] -- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/share/orbbec_camera/cmake/orbbec_cameraConfig.cmake
+[0.412s] -- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/share/orbbec_camera/cmake/orbbec_cameraConfig-version.cmake
+[0.412s] -- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/share/orbbec_camera/package.xml
+[0.413s] Invoked command in '/home/faith/Work/carto_ws/build/orbbec_camera' returned '0': CMAKE_PREFIX_PATH=/home/faith/Work/carto_ws/install/orbbec_camera_msgs:/home/faith/Work/carto_ws/install/astra_camera:/home/faith/Work/carto_ws/install/astra_camera_msgs:/home/faith/Work/carto_ws/install/sllidar_ros2:/home/faith/Work/carto_ws/install/orbbec_description:/home/faith/Work/carto_ws/install/orbbec_camera:/home/faith/Work/carto_ws/install/faithbot_cartographer:/home/faith/Work/carto_ws/install/cartographer_rviz:/home/faith/Work/carto_ws/install/cartographer_ros:/home/faith/Work/carto_ws/install/cartographer_ros_msgs:/home/faith/Work/carto_ws/install/cartographer:/home/faith/Work/carto_ws/install/fishbot_description:/opt/ros/humble LD_LIBRARY_PATH=/home/faith/Work/carto_ws/install/orbbec_camera_msgs/lib:/home/faith/Work/carto_ws/install/astra_camera/lib:/home/faith/Work/carto_ws/install/astra_camera_msgs/lib:/home/faith/Work/carto_ws/install/orbbec_camera/lib:/home/faith/Work/carto_ws/install/cartographer_rviz/lib:/home/faith/Work/carto_ws/install/cartographer_ros/lib:/home/faith/Work/carto_ws/install/cartographer_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/faith/Work/carto_ws/build/orbbec_camera

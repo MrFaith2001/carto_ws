@@ -1,0 +1,32 @@
+-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/faith/Work/carto_ws/build/faithbot_cartographer
+-- Install configuration: "Release"
+-- Up-to-date: /home/faith/Work/carto_ws/install/faithbot_cartographer/share/ament_index/resource_index/package_run_dependencies/faithbot_cartographer
+-- Up-to-date: /home/faith/Work/carto_ws/install/faithbot_cartographer/share/ament_index/resource_index/parent_prefix_path/faithbot_cartographer
+-- Up-to-date: /home/faith/Work/carto_ws/install/faithbot_cartographer/share/faithbot_cartographer/environment/ament_prefix_path.sh
+-- Installing: /home/faith/Work/carto_ws/install/faithbot_cartographer/share/faithbot_cartographer/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/faith/Work/carto_ws/install/faithbot_cartographer/share/faithbot_cartographer/environment/path.sh
+-- Installing: /home/faith/Work/carto_ws/install/faithbot_cartographer/share/faithbot_cartographer/environment/path.dsv
+-- Up-to-date: /home/faith/Work/carto_ws/install/faithbot_cartographer/share/faithbot_cartographer/local_setup.bash
+-- Up-to-date: /home/faith/Work/carto_ws/install/faithbot_cartographer/share/faithbot_cartographer/local_setup.sh
+-- Up-to-date: /home/faith/Work/carto_ws/install/faithbot_cartographer/share/faithbot_cartographer/local_setup.zsh
+-- Installing: /home/faith/Work/carto_ws/install/faithbot_cartographer/share/faithbot_cartographer/local_setup.dsv
+-- Installing: /home/faith/Work/carto_ws/install/faithbot_cartographer/share/faithbot_cartographer/package.dsv
+-- Up-to-date: /home/faith/Work/carto_ws/install/faithbot_cartographer/share/ament_index/resource_index/packages/faithbot_cartographer
+-- Up-to-date: /home/faith/Work/carto_ws/install/faithbot_cartographer/share/faithbot_cartographer/cmake/faithbot_cartographerConfig.cmake
+-- Up-to-date: /home/faith/Work/carto_ws/install/faithbot_cartographer/share/faithbot_cartographer/cmake/faithbot_cartographerConfig-version.cmake
+-- Up-to-date: /home/faith/Work/carto_ws/install/faithbot_cartographer/share/faithbot_cartographer/package.xml
+-- Up-to-date: /home/faith/Work/carto_ws/install/faithbot_cartographer/share/faithbot_cartographer/config
+-- Up-to-date: /home/faith/Work/carto_ws/install/faithbot_cartographer/share/faithbot_cartographer/config/faithbot_2d.lua
+-- Up-to-date: /home/faith/Work/carto_ws/install/faithbot_cartographer/share/faithbot_cartographer/config/faithbot.lua
+-- Up-to-date: /home/faith/Work/carto_ws/install/faithbot_cartographer/share/faithbot_cartographer/launch
+-- Installing: /home/faith/Work/carto_ws/install/faithbot_cartographer/share/faithbot_cartographer/launch/cartographer.launch.py
+-- Up-to-date: /home/faith/Work/carto_ws/install/faithbot_cartographer/share/faithbot_cartographer/rviz
+-- Up-to-date: /home/faith/Work/carto_ws/install/faithbot_cartographer/share/faithbot_cartographer/rviz/cartographer.rviz

@@ -1,0 +1,43 @@
+[35m[1mConsolidate compiler generated dependencies of target wang2_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/wang2_node.dir/src/wang2.cpp.o[0m
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/faith/Work/carto_ws/src/city_w/src/wang2.cpp:1[m[K:
+[01m[K/home/faith/Work/carto_ws/src/city_w/src/wang2.cpp:[m[K In constructor ‘[01m[KSinglePerson::SinglePerson(std::string)[m[K’:
+[01m[K/home/faith/Work/carto_ws/src/city_w/src/wang2.cpp:10:41:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 5 has type ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+   10 |         RCLCPP_INFO(this->get_logger(), [01;35m[K"%s"[m[K, name);
+      |                                         [01;35m[K^~~~[m[K
+[01m[K/home/faith/Work/carto_ws/src/city_w/src/wang2.cpp:10:43:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   10 |         RCLCPP_INFO(this->get_logger(), "[01;36m[K%s[m[K", name);
+      |                                          [01;36m[K~^[m[K
+      |                                           [01;36m[K|[m[K
+      |                                           [01;36m[Kchar*[m[K
+[100%] [32m[1mLinking CXX executable wang2_node[0m
+[100%] Built target wang2_node
+-- Install configuration: ""
+-- Up-to-date: /home/faith/Work/carto_ws/install/city_w/share/ament_index/resource_index/package_run_dependencies/city_w
+-- Up-to-date: /home/faith/Work/carto_ws/install/city_w/share/ament_index/resource_index/parent_prefix_path/city_w
+-- Up-to-date: /home/faith/Work/carto_ws/install/city_w/share/city_w/environment/ament_prefix_path.sh
+-- Up-to-date: /home/faith/Work/carto_ws/install/city_w/share/city_w/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/faith/Work/carto_ws/install/city_w/share/city_w/environment/path.sh
+-- Up-to-date: /home/faith/Work/carto_ws/install/city_w/share/city_w/environment/path.dsv
+-- Up-to-date: /home/faith/Work/carto_ws/install/city_w/share/city_w/local_setup.bash
+-- Up-to-date: /home/faith/Work/carto_ws/install/city_w/share/city_w/local_setup.sh
+-- Up-to-date: /home/faith/Work/carto_ws/install/city_w/share/city_w/local_setup.zsh
+-- Up-to-date: /home/faith/Work/carto_ws/install/city_w/share/city_w/local_setup.dsv
+-- Installing: /home/faith/Work/carto_ws/install/city_w/share/city_w/package.dsv
+-- Up-to-date: /home/faith/Work/carto_ws/install/city_w/share/ament_index/resource_index/packages/city_w
+-- Up-to-date: /home/faith/Work/carto_ws/install/city_w/share/city_w/cmake/city_wConfig.cmake
+-- Up-to-date: /home/faith/Work/carto_ws/install/city_w/share/city_w/cmake/city_wConfig-version.cmake
+-- Up-to-date: /home/faith/Work/carto_ws/install/city_w/share/city_w/package.xml
+-- Installing: /home/faith/Work/carto_ws/install/city_w/lib/city_w/wang2_node
+-- Set runtime path of "/home/faith/Work/carto_ws/install/city_w/lib/city_w/wang2_node" to ""

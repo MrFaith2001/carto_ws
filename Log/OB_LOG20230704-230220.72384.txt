@@ -1,0 +1,21 @@
+Log file created at: 2023/07/04 23:02:20
+Running on machine: rock-5b
+Running duration (h:mm:ss): 0:00:00
+Log line format: [IWEF]yyyymmdd hh:mm:ss.uuuuuu threadid file:line] msg
+[I20230704 23:02:20.497145 72384 DeviceManager.cpp:54] DeviceManager init ...
+[I20230704 23:02:20.497427 72384 LinuxPal.cpp:21] createObPal: create LinuxPal!
+[I20230704 23:02:20.571204 72384 EnumeratorLibusb.cpp:325] queryDevicesInfo done!
+[E20230704 23:02:20.576244 72384 ObV4lDevice.cpp:384] Cannot find busnum/devnum for /dev/video0
+[E20230704 23:02:20.576387 72384 ObV4lDevice.cpp:390] Not a usb format modalias
+[E20230704 23:02:20.576469 72384 ObV4lDevice.cpp:396] Failed to read interface number
+[E20230704 23:02:20.576879 72384 ObV4lDevice.cpp:25] Failed to read usb version specification
+[I20230704 23:02:20.577028 72384 DeviceManager.cpp:373] Current usb device port list::
+[I20230704 23:02:20.577168 72384 DeviceManager.cpp:375]         - 2-1.2-15.0 | ORBBEC Close Depth Sensor
+[I20230704 23:02:20.577201 72384 DeviceManager.cpp:375]         - 2-1.1-14.0 | Astra Pro HD Camera
+[W20230704 23:02:20.577258 72384 OpenNIDeviceInfo.cpp:172] New openni device matched.
+[I20230704 23:02:20.577397 72384 DeviceManager.cpp:345] Devices matched:
+[I20230704 23:02:20.577430 72384 DeviceManager.cpp:359]   - openniDevice = 1
+[I20230704 23:02:20.578058 72384 LinuxPal.cpp:142] Create PollingDeviceWatcher!
+[I20230704 23:02:20.578104 72384 DeviceManager.cpp:99] DeviceManager init  done!
+[I20230704 23:02:20.578131 72384 DeviceManager.cpp:50] DeviceManager construct done
+[I20230704 23:02:20.578155 72384 Context.cpp:51] Context created!

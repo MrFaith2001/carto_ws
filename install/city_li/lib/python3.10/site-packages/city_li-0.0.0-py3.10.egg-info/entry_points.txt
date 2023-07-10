@@ -1,0 +1,3 @@
+[console_scripts]
+li4_node = city_li.li4_class:main
+

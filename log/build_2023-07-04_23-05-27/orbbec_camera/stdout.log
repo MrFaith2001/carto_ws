@@ -1,0 +1,141 @@
+-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found ament_index_cpp: 1.4.0 (/opt/ros/humble/share/ament_index_cpp/cmake)
+-- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+-- Found camera_info_manager: 3.1.5 (/opt/ros/humble/share/camera_info_manager/cmake)
+-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found image_transport: 3.1.5 (/opt/ros/humble/share/image_transport/cmake)
+-- Found image_publisher: 3.0.0 (/opt/ros/humble/share/image_publisher/cmake)
+-- Found orbbec_camera_msgs: 1.2.2 (/home/faith/Work/carto_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake)
+-- Found std_srvs: 4.2.3 (/opt/ros/humble/share/std_srvs/cmake)
+-- Found tf2: 0.25.2 (/opt/ros/humble/share/tf2/cmake)
+-- Found tf2_eigen: 0.25.2 (/opt/ros/humble/share/tf2_eigen/cmake)
+-- Found tf2_sensor_msgs: 0.25.2 (/opt/ros/humble/share/tf2_sensor_msgs/cmake)
+-- ORRBEC Machine : aarch64
+
+-- ORRBEC Machine Bits : 64
+
+-- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/faith/Work/carto_ws/build/orbbec_camera
+[35m[1mConsolidate compiler generated dependencies of target orbbec_camera[0m
+[ 47%] Built target orbbec_camera
+[35m[1mConsolidate compiler generated dependencies of target ob_cleanup_shm_node[0m
+[35m[1mConsolidate compiler generated dependencies of target list_camera_profile_mode_node[0m
+[35m[1mConsolidate compiler generated dependencies of target list_devices_node[0m
+[35m[1mConsolidate compiler generated dependencies of target orbbec_camera_node[0m
+[35m[1mConsolidate compiler generated dependencies of target list_depth_work_mode_node[0m
+[ 68%] Built target list_devices_node
+[ 68%] Built target list_camera_profile_mode_node
+[ 78%] Built target orbbec_camera_node
+[ 89%] Built target ob_cleanup_shm_node
+[100%] Built target list_depth_work_mode_node
+-- Install configuration: "Debug"
+-- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/lib/liborbbec_camera.so
+-- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/include
+-- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/include/orbbec_camera
+-- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/include/orbbec_camera/utils.h
+-- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/include/orbbec_camera/ob_camera_node_driver.h
+-- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/include/orbbec_camera/d2c_viewer.h
+-- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/include/orbbec_camera/ros_param_backend.h
+-- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/include/orbbec_camera/dynamic_params.h
+-- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/include/orbbec_camera/constants.h
+-- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/include/orbbec_camera/synced_imu_publisher.h
+-- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/include/orbbec_camera/ob_camera_node.h
+-- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/include/magic_enum
+-- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/include/magic_enum/magic_enum.hpp
+-- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/share/orbbec_camera//launch
+-- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/share/orbbec_camera//launch/femto.launch.xml
+-- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/share/orbbec_camera//launch/gemini2.launch.xml
+-- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/share/orbbec_camera//launch/femto_w.launch.xml
+-- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/share/orbbec_camera//launch/gemini_e_lite.launch.xml
+-- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/share/orbbec_camera//launch/dabai_dw.launch.xml
+-- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/share/orbbec_camera//launch/astra_pro_plus.launch.xml
+-- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/share/orbbec_camera//launch/astra_stereo_u3.launch.xml
+-- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/share/orbbec_camera//launch/astra.launch.xml
+-- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/share/orbbec_camera//launch/astra_mini.launch.xml
+-- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/share/orbbec_camera//launch/dabai.launch.xml
+-- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/share/orbbec_camera//launch/dabai_dcw.launch.xml
+-- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/share/orbbec_camera//launch/gemini_e.launch.xml
+-- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/share/orbbec_camera//launch/astra_embedded_s.launch.xml
+-- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/share/orbbec_camera//launch/multi_camera.launch.xml
+-- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/share/orbbec_camera//launch/dabai_pro.launch.xml
+-- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/share/orbbec_camera//launch/astra_mini_pro.launch.xml
+-- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/share/orbbec_camera//launch/deeya.launch.xml
+-- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/share/orbbec_camera//launch/astra_adv.launch.xml
+-- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/share/orbbec_camera//launch/ob_camera.launch.xml
+-- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/share/orbbec_camera//launch/gemini.launch.xml
+-- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/share/orbbec_camera//launch/dabai_d1.launch.xml
+-- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/share/orbbec_camera//launch/femto_mega.launch.xml
+-- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/share/orbbec_camera//config
+-- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/share/orbbec_camera//config/.gitkeep
+-- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/share/orbbec_camera//config/OrbbecSDKConfig_v1.0.xml
+-- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/include
+-- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/include/libobsensor
+-- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/include/libobsensor/ObSensor.hpp
+-- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/include/libobsensor/hpp
+-- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/include/libobsensor/hpp/Error.hpp
+-- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/include/libobsensor/hpp/Filter.hpp
+-- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/include/libobsensor/hpp/Sensor.hpp
+-- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/include/libobsensor/hpp/Frame.hpp
+-- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/include/libobsensor/hpp/Pipeline.hpp
+-- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/include/libobsensor/hpp/Types.hpp
+-- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/include/libobsensor/hpp/StreamProfile.hpp
+-- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/include/libobsensor/hpp/Context.hpp
+-- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/include/libobsensor/hpp/RecordPlayback.hpp
+-- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/include/libobsensor/hpp/Device.hpp
+-- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/include/libobsensor/hpp/Version.hpp
+-- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/include/libobsensor/h
+-- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/include/libobsensor/h/Device.h
+-- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/include/libobsensor/h/StreamProfile.h
+-- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/include/libobsensor/h/Filter.h
+-- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/include/libobsensor/h/Error.h
+-- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/include/libobsensor/h/Frame.h
+-- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/include/libobsensor/h/Version.h
+-- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/include/libobsensor/h/Pipeline.h
+-- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/include/libobsensor/h/Context.h
+-- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/include/libobsensor/h/Property.h
+-- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/include/libobsensor/h/Sensor.h
+-- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/include/libobsensor/h/RecordPlayback.h
+-- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/include/libobsensor/h/ObTypes.h
+-- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/include/libobsensor/ObSensor.h
+-- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/lib/
+-- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/lib//libOrbbecSDK.so
+-- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/lib//libudev.so.1
+-- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/lib//libudev.so.1.6.3
+-- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/lib//libOrbbecSDK.so.1.5.7
+-- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/lib//libOrbbecSDK.so.1.5
+-- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/lib//libudev.so
+-- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/lib/orbbec_camera/list_devices_node
+-- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/lib/orbbec_camera/ob_cleanup_shm_node
+-- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/lib/orbbec_camera/list_depth_work_mode_node
+-- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/lib/orbbec_camera/list_camera_profile_mode_node
+-- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/lib/orbbec_camera/orbbec_camera_node
+-- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/share/orbbec_camera/environment/library_path.sh
+-- Installing: /home/faith/Work/carto_ws/install/orbbec_camera/share/orbbec_camera/environment/library_path.dsv
+-- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/share/ament_index/resource_index/package_run_dependencies/orbbec_camera
+-- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/share/ament_index/resource_index/parent_prefix_path/orbbec_camera
+-- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/share/orbbec_camera/environment/ament_prefix_path.sh
+-- Installing: /home/faith/Work/carto_ws/install/orbbec_camera/share/orbbec_camera/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/share/orbbec_camera/environment/path.sh
+-- Installing: /home/faith/Work/carto_ws/install/orbbec_camera/share/orbbec_camera/environment/path.dsv
+-- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/share/orbbec_camera/local_setup.bash
+-- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/share/orbbec_camera/local_setup.sh
+-- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/share/orbbec_camera/local_setup.zsh
+-- Installing: /home/faith/Work/carto_ws/install/orbbec_camera/share/orbbec_camera/local_setup.dsv
+-- Installing: /home/faith/Work/carto_ws/install/orbbec_camera/share/orbbec_camera/package.dsv
+-- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/share/ament_index/resource_index/packages/orbbec_camera
+-- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/share/orbbec_camera/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/share/orbbec_camera/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/share/orbbec_camera/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/share/orbbec_camera/cmake/orbbec_cameraConfig.cmake
+-- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/share/orbbec_camera/cmake/orbbec_cameraConfig-version.cmake
+-- Up-to-date: /home/faith/Work/carto_ws/install/orbbec_camera/share/orbbec_camera/package.xml

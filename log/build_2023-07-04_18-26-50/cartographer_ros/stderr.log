@@ -1,0 +1,17 @@
+In file included from [01m[K/opt/ros/humble/include/cartographer/transform/transform.h:26[m[K,
+                 from [01m[K/opt/ros/humble/include/cartographer/sensor/rangefinder_point.h:24[m[K,
+                 from [01m[K/opt/ros/humble/include/cartographer/sensor/point_cloud.h:24[m[K,
+                 from [01m[K/opt/ros/humble/include/cartographer/sensor/compressed_point_cloud.h:25[m[K,
+                 from [01m[K/opt/ros/humble/include/cartographer/sensor/range_data.h:21[m[K,
+                 from [01m[K/opt/ros/humble/include/cartographer/mapping/trajectory_node.h:27[m[K,
+                 from [01m[K/opt/ros/humble/include/cartographer/mapping/submaps.h:30[m[K,
+                 from [01m[K/opt/ros/humble/include/cartographer/mapping/pose_graph_interface.h:25[m[K,
+                 from [01m[K/opt/ros/humble/include/cartographer/mapping/map_builder_interface.h:29[m[K,
+                 from [01m[K/home/faith/Work/carto_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/node.h:29[m[K,
+                 from [01m[K/home/faith/Work/carto_ws/src/cartographer_ros/cartographer_ros/src/node.cpp:17[m[K:
+/opt/ros/humble/include/cartographer/transform/rigid_transform.h: In instantiation of ‘[01m[Kcartographer::transform::Rigid2<FloatType>::Rotation2D cartographer::transform::Rigid2<FloatType>::rotation() const [with FloatType = double; cartographer::transform::Rigid2<FloatType>::Rotation2D = Eigen::Rotation2D<double>][m[K’:
+[01m[K/opt/ros/humble/include/cartographer/transform/transform.h:113:45:[m[K   required from ‘[01m[Kcartographer::transform::Rigid3<FloatType> cartographer::transform::Embed3D(const cartographer::transform::Rigid2<FloatType>&) [with T = double][m[K’
+[01m[K/home/faith/Work/carto_ws/src/cartographer_ros/cartographer_ros/src/node.cpp:306:41:[m[K   required from here
+[01m[K/opt/ros/humble/include/cartographer/transform/rigid_transform.h:68:14:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[KEigen::Rotation2D<double>[m[K’ when C++17 is enabled changed to match C++14 in GCC 10.1
+   68 |   Rotation2D [01;36m[Krotation[m[K() const { return rotation_; }
+      |              [01;36m[K^~~~~~~~[m[K

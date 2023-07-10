@@ -1,0 +1,62 @@
+[0.516s] Invoking command in '/home/faith/Work/carto_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/faith/Work/carto_ws/install/fishbot_description:/opt/ros/humble /usr/bin/cmake /home/faith/Work/carto_ws/src/sllidar_ros2 -DCMAKE_INSTALL_PREFIX=/home/faith/Work/carto_ws/install/sllidar_ros2
+[0.702s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.804s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.857s] -- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)
+[1.003s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.016s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.047s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.114s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.195s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.468s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.473s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.806s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.272s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.503s] -- Found std_srvs: 4.2.3 (/opt/ros/humble/share/std_srvs/cmake)
+[2.740s] -- Configuring done
+[2.817s] -- Generating done
+[2.828s] -- Build files have been written to: /home/faith/Work/carto_ws/build/sllidar_ros2
+[2.872s] Invoked command in '/home/faith/Work/carto_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/faith/Work/carto_ws/install/fishbot_description:/opt/ros/humble /usr/bin/cmake /home/faith/Work/carto_ws/src/sllidar_ros2 -DCMAKE_INSTALL_PREFIX=/home/faith/Work/carto_ws/install/sllidar_ros2
+[2.874s] Invoking command in '/home/faith/Work/carto_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/faith/Work/carto_ws/install/fishbot_description:/opt/ros/humble /usr/bin/cmake --build /home/faith/Work/carto_ws/build/sllidar_ros2 -- -j8 -l8
+[3.007s] [35m[1mConsolidate compiler generated dependencies of target sllidar_client[0m
+[3.007s] [35m[1mConsolidate compiler generated dependencies of target sllidar_node[0m
+[3.112s] [ 35%] Built target sllidar_client
+[3.113s] [100%] Built target sllidar_node
+[3.141s] Invoked command in '/home/faith/Work/carto_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/faith/Work/carto_ws/install/fishbot_description:/opt/ros/humble /usr/bin/cmake --build /home/faith/Work/carto_ws/build/sllidar_ros2 -- -j8 -l8
+[3.341s] Invoking command in '/home/faith/Work/carto_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/faith/Work/carto_ws/install/fishbot_description:/opt/ros/humble /usr/bin/cmake --install /home/faith/Work/carto_ws/build/sllidar_ros2
+[3.366s] -- Install configuration: "Release"
+[3.367s] -- Execute custom install script
+[3.368s] -- Up-to-date symlink: /home/faith/Work/carto_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a3_launch.py
+[3.369s] -- Up-to-date symlink: /home/faith/Work/carto_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_launch.py
+[3.370s] -- Up-to-date symlink: /home/faith/Work/carto_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_launch.py
+[3.371s] -- Up-to-date symlink: /home/faith/Work/carto_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_tcp_launch.py
+[3.372s] -- Up-to-date symlink: /home/faith/Work/carto_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2_launch.py
+[3.372s] -- Up-to-date symlink: /home/faith/Work/carto_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2e_launch.py
+[3.373s] -- Up-to-date symlink: /home/faith/Work/carto_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_t1_launch.py
+[3.373s] -- Up-to-date symlink: /home/faith/Work/carto_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a3_launch.py
+[3.373s] -- Up-to-date symlink: /home/faith/Work/carto_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_launch.py
+[3.374s] -- Up-to-date symlink: /home/faith/Work/carto_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_launch.py
+[3.374s] -- Up-to-date symlink: /home/faith/Work/carto_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_tcp_launch.py
+[3.375s] -- Up-to-date symlink: /home/faith/Work/carto_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2_launch.py
+[3.375s] -- Up-to-date symlink: /home/faith/Work/carto_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2e_launch.py
+[3.375s] -- Up-to-date symlink: /home/faith/Work/carto_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_t1_launch.py
+[3.376s] -- Up-to-date symlink: /home/faith/Work/carto_ws/install/sllidar_ros2/share/sllidar_ros2/rviz/sllidar_ros2.rviz
+[3.376s] -- Up-to-date symlink: /home/faith/Work/carto_ws/install/sllidar_ros2/lib/sllidar_ros2/sllidar_node
+[3.376s] -- Up-to-date symlink: /home/faith/Work/carto_ws/install/sllidar_ros2/lib/sllidar_ros2/sllidar_client
+[3.377s] -- Up-to-date symlink: /home/faith/Work/carto_ws/install/sllidar_ros2/share/ament_index/resource_index/package_run_dependencies/sllidar_ros2
+[3.377s] -- Up-to-date symlink: /home/faith/Work/carto_ws/install/sllidar_ros2/share/ament_index/resource_index/parent_prefix_path/sllidar_ros2
+[3.378s] -- Up-to-date symlink: /home/faith/Work/carto_ws/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.sh
+[3.378s] -- Up-to-date symlink: /home/faith/Work/carto_ws/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.dsv
+[3.378s] -- Up-to-date symlink: /home/faith/Work/carto_ws/install/sllidar_ros2/share/sllidar_ros2/environment/path.sh
+[3.379s] -- Up-to-date symlink: /home/faith/Work/carto_ws/install/sllidar_ros2/share/sllidar_ros2/environment/path.dsv
+[3.379s] -- Up-to-date symlink: /home/faith/Work/carto_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.bash
+[3.380s] -- Up-to-date symlink: /home/faith/Work/carto_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.sh
+[3.380s] -- Up-to-date symlink: /home/faith/Work/carto_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.zsh
+[3.380s] -- Up-to-date symlink: /home/faith/Work/carto_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.dsv
+[3.381s] -- Symlinking: /home/faith/Work/carto_ws/install/sllidar_ros2/share/sllidar_ros2/package.dsv
+[3.401s] -- Up-to-date symlink: /home/faith/Work/carto_ws/install/sllidar_ros2/share/ament_index/resource_index/packages/sllidar_ros2
+[3.401s] -- Up-to-date symlink: /home/faith/Work/carto_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.402s] -- Up-to-date symlink: /home/faith/Work/carto_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.402s] -- Up-to-date symlink: /home/faith/Work/carto_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config.cmake
+[3.403s] -- Up-to-date symlink: /home/faith/Work/carto_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config-version.cmake
+[3.404s] -- Up-to-date symlink: /home/faith/Work/carto_ws/install/sllidar_ros2/share/sllidar_ros2/package.xml
+[3.417s] Invoked command in '/home/faith/Work/carto_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/faith/Work/carto_ws/install/fishbot_description:/opt/ros/humble /usr/bin/cmake --install /home/faith/Work/carto_ws/build/sllidar_ros2

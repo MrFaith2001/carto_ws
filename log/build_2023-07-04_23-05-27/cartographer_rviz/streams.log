@@ -1,0 +1,88 @@
+[0.038s] Invoking command in '/home/faith/Work/carto_ws/build/cartographer_rviz': CMAKE_PREFIX_PATH=/home/faith/Work/carto_ws/install/cartographer_ros:/home/faith/Work/carto_ws/install/cartographer_ros_msgs:/home/faith/Work/carto_ws/install/cartographer:/home/faith/Work/carto_ws/install/astra_camera:/home/faith/Work/carto_ws/install/astra_camera_msgs:/home/faith/Work/carto_ws/install/sllidar_ros2:/home/faith/Work/carto_ws/install/orbbec_description:/home/faith/Work/carto_ws/install/orbbec_camera:/home/faith/Work/carto_ws/install/orbbec_camera_msgs:/home/faith/Work/carto_ws/install/faithbot_cartographer:/home/faith/Work/carto_ws/install/cartographer_rviz:/home/faith/Work/carto_ws/install/fishbot_description:/opt/ros/humble LD_LIBRARY_PATH=/home/faith/Work/carto_ws/install/cartographer_ros_msgs/lib:/home/faith/Work/carto_ws/install/astra_camera/lib:/home/faith/Work/carto_ws/install/astra_camera_msgs/lib:/home/faith/Work/carto_ws/install/orbbec_camera/lib:/home/faith/Work/carto_ws/install/orbbec_camera_msgs/lib:/home/faith/Work/carto_ws/install/cartographer_rviz/lib:/home/faith/Work/carto_ws/install/cartographer_ros/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/faith/Work/carto_ws/src/cartographer_ros/cartographer_rviz -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/faith/Work/carto_ws/install/cartographer_rviz
+[0.073s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.509s] -- Found required Ceres dependency: Eigen version 3.4.0 in /usr/include/eigen3
+[0.518s] -- Found required Ceres dependency: glog
+[0.520s] -- Found required Ceres dependency: gflags
+[0.521s] -- Found Ceres version: 2.0.0 installed in: /usr with components: [EigenSparse, SparseLinearAlgebraLibrary, LAPACK, SuiteSparse, CXSparse, SchurSpecializations, Multithreading]
+[0.535s] -- Build type: Release
+[0.543s] -- Found cartographer_ros: 2.0.9001 (/home/faith/Work/carto_ws/install/cartographer_ros/share/cartographer_ros/cmake)
+[0.582s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.585s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.593s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.609s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.631s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.165s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.167s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.388s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.068s] -- Found rviz_common: 11.2.5 (/opt/ros/humble/share/rviz_common/cmake)
+[3.088s] -- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[3.090s] -- Found OGRE
+[3.090s] --   static     : OFF
+[3.090s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[3.091s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[3.091s] --   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media
+[3.091s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[3.091s] -- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib
+[3.091s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[3.091s] -- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE
+[3.091s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[3.091s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[3.091s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[3.091s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[3.095s] -- Could not find freeimage library
+[3.190s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_RELEASE: _render_system_gl_static_library_abs-NOTFOUND
+[3.191s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_DEBUG: _render_system_gl_static_library_abs-NOTFOUND
+[3.252s] -- library: /usr/lib/aarch64-linux-gnu/libcurl.so
+[3.316s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[4.241s] -- Deploy OGRE media
+[4.243s] -- Configuring done
+[4.340s] -- Generating done
+[4.345s] -- Build files have been written to: /home/faith/Work/carto_ws/build/cartographer_rviz
+[4.381s] Invoked command in '/home/faith/Work/carto_ws/build/cartographer_rviz' returned '0': CMAKE_PREFIX_PATH=/home/faith/Work/carto_ws/install/cartographer_ros:/home/faith/Work/carto_ws/install/cartographer_ros_msgs:/home/faith/Work/carto_ws/install/cartographer:/home/faith/Work/carto_ws/install/astra_camera:/home/faith/Work/carto_ws/install/astra_camera_msgs:/home/faith/Work/carto_ws/install/sllidar_ros2:/home/faith/Work/carto_ws/install/orbbec_description:/home/faith/Work/carto_ws/install/orbbec_camera:/home/faith/Work/carto_ws/install/orbbec_camera_msgs:/home/faith/Work/carto_ws/install/faithbot_cartographer:/home/faith/Work/carto_ws/install/cartographer_rviz:/home/faith/Work/carto_ws/install/fishbot_description:/opt/ros/humble LD_LIBRARY_PATH=/home/faith/Work/carto_ws/install/cartographer_ros_msgs/lib:/home/faith/Work/carto_ws/install/astra_camera/lib:/home/faith/Work/carto_ws/install/astra_camera_msgs/lib:/home/faith/Work/carto_ws/install/orbbec_camera/lib:/home/faith/Work/carto_ws/install/orbbec_camera_msgs/lib:/home/faith/Work/carto_ws/install/cartographer_rviz/lib:/home/faith/Work/carto_ws/install/cartographer_ros/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/faith/Work/carto_ws/src/cartographer_ros/cartographer_rviz -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/faith/Work/carto_ws/install/cartographer_rviz
+[4.389s] Invoking command in '/home/faith/Work/carto_ws/build/cartographer_rviz': CMAKE_PREFIX_PATH=/home/faith/Work/carto_ws/install/cartographer_ros:/home/faith/Work/carto_ws/install/cartographer_ros_msgs:/home/faith/Work/carto_ws/install/cartographer:/home/faith/Work/carto_ws/install/astra_camera:/home/faith/Work/carto_ws/install/astra_camera_msgs:/home/faith/Work/carto_ws/install/sllidar_ros2:/home/faith/Work/carto_ws/install/orbbec_description:/home/faith/Work/carto_ws/install/orbbec_camera:/home/faith/Work/carto_ws/install/orbbec_camera_msgs:/home/faith/Work/carto_ws/install/faithbot_cartographer:/home/faith/Work/carto_ws/install/cartographer_rviz:/home/faith/Work/carto_ws/install/fishbot_description:/opt/ros/humble LD_LIBRARY_PATH=/home/faith/Work/carto_ws/install/cartographer_ros_msgs/lib:/home/faith/Work/carto_ws/install/astra_camera/lib:/home/faith/Work/carto_ws/install/astra_camera_msgs/lib:/home/faith/Work/carto_ws/install/orbbec_camera/lib:/home/faith/Work/carto_ws/install/orbbec_camera_msgs/lib:/home/faith/Work/carto_ws/install/cartographer_rviz/lib:/home/faith/Work/carto_ws/install/cartographer_ros/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/faith/Work/carto_ws/build/cartographer_rviz -- -j8 -l8
+[4.586s] [ 16%] Built target cartographer_rviz_detect_changes
+[4.587s] [ 16%] [34m[1mAutomatic MOC for target cartographer_rviz[0m
+[4.690s] [ 16%] Built target cartographer_rviz_autogen
+[4.741s] [35m[1mConsolidate compiler generated dependencies of target cartographer_rviz[0m
+[4.870s] [100%] Built target cartographer_rviz
+[4.915s] Invoked command in '/home/faith/Work/carto_ws/build/cartographer_rviz' returned '0': CMAKE_PREFIX_PATH=/home/faith/Work/carto_ws/install/cartographer_ros:/home/faith/Work/carto_ws/install/cartographer_ros_msgs:/home/faith/Work/carto_ws/install/cartographer:/home/faith/Work/carto_ws/install/astra_camera:/home/faith/Work/carto_ws/install/astra_camera_msgs:/home/faith/Work/carto_ws/install/sllidar_ros2:/home/faith/Work/carto_ws/install/orbbec_description:/home/faith/Work/carto_ws/install/orbbec_camera:/home/faith/Work/carto_ws/install/orbbec_camera_msgs:/home/faith/Work/carto_ws/install/faithbot_cartographer:/home/faith/Work/carto_ws/install/cartographer_rviz:/home/faith/Work/carto_ws/install/fishbot_description:/opt/ros/humble LD_LIBRARY_PATH=/home/faith/Work/carto_ws/install/cartographer_ros_msgs/lib:/home/faith/Work/carto_ws/install/astra_camera/lib:/home/faith/Work/carto_ws/install/astra_camera_msgs/lib:/home/faith/Work/carto_ws/install/orbbec_camera/lib:/home/faith/Work/carto_ws/install/orbbec_camera_msgs/lib:/home/faith/Work/carto_ws/install/cartographer_rviz/lib:/home/faith/Work/carto_ws/install/cartographer_ros/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/faith/Work/carto_ws/build/cartographer_rviz -- -j8 -l8
+[5.038s] Invoking command in '/home/faith/Work/carto_ws/build/cartographer_rviz': CMAKE_PREFIX_PATH=/home/faith/Work/carto_ws/install/cartographer_ros:/home/faith/Work/carto_ws/install/cartographer_ros_msgs:/home/faith/Work/carto_ws/install/cartographer:/home/faith/Work/carto_ws/install/astra_camera:/home/faith/Work/carto_ws/install/astra_camera_msgs:/home/faith/Work/carto_ws/install/sllidar_ros2:/home/faith/Work/carto_ws/install/orbbec_description:/home/faith/Work/carto_ws/install/orbbec_camera:/home/faith/Work/carto_ws/install/orbbec_camera_msgs:/home/faith/Work/carto_ws/install/faithbot_cartographer:/home/faith/Work/carto_ws/install/cartographer_rviz:/home/faith/Work/carto_ws/install/fishbot_description:/opt/ros/humble LD_LIBRARY_PATH=/home/faith/Work/carto_ws/install/cartographer_ros_msgs/lib:/home/faith/Work/carto_ws/install/astra_camera/lib:/home/faith/Work/carto_ws/install/astra_camera_msgs/lib:/home/faith/Work/carto_ws/install/orbbec_camera/lib:/home/faith/Work/carto_ws/install/orbbec_camera_msgs/lib:/home/faith/Work/carto_ws/install/cartographer_rviz/lib:/home/faith/Work/carto_ws/install/cartographer_ros/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/faith/Work/carto_ws/build/cartographer_rviz
+[5.065s] -- Install configuration: "Release"
+[5.065s] -- Up-to-date: /home/faith/Work/carto_ws/install/cartographer_rviz/share/cartographer_rviz/rviz_plugin_description.xml
+[5.066s] -- Up-to-date: /home/faith/Work/carto_ws/install/cartographer_rviz/lib/libcartographer_rviz.so
+[5.068s] -- Up-to-date: /home/faith/Work/carto_ws/install/cartographer_rviz/include/
+[5.068s] -- Up-to-date: /home/faith/Work/carto_ws/install/cartographer_rviz/include//cartographer_rviz
+[5.069s] -- Up-to-date: /home/faith/Work/carto_ws/install/cartographer_rviz/include//cartographer_rviz/drawable_submap.h
+[5.070s] -- Up-to-date: /home/faith/Work/carto_ws/install/cartographer_rviz/include//cartographer_rviz/submaps_display.h
+[5.070s] -- Up-to-date: /home/faith/Work/carto_ws/install/cartographer_rviz/include//cartographer_rviz/ogre_slice.h
+[5.070s] -- Up-to-date: /home/faith/Work/carto_ws/install/cartographer_rviz/share/cartographer_rviz/environment/library_path.sh
+[5.071s] -- Installing: /home/faith/Work/carto_ws/install/cartographer_rviz/share/cartographer_rviz/environment/library_path.dsv
+[5.071s] -- Up-to-date: /home/faith/Work/carto_ws/install/cartographer_rviz/share/ament_index/resource_index/package_run_dependencies/cartographer_rviz
+[5.072s] -- Up-to-date: /home/faith/Work/carto_ws/install/cartographer_rviz/share/ament_index/resource_index/parent_prefix_path/cartographer_rviz
+[5.073s] -- Up-to-date: /home/faith/Work/carto_ws/install/cartographer_rviz/share/cartographer_rviz/environment/ament_prefix_path.sh
+[5.080s] -- Installing: /home/faith/Work/carto_ws/install/cartographer_rviz/share/cartographer_rviz/environment/ament_prefix_path.dsv
+[5.088s] -- Up-to-date: /home/faith/Work/carto_ws/install/cartographer_rviz/share/cartographer_rviz/environment/path.sh
+[5.089s] -- Installing: /home/faith/Work/carto_ws/install/cartographer_rviz/share/cartographer_rviz/environment/path.dsv
+[5.090s] -- Up-to-date: /home/faith/Work/carto_ws/install/cartographer_rviz/share/cartographer_rviz/local_setup.bash
+[5.091s] -- Up-to-date: /home/faith/Work/carto_ws/install/cartographer_rviz/share/cartographer_rviz/local_setup.sh
+[5.092s] -- Up-to-date: /home/faith/Work/carto_ws/install/cartographer_rviz/share/cartographer_rviz/local_setup.zsh
+[5.092s] -- Installing: /home/faith/Work/carto_ws/install/cartographer_rviz/share/cartographer_rviz/local_setup.dsv
+[5.093s] -- Installing: /home/faith/Work/carto_ws/install/cartographer_rviz/share/cartographer_rviz/package.dsv
+[5.094s] -- Up-to-date: /home/faith/Work/carto_ws/install/cartographer_rviz/share/ament_index/resource_index/packages/cartographer_rviz
+[5.094s] -- Up-to-date: /home/faith/Work/carto_ws/install/cartographer_rviz/share/ament_index/resource_index/rviz_common__pluginlib__plugin/cartographer_rviz
+[5.095s] -- Up-to-date: /home/faith/Work/carto_ws/install/cartographer_rviz/share/cartographer_rviz/ogre_media/materials/glsl120
+[5.095s] -- Up-to-date: /home/faith/Work/carto_ws/install/cartographer_rviz/share/cartographer_rviz/ogre_media/materials/glsl120/glsl120.program
+[5.096s] -- Up-to-date: /home/faith/Work/carto_ws/install/cartographer_rviz/share/cartographer_rviz/ogre_media/materials/glsl120/submap.vert
+[5.097s] -- Up-to-date: /home/faith/Work/carto_ws/install/cartographer_rviz/share/cartographer_rviz/ogre_media/materials/glsl120/submap.frag
+[5.097s] -- Up-to-date: /home/faith/Work/carto_ws/install/cartographer_rviz/share/cartographer_rviz/ogre_media/materials/scripts
+[5.098s] -- Up-to-date: /home/faith/Work/carto_ws/install/cartographer_rviz/share/cartographer_rviz/ogre_media/materials/scripts/submap.material
+[5.098s] -- Up-to-date: /home/faith/Work/carto_ws/install/cartographer_rviz/share/ament_index/resource_index/rviz_ogre_media_exports/cartographer_rviz
+[5.099s] -- Up-to-date: /home/faith/Work/carto_ws/install/cartographer_rviz/share/cartographer_rviz/cmake/cartographer_rvizExport.cmake
+[5.099s] -- Up-to-date: /home/faith/Work/carto_ws/install/cartographer_rviz/share/cartographer_rviz/cmake/cartographer_rvizExport-release.cmake
+[5.100s] -- Up-to-date: /home/faith/Work/carto_ws/install/cartographer_rviz/share/cartographer_rviz/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.100s] -- Up-to-date: /home/faith/Work/carto_ws/install/cartographer_rviz/share/cartographer_rviz/cmake/ament_cmake_export_targets-extras.cmake
+[5.101s] -- Up-to-date: /home/faith/Work/carto_ws/install/cartographer_rviz/share/cartographer_rviz/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.102s] -- Up-to-date: /home/faith/Work/carto_ws/install/cartographer_rviz/share/cartographer_rviz/cmake/cartographer_rvizConfig.cmake
+[5.102s] -- Up-to-date: /home/faith/Work/carto_ws/install/cartographer_rviz/share/cartographer_rviz/cmake/cartographer_rvizConfig-version.cmake
+[5.103s] -- Up-to-date: /home/faith/Work/carto_ws/install/cartographer_rviz/share/cartographer_rviz/package.xml
+[5.104s] Invoked command in '/home/faith/Work/carto_ws/build/cartographer_rviz' returned '0': CMAKE_PREFIX_PATH=/home/faith/Work/carto_ws/install/cartographer_ros:/home/faith/Work/carto_ws/install/cartographer_ros_msgs:/home/faith/Work/carto_ws/install/cartographer:/home/faith/Work/carto_ws/install/astra_camera:/home/faith/Work/carto_ws/install/astra_camera_msgs:/home/faith/Work/carto_ws/install/sllidar_ros2:/home/faith/Work/carto_ws/install/orbbec_description:/home/faith/Work/carto_ws/install/orbbec_camera:/home/faith/Work/carto_ws/install/orbbec_camera_msgs:/home/faith/Work/carto_ws/install/faithbot_cartographer:/home/faith/Work/carto_ws/install/cartographer_rviz:/home/faith/Work/carto_ws/install/fishbot_description:/opt/ros/humble LD_LIBRARY_PATH=/home/faith/Work/carto_ws/install/cartographer_ros_msgs/lib:/home/faith/Work/carto_ws/install/astra_camera/lib:/home/faith/Work/carto_ws/install/astra_camera_msgs/lib:/home/faith/Work/carto_ws/install/orbbec_camera/lib:/home/faith/Work/carto_ws/install/orbbec_camera_msgs/lib:/home/faith/Work/carto_ws/install/cartographer_rviz/lib:/home/faith/Work/carto_ws/install/cartographer_ros/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/faith/Work/carto_ws/build/cartographer_rviz

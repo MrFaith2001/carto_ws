@@ -1,0 +1,964 @@
+[0.423s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--event-handlers', 'console_direct+', '--cmake-args', '-DCMAKE_BUILD_TYPE=Release']
+[0.424s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=['console_direct+'], ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=['-DCMAKE_BUILD_TYPE=Release'], cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff83286860>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff83b20640>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff83b20640>>)
+[0.497s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.498s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.498s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.498s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.498s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.498s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.498s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/faith/Work/carto_ws'
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.517s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.517s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.517s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.517s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.517s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.517s] Level 1:colcon.colcon_core.package_identification:_identify(Log) by extensions ['ignore', 'ignore_ament_install']
+[0.518s] Level 1:colcon.colcon_core.package_identification:_identify(Log) by extension 'ignore'
+[0.518s] Level 1:colcon.colcon_core.package_identification:_identify(Log) by extension 'ignore_ament_install'
+[0.518s] Level 1:colcon.colcon_core.package_identification:_identify(Log) by extensions ['colcon_pkg']
+[0.518s] Level 1:colcon.colcon_core.package_identification:_identify(Log) by extension 'colcon_pkg'
+[0.518s] Level 1:colcon.colcon_core.package_identification:_identify(Log) by extensions ['colcon_meta']
+[0.518s] Level 1:colcon.colcon_core.package_identification:_identify(Log) by extension 'colcon_meta'
+[0.518s] Level 1:colcon.colcon_core.package_identification:_identify(Log) by extensions ['ros']
+[0.518s] Level 1:colcon.colcon_core.package_identification:_identify(Log) by extension 'ros'
+[0.518s] Level 1:colcon.colcon_core.package_identification:_identify(Log) by extensions ['cmake', 'python']
+[0.518s] Level 1:colcon.colcon_core.package_identification:_identify(Log) by extension 'cmake'
+[0.518s] Level 1:colcon.colcon_core.package_identification:_identify(Log) by extension 'python'
+[0.518s] Level 1:colcon.colcon_core.package_identification:_identify(Log) by extensions ['python_setup_py']
+[0.518s] Level 1:colcon.colcon_core.package_identification:_identify(Log) by extension 'python_setup_py'
+[0.518s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.520s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.520s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.520s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.520s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.520s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.520s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.520s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.520s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.520s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.520s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.520s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.520s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2) by extensions ['ignore', 'ignore_ament_install']
+[0.520s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2) by extension 'ignore'
+[0.520s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2) by extension 'ignore_ament_install'
+[0.520s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2) by extensions ['colcon_pkg']
+[0.520s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2) by extension 'colcon_pkg'
+[0.520s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2) by extensions ['colcon_meta']
+[0.520s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2) by extension 'colcon_meta'
+[0.521s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2) by extensions ['ros']
+[0.521s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2) by extension 'ros'
+[0.521s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2) by extensions ['cmake', 'python']
+[0.521s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2) by extension 'cmake'
+[0.521s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2) by extension 'python'
+[0.521s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2) by extensions ['python_setup_py']
+[0.521s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2) by extension 'python_setup_py'
+[0.521s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/orbbec_camera) by extensions ['ignore', 'ignore_ament_install']
+[0.521s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/orbbec_camera) by extension 'ignore'
+[0.521s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/orbbec_camera) by extension 'ignore_ament_install'
+[0.521s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/orbbec_camera) by extensions ['colcon_pkg']
+[0.521s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/orbbec_camera) by extension 'colcon_pkg'
+[0.521s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/orbbec_camera) by extensions ['colcon_meta']
+[0.521s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/orbbec_camera) by extension 'colcon_meta'
+[0.521s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/orbbec_camera) by extensions ['ros']
+[0.521s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/orbbec_camera) by extension 'ros'
+[0.530s] DEBUG:colcon.colcon_core.package_identification:Package 'src/OrbbecSDK_ROS2/orbbec_camera' with type 'ros.ament_cmake' and name 'orbbec_camera'
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/orbbec_camera_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/orbbec_camera_msgs) by extension 'ignore'
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/orbbec_camera_msgs) by extension 'ignore_ament_install'
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/orbbec_camera_msgs) by extensions ['colcon_pkg']
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/orbbec_camera_msgs) by extension 'colcon_pkg'
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/orbbec_camera_msgs) by extensions ['colcon_meta']
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/orbbec_camera_msgs) by extension 'colcon_meta'
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/orbbec_camera_msgs) by extensions ['ros']
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/orbbec_camera_msgs) by extension 'ros'
+[0.532s] DEBUG:colcon.colcon_core.package_identification:Package 'src/OrbbecSDK_ROS2/orbbec_camera_msgs' with type 'ros.ament_cmake' and name 'orbbec_camera_msgs'
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/orbbec_description) by extensions ['ignore', 'ignore_ament_install']
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/orbbec_description) by extension 'ignore'
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/orbbec_description) by extension 'ignore_ament_install'
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/orbbec_description) by extensions ['colcon_pkg']
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/orbbec_description) by extension 'colcon_pkg'
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/orbbec_description) by extensions ['colcon_meta']
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/orbbec_description) by extension 'colcon_meta'
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/orbbec_description) by extensions ['ros']
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/orbbec_description) by extension 'ros'
+[0.534s] DEBUG:colcon.colcon_core.package_identification:Package 'src/OrbbecSDK_ROS2/orbbec_description' with type 'ros.ament_cmake' and name 'orbbec_description'
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer) by extensions ['ignore', 'ignore_ament_install']
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer) by extension 'ignore'
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer) by extension 'ignore_ament_install'
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer) by extensions ['colcon_pkg']
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer) by extension 'colcon_pkg'
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer) by extensions ['colcon_meta']
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer) by extension 'colcon_meta'
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer) by extensions ['ros']
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer) by extension 'ros'
+[0.536s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cartographer' with type 'ros.cmake' and name 'cartographer'
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros) by extension 'ignore'
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros) by extension 'ignore_ament_install'
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros) by extensions ['colcon_pkg']
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros) by extension 'colcon_pkg'
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros) by extensions ['colcon_meta']
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros) by extension 'colcon_meta'
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros) by extensions ['ros']
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros) by extension 'ros'
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros) by extensions ['cmake', 'python']
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros) by extension 'cmake'
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros) by extension 'python'
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros) by extensions ['python_setup_py']
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros) by extension 'python_setup_py'
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros) by extension 'ignore'
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros) by extension 'ignore_ament_install'
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros) by extensions ['colcon_pkg']
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros) by extension 'colcon_pkg'
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros) by extensions ['colcon_meta']
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros) by extension 'colcon_meta'
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros) by extensions ['ros']
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros) by extension 'ros'
+[0.541s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cartographer_ros/cartographer_ros' with type 'ros.ament_cmake' and name 'cartographer_ros'
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros_msgs) by extension 'ignore'
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros_msgs) by extension 'ignore_ament_install'
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros_msgs) by extensions ['colcon_pkg']
+[0.542s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros_msgs) by extension 'colcon_pkg'
+[0.542s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros_msgs) by extensions ['colcon_meta']
+[0.542s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros_msgs) by extension 'colcon_meta'
+[0.542s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros_msgs) by extensions ['ros']
+[0.542s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros_msgs) by extension 'ros'
+[0.543s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cartographer_ros/cartographer_ros_msgs' with type 'ros.ament_cmake' and name 'cartographer_ros_msgs'
+[0.543s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_rviz) by extensions ['ignore', 'ignore_ament_install']
+[0.543s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_rviz) by extension 'ignore'
+[0.543s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_rviz) by extension 'ignore_ament_install'
+[0.543s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_rviz) by extensions ['colcon_pkg']
+[0.543s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_rviz) by extension 'colcon_pkg'
+[0.543s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_rviz) by extensions ['colcon_meta']
+[0.543s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_rviz) by extension 'colcon_meta'
+[0.543s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_rviz) by extensions ['ros']
+[0.543s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_rviz) by extension 'ros'
+[0.545s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cartographer_ros/cartographer_rviz' with type 'ros.ament_cmake' and name 'cartographer_rviz'
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/docs) by extensions ['ignore', 'ignore_ament_install']
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/docs) by extension 'ignore'
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/docs) ignored
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/scripts) by extensions ['ignore', 'ignore_ament_install']
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/scripts) by extension 'ignore'
+[0.546s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/scripts) by extension 'ignore_ament_install'
+[0.546s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/scripts) by extensions ['colcon_pkg']
+[0.546s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/scripts) by extension 'colcon_pkg'
+[0.546s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/scripts) by extensions ['colcon_meta']
+[0.546s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/scripts) by extension 'colcon_meta'
+[0.546s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/scripts) by extensions ['ros']
+[0.546s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/scripts) by extension 'ros'
+[0.546s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/scripts) by extensions ['cmake', 'python']
+[0.546s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/scripts) by extension 'cmake'
+[0.546s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/scripts) by extension 'python'
+[0.546s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/scripts) by extensions ['python_setup_py']
+[0.546s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/scripts) by extension 'python_setup_py'
+[0.546s] Level 1:colcon.colcon_core.package_identification:_identify(src/faithbot_cartographer) by extensions ['ignore', 'ignore_ament_install']
+[0.546s] Level 1:colcon.colcon_core.package_identification:_identify(src/faithbot_cartographer) by extension 'ignore'
+[0.546s] Level 1:colcon.colcon_core.package_identification:_identify(src/faithbot_cartographer) by extension 'ignore_ament_install'
+[0.546s] Level 1:colcon.colcon_core.package_identification:_identify(src/faithbot_cartographer) by extensions ['colcon_pkg']
+[0.546s] Level 1:colcon.colcon_core.package_identification:_identify(src/faithbot_cartographer) by extension 'colcon_pkg'
+[0.546s] Level 1:colcon.colcon_core.package_identification:_identify(src/faithbot_cartographer) by extensions ['colcon_meta']
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(src/faithbot_cartographer) by extension 'colcon_meta'
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(src/faithbot_cartographer) by extensions ['ros']
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(src/faithbot_cartographer) by extension 'ros'
+[0.547s] DEBUG:colcon.colcon_core.package_identification:Package 'src/faithbot_cartographer' with type 'ros.ament_cmake' and name 'faithbot_cartographer'
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_description) by extension 'ignore'
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_description) by extension 'ignore_ament_install'
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_description) by extensions ['colcon_pkg']
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_description) by extension 'colcon_pkg'
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_description) by extensions ['colcon_meta']
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_description) by extension 'colcon_meta'
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_description) by extensions ['ros']
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_description) by extension 'ros'
+[0.548s] DEBUG:colcon.colcon_core.package_identification:Package 'src/fishbot_description' with type 'ros.ament_python' and name 'fishbot_description'
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera) by extensions ['ignore', 'ignore_ament_install']
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera) by extension 'ignore'
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera) by extension 'ignore_ament_install'
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera) by extensions ['colcon_pkg']
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera) by extension 'colcon_pkg'
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera) by extensions ['colcon_meta']
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera) by extension 'colcon_meta'
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera) by extensions ['ros']
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera) by extension 'ros'
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera) by extensions ['cmake', 'python']
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera) by extension 'cmake'
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera) by extension 'python'
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera) by extensions ['python_setup_py']
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera) by extension 'python_setup_py'
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera) by extensions ['ignore', 'ignore_ament_install']
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera) by extension 'ignore'
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera) by extension 'ignore_ament_install'
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera) by extensions ['colcon_pkg']
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera) by extension 'colcon_pkg'
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera) by extensions ['colcon_meta']
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera) by extension 'colcon_meta'
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera) by extensions ['ros']
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera) by extension 'ros'
+[0.552s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_astra_camera/astra_camera' with type 'ros.ament_cmake' and name 'astra_camera'
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera_msgs) by extension 'ignore'
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera_msgs) by extension 'ignore_ament_install'
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera_msgs) by extensions ['colcon_pkg']
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera_msgs) by extension 'colcon_pkg'
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera_msgs) by extensions ['colcon_meta']
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera_msgs) by extension 'colcon_meta'
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera_msgs) by extensions ['ros']
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera_msgs) by extension 'ros'
+[0.553s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_astra_camera/astra_camera_msgs' with type 'ros.ament_cmake' and name 'astra_camera_msgs'
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'ignore'
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'ignore_ament_install'
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['colcon_pkg']
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'colcon_pkg'
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['colcon_meta']
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'colcon_meta'
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['ros']
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'ros'
+[0.555s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sllidar_ros2' with type 'ros.ament_cmake' and name 'sllidar_ros2'
+[0.555s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.555s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.555s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.555s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.555s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.592s] Level 5:colcon.colcon_core.verb:set package 'astra_camera_msgs' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.592s] Level 5:colcon.colcon_core.verb:set package 'astra_camera_msgs' build argument 'cmake_target' from command line to 'None'
+[0.592s] Level 5:colcon.colcon_core.verb:set package 'astra_camera_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.592s] Level 5:colcon.colcon_core.verb:set package 'astra_camera_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.592s] Level 5:colcon.colcon_core.verb:set package 'astra_camera_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.592s] Level 5:colcon.colcon_core.verb:set package 'astra_camera_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.592s] Level 5:colcon.colcon_core.verb:set package 'astra_camera_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.592s] Level 5:colcon.colcon_core.verb:set package 'astra_camera_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.592s] Level 5:colcon.colcon_core.verb:set package 'astra_camera_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.592s] DEBUG:colcon.colcon_core.verb:Building package 'astra_camera_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/faith/Work/carto_ws/build/astra_camera_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/faith/Work/carto_ws/install/astra_camera_msgs', 'merge_install': False, 'path': '/home/faith/Work/carto_ws/src/ros2_astra_camera/astra_camera_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.594s] Level 5:colcon.colcon_core.verb:set package 'cartographer' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.594s] Level 5:colcon.colcon_core.verb:set package 'cartographer' build argument 'cmake_target' from command line to 'None'
+[0.594s] Level 5:colcon.colcon_core.verb:set package 'cartographer' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.594s] Level 5:colcon.colcon_core.verb:set package 'cartographer' build argument 'cmake_clean_cache' from command line to 'False'
+[0.594s] Level 5:colcon.colcon_core.verb:set package 'cartographer' build argument 'cmake_clean_first' from command line to 'False'
+[0.594s] Level 5:colcon.colcon_core.verb:set package 'cartographer' build argument 'cmake_force_configure' from command line to 'False'
+[0.594s] Level 5:colcon.colcon_core.verb:set package 'cartographer' build argument 'ament_cmake_args' from command line to 'None'
+[0.594s] Level 5:colcon.colcon_core.verb:set package 'cartographer' build argument 'catkin_cmake_args' from command line to 'None'
+[0.594s] Level 5:colcon.colcon_core.verb:set package 'cartographer' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.594s] DEBUG:colcon.colcon_core.verb:Building package 'cartographer' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/faith/Work/carto_ws/build/cartographer', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/faith/Work/carto_ws/install/cartographer', 'merge_install': False, 'path': '/home/faith/Work/carto_ws/src/cartographer', 'symlink_install': False, 'test_result_base': None}
+[0.595s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros_msgs' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.595s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros_msgs' build argument 'cmake_target' from command line to 'None'
+[0.595s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.595s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.595s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.595s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.595s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.595s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.595s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.595s] DEBUG:colcon.colcon_core.verb:Building package 'cartographer_ros_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/faith/Work/carto_ws/build/cartographer_ros_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/faith/Work/carto_ws/install/cartographer_ros_msgs', 'merge_install': False, 'path': '/home/faith/Work/carto_ws/src/cartographer_ros/cartographer_ros_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.597s] Level 5:colcon.colcon_core.verb:set package 'faithbot_cartographer' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.597s] Level 5:colcon.colcon_core.verb:set package 'faithbot_cartographer' build argument 'cmake_target' from command line to 'None'
+[0.597s] Level 5:colcon.colcon_core.verb:set package 'faithbot_cartographer' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.597s] Level 5:colcon.colcon_core.verb:set package 'faithbot_cartographer' build argument 'cmake_clean_cache' from command line to 'False'
+[0.597s] Level 5:colcon.colcon_core.verb:set package 'faithbot_cartographer' build argument 'cmake_clean_first' from command line to 'False'
+[0.597s] Level 5:colcon.colcon_core.verb:set package 'faithbot_cartographer' build argument 'cmake_force_configure' from command line to 'False'
+[0.597s] Level 5:colcon.colcon_core.verb:set package 'faithbot_cartographer' build argument 'ament_cmake_args' from command line to 'None'
+[0.597s] Level 5:colcon.colcon_core.verb:set package 'faithbot_cartographer' build argument 'catkin_cmake_args' from command line to 'None'
+[0.597s] Level 5:colcon.colcon_core.verb:set package 'faithbot_cartographer' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.597s] DEBUG:colcon.colcon_core.verb:Building package 'faithbot_cartographer' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/faith/Work/carto_ws/build/faithbot_cartographer', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/faith/Work/carto_ws/install/faithbot_cartographer', 'merge_install': False, 'path': '/home/faith/Work/carto_ws/src/faithbot_cartographer', 'symlink_install': False, 'test_result_base': None}
+[0.598s] Level 5:colcon.colcon_core.verb:set package 'fishbot_description' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.598s] Level 5:colcon.colcon_core.verb:set package 'fishbot_description' build argument 'cmake_target' from command line to 'None'
+[0.598s] Level 5:colcon.colcon_core.verb:set package 'fishbot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.598s] Level 5:colcon.colcon_core.verb:set package 'fishbot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.598s] Level 5:colcon.colcon_core.verb:set package 'fishbot_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.598s] Level 5:colcon.colcon_core.verb:set package 'fishbot_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.598s] Level 5:colcon.colcon_core.verb:set package 'fishbot_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.598s] Level 5:colcon.colcon_core.verb:set package 'fishbot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.598s] Level 5:colcon.colcon_core.verb:set package 'fishbot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.598s] DEBUG:colcon.colcon_core.verb:Building package 'fishbot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/faith/Work/carto_ws/build/fishbot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/faith/Work/carto_ws/install/fishbot_description', 'merge_install': False, 'path': '/home/faith/Work/carto_ws/src/fishbot_description', 'symlink_install': False, 'test_result_base': None}
+[0.600s] Level 5:colcon.colcon_core.verb:set package 'orbbec_camera_msgs' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.600s] Level 5:colcon.colcon_core.verb:set package 'orbbec_camera_msgs' build argument 'cmake_target' from command line to 'None'
+[0.600s] Level 5:colcon.colcon_core.verb:set package 'orbbec_camera_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.600s] Level 5:colcon.colcon_core.verb:set package 'orbbec_camera_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.600s] Level 5:colcon.colcon_core.verb:set package 'orbbec_camera_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.600s] Level 5:colcon.colcon_core.verb:set package 'orbbec_camera_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.600s] Level 5:colcon.colcon_core.verb:set package 'orbbec_camera_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.600s] Level 5:colcon.colcon_core.verb:set package 'orbbec_camera_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.600s] Level 5:colcon.colcon_core.verb:set package 'orbbec_camera_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.600s] DEBUG:colcon.colcon_core.verb:Building package 'orbbec_camera_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/faith/Work/carto_ws/build/orbbec_camera_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/faith/Work/carto_ws/install/orbbec_camera_msgs', 'merge_install': False, 'path': '/home/faith/Work/carto_ws/src/OrbbecSDK_ROS2/orbbec_camera_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.601s] Level 5:colcon.colcon_core.verb:set package 'orbbec_description' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.601s] Level 5:colcon.colcon_core.verb:set package 'orbbec_description' build argument 'cmake_target' from command line to 'None'
+[0.601s] Level 5:colcon.colcon_core.verb:set package 'orbbec_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.601s] Level 5:colcon.colcon_core.verb:set package 'orbbec_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.601s] Level 5:colcon.colcon_core.verb:set package 'orbbec_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.601s] Level 5:colcon.colcon_core.verb:set package 'orbbec_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.601s] Level 5:colcon.colcon_core.verb:set package 'orbbec_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.601s] Level 5:colcon.colcon_core.verb:set package 'orbbec_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.601s] Level 5:colcon.colcon_core.verb:set package 'orbbec_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.601s] DEBUG:colcon.colcon_core.verb:Building package 'orbbec_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/faith/Work/carto_ws/build/orbbec_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/faith/Work/carto_ws/install/orbbec_description', 'merge_install': False, 'path': '/home/faith/Work/carto_ws/src/OrbbecSDK_ROS2/orbbec_description', 'symlink_install': False, 'test_result_base': None}
+[0.602s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.602s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_target' from command line to 'None'
+[0.602s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.602s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.602s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[0.602s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[0.602s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[0.602s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.603s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.603s] DEBUG:colcon.colcon_core.verb:Building package 'sllidar_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/faith/Work/carto_ws/build/sllidar_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/faith/Work/carto_ws/install/sllidar_ros2', 'merge_install': False, 'path': '/home/faith/Work/carto_ws/src/sllidar_ros2', 'symlink_install': False, 'test_result_base': None}
+[0.604s] Level 5:colcon.colcon_core.verb:set package 'astra_camera' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.604s] Level 5:colcon.colcon_core.verb:set package 'astra_camera' build argument 'cmake_target' from command line to 'None'
+[0.604s] Level 5:colcon.colcon_core.verb:set package 'astra_camera' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.604s] Level 5:colcon.colcon_core.verb:set package 'astra_camera' build argument 'cmake_clean_cache' from command line to 'False'
+[0.604s] Level 5:colcon.colcon_core.verb:set package 'astra_camera' build argument 'cmake_clean_first' from command line to 'False'
+[0.604s] Level 5:colcon.colcon_core.verb:set package 'astra_camera' build argument 'cmake_force_configure' from command line to 'False'
+[0.604s] Level 5:colcon.colcon_core.verb:set package 'astra_camera' build argument 'ament_cmake_args' from command line to 'None'
+[0.604s] Level 5:colcon.colcon_core.verb:set package 'astra_camera' build argument 'catkin_cmake_args' from command line to 'None'
+[0.604s] Level 5:colcon.colcon_core.verb:set package 'astra_camera' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.604s] DEBUG:colcon.colcon_core.verb:Building package 'astra_camera' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/faith/Work/carto_ws/build/astra_camera', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/faith/Work/carto_ws/install/astra_camera', 'merge_install': False, 'path': '/home/faith/Work/carto_ws/src/ros2_astra_camera/astra_camera', 'symlink_install': False, 'test_result_base': None}
+[0.605s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.605s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros' build argument 'cmake_target' from command line to 'None'
+[0.605s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.605s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[0.605s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros' build argument 'cmake_clean_first' from command line to 'False'
+[0.605s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros' build argument 'cmake_force_configure' from command line to 'False'
+[0.605s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros' build argument 'ament_cmake_args' from command line to 'None'
+[0.605s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[0.605s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.605s] DEBUG:colcon.colcon_core.verb:Building package 'cartographer_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/faith/Work/carto_ws/build/cartographer_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/faith/Work/carto_ws/install/cartographer_ros', 'merge_install': False, 'path': '/home/faith/Work/carto_ws/src/cartographer_ros/cartographer_ros', 'symlink_install': False, 'test_result_base': None}
+[0.606s] Level 5:colcon.colcon_core.verb:set package 'orbbec_camera' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.606s] Level 5:colcon.colcon_core.verb:set package 'orbbec_camera' build argument 'cmake_target' from command line to 'None'
+[0.606s] Level 5:colcon.colcon_core.verb:set package 'orbbec_camera' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.606s] Level 5:colcon.colcon_core.verb:set package 'orbbec_camera' build argument 'cmake_clean_cache' from command line to 'False'
+[0.606s] Level 5:colcon.colcon_core.verb:set package 'orbbec_camera' build argument 'cmake_clean_first' from command line to 'False'
+[0.607s] Level 5:colcon.colcon_core.verb:set package 'orbbec_camera' build argument 'cmake_force_configure' from command line to 'False'
+[0.607s] Level 5:colcon.colcon_core.verb:set package 'orbbec_camera' build argument 'ament_cmake_args' from command line to 'None'
+[0.607s] Level 5:colcon.colcon_core.verb:set package 'orbbec_camera' build argument 'catkin_cmake_args' from command line to 'None'
+[0.607s] Level 5:colcon.colcon_core.verb:set package 'orbbec_camera' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.607s] DEBUG:colcon.colcon_core.verb:Building package 'orbbec_camera' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/faith/Work/carto_ws/build/orbbec_camera', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/faith/Work/carto_ws/install/orbbec_camera', 'merge_install': False, 'path': '/home/faith/Work/carto_ws/src/OrbbecSDK_ROS2/orbbec_camera', 'symlink_install': False, 'test_result_base': None}
+[0.608s] Level 5:colcon.colcon_core.verb:set package 'cartographer_rviz' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.608s] Level 5:colcon.colcon_core.verb:set package 'cartographer_rviz' build argument 'cmake_target' from command line to 'None'
+[0.608s] Level 5:colcon.colcon_core.verb:set package 'cartographer_rviz' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.608s] Level 5:colcon.colcon_core.verb:set package 'cartographer_rviz' build argument 'cmake_clean_cache' from command line to 'False'
+[0.608s] Level 5:colcon.colcon_core.verb:set package 'cartographer_rviz' build argument 'cmake_clean_first' from command line to 'False'
+[0.608s] Level 5:colcon.colcon_core.verb:set package 'cartographer_rviz' build argument 'cmake_force_configure' from command line to 'False'
+[0.608s] Level 5:colcon.colcon_core.verb:set package 'cartographer_rviz' build argument 'ament_cmake_args' from command line to 'None'
+[0.608s] Level 5:colcon.colcon_core.verb:set package 'cartographer_rviz' build argument 'catkin_cmake_args' from command line to 'None'
+[0.608s] Level 5:colcon.colcon_core.verb:set package 'cartographer_rviz' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.608s] DEBUG:colcon.colcon_core.verb:Building package 'cartographer_rviz' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/faith/Work/carto_ws/build/cartographer_rviz', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/faith/Work/carto_ws/install/cartographer_rviz', 'merge_install': False, 'path': '/home/faith/Work/carto_ws/src/cartographer_ros/cartographer_rviz', 'symlink_install': False, 'test_result_base': None}
+[0.609s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.616s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.616s] INFO:colcon.colcon_ros.task.cmake.build:Building ROS package in '/home/faith/Work/carto_ws/src/cartographer' with build type 'cmake'
+[0.616s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/faith/Work/carto_ws/src/cartographer'
+[0.626s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.626s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.626s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.637s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/faith/Work/carto_ws/src/cartographer_ros/cartographer_ros_msgs' with build type 'ament_cmake'
+[0.637s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/faith/Work/carto_ws/src/cartographer_ros/cartographer_ros_msgs'
+[0.639s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.639s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.648s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/faith/Work/carto_ws/src/ros2_astra_camera/astra_camera_msgs' with build type 'ament_cmake'
+[0.648s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/faith/Work/carto_ws/src/ros2_astra_camera/astra_camera_msgs'
+[0.649s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.650s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.657s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/faith/Work/carto_ws/src/OrbbecSDK_ROS2/orbbec_camera_msgs' with build type 'ament_cmake'
+[0.657s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/faith/Work/carto_ws/src/OrbbecSDK_ROS2/orbbec_camera_msgs'
+[0.659s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.659s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.667s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/faith/Work/carto_ws/src/faithbot_cartographer' with build type 'ament_cmake'
+[0.667s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/faith/Work/carto_ws/src/faithbot_cartographer'
+[0.668s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.669s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.677s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/faith/Work/carto_ws/src/fishbot_description' with build type 'ament_python'
+[0.677s] Level 1:colcon.colcon_core.shell:create_environment_hook('fishbot_description', 'ament_prefix_path')
+[0.679s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faith/Work/carto_ws/install/fishbot_description/share/fishbot_description/hook/ament_prefix_path.ps1'
+[0.680s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/faith/Work/carto_ws/install/fishbot_description/share/fishbot_description/hook/ament_prefix_path.dsv'
+[0.681s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faith/Work/carto_ws/install/fishbot_description/share/fishbot_description/hook/ament_prefix_path.sh'
+[0.684s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.684s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.692s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/faith/Work/carto_ws/src/OrbbecSDK_ROS2/orbbec_description' with build type 'ament_cmake'
+[0.692s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/faith/Work/carto_ws/src/OrbbecSDK_ROS2/orbbec_description'
+[0.693s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.693s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.702s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/faith/Work/carto_ws/src/sllidar_ros2' with build type 'ament_cmake'
+[0.702s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/faith/Work/carto_ws/src/sllidar_ros2'
+[0.704s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.704s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.726s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/faith/Work/carto_ws/build/cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/faith/Work/carto_ws/install/fishbot_description:/opt/ros/humble /usr/bin/cmake /home/faith/Work/carto_ws/src/cartographer -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/faith/Work/carto_ws/install/cartographer
+[0.736s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/faith/Work/carto_ws/build/cartographer_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/faith/Work/carto_ws/install/fishbot_description:/opt/ros/humble /usr/bin/cmake /home/faith/Work/carto_ws/src/cartographer_ros/cartographer_ros_msgs -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/faith/Work/carto_ws/install/cartographer_ros_msgs
+[0.746s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/faith/Work/carto_ws/build/astra_camera_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/faith/Work/carto_ws/install/fishbot_description:/opt/ros/humble /usr/bin/cmake /home/faith/Work/carto_ws/src/ros2_astra_camera/astra_camera_msgs -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/faith/Work/carto_ws/install/astra_camera_msgs
+[0.752s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/faith/Work/carto_ws/build/orbbec_camera_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/faith/Work/carto_ws/install/fishbot_description:/opt/ros/humble /usr/bin/cmake /home/faith/Work/carto_ws/src/OrbbecSDK_ROS2/orbbec_camera_msgs -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/faith/Work/carto_ws/install/orbbec_camera_msgs
+[0.756s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/faith/Work/carto_ws/build/faithbot_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/faith/Work/carto_ws/install/fishbot_description:/opt/ros/humble /usr/bin/cmake /home/faith/Work/carto_ws/src/faithbot_cartographer -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/faith/Work/carto_ws/install/faithbot_cartographer
+[1.175s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/faith/Work/carto_ws/src/fishbot_description'
+[1.182s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.183s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.218s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/faith/Work/carto_ws/build/orbbec_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/faith/Work/carto_ws/install/fishbot_description:/opt/ros/humble /usr/bin/cmake /home/faith/Work/carto_ws/src/OrbbecSDK_ROS2/orbbec_description -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/faith/Work/carto_ws/install/orbbec_description
+[1.263s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/faith/Work/carto_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/faith/Work/carto_ws/install/fishbot_description:/opt/ros/humble /usr/bin/cmake /home/faith/Work/carto_ws/src/sllidar_ros2 -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/faith/Work/carto_ws/install/sllidar_ros2
+[1.324s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/faith/Work/carto_ws/build/faithbot_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/faith/Work/carto_ws/install/fishbot_description:/opt/ros/humble /usr/bin/cmake /home/faith/Work/carto_ws/src/faithbot_cartographer -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/faith/Work/carto_ws/install/faithbot_cartographer
+[1.327s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/faith/Work/carto_ws/build/faithbot_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/faith/Work/carto_ws/install/fishbot_description:/opt/ros/humble /usr/bin/cmake --build /home/faith/Work/carto_ws/build/faithbot_cartographer -- -j8 -l8
+[1.718s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/faith/Work/carto_ws/build/cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/faith/Work/carto_ws/install/fishbot_description:/opt/ros/humble /usr/bin/cmake /home/faith/Work/carto_ws/src/cartographer -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/faith/Work/carto_ws/install/cartographer
+[1.723s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/faith/Work/carto_ws/build/cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/faith/Work/carto_ws/install/fishbot_description:/opt/ros/humble /usr/bin/cmake --build /home/faith/Work/carto_ws/build/cartographer -- -j8 -l8
+[1.731s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/faith/Work/carto_ws/build/faithbot_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/faith/Work/carto_ws/install/fishbot_description:/opt/ros/humble /usr/bin/cmake --build /home/faith/Work/carto_ws/build/faithbot_cartographer -- -j8 -l8
+[1.874s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/faith/Work/carto_ws/build/faithbot_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/faith/Work/carto_ws/install/fishbot_description:/opt/ros/humble /usr/bin/cmake --install /home/faith/Work/carto_ws/build/faithbot_cartographer
+[1.981s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/faith/Work/carto_ws/build/orbbec_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/faith/Work/carto_ws/install/fishbot_description:/opt/ros/humble /usr/bin/cmake /home/faith/Work/carto_ws/src/OrbbecSDK_ROS2/orbbec_description -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/faith/Work/carto_ws/install/orbbec_description
+[1.982s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/faith/Work/carto_ws/build/orbbec_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/faith/Work/carto_ws/install/fishbot_description:/opt/ros/humble /usr/bin/cmake --build /home/faith/Work/carto_ws/build/orbbec_description -- -j8 -l8
+[1.992s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(faithbot_cartographer)
+[2.001s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/faithbot_cartographer' for CMake module files
+[2.001s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/faithbot_cartographer' for CMake config files
+[2.002s] Level 1:colcon.colcon_core.shell:create_environment_hook('faithbot_cartographer', 'cmake_prefix_path')
+[2.004s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faith/Work/carto_ws/install/faithbot_cartographer/share/faithbot_cartographer/hook/cmake_prefix_path.ps1'
+[2.004s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/faith/Work/carto_ws/build/faithbot_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/faith/Work/carto_ws/install/fishbot_description:/opt/ros/humble /usr/bin/cmake --install /home/faith/Work/carto_ws/build/faithbot_cartographer
+[2.005s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/faith/Work/carto_ws/install/faithbot_cartographer/share/faithbot_cartographer/hook/cmake_prefix_path.dsv'
+[2.006s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faith/Work/carto_ws/install/faithbot_cartographer/share/faithbot_cartographer/hook/cmake_prefix_path.sh'
+[2.007s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/faithbot_cartographer/bin'
+[2.007s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/faithbot_cartographer/lib/pkgconfig/faithbot_cartographer.pc'
+[2.008s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/faithbot_cartographer/lib/python3.10/site-packages'
+[2.008s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/faithbot_cartographer/bin'
+[2.010s] INFO:colcon.colcon_core.shell:Creating package script '/home/faith/Work/carto_ws/install/faithbot_cartographer/share/faithbot_cartographer/package.ps1'
+[2.012s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/faith/Work/carto_ws/install/faithbot_cartographer/share/faithbot_cartographer/package.dsv'
+[2.013s] INFO:colcon.colcon_core.shell:Creating package script '/home/faith/Work/carto_ws/install/faithbot_cartographer/share/faithbot_cartographer/package.sh'
+[2.014s] INFO:colcon.colcon_core.shell:Creating package script '/home/faith/Work/carto_ws/install/faithbot_cartographer/share/faithbot_cartographer/package.bash'
+[2.016s] INFO:colcon.colcon_core.shell:Creating package script '/home/faith/Work/carto_ws/install/faithbot_cartographer/share/faithbot_cartographer/package.zsh'
+[2.017s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/faith/Work/carto_ws/install/faithbot_cartographer/share/colcon-core/packages/faithbot_cartographer)
+[2.110s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/faith/Work/carto_ws/build/orbbec_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/faith/Work/carto_ws/install/fishbot_description:/opt/ros/humble /usr/bin/cmake --build /home/faith/Work/carto_ws/build/orbbec_description -- -j8 -l8
+[2.125s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(faithbot_cartographer)
+[2.128s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/faithbot_cartographer' for CMake module files
+[2.129s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/faithbot_cartographer' for CMake config files
+[2.130s] Level 1:colcon.colcon_core.shell:create_environment_hook('faithbot_cartographer', 'cmake_prefix_path')
+[2.132s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faith/Work/carto_ws/install/faithbot_cartographer/share/faithbot_cartographer/hook/cmake_prefix_path.ps1'
+[2.133s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/faith/Work/carto_ws/install/faithbot_cartographer/share/faithbot_cartographer/hook/cmake_prefix_path.dsv'
+[2.133s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faith/Work/carto_ws/install/faithbot_cartographer/share/faithbot_cartographer/hook/cmake_prefix_path.sh'
+[2.134s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/faithbot_cartographer/bin'
+[2.134s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/faithbot_cartographer/lib/pkgconfig/faithbot_cartographer.pc'
+[2.135s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/faithbot_cartographer/lib/python3.10/site-packages'
+[2.135s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/faithbot_cartographer/bin'
+[2.137s] INFO:colcon.colcon_core.shell:Creating package script '/home/faith/Work/carto_ws/install/faithbot_cartographer/share/faithbot_cartographer/package.ps1'
+[2.138s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/faith/Work/carto_ws/install/faithbot_cartographer/share/faithbot_cartographer/package.dsv'
+[2.139s] INFO:colcon.colcon_core.shell:Creating package script '/home/faith/Work/carto_ws/install/faithbot_cartographer/share/faithbot_cartographer/package.sh'
+[2.140s] INFO:colcon.colcon_core.shell:Creating package script '/home/faith/Work/carto_ws/install/faithbot_cartographer/share/faithbot_cartographer/package.bash'
+[2.140s] INFO:colcon.colcon_core.shell:Creating package script '/home/faith/Work/carto_ws/install/faithbot_cartographer/share/faithbot_cartographer/package.zsh'
+[2.141s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/faith/Work/carto_ws/install/faithbot_cartographer/share/colcon-core/packages/faithbot_cartographer)
+[2.152s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/faith/Work/carto_ws/build/orbbec_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/faith/Work/carto_ws/install/fishbot_description:/opt/ros/humble /usr/bin/cmake --install /home/faith/Work/carto_ws/build/orbbec_description
+[2.177s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(orbbec_description)
+[2.183s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/faith/Work/carto_ws/build/orbbec_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/faith/Work/carto_ws/install/fishbot_description:/opt/ros/humble /usr/bin/cmake --install /home/faith/Work/carto_ws/build/orbbec_description
+[2.191s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/orbbec_description' for CMake module files
+[2.193s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/orbbec_description' for CMake config files
+[2.194s] Level 1:colcon.colcon_core.shell:create_environment_hook('orbbec_description', 'cmake_prefix_path')
+[2.203s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faith/Work/carto_ws/install/orbbec_description/share/orbbec_description/hook/cmake_prefix_path.ps1'
+[2.205s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/faith/Work/carto_ws/install/orbbec_description/share/orbbec_description/hook/cmake_prefix_path.dsv'
+[2.207s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faith/Work/carto_ws/install/orbbec_description/share/orbbec_description/hook/cmake_prefix_path.sh'
+[2.209s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/orbbec_description/bin'
+[2.210s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/orbbec_description/lib/pkgconfig/orbbec_description.pc'
+[2.211s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/orbbec_description/lib/python3.10/site-packages'
+[2.212s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/orbbec_description/bin'
+[2.222s] INFO:colcon.colcon_core.shell:Creating package script '/home/faith/Work/carto_ws/install/orbbec_description/share/orbbec_description/package.ps1'
+[2.225s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/faith/Work/carto_ws/install/orbbec_description/share/orbbec_description/package.dsv'
+[2.227s] INFO:colcon.colcon_core.shell:Creating package script '/home/faith/Work/carto_ws/install/orbbec_description/share/orbbec_description/package.sh'
+[2.229s] INFO:colcon.colcon_core.shell:Creating package script '/home/faith/Work/carto_ws/install/orbbec_description/share/orbbec_description/package.bash'
+[2.231s] INFO:colcon.colcon_core.shell:Creating package script '/home/faith/Work/carto_ws/install/orbbec_description/share/orbbec_description/package.zsh'
+[2.232s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/faith/Work/carto_ws/install/orbbec_description/share/colcon-core/packages/orbbec_description)
+[2.258s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/faith/Work/carto_ws/src/fishbot_description': PYTHONPATH=/home/faith/Work/carto_ws/build/fishbot_description/prefix_override:/home/faith/Work/carto_ws/install/fishbot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/fishbot_description build --build-base /home/faith/Work/carto_ws/build/fishbot_description/build install --record /home/faith/Work/carto_ws/build/fishbot_description/install.log --single-version-externally-managed
+[2.319s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(orbbec_description)
+[2.331s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/orbbec_description' for CMake module files
+[2.333s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/orbbec_description' for CMake config files
+[2.334s] Level 1:colcon.colcon_core.shell:create_environment_hook('orbbec_description', 'cmake_prefix_path')
+[2.342s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faith/Work/carto_ws/install/orbbec_description/share/orbbec_description/hook/cmake_prefix_path.ps1'
+[2.345s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/faith/Work/carto_ws/install/orbbec_description/share/orbbec_description/hook/cmake_prefix_path.dsv'
+[2.346s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faith/Work/carto_ws/install/orbbec_description/share/orbbec_description/hook/cmake_prefix_path.sh'
+[2.349s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/orbbec_description/bin'
+[2.350s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/orbbec_description/lib/pkgconfig/orbbec_description.pc'
+[2.351s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/orbbec_description/lib/python3.10/site-packages'
+[2.352s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/orbbec_description/bin'
+[2.360s] INFO:colcon.colcon_core.shell:Creating package script '/home/faith/Work/carto_ws/install/orbbec_description/share/orbbec_description/package.ps1'
+[2.363s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/faith/Work/carto_ws/install/orbbec_description/share/orbbec_description/package.dsv'
+[2.365s] INFO:colcon.colcon_core.shell:Creating package script '/home/faith/Work/carto_ws/install/orbbec_description/share/orbbec_description/package.sh'
+[2.367s] INFO:colcon.colcon_core.shell:Creating package script '/home/faith/Work/carto_ws/install/orbbec_description/share/orbbec_description/package.bash'
+[2.370s] INFO:colcon.colcon_core.shell:Creating package script '/home/faith/Work/carto_ws/install/orbbec_description/share/orbbec_description/package.zsh'
+[2.371s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/faith/Work/carto_ws/install/orbbec_description/share/colcon-core/packages/orbbec_description)
+[2.818s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/fishbot_description' for CMake module files
+[2.819s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/faith/Work/carto_ws/src/fishbot_description' returned '0': PYTHONPATH=/home/faith/Work/carto_ws/build/fishbot_description/prefix_override:/home/faith/Work/carto_ws/install/fishbot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/fishbot_description build --build-base /home/faith/Work/carto_ws/build/fishbot_description/build install --record /home/faith/Work/carto_ws/build/fishbot_description/install.log --single-version-externally-managed
+[2.822s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/fishbot_description' for CMake config files
+[2.825s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/fishbot_description/lib'
+[2.826s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/fishbot_description/bin'
+[2.827s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/fishbot_description/lib/pkgconfig/fishbot_description.pc'
+[2.828s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/fishbot_description/lib/python3.10/site-packages'
+[2.828s] Level 1:colcon.colcon_core.shell:create_environment_hook('fishbot_description', 'pythonpath')
+[2.836s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faith/Work/carto_ws/install/fishbot_description/share/fishbot_description/hook/pythonpath.ps1'
+[2.840s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/faith/Work/carto_ws/install/fishbot_description/share/fishbot_description/hook/pythonpath.dsv'
+[2.843s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faith/Work/carto_ws/install/fishbot_description/share/fishbot_description/hook/pythonpath.sh'
+[2.850s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/fishbot_description/bin'
+[2.851s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fishbot_description)
+[2.860s] INFO:colcon.colcon_core.shell:Creating package script '/home/faith/Work/carto_ws/install/fishbot_description/share/fishbot_description/package.ps1'
+[2.863s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/faith/Work/carto_ws/install/fishbot_description/share/fishbot_description/package.dsv'
+[2.865s] INFO:colcon.colcon_core.shell:Creating package script '/home/faith/Work/carto_ws/install/fishbot_description/share/fishbot_description/package.sh'
+[2.867s] INFO:colcon.colcon_core.shell:Creating package script '/home/faith/Work/carto_ws/install/fishbot_description/share/fishbot_description/package.bash'
+[2.869s] INFO:colcon.colcon_core.shell:Creating package script '/home/faith/Work/carto_ws/install/fishbot_description/share/fishbot_description/package.zsh'
+[2.871s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/faith/Work/carto_ws/install/fishbot_description/share/colcon-core/packages/fishbot_description)
+[3.500s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/faith/Work/carto_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/faith/Work/carto_ws/install/fishbot_description:/opt/ros/humble /usr/bin/cmake /home/faith/Work/carto_ws/src/sllidar_ros2 -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/faith/Work/carto_ws/install/sllidar_ros2
+[3.500s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/faith/Work/carto_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/faith/Work/carto_ws/install/fishbot_description:/opt/ros/humble /usr/bin/cmake --build /home/faith/Work/carto_ws/build/sllidar_ros2 -- -j8 -l8
+[3.769s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/faith/Work/carto_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/faith/Work/carto_ws/install/fishbot_description:/opt/ros/humble /usr/bin/cmake --build /home/faith/Work/carto_ws/build/sllidar_ros2 -- -j8 -l8
+[3.937s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/faith/Work/carto_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/faith/Work/carto_ws/install/fishbot_description:/opt/ros/humble /usr/bin/cmake --install /home/faith/Work/carto_ws/build/sllidar_ros2
+[3.994s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sllidar_ros2)
+[3.996s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/sllidar_ros2' for CMake module files
+[4.000s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/sllidar_ros2' for CMake config files
+[4.002s] Level 1:colcon.colcon_core.shell:create_environment_hook('sllidar_ros2', 'cmake_prefix_path')
+[4.009s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faith/Work/carto_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.ps1'
+[4.019s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/faith/Work/carto_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/faith/Work/carto_ws/install/fishbot_description:/opt/ros/humble /usr/bin/cmake --install /home/faith/Work/carto_ws/build/sllidar_ros2
+[4.021s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/faith/Work/carto_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.dsv'
+[4.021s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faith/Work/carto_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.sh'
+[4.023s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/sllidar_ros2/lib'
+[4.023s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/sllidar_ros2/bin'
+[4.023s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/sllidar_ros2/lib/pkgconfig/sllidar_ros2.pc'
+[4.023s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/sllidar_ros2/lib/python3.10/site-packages'
+[4.023s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/sllidar_ros2/bin'
+[4.025s] INFO:colcon.colcon_core.shell:Creating package script '/home/faith/Work/carto_ws/install/sllidar_ros2/share/sllidar_ros2/package.ps1'
+[4.027s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/faith/Work/carto_ws/install/sllidar_ros2/share/sllidar_ros2/package.dsv'
+[4.028s] INFO:colcon.colcon_core.shell:Creating package script '/home/faith/Work/carto_ws/install/sllidar_ros2/share/sllidar_ros2/package.sh'
+[4.028s] INFO:colcon.colcon_core.shell:Creating package script '/home/faith/Work/carto_ws/install/sllidar_ros2/share/sllidar_ros2/package.bash'
+[4.029s] INFO:colcon.colcon_core.shell:Creating package script '/home/faith/Work/carto_ws/install/sllidar_ros2/share/sllidar_ros2/package.zsh'
+[4.029s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/faith/Work/carto_ws/install/sllidar_ros2/share/colcon-core/packages/sllidar_ros2)
+[4.217s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sllidar_ros2)
+[4.232s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/sllidar_ros2' for CMake module files
+[4.239s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/sllidar_ros2' for CMake config files
+[4.241s] Level 1:colcon.colcon_core.shell:create_environment_hook('sllidar_ros2', 'cmake_prefix_path')
+[4.249s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faith/Work/carto_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.ps1'
+[4.251s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/faith/Work/carto_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.dsv'
+[4.253s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faith/Work/carto_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.sh'
+[4.255s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/sllidar_ros2/lib'
+[4.256s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/sllidar_ros2/bin'
+[4.257s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/sllidar_ros2/lib/pkgconfig/sllidar_ros2.pc'
+[4.258s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/sllidar_ros2/lib/python3.10/site-packages'
+[4.259s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/sllidar_ros2/bin'
+[4.268s] INFO:colcon.colcon_core.shell:Creating package script '/home/faith/Work/carto_ws/install/sllidar_ros2/share/sllidar_ros2/package.ps1'
+[4.272s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/faith/Work/carto_ws/install/sllidar_ros2/share/sllidar_ros2/package.dsv'
+[4.276s] INFO:colcon.colcon_core.shell:Creating package script '/home/faith/Work/carto_ws/install/sllidar_ros2/share/sllidar_ros2/package.sh'
+[4.278s] INFO:colcon.colcon_core.shell:Creating package script '/home/faith/Work/carto_ws/install/sllidar_ros2/share/sllidar_ros2/package.bash'
+[4.281s] INFO:colcon.colcon_core.shell:Creating package script '/home/faith/Work/carto_ws/install/sllidar_ros2/share/sllidar_ros2/package.zsh'
+[4.282s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/faith/Work/carto_ws/install/sllidar_ros2/share/colcon-core/packages/sllidar_ros2)
+[4.302s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/faith/Work/carto_ws/build/cartographer_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/faith/Work/carto_ws/install/fishbot_description:/opt/ros/humble /usr/bin/cmake /home/faith/Work/carto_ws/src/cartographer_ros/cartographer_ros_msgs -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/faith/Work/carto_ws/install/cartographer_ros_msgs
+[4.304s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/faith/Work/carto_ws/build/cartographer_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/faith/Work/carto_ws/install/fishbot_description:/opt/ros/humble /usr/bin/cmake --build /home/faith/Work/carto_ws/build/cartographer_ros_msgs -- -j8 -l8
+[4.464s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/faith/Work/carto_ws/build/astra_camera_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/faith/Work/carto_ws/install/fishbot_description:/opt/ros/humble /usr/bin/cmake /home/faith/Work/carto_ws/src/ros2_astra_camera/astra_camera_msgs -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/faith/Work/carto_ws/install/astra_camera_msgs
+[4.465s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/faith/Work/carto_ws/build/astra_camera_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/faith/Work/carto_ws/install/fishbot_description:/opt/ros/humble /usr/bin/cmake --build /home/faith/Work/carto_ws/build/astra_camera_msgs -- -j8 -l8
+[4.506s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/faith/Work/carto_ws/build/orbbec_camera_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/faith/Work/carto_ws/install/fishbot_description:/opt/ros/humble /usr/bin/cmake /home/faith/Work/carto_ws/src/OrbbecSDK_ROS2/orbbec_camera_msgs -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/faith/Work/carto_ws/install/orbbec_camera_msgs
+[4.506s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/faith/Work/carto_ws/build/orbbec_camera_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/faith/Work/carto_ws/install/fishbot_description:/opt/ros/humble /usr/bin/cmake --build /home/faith/Work/carto_ws/build/orbbec_camera_msgs -- -j8 -l8
+[4.797s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/faith/Work/carto_ws/build/cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/faith/Work/carto_ws/install/fishbot_description:/opt/ros/humble /usr/bin/cmake --build /home/faith/Work/carto_ws/build/cartographer -- -j8 -l8
+[5.158s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/faith/Work/carto_ws/build/cartographer_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/faith/Work/carto_ws/install/fishbot_description:/opt/ros/humble /usr/bin/cmake --build /home/faith/Work/carto_ws/build/cartographer_ros_msgs -- -j8 -l8
+[5.238s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/faith/Work/carto_ws/build/astra_camera_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/faith/Work/carto_ws/install/fishbot_description:/opt/ros/humble /usr/bin/cmake --build /home/faith/Work/carto_ws/build/astra_camera_msgs -- -j8 -l8
+[5.326s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/faith/Work/carto_ws/build/orbbec_camera_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/faith/Work/carto_ws/install/fishbot_description:/opt/ros/humble /usr/bin/cmake --build /home/faith/Work/carto_ws/build/orbbec_camera_msgs -- -j8 -l8
+[5.571s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/faith/Work/carto_ws/build/astra_camera_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/faith/Work/carto_ws/install/fishbot_description:/opt/ros/humble /usr/bin/cmake --install /home/faith/Work/carto_ws/build/astra_camera_msgs
+[5.676s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(astra_camera_msgs)
+[5.679s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/astra_camera_msgs' for CMake module files
+[5.684s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/astra_camera_msgs' for CMake config files
+[5.692s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/faith/Work/carto_ws/build/astra_camera_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/faith/Work/carto_ws/install/fishbot_description:/opt/ros/humble /usr/bin/cmake --install /home/faith/Work/carto_ws/build/astra_camera_msgs
+[5.694s] Level 1:colcon.colcon_core.shell:create_environment_hook('astra_camera_msgs', 'cmake_prefix_path')
+[5.702s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faith/Work/carto_ws/install/astra_camera_msgs/share/astra_camera_msgs/hook/cmake_prefix_path.ps1'
+[5.704s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/faith/Work/carto_ws/install/astra_camera_msgs/share/astra_camera_msgs/hook/cmake_prefix_path.dsv'
+[5.705s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faith/Work/carto_ws/install/astra_camera_msgs/share/astra_camera_msgs/hook/cmake_prefix_path.sh'
+[5.708s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/astra_camera_msgs/lib'
+[5.708s] Level 1:colcon.colcon_core.shell:create_environment_hook('astra_camera_msgs', 'ld_library_path_lib')
+[5.714s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faith/Work/carto_ws/install/astra_camera_msgs/share/astra_camera_msgs/hook/ld_library_path_lib.ps1'
+[5.715s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/faith/Work/carto_ws/install/astra_camera_msgs/share/astra_camera_msgs/hook/ld_library_path_lib.dsv'
+[5.715s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faith/Work/carto_ws/install/astra_camera_msgs/share/astra_camera_msgs/hook/ld_library_path_lib.sh'
+[5.716s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/astra_camera_msgs/bin'
+[5.716s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/astra_camera_msgs/lib/pkgconfig/astra_camera_msgs.pc'
+[5.717s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/astra_camera_msgs/lib/python3.10/site-packages'
+[5.717s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/astra_camera_msgs/bin'
+[5.719s] INFO:colcon.colcon_core.shell:Creating package script '/home/faith/Work/carto_ws/install/astra_camera_msgs/share/astra_camera_msgs/package.ps1'
+[5.720s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/faith/Work/carto_ws/install/astra_camera_msgs/share/astra_camera_msgs/package.dsv'
+[5.721s] INFO:colcon.colcon_core.shell:Creating package script '/home/faith/Work/carto_ws/install/astra_camera_msgs/share/astra_camera_msgs/package.sh'
+[5.722s] INFO:colcon.colcon_core.shell:Creating package script '/home/faith/Work/carto_ws/install/astra_camera_msgs/share/astra_camera_msgs/package.bash'
+[5.722s] INFO:colcon.colcon_core.shell:Creating package script '/home/faith/Work/carto_ws/install/astra_camera_msgs/share/astra_camera_msgs/package.zsh'
+[5.723s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/faith/Work/carto_ws/install/astra_camera_msgs/share/colcon-core/packages/astra_camera_msgs)
+[5.774s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/faith/Work/carto_ws/build/orbbec_camera_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/faith/Work/carto_ws/install/fishbot_description:/opt/ros/humble /usr/bin/cmake --install /home/faith/Work/carto_ws/build/orbbec_camera_msgs
+[5.878s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(orbbec_camera_msgs)
+[5.880s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/orbbec_camera_msgs' for CMake module files
+[5.881s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/orbbec_camera_msgs' for CMake config files
+[5.882s] Level 1:colcon.colcon_core.shell:create_environment_hook('orbbec_camera_msgs', 'cmake_prefix_path')
+[5.884s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faith/Work/carto_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/hook/cmake_prefix_path.ps1'
+[5.885s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/faith/Work/carto_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/hook/cmake_prefix_path.dsv'
+[5.886s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faith/Work/carto_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/hook/cmake_prefix_path.sh'
+[5.888s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/orbbec_camera_msgs/lib'
+[5.888s] Level 1:colcon.colcon_core.shell:create_environment_hook('orbbec_camera_msgs', 'ld_library_path_lib')
+[5.890s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faith/Work/carto_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/hook/ld_library_path_lib.ps1'
+[5.891s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/faith/Work/carto_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/hook/ld_library_path_lib.dsv'
+[5.892s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faith/Work/carto_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/hook/ld_library_path_lib.sh'
+[5.893s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/orbbec_camera_msgs/bin'
+[5.893s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/orbbec_camera_msgs/lib/pkgconfig/orbbec_camera_msgs.pc'
+[5.893s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/orbbec_camera_msgs/lib/python3.10/site-packages'
+[5.894s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/orbbec_camera_msgs/bin'
+[5.896s] INFO:colcon.colcon_core.shell:Creating package script '/home/faith/Work/carto_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/package.ps1'
+[5.897s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/faith/Work/carto_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/package.dsv'
+[5.898s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/faith/Work/carto_ws/build/orbbec_camera_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/faith/Work/carto_ws/install/fishbot_description:/opt/ros/humble /usr/bin/cmake --install /home/faith/Work/carto_ws/build/orbbec_camera_msgs
+[5.898s] INFO:colcon.colcon_core.shell:Creating package script '/home/faith/Work/carto_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/package.sh'
+[5.899s] INFO:colcon.colcon_core.shell:Creating package script '/home/faith/Work/carto_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/package.bash'
+[5.900s] INFO:colcon.colcon_core.shell:Creating package script '/home/faith/Work/carto_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/package.zsh'
+[5.900s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/faith/Work/carto_ws/install/orbbec_camera_msgs/share/colcon-core/packages/orbbec_camera_msgs)
+[5.946s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/faith/Work/carto_ws/build/cartographer_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/faith/Work/carto_ws/install/fishbot_description:/opt/ros/humble /usr/bin/cmake --install /home/faith/Work/carto_ws/build/cartographer_ros_msgs
+[6.092s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cartographer_ros_msgs)
+[6.095s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/cartographer_ros_msgs' for CMake module files
+[6.099s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/cartographer_ros_msgs' for CMake config files
+[6.111s] Level 1:colcon.colcon_core.shell:create_environment_hook('cartographer_ros_msgs', 'cmake_prefix_path')
+[6.113s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faith/Work/carto_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/hook/cmake_prefix_path.ps1'
+[6.115s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/faith/Work/carto_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/hook/cmake_prefix_path.dsv'
+[6.116s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faith/Work/carto_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/hook/cmake_prefix_path.sh'
+[6.118s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/cartographer_ros_msgs/lib'
+[6.119s] Level 1:colcon.colcon_core.shell:create_environment_hook('cartographer_ros_msgs', 'ld_library_path_lib')
+[6.121s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faith/Work/carto_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/hook/ld_library_path_lib.ps1'
+[6.122s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/faith/Work/carto_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/hook/ld_library_path_lib.dsv'
+[6.123s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faith/Work/carto_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/hook/ld_library_path_lib.sh'
+[6.124s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/cartographer_ros_msgs/bin'
+[6.124s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/cartographer_ros_msgs/lib/pkgconfig/cartographer_ros_msgs.pc'
+[6.124s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/cartographer_ros_msgs/lib/python3.10/site-packages'
+[6.125s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/cartographer_ros_msgs/bin'
+[6.127s] INFO:colcon.colcon_core.shell:Creating package script '/home/faith/Work/carto_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/package.ps1'
+[6.128s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/faith/Work/carto_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/package.dsv'
+[6.130s] INFO:colcon.colcon_core.shell:Creating package script '/home/faith/Work/carto_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/package.sh'
+[6.131s] INFO:colcon.colcon_core.shell:Creating package script '/home/faith/Work/carto_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/package.bash'
+[6.131s] INFO:colcon.colcon_core.shell:Creating package script '/home/faith/Work/carto_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/package.zsh'
+[6.132s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/faith/Work/carto_ws/install/cartographer_ros_msgs/share/colcon-core/packages/cartographer_ros_msgs)
+[6.137s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/faith/Work/carto_ws/build/cartographer_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/faith/Work/carto_ws/install/fishbot_description:/opt/ros/humble /usr/bin/cmake --install /home/faith/Work/carto_ws/build/cartographer_ros_msgs
+[6.161s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/faith/Work/carto_ws/build/cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/faith/Work/carto_ws/install/fishbot_description:/opt/ros/humble /usr/bin/cmake --install /home/faith/Work/carto_ws/build/cartographer
+[6.175s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(astra_camera_msgs)
+[6.178s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/astra_camera_msgs' for CMake module files
+[6.179s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/astra_camera_msgs' for CMake config files
+[6.180s] Level 1:colcon.colcon_core.shell:create_environment_hook('astra_camera_msgs', 'cmake_prefix_path')
+[6.182s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faith/Work/carto_ws/install/astra_camera_msgs/share/astra_camera_msgs/hook/cmake_prefix_path.ps1'
+[6.184s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/faith/Work/carto_ws/install/astra_camera_msgs/share/astra_camera_msgs/hook/cmake_prefix_path.dsv'
+[6.185s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faith/Work/carto_ws/install/astra_camera_msgs/share/astra_camera_msgs/hook/cmake_prefix_path.sh'
+[6.187s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/astra_camera_msgs/lib'
+[6.188s] Level 1:colcon.colcon_core.shell:create_environment_hook('astra_camera_msgs', 'ld_library_path_lib')
+[6.190s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faith/Work/carto_ws/install/astra_camera_msgs/share/astra_camera_msgs/hook/ld_library_path_lib.ps1'
+[6.193s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/faith/Work/carto_ws/install/astra_camera_msgs/share/astra_camera_msgs/hook/ld_library_path_lib.dsv'
+[6.194s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faith/Work/carto_ws/install/astra_camera_msgs/share/astra_camera_msgs/hook/ld_library_path_lib.sh'
+[6.196s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/astra_camera_msgs/bin'
+[6.196s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/astra_camera_msgs/lib/pkgconfig/astra_camera_msgs.pc'
+[6.196s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/astra_camera_msgs/lib/python3.10/site-packages'
+[6.197s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/astra_camera_msgs/bin'
+[6.199s] INFO:colcon.colcon_core.shell:Creating package script '/home/faith/Work/carto_ws/install/astra_camera_msgs/share/astra_camera_msgs/package.ps1'
+[6.201s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/faith/Work/carto_ws/install/astra_camera_msgs/share/astra_camera_msgs/package.dsv'
+[6.202s] INFO:colcon.colcon_core.shell:Creating package script '/home/faith/Work/carto_ws/install/astra_camera_msgs/share/astra_camera_msgs/package.sh'
+[6.203s] INFO:colcon.colcon_core.shell:Creating package script '/home/faith/Work/carto_ws/install/astra_camera_msgs/share/astra_camera_msgs/package.bash'
+[6.203s] INFO:colcon.colcon_core.shell:Creating package script '/home/faith/Work/carto_ws/install/astra_camera_msgs/share/astra_camera_msgs/package.zsh'
+[6.204s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/faith/Work/carto_ws/install/astra_camera_msgs/share/colcon-core/packages/astra_camera_msgs)
+[6.206s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/faith/Work/carto_ws/src/ros2_astra_camera/astra_camera' with build type 'ament_cmake'
+[6.206s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/faith/Work/carto_ws/src/ros2_astra_camera/astra_camera'
+[6.208s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.208s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.284s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/faith/Work/carto_ws/build/cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/faith/Work/carto_ws/install/fishbot_description:/opt/ros/humble /usr/bin/cmake --install /home/faith/Work/carto_ws/build/cartographer
+[6.288s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/faith/Work/carto_ws/build/astra_camera': CMAKE_PREFIX_PATH=/home/faith/Work/carto_ws/install/astra_camera_msgs:/home/faith/Work/carto_ws/install/astra_camera:/home/faith/Work/carto_ws/install/sllidar_ros2:/home/faith/Work/carto_ws/install/orbbec_description:/home/faith/Work/carto_ws/install/orbbec_camera:/home/faith/Work/carto_ws/install/orbbec_camera_msgs:/home/faith/Work/carto_ws/install/faithbot_cartographer:/home/faith/Work/carto_ws/install/cartographer_rviz:/home/faith/Work/carto_ws/install/cartographer_ros:/home/faith/Work/carto_ws/install/cartographer_ros_msgs:/home/faith/Work/carto_ws/install/cartographer:/home/faith/Work/carto_ws/install/fishbot_description:/opt/ros/humble LD_LIBRARY_PATH=/home/faith/Work/carto_ws/install/astra_camera_msgs/lib:/home/faith/Work/carto_ws/install/astra_camera/lib:/home/faith/Work/carto_ws/install/orbbec_camera/lib:/home/faith/Work/carto_ws/install/orbbec_camera_msgs/lib:/home/faith/Work/carto_ws/install/cartographer_rviz/lib:/home/faith/Work/carto_ws/install/cartographer_ros/lib:/home/faith/Work/carto_ws/install/cartographer_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/faith/Work/carto_ws/src/ros2_astra_camera/astra_camera -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/faith/Work/carto_ws/install/astra_camera
+[6.378s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(orbbec_camera_msgs)
+[6.389s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/orbbec_camera_msgs' for CMake module files
+[6.393s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/orbbec_camera_msgs' for CMake config files
+[6.397s] Level 1:colcon.colcon_core.shell:create_environment_hook('orbbec_camera_msgs', 'cmake_prefix_path')
+[6.403s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faith/Work/carto_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/hook/cmake_prefix_path.ps1'
+[6.404s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/faith/Work/carto_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/hook/cmake_prefix_path.dsv'
+[6.405s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faith/Work/carto_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/hook/cmake_prefix_path.sh'
+[6.406s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/orbbec_camera_msgs/lib'
+[6.407s] Level 1:colcon.colcon_core.shell:create_environment_hook('orbbec_camera_msgs', 'ld_library_path_lib')
+[6.409s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faith/Work/carto_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/hook/ld_library_path_lib.ps1'
+[6.410s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/faith/Work/carto_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/hook/ld_library_path_lib.dsv'
+[6.410s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faith/Work/carto_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/hook/ld_library_path_lib.sh'
+[6.411s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/orbbec_camera_msgs/bin'
+[6.411s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/orbbec_camera_msgs/lib/pkgconfig/orbbec_camera_msgs.pc'
+[6.412s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/orbbec_camera_msgs/lib/python3.10/site-packages'
+[6.412s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/orbbec_camera_msgs/bin'
+[6.414s] INFO:colcon.colcon_core.shell:Creating package script '/home/faith/Work/carto_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/package.ps1'
+[6.415s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/faith/Work/carto_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/package.dsv'
+[6.416s] INFO:colcon.colcon_core.shell:Creating package script '/home/faith/Work/carto_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/package.sh'
+[6.417s] INFO:colcon.colcon_core.shell:Creating package script '/home/faith/Work/carto_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/package.bash'
+[6.418s] INFO:colcon.colcon_core.shell:Creating package script '/home/faith/Work/carto_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/package.zsh'
+[6.418s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/faith/Work/carto_ws/install/orbbec_camera_msgs/share/colcon-core/packages/orbbec_camera_msgs)
+[6.420s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/faith/Work/carto_ws/src/OrbbecSDK_ROS2/orbbec_camera' with build type 'ament_cmake'
+[6.420s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/faith/Work/carto_ws/src/OrbbecSDK_ROS2/orbbec_camera'
+[6.422s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.423s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.446s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/faith/Work/carto_ws/build/orbbec_camera': CMAKE_PREFIX_PATH=/home/faith/Work/carto_ws/install/orbbec_camera_msgs:/home/faith/Work/carto_ws/install/astra_camera:/home/faith/Work/carto_ws/install/astra_camera_msgs:/home/faith/Work/carto_ws/install/sllidar_ros2:/home/faith/Work/carto_ws/install/orbbec_description:/home/faith/Work/carto_ws/install/orbbec_camera:/home/faith/Work/carto_ws/install/faithbot_cartographer:/home/faith/Work/carto_ws/install/cartographer_rviz:/home/faith/Work/carto_ws/install/cartographer_ros:/home/faith/Work/carto_ws/install/cartographer_ros_msgs:/home/faith/Work/carto_ws/install/cartographer:/home/faith/Work/carto_ws/install/fishbot_description:/opt/ros/humble LD_LIBRARY_PATH=/home/faith/Work/carto_ws/install/orbbec_camera_msgs/lib:/home/faith/Work/carto_ws/install/astra_camera/lib:/home/faith/Work/carto_ws/install/astra_camera_msgs/lib:/home/faith/Work/carto_ws/install/orbbec_camera/lib:/home/faith/Work/carto_ws/install/cartographer_rviz/lib:/home/faith/Work/carto_ws/install/cartographer_ros/lib:/home/faith/Work/carto_ws/install/cartographer_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/faith/Work/carto_ws/src/OrbbecSDK_ROS2/orbbec_camera -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/faith/Work/carto_ws/install/orbbec_camera
+[7.141s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cartographer_ros_msgs)
+[7.144s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/cartographer_ros_msgs' for CMake module files
+[7.145s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/cartographer_ros_msgs' for CMake config files
+[7.147s] Level 1:colcon.colcon_core.shell:create_environment_hook('cartographer_ros_msgs', 'cmake_prefix_path')
+[7.149s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faith/Work/carto_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/hook/cmake_prefix_path.ps1'
+[7.150s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/faith/Work/carto_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/hook/cmake_prefix_path.dsv'
+[7.151s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faith/Work/carto_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/hook/cmake_prefix_path.sh'
+[7.152s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/cartographer_ros_msgs/lib'
+[7.152s] Level 1:colcon.colcon_core.shell:create_environment_hook('cartographer_ros_msgs', 'ld_library_path_lib')
+[7.154s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faith/Work/carto_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/hook/ld_library_path_lib.ps1'
+[7.154s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/faith/Work/carto_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/hook/ld_library_path_lib.dsv'
+[7.155s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faith/Work/carto_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/hook/ld_library_path_lib.sh'
+[7.155s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/cartographer_ros_msgs/bin'
+[7.155s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/cartographer_ros_msgs/lib/pkgconfig/cartographer_ros_msgs.pc'
+[7.156s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/cartographer_ros_msgs/lib/python3.10/site-packages'
+[7.156s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/cartographer_ros_msgs/bin'
+[7.158s] INFO:colcon.colcon_core.shell:Creating package script '/home/faith/Work/carto_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/package.ps1'
+[7.159s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/faith/Work/carto_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/package.dsv'
+[7.160s] INFO:colcon.colcon_core.shell:Creating package script '/home/faith/Work/carto_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/package.sh'
+[7.160s] INFO:colcon.colcon_core.shell:Creating package script '/home/faith/Work/carto_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/package.bash'
+[7.161s] INFO:colcon.colcon_core.shell:Creating package script '/home/faith/Work/carto_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/package.zsh'
+[7.162s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/faith/Work/carto_ws/install/cartographer_ros_msgs/share/colcon-core/packages/cartographer_ros_msgs)
+[7.849s] Level 1:colcon.colcon_core.shell:create_environment_hook('cartographer', 'pkg_config_path')
+[7.851s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faith/Work/carto_ws/install/cartographer/share/cartographer/hook/pkg_config_path.ps1'
+[7.852s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/faith/Work/carto_ws/install/cartographer/share/cartographer/hook/pkg_config_path.dsv'
+[7.853s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faith/Work/carto_ws/install/cartographer/share/cartographer/hook/pkg_config_path.sh'
+[7.859s] Level 1:colcon.colcon_core.shell:create_environment_hook('cartographer', 'pkg_config_path_multiarch')
+[7.868s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faith/Work/carto_ws/install/cartographer/share/cartographer/hook/pkg_config_path_multiarch.ps1'
+[7.870s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/faith/Work/carto_ws/install/cartographer/share/cartographer/hook/pkg_config_path_multiarch.dsv'
+[7.870s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faith/Work/carto_ws/install/cartographer/share/cartographer/hook/pkg_config_path_multiarch.sh'
+[7.871s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cartographer)
+[7.873s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/cartographer' for CMake module files
+[7.874s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/cartographer' for CMake config files
+[7.875s] Level 1:colcon.colcon_core.shell:create_environment_hook('cartographer', 'cmake_prefix_path')
+[7.877s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faith/Work/carto_ws/install/cartographer/share/cartographer/hook/cmake_prefix_path.ps1'
+[7.877s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/faith/Work/carto_ws/install/cartographer/share/cartographer/hook/cmake_prefix_path.dsv'
+[7.878s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faith/Work/carto_ws/install/cartographer/share/cartographer/hook/cmake_prefix_path.sh'
+[7.879s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/cartographer/lib'
+[7.879s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/cartographer/bin'
+[7.879s] Level 1:colcon.colcon_core.shell:create_environment_hook('cartographer', 'path')
+[7.881s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faith/Work/carto_ws/install/cartographer/share/cartographer/hook/path.ps1'
+[7.881s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/faith/Work/carto_ws/install/cartographer/share/cartographer/hook/path.dsv'
+[7.882s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faith/Work/carto_ws/install/cartographer/share/cartographer/hook/path.sh'
+[7.882s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/cartographer/lib/pkgconfig/cartographer.pc'
+[7.883s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/cartographer/lib/python3.10/site-packages'
+[7.883s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/cartographer/bin'
+[7.883s] Level 1:colcon.colcon_core.shell:create_environment_hook('cartographer', 'pythonscriptspath')
+[7.885s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faith/Work/carto_ws/install/cartographer/share/cartographer/hook/pythonscriptspath.ps1'
+[7.885s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/faith/Work/carto_ws/install/cartographer/share/cartographer/hook/pythonscriptspath.dsv'
+[7.886s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faith/Work/carto_ws/install/cartographer/share/cartographer/hook/pythonscriptspath.sh'
+[7.888s] INFO:colcon.colcon_core.shell:Creating package script '/home/faith/Work/carto_ws/install/cartographer/share/cartographer/package.ps1'
+[7.889s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/faith/Work/carto_ws/install/cartographer/share/cartographer/package.dsv'
+[7.890s] INFO:colcon.colcon_core.shell:Creating package script '/home/faith/Work/carto_ws/install/cartographer/share/cartographer/package.sh'
+[7.890s] INFO:colcon.colcon_core.shell:Creating package script '/home/faith/Work/carto_ws/install/cartographer/share/cartographer/package.bash'
+[7.891s] INFO:colcon.colcon_core.shell:Creating package script '/home/faith/Work/carto_ws/install/cartographer/share/cartographer/package.zsh'
+[7.891s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/faith/Work/carto_ws/install/cartographer/share/colcon-core/packages/cartographer)
+[7.892s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/faith/Work/carto_ws/src/cartographer_ros/cartographer_ros' with build type 'ament_cmake'
+[7.892s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/faith/Work/carto_ws/src/cartographer_ros/cartographer_ros'
+[7.894s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.894s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.926s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/faith/Work/carto_ws/build/cartographer_ros': CMAKE_PREFIX_PATH=/home/faith/Work/carto_ws/install/cartographer_ros_msgs:/home/faith/Work/carto_ws/install/cartographer:/home/faith/Work/carto_ws/install/astra_camera:/home/faith/Work/carto_ws/install/astra_camera_msgs:/home/faith/Work/carto_ws/install/sllidar_ros2:/home/faith/Work/carto_ws/install/orbbec_description:/home/faith/Work/carto_ws/install/orbbec_camera:/home/faith/Work/carto_ws/install/orbbec_camera_msgs:/home/faith/Work/carto_ws/install/faithbot_cartographer:/home/faith/Work/carto_ws/install/cartographer_rviz:/home/faith/Work/carto_ws/install/cartographer_ros:/home/faith/Work/carto_ws/install/fishbot_description:/opt/ros/humble LD_LIBRARY_PATH=/home/faith/Work/carto_ws/install/cartographer_ros_msgs/lib:/home/faith/Work/carto_ws/install/astra_camera/lib:/home/faith/Work/carto_ws/install/astra_camera_msgs/lib:/home/faith/Work/carto_ws/install/orbbec_camera/lib:/home/faith/Work/carto_ws/install/orbbec_camera_msgs/lib:/home/faith/Work/carto_ws/install/cartographer_rviz/lib:/home/faith/Work/carto_ws/install/cartographer_ros/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/faith/Work/carto_ws/src/cartographer_ros/cartographer_ros -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/faith/Work/carto_ws/install/cartographer_ros
+[9.035s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/faith/Work/carto_ws/build/astra_camera' returned '0': CMAKE_PREFIX_PATH=/home/faith/Work/carto_ws/install/astra_camera_msgs:/home/faith/Work/carto_ws/install/astra_camera:/home/faith/Work/carto_ws/install/sllidar_ros2:/home/faith/Work/carto_ws/install/orbbec_description:/home/faith/Work/carto_ws/install/orbbec_camera:/home/faith/Work/carto_ws/install/orbbec_camera_msgs:/home/faith/Work/carto_ws/install/faithbot_cartographer:/home/faith/Work/carto_ws/install/cartographer_rviz:/home/faith/Work/carto_ws/install/cartographer_ros:/home/faith/Work/carto_ws/install/cartographer_ros_msgs:/home/faith/Work/carto_ws/install/cartographer:/home/faith/Work/carto_ws/install/fishbot_description:/opt/ros/humble LD_LIBRARY_PATH=/home/faith/Work/carto_ws/install/astra_camera_msgs/lib:/home/faith/Work/carto_ws/install/astra_camera/lib:/home/faith/Work/carto_ws/install/orbbec_camera/lib:/home/faith/Work/carto_ws/install/orbbec_camera_msgs/lib:/home/faith/Work/carto_ws/install/cartographer_rviz/lib:/home/faith/Work/carto_ws/install/cartographer_ros/lib:/home/faith/Work/carto_ws/install/cartographer_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/faith/Work/carto_ws/src/ros2_astra_camera/astra_camera -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/faith/Work/carto_ws/install/astra_camera
+[9.039s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/faith/Work/carto_ws/build/astra_camera': CMAKE_PREFIX_PATH=/home/faith/Work/carto_ws/install/astra_camera_msgs:/home/faith/Work/carto_ws/install/astra_camera:/home/faith/Work/carto_ws/install/sllidar_ros2:/home/faith/Work/carto_ws/install/orbbec_description:/home/faith/Work/carto_ws/install/orbbec_camera:/home/faith/Work/carto_ws/install/orbbec_camera_msgs:/home/faith/Work/carto_ws/install/faithbot_cartographer:/home/faith/Work/carto_ws/install/cartographer_rviz:/home/faith/Work/carto_ws/install/cartographer_ros:/home/faith/Work/carto_ws/install/cartographer_ros_msgs:/home/faith/Work/carto_ws/install/cartographer:/home/faith/Work/carto_ws/install/fishbot_description:/opt/ros/humble LD_LIBRARY_PATH=/home/faith/Work/carto_ws/install/astra_camera_msgs/lib:/home/faith/Work/carto_ws/install/astra_camera/lib:/home/faith/Work/carto_ws/install/orbbec_camera/lib:/home/faith/Work/carto_ws/install/orbbec_camera_msgs/lib:/home/faith/Work/carto_ws/install/cartographer_rviz/lib:/home/faith/Work/carto_ws/install/cartographer_ros/lib:/home/faith/Work/carto_ws/install/cartographer_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/faith/Work/carto_ws/build/astra_camera -- -j8 -l8
+[9.478s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/faith/Work/carto_ws/build/astra_camera' returned '0': CMAKE_PREFIX_PATH=/home/faith/Work/carto_ws/install/astra_camera_msgs:/home/faith/Work/carto_ws/install/astra_camera:/home/faith/Work/carto_ws/install/sllidar_ros2:/home/faith/Work/carto_ws/install/orbbec_description:/home/faith/Work/carto_ws/install/orbbec_camera:/home/faith/Work/carto_ws/install/orbbec_camera_msgs:/home/faith/Work/carto_ws/install/faithbot_cartographer:/home/faith/Work/carto_ws/install/cartographer_rviz:/home/faith/Work/carto_ws/install/cartographer_ros:/home/faith/Work/carto_ws/install/cartographer_ros_msgs:/home/faith/Work/carto_ws/install/cartographer:/home/faith/Work/carto_ws/install/fishbot_description:/opt/ros/humble LD_LIBRARY_PATH=/home/faith/Work/carto_ws/install/astra_camera_msgs/lib:/home/faith/Work/carto_ws/install/astra_camera/lib:/home/faith/Work/carto_ws/install/orbbec_camera/lib:/home/faith/Work/carto_ws/install/orbbec_camera_msgs/lib:/home/faith/Work/carto_ws/install/cartographer_rviz/lib:/home/faith/Work/carto_ws/install/cartographer_ros/lib:/home/faith/Work/carto_ws/install/cartographer_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/faith/Work/carto_ws/build/astra_camera -- -j8 -l8
+[9.647s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/faith/Work/carto_ws/build/astra_camera': CMAKE_PREFIX_PATH=/home/faith/Work/carto_ws/install/astra_camera_msgs:/home/faith/Work/carto_ws/install/astra_camera:/home/faith/Work/carto_ws/install/sllidar_ros2:/home/faith/Work/carto_ws/install/orbbec_description:/home/faith/Work/carto_ws/install/orbbec_camera:/home/faith/Work/carto_ws/install/orbbec_camera_msgs:/home/faith/Work/carto_ws/install/faithbot_cartographer:/home/faith/Work/carto_ws/install/cartographer_rviz:/home/faith/Work/carto_ws/install/cartographer_ros:/home/faith/Work/carto_ws/install/cartographer_ros_msgs:/home/faith/Work/carto_ws/install/cartographer:/home/faith/Work/carto_ws/install/fishbot_description:/opt/ros/humble LD_LIBRARY_PATH=/home/faith/Work/carto_ws/install/astra_camera_msgs/lib:/home/faith/Work/carto_ws/install/astra_camera/lib:/home/faith/Work/carto_ws/install/orbbec_camera/lib:/home/faith/Work/carto_ws/install/orbbec_camera_msgs/lib:/home/faith/Work/carto_ws/install/cartographer_rviz/lib:/home/faith/Work/carto_ws/install/cartographer_ros/lib:/home/faith/Work/carto_ws/install/cartographer_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/faith/Work/carto_ws/build/astra_camera
+[9.688s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(astra_camera)
+[9.700s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/astra_camera' for CMake module files
+[9.708s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/astra_camera' for CMake config files
+[9.711s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/faith/Work/carto_ws/build/astra_camera' returned '0': CMAKE_PREFIX_PATH=/home/faith/Work/carto_ws/install/astra_camera_msgs:/home/faith/Work/carto_ws/install/astra_camera:/home/faith/Work/carto_ws/install/sllidar_ros2:/home/faith/Work/carto_ws/install/orbbec_description:/home/faith/Work/carto_ws/install/orbbec_camera:/home/faith/Work/carto_ws/install/orbbec_camera_msgs:/home/faith/Work/carto_ws/install/faithbot_cartographer:/home/faith/Work/carto_ws/install/cartographer_rviz:/home/faith/Work/carto_ws/install/cartographer_ros:/home/faith/Work/carto_ws/install/cartographer_ros_msgs:/home/faith/Work/carto_ws/install/cartographer:/home/faith/Work/carto_ws/install/fishbot_description:/opt/ros/humble LD_LIBRARY_PATH=/home/faith/Work/carto_ws/install/astra_camera_msgs/lib:/home/faith/Work/carto_ws/install/astra_camera/lib:/home/faith/Work/carto_ws/install/orbbec_camera/lib:/home/faith/Work/carto_ws/install/orbbec_camera_msgs/lib:/home/faith/Work/carto_ws/install/cartographer_rviz/lib:/home/faith/Work/carto_ws/install/cartographer_ros/lib:/home/faith/Work/carto_ws/install/cartographer_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/faith/Work/carto_ws/build/astra_camera
+[9.714s] Level 1:colcon.colcon_core.shell:create_environment_hook('astra_camera', 'cmake_prefix_path')
+[9.722s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faith/Work/carto_ws/install/astra_camera/share/astra_camera/hook/cmake_prefix_path.ps1'
+[9.725s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/faith/Work/carto_ws/install/astra_camera/share/astra_camera/hook/cmake_prefix_path.dsv'
+[9.726s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faith/Work/carto_ws/install/astra_camera/share/astra_camera/hook/cmake_prefix_path.sh'
+[9.729s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/astra_camera/lib'
+[9.729s] Level 1:colcon.colcon_core.shell:create_environment_hook('astra_camera', 'ld_library_path_lib')
+[9.737s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faith/Work/carto_ws/install/astra_camera/share/astra_camera/hook/ld_library_path_lib.ps1'
+[9.739s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/faith/Work/carto_ws/install/astra_camera/share/astra_camera/hook/ld_library_path_lib.dsv'
+[9.740s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faith/Work/carto_ws/install/astra_camera/share/astra_camera/hook/ld_library_path_lib.sh'
+[9.741s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/astra_camera/bin'
+[9.741s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/astra_camera/lib/pkgconfig/astra_camera.pc'
+[9.741s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/astra_camera/lib/python3.10/site-packages'
+[9.741s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/astra_camera/bin'
+[9.744s] INFO:colcon.colcon_core.shell:Creating package script '/home/faith/Work/carto_ws/install/astra_camera/share/astra_camera/package.ps1'
+[9.744s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/faith/Work/carto_ws/install/astra_camera/share/astra_camera/package.dsv'
+[9.745s] INFO:colcon.colcon_core.shell:Creating package script '/home/faith/Work/carto_ws/install/astra_camera/share/astra_camera/package.sh'
+[9.745s] INFO:colcon.colcon_core.shell:Creating package script '/home/faith/Work/carto_ws/install/astra_camera/share/astra_camera/package.bash'
+[9.746s] INFO:colcon.colcon_core.shell:Creating package script '/home/faith/Work/carto_ws/install/astra_camera/share/astra_camera/package.zsh'
+[9.746s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/faith/Work/carto_ws/install/astra_camera/share/colcon-core/packages/astra_camera)
+[9.751s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/faith/Work/carto_ws/build/orbbec_camera' returned '0': CMAKE_PREFIX_PATH=/home/faith/Work/carto_ws/install/orbbec_camera_msgs:/home/faith/Work/carto_ws/install/astra_camera:/home/faith/Work/carto_ws/install/astra_camera_msgs:/home/faith/Work/carto_ws/install/sllidar_ros2:/home/faith/Work/carto_ws/install/orbbec_description:/home/faith/Work/carto_ws/install/orbbec_camera:/home/faith/Work/carto_ws/install/faithbot_cartographer:/home/faith/Work/carto_ws/install/cartographer_rviz:/home/faith/Work/carto_ws/install/cartographer_ros:/home/faith/Work/carto_ws/install/cartographer_ros_msgs:/home/faith/Work/carto_ws/install/cartographer:/home/faith/Work/carto_ws/install/fishbot_description:/opt/ros/humble LD_LIBRARY_PATH=/home/faith/Work/carto_ws/install/orbbec_camera_msgs/lib:/home/faith/Work/carto_ws/install/astra_camera/lib:/home/faith/Work/carto_ws/install/astra_camera_msgs/lib:/home/faith/Work/carto_ws/install/orbbec_camera/lib:/home/faith/Work/carto_ws/install/cartographer_rviz/lib:/home/faith/Work/carto_ws/install/cartographer_ros/lib:/home/faith/Work/carto_ws/install/cartographer_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/faith/Work/carto_ws/src/OrbbecSDK_ROS2/orbbec_camera -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/faith/Work/carto_ws/install/orbbec_camera
+[9.754s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/faith/Work/carto_ws/build/orbbec_camera': CMAKE_PREFIX_PATH=/home/faith/Work/carto_ws/install/orbbec_camera_msgs:/home/faith/Work/carto_ws/install/astra_camera:/home/faith/Work/carto_ws/install/astra_camera_msgs:/home/faith/Work/carto_ws/install/sllidar_ros2:/home/faith/Work/carto_ws/install/orbbec_description:/home/faith/Work/carto_ws/install/orbbec_camera:/home/faith/Work/carto_ws/install/faithbot_cartographer:/home/faith/Work/carto_ws/install/cartographer_rviz:/home/faith/Work/carto_ws/install/cartographer_ros:/home/faith/Work/carto_ws/install/cartographer_ros_msgs:/home/faith/Work/carto_ws/install/cartographer:/home/faith/Work/carto_ws/install/fishbot_description:/opt/ros/humble LD_LIBRARY_PATH=/home/faith/Work/carto_ws/install/orbbec_camera_msgs/lib:/home/faith/Work/carto_ws/install/astra_camera/lib:/home/faith/Work/carto_ws/install/astra_camera_msgs/lib:/home/faith/Work/carto_ws/install/orbbec_camera/lib:/home/faith/Work/carto_ws/install/cartographer_rviz/lib:/home/faith/Work/carto_ws/install/cartographer_ros/lib:/home/faith/Work/carto_ws/install/cartographer_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/faith/Work/carto_ws/build/orbbec_camera -- -j8 -l8
+[9.911s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(astra_camera)
+[9.924s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/astra_camera' for CMake module files
+[9.928s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/astra_camera' for CMake config files
+[9.931s] Level 1:colcon.colcon_core.shell:create_environment_hook('astra_camera', 'cmake_prefix_path')
+[9.939s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faith/Work/carto_ws/install/astra_camera/share/astra_camera/hook/cmake_prefix_path.ps1'
+[9.942s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/faith/Work/carto_ws/install/astra_camera/share/astra_camera/hook/cmake_prefix_path.dsv'
+[9.944s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faith/Work/carto_ws/install/astra_camera/share/astra_camera/hook/cmake_prefix_path.sh'
+[9.947s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/astra_camera/lib'
+[9.948s] Level 1:colcon.colcon_core.shell:create_environment_hook('astra_camera', 'ld_library_path_lib')
+[9.956s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faith/Work/carto_ws/install/astra_camera/share/astra_camera/hook/ld_library_path_lib.ps1'
+[9.959s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/faith/Work/carto_ws/install/astra_camera/share/astra_camera/hook/ld_library_path_lib.dsv'
+[9.965s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faith/Work/carto_ws/install/astra_camera/share/astra_camera/hook/ld_library_path_lib.sh'
+[9.967s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/astra_camera/bin'
+[9.967s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/astra_camera/lib/pkgconfig/astra_camera.pc'
+[9.967s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/astra_camera/lib/python3.10/site-packages'
+[9.967s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/astra_camera/bin'
+[9.970s] INFO:colcon.colcon_core.shell:Creating package script '/home/faith/Work/carto_ws/install/astra_camera/share/astra_camera/package.ps1'
+[9.971s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/faith/Work/carto_ws/install/astra_camera/share/astra_camera/package.dsv'
+[9.971s] INFO:colcon.colcon_core.shell:Creating package script '/home/faith/Work/carto_ws/install/astra_camera/share/astra_camera/package.sh'
+[9.972s] INFO:colcon.colcon_core.shell:Creating package script '/home/faith/Work/carto_ws/install/astra_camera/share/astra_camera/package.bash'
+[9.973s] INFO:colcon.colcon_core.shell:Creating package script '/home/faith/Work/carto_ws/install/astra_camera/share/astra_camera/package.zsh'
+[9.973s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/faith/Work/carto_ws/install/astra_camera/share/colcon-core/packages/astra_camera)
+[10.153s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/faith/Work/carto_ws/build/orbbec_camera' returned '0': CMAKE_PREFIX_PATH=/home/faith/Work/carto_ws/install/orbbec_camera_msgs:/home/faith/Work/carto_ws/install/astra_camera:/home/faith/Work/carto_ws/install/astra_camera_msgs:/home/faith/Work/carto_ws/install/sllidar_ros2:/home/faith/Work/carto_ws/install/orbbec_description:/home/faith/Work/carto_ws/install/orbbec_camera:/home/faith/Work/carto_ws/install/faithbot_cartographer:/home/faith/Work/carto_ws/install/cartographer_rviz:/home/faith/Work/carto_ws/install/cartographer_ros:/home/faith/Work/carto_ws/install/cartographer_ros_msgs:/home/faith/Work/carto_ws/install/cartographer:/home/faith/Work/carto_ws/install/fishbot_description:/opt/ros/humble LD_LIBRARY_PATH=/home/faith/Work/carto_ws/install/orbbec_camera_msgs/lib:/home/faith/Work/carto_ws/install/astra_camera/lib:/home/faith/Work/carto_ws/install/astra_camera_msgs/lib:/home/faith/Work/carto_ws/install/orbbec_camera/lib:/home/faith/Work/carto_ws/install/cartographer_rviz/lib:/home/faith/Work/carto_ws/install/cartographer_ros/lib:/home/faith/Work/carto_ws/install/cartographer_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/faith/Work/carto_ws/build/orbbec_camera -- -j8 -l8
+[10.306s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/faith/Work/carto_ws/build/orbbec_camera': CMAKE_PREFIX_PATH=/home/faith/Work/carto_ws/install/orbbec_camera_msgs:/home/faith/Work/carto_ws/install/astra_camera:/home/faith/Work/carto_ws/install/astra_camera_msgs:/home/faith/Work/carto_ws/install/sllidar_ros2:/home/faith/Work/carto_ws/install/orbbec_description:/home/faith/Work/carto_ws/install/orbbec_camera:/home/faith/Work/carto_ws/install/faithbot_cartographer:/home/faith/Work/carto_ws/install/cartographer_rviz:/home/faith/Work/carto_ws/install/cartographer_ros:/home/faith/Work/carto_ws/install/cartographer_ros_msgs:/home/faith/Work/carto_ws/install/cartographer:/home/faith/Work/carto_ws/install/fishbot_description:/opt/ros/humble LD_LIBRARY_PATH=/home/faith/Work/carto_ws/install/orbbec_camera_msgs/lib:/home/faith/Work/carto_ws/install/astra_camera/lib:/home/faith/Work/carto_ws/install/astra_camera_msgs/lib:/home/faith/Work/carto_ws/install/orbbec_camera/lib:/home/faith/Work/carto_ws/install/cartographer_rviz/lib:/home/faith/Work/carto_ws/install/cartographer_ros/lib:/home/faith/Work/carto_ws/install/cartographer_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/faith/Work/carto_ws/build/orbbec_camera
+[10.343s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(orbbec_camera)
+[10.355s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/orbbec_camera' for CMake module files
+[10.358s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/faith/Work/carto_ws/build/orbbec_camera' returned '0': CMAKE_PREFIX_PATH=/home/faith/Work/carto_ws/install/orbbec_camera_msgs:/home/faith/Work/carto_ws/install/astra_camera:/home/faith/Work/carto_ws/install/astra_camera_msgs:/home/faith/Work/carto_ws/install/sllidar_ros2:/home/faith/Work/carto_ws/install/orbbec_description:/home/faith/Work/carto_ws/install/orbbec_camera:/home/faith/Work/carto_ws/install/faithbot_cartographer:/home/faith/Work/carto_ws/install/cartographer_rviz:/home/faith/Work/carto_ws/install/cartographer_ros:/home/faith/Work/carto_ws/install/cartographer_ros_msgs:/home/faith/Work/carto_ws/install/cartographer:/home/faith/Work/carto_ws/install/fishbot_description:/opt/ros/humble LD_LIBRARY_PATH=/home/faith/Work/carto_ws/install/orbbec_camera_msgs/lib:/home/faith/Work/carto_ws/install/astra_camera/lib:/home/faith/Work/carto_ws/install/astra_camera_msgs/lib:/home/faith/Work/carto_ws/install/orbbec_camera/lib:/home/faith/Work/carto_ws/install/cartographer_rviz/lib:/home/faith/Work/carto_ws/install/cartographer_ros/lib:/home/faith/Work/carto_ws/install/cartographer_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/faith/Work/carto_ws/build/orbbec_camera
+[10.360s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/orbbec_camera' for CMake config files
+[10.362s] Level 1:colcon.colcon_core.shell:create_environment_hook('orbbec_camera', 'cmake_prefix_path')
+[10.369s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faith/Work/carto_ws/install/orbbec_camera/share/orbbec_camera/hook/cmake_prefix_path.ps1'
+[10.372s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/faith/Work/carto_ws/install/orbbec_camera/share/orbbec_camera/hook/cmake_prefix_path.dsv'
+[10.373s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faith/Work/carto_ws/install/orbbec_camera/share/orbbec_camera/hook/cmake_prefix_path.sh'
+[10.375s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/orbbec_camera/lib'
+[10.376s] Level 1:colcon.colcon_core.shell:create_environment_hook('orbbec_camera', 'ld_library_path_lib')
+[10.383s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faith/Work/carto_ws/install/orbbec_camera/share/orbbec_camera/hook/ld_library_path_lib.ps1'
+[10.384s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/faith/Work/carto_ws/install/orbbec_camera/share/orbbec_camera/hook/ld_library_path_lib.dsv'
+[10.386s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faith/Work/carto_ws/install/orbbec_camera/share/orbbec_camera/hook/ld_library_path_lib.sh'
+[10.387s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/orbbec_camera/bin'
+[10.387s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/orbbec_camera/lib/pkgconfig/orbbec_camera.pc'
+[10.388s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/orbbec_camera/lib/python3.10/site-packages'
+[10.389s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/orbbec_camera/bin'
+[10.397s] INFO:colcon.colcon_core.shell:Creating package script '/home/faith/Work/carto_ws/install/orbbec_camera/share/orbbec_camera/package.ps1'
+[10.399s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/faith/Work/carto_ws/install/orbbec_camera/share/orbbec_camera/package.dsv'
+[10.401s] INFO:colcon.colcon_core.shell:Creating package script '/home/faith/Work/carto_ws/install/orbbec_camera/share/orbbec_camera/package.sh'
+[10.403s] INFO:colcon.colcon_core.shell:Creating package script '/home/faith/Work/carto_ws/install/orbbec_camera/share/orbbec_camera/package.bash'
+[10.403s] INFO:colcon.colcon_core.shell:Creating package script '/home/faith/Work/carto_ws/install/orbbec_camera/share/orbbec_camera/package.zsh'
+[10.404s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/faith/Work/carto_ws/install/orbbec_camera/share/colcon-core/packages/orbbec_camera)
+[10.571s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(orbbec_camera)
+[10.574s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/orbbec_camera' for CMake module files
+[10.575s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/orbbec_camera' for CMake config files
+[10.576s] Level 1:colcon.colcon_core.shell:create_environment_hook('orbbec_camera', 'cmake_prefix_path')
+[10.577s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faith/Work/carto_ws/install/orbbec_camera/share/orbbec_camera/hook/cmake_prefix_path.ps1'
+[10.578s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/faith/Work/carto_ws/install/orbbec_camera/share/orbbec_camera/hook/cmake_prefix_path.dsv'
+[10.579s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faith/Work/carto_ws/install/orbbec_camera/share/orbbec_camera/hook/cmake_prefix_path.sh'
+[10.580s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/orbbec_camera/lib'
+[10.580s] Level 1:colcon.colcon_core.shell:create_environment_hook('orbbec_camera', 'ld_library_path_lib')
+[10.582s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faith/Work/carto_ws/install/orbbec_camera/share/orbbec_camera/hook/ld_library_path_lib.ps1'
+[10.582s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/faith/Work/carto_ws/install/orbbec_camera/share/orbbec_camera/hook/ld_library_path_lib.dsv'
+[10.583s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faith/Work/carto_ws/install/orbbec_camera/share/orbbec_camera/hook/ld_library_path_lib.sh'
+[10.583s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/orbbec_camera/bin'
+[10.583s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/orbbec_camera/lib/pkgconfig/orbbec_camera.pc'
+[10.584s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/orbbec_camera/lib/python3.10/site-packages'
+[10.584s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/orbbec_camera/bin'
+[10.586s] INFO:colcon.colcon_core.shell:Creating package script '/home/faith/Work/carto_ws/install/orbbec_camera/share/orbbec_camera/package.ps1'
+[10.587s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/faith/Work/carto_ws/install/orbbec_camera/share/orbbec_camera/package.dsv'
+[10.588s] INFO:colcon.colcon_core.shell:Creating package script '/home/faith/Work/carto_ws/install/orbbec_camera/share/orbbec_camera/package.sh'
+[10.588s] INFO:colcon.colcon_core.shell:Creating package script '/home/faith/Work/carto_ws/install/orbbec_camera/share/orbbec_camera/package.bash'
+[10.589s] INFO:colcon.colcon_core.shell:Creating package script '/home/faith/Work/carto_ws/install/orbbec_camera/share/orbbec_camera/package.zsh'
+[10.589s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/faith/Work/carto_ws/install/orbbec_camera/share/colcon-core/packages/orbbec_camera)
+[12.371s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/faith/Work/carto_ws/build/cartographer_ros' returned '0': CMAKE_PREFIX_PATH=/home/faith/Work/carto_ws/install/cartographer_ros_msgs:/home/faith/Work/carto_ws/install/cartographer:/home/faith/Work/carto_ws/install/astra_camera:/home/faith/Work/carto_ws/install/astra_camera_msgs:/home/faith/Work/carto_ws/install/sllidar_ros2:/home/faith/Work/carto_ws/install/orbbec_description:/home/faith/Work/carto_ws/install/orbbec_camera:/home/faith/Work/carto_ws/install/orbbec_camera_msgs:/home/faith/Work/carto_ws/install/faithbot_cartographer:/home/faith/Work/carto_ws/install/cartographer_rviz:/home/faith/Work/carto_ws/install/cartographer_ros:/home/faith/Work/carto_ws/install/fishbot_description:/opt/ros/humble LD_LIBRARY_PATH=/home/faith/Work/carto_ws/install/cartographer_ros_msgs/lib:/home/faith/Work/carto_ws/install/astra_camera/lib:/home/faith/Work/carto_ws/install/astra_camera_msgs/lib:/home/faith/Work/carto_ws/install/orbbec_camera/lib:/home/faith/Work/carto_ws/install/orbbec_camera_msgs/lib:/home/faith/Work/carto_ws/install/cartographer_rviz/lib:/home/faith/Work/carto_ws/install/cartographer_ros/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/faith/Work/carto_ws/src/cartographer_ros/cartographer_ros -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/faith/Work/carto_ws/install/cartographer_ros
+[12.379s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/faith/Work/carto_ws/build/cartographer_ros': CMAKE_PREFIX_PATH=/home/faith/Work/carto_ws/install/cartographer_ros_msgs:/home/faith/Work/carto_ws/install/cartographer:/home/faith/Work/carto_ws/install/astra_camera:/home/faith/Work/carto_ws/install/astra_camera_msgs:/home/faith/Work/carto_ws/install/sllidar_ros2:/home/faith/Work/carto_ws/install/orbbec_description:/home/faith/Work/carto_ws/install/orbbec_camera:/home/faith/Work/carto_ws/install/orbbec_camera_msgs:/home/faith/Work/carto_ws/install/faithbot_cartographer:/home/faith/Work/carto_ws/install/cartographer_rviz:/home/faith/Work/carto_ws/install/cartographer_ros:/home/faith/Work/carto_ws/install/fishbot_description:/opt/ros/humble LD_LIBRARY_PATH=/home/faith/Work/carto_ws/install/cartographer_ros_msgs/lib:/home/faith/Work/carto_ws/install/astra_camera/lib:/home/faith/Work/carto_ws/install/astra_camera_msgs/lib:/home/faith/Work/carto_ws/install/orbbec_camera/lib:/home/faith/Work/carto_ws/install/orbbec_camera_msgs/lib:/home/faith/Work/carto_ws/install/cartographer_rviz/lib:/home/faith/Work/carto_ws/install/cartographer_ros/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/faith/Work/carto_ws/build/cartographer_ros -- -j8 -l8
+[12.970s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/faith/Work/carto_ws/build/cartographer_ros' returned '0': CMAKE_PREFIX_PATH=/home/faith/Work/carto_ws/install/cartographer_ros_msgs:/home/faith/Work/carto_ws/install/cartographer:/home/faith/Work/carto_ws/install/astra_camera:/home/faith/Work/carto_ws/install/astra_camera_msgs:/home/faith/Work/carto_ws/install/sllidar_ros2:/home/faith/Work/carto_ws/install/orbbec_description:/home/faith/Work/carto_ws/install/orbbec_camera:/home/faith/Work/carto_ws/install/orbbec_camera_msgs:/home/faith/Work/carto_ws/install/faithbot_cartographer:/home/faith/Work/carto_ws/install/cartographer_rviz:/home/faith/Work/carto_ws/install/cartographer_ros:/home/faith/Work/carto_ws/install/fishbot_description:/opt/ros/humble LD_LIBRARY_PATH=/home/faith/Work/carto_ws/install/cartographer_ros_msgs/lib:/home/faith/Work/carto_ws/install/astra_camera/lib:/home/faith/Work/carto_ws/install/astra_camera_msgs/lib:/home/faith/Work/carto_ws/install/orbbec_camera/lib:/home/faith/Work/carto_ws/install/orbbec_camera_msgs/lib:/home/faith/Work/carto_ws/install/cartographer_rviz/lib:/home/faith/Work/carto_ws/install/cartographer_ros/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/faith/Work/carto_ws/build/cartographer_ros -- -j8 -l8
+[13.258s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/faith/Work/carto_ws/build/cartographer_ros': CMAKE_PREFIX_PATH=/home/faith/Work/carto_ws/install/cartographer_ros_msgs:/home/faith/Work/carto_ws/install/cartographer:/home/faith/Work/carto_ws/install/astra_camera:/home/faith/Work/carto_ws/install/astra_camera_msgs:/home/faith/Work/carto_ws/install/sllidar_ros2:/home/faith/Work/carto_ws/install/orbbec_description:/home/faith/Work/carto_ws/install/orbbec_camera:/home/faith/Work/carto_ws/install/orbbec_camera_msgs:/home/faith/Work/carto_ws/install/faithbot_cartographer:/home/faith/Work/carto_ws/install/cartographer_rviz:/home/faith/Work/carto_ws/install/cartographer_ros:/home/faith/Work/carto_ws/install/fishbot_description:/opt/ros/humble LD_LIBRARY_PATH=/home/faith/Work/carto_ws/install/cartographer_ros_msgs/lib:/home/faith/Work/carto_ws/install/astra_camera/lib:/home/faith/Work/carto_ws/install/astra_camera_msgs/lib:/home/faith/Work/carto_ws/install/orbbec_camera/lib:/home/faith/Work/carto_ws/install/orbbec_camera_msgs/lib:/home/faith/Work/carto_ws/install/cartographer_rviz/lib:/home/faith/Work/carto_ws/install/cartographer_ros/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/faith/Work/carto_ws/build/cartographer_ros
+[13.311s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cartographer_ros)
+[13.314s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/cartographer_ros' for CMake module files
+[13.322s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/cartographer_ros' for CMake config files
+[13.328s] Level 1:colcon.colcon_core.shell:create_environment_hook('cartographer_ros', 'cmake_prefix_path')
+[13.336s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faith/Work/carto_ws/install/cartographer_ros/share/cartographer_ros/hook/cmake_prefix_path.ps1'
+[13.338s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/faith/Work/carto_ws/install/cartographer_ros/share/cartographer_ros/hook/cmake_prefix_path.dsv'
+[13.341s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faith/Work/carto_ws/install/cartographer_ros/share/cartographer_ros/hook/cmake_prefix_path.sh'
+[13.345s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/cartographer_ros/lib'
+[13.346s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/cartographer_ros/bin'
+[13.346s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/cartographer_ros/lib/pkgconfig/cartographer_ros.pc'
+[13.348s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/cartographer_ros/lib/python3.10/site-packages'
+[13.349s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/cartographer_ros/bin'
+[13.357s] INFO:colcon.colcon_core.shell:Creating package script '/home/faith/Work/carto_ws/install/cartographer_ros/share/cartographer_ros/package.ps1'
+[13.358s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/faith/Work/carto_ws/install/cartographer_ros/share/cartographer_ros/package.dsv'
+[13.361s] INFO:colcon.colcon_core.shell:Creating package script '/home/faith/Work/carto_ws/install/cartographer_ros/share/cartographer_ros/package.sh'
+[13.364s] INFO:colcon.colcon_core.shell:Creating package script '/home/faith/Work/carto_ws/install/cartographer_ros/share/cartographer_ros/package.bash'
+[13.367s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/faith/Work/carto_ws/build/cartographer_ros' returned '0': CMAKE_PREFIX_PATH=/home/faith/Work/carto_ws/install/cartographer_ros_msgs:/home/faith/Work/carto_ws/install/cartographer:/home/faith/Work/carto_ws/install/astra_camera:/home/faith/Work/carto_ws/install/astra_camera_msgs:/home/faith/Work/carto_ws/install/sllidar_ros2:/home/faith/Work/carto_ws/install/orbbec_description:/home/faith/Work/carto_ws/install/orbbec_camera:/home/faith/Work/carto_ws/install/orbbec_camera_msgs:/home/faith/Work/carto_ws/install/faithbot_cartographer:/home/faith/Work/carto_ws/install/cartographer_rviz:/home/faith/Work/carto_ws/install/cartographer_ros:/home/faith/Work/carto_ws/install/fishbot_description:/opt/ros/humble LD_LIBRARY_PATH=/home/faith/Work/carto_ws/install/cartographer_ros_msgs/lib:/home/faith/Work/carto_ws/install/astra_camera/lib:/home/faith/Work/carto_ws/install/astra_camera_msgs/lib:/home/faith/Work/carto_ws/install/orbbec_camera/lib:/home/faith/Work/carto_ws/install/orbbec_camera_msgs/lib:/home/faith/Work/carto_ws/install/cartographer_rviz/lib:/home/faith/Work/carto_ws/install/cartographer_ros/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/faith/Work/carto_ws/build/cartographer_ros
+[13.368s] INFO:colcon.colcon_core.shell:Creating package script '/home/faith/Work/carto_ws/install/cartographer_ros/share/cartographer_ros/package.zsh'
+[13.369s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/faith/Work/carto_ws/install/cartographer_ros/share/colcon-core/packages/cartographer_ros)
+[13.648s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cartographer_ros)
+[13.659s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/cartographer_ros' for CMake module files
+[13.662s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/cartographer_ros' for CMake config files
+[13.663s] Level 1:colcon.colcon_core.shell:create_environment_hook('cartographer_ros', 'cmake_prefix_path')
+[13.670s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faith/Work/carto_ws/install/cartographer_ros/share/cartographer_ros/hook/cmake_prefix_path.ps1'
+[13.672s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/faith/Work/carto_ws/install/cartographer_ros/share/cartographer_ros/hook/cmake_prefix_path.dsv'
+[13.673s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faith/Work/carto_ws/install/cartographer_ros/share/cartographer_ros/hook/cmake_prefix_path.sh'
+[13.675s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/cartographer_ros/lib'
+[13.676s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/cartographer_ros/bin'
+[13.676s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/cartographer_ros/lib/pkgconfig/cartographer_ros.pc'
+[13.677s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/cartographer_ros/lib/python3.10/site-packages'
+[13.678s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/cartographer_ros/bin'
+[13.683s] INFO:colcon.colcon_core.shell:Creating package script '/home/faith/Work/carto_ws/install/cartographer_ros/share/cartographer_ros/package.ps1'
+[13.684s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/faith/Work/carto_ws/install/cartographer_ros/share/cartographer_ros/package.dsv'
+[13.685s] INFO:colcon.colcon_core.shell:Creating package script '/home/faith/Work/carto_ws/install/cartographer_ros/share/cartographer_ros/package.sh'
+[13.685s] INFO:colcon.colcon_core.shell:Creating package script '/home/faith/Work/carto_ws/install/cartographer_ros/share/cartographer_ros/package.bash'
+[13.686s] INFO:colcon.colcon_core.shell:Creating package script '/home/faith/Work/carto_ws/install/cartographer_ros/share/cartographer_ros/package.zsh'
+[13.686s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/faith/Work/carto_ws/install/cartographer_ros/share/colcon-core/packages/cartographer_ros)
+[13.687s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/faith/Work/carto_ws/src/cartographer_ros/cartographer_rviz' with build type 'ament_cmake'
+[13.687s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/faith/Work/carto_ws/src/cartographer_ros/cartographer_rviz'
+[13.689s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[13.689s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[13.730s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/faith/Work/carto_ws/build/cartographer_rviz': CMAKE_PREFIX_PATH=/home/faith/Work/carto_ws/install/cartographer_ros:/home/faith/Work/carto_ws/install/cartographer_ros_msgs:/home/faith/Work/carto_ws/install/cartographer:/home/faith/Work/carto_ws/install/astra_camera:/home/faith/Work/carto_ws/install/astra_camera_msgs:/home/faith/Work/carto_ws/install/sllidar_ros2:/home/faith/Work/carto_ws/install/orbbec_description:/home/faith/Work/carto_ws/install/orbbec_camera:/home/faith/Work/carto_ws/install/orbbec_camera_msgs:/home/faith/Work/carto_ws/install/faithbot_cartographer:/home/faith/Work/carto_ws/install/cartographer_rviz:/home/faith/Work/carto_ws/install/fishbot_description:/opt/ros/humble LD_LIBRARY_PATH=/home/faith/Work/carto_ws/install/cartographer_ros_msgs/lib:/home/faith/Work/carto_ws/install/astra_camera/lib:/home/faith/Work/carto_ws/install/astra_camera_msgs/lib:/home/faith/Work/carto_ws/install/orbbec_camera/lib:/home/faith/Work/carto_ws/install/orbbec_camera_msgs/lib:/home/faith/Work/carto_ws/install/cartographer_rviz/lib:/home/faith/Work/carto_ws/install/cartographer_ros/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/faith/Work/carto_ws/src/cartographer_ros/cartographer_rviz -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/faith/Work/carto_ws/install/cartographer_rviz
+[18.073s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/faith/Work/carto_ws/build/cartographer_rviz' returned '0': CMAKE_PREFIX_PATH=/home/faith/Work/carto_ws/install/cartographer_ros:/home/faith/Work/carto_ws/install/cartographer_ros_msgs:/home/faith/Work/carto_ws/install/cartographer:/home/faith/Work/carto_ws/install/astra_camera:/home/faith/Work/carto_ws/install/astra_camera_msgs:/home/faith/Work/carto_ws/install/sllidar_ros2:/home/faith/Work/carto_ws/install/orbbec_description:/home/faith/Work/carto_ws/install/orbbec_camera:/home/faith/Work/carto_ws/install/orbbec_camera_msgs:/home/faith/Work/carto_ws/install/faithbot_cartographer:/home/faith/Work/carto_ws/install/cartographer_rviz:/home/faith/Work/carto_ws/install/fishbot_description:/opt/ros/humble LD_LIBRARY_PATH=/home/faith/Work/carto_ws/install/cartographer_ros_msgs/lib:/home/faith/Work/carto_ws/install/astra_camera/lib:/home/faith/Work/carto_ws/install/astra_camera_msgs/lib:/home/faith/Work/carto_ws/install/orbbec_camera/lib:/home/faith/Work/carto_ws/install/orbbec_camera_msgs/lib:/home/faith/Work/carto_ws/install/cartographer_rviz/lib:/home/faith/Work/carto_ws/install/cartographer_ros/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/faith/Work/carto_ws/src/cartographer_ros/cartographer_rviz -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/faith/Work/carto_ws/install/cartographer_rviz
+[18.081s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/faith/Work/carto_ws/build/cartographer_rviz': CMAKE_PREFIX_PATH=/home/faith/Work/carto_ws/install/cartographer_ros:/home/faith/Work/carto_ws/install/cartographer_ros_msgs:/home/faith/Work/carto_ws/install/cartographer:/home/faith/Work/carto_ws/install/astra_camera:/home/faith/Work/carto_ws/install/astra_camera_msgs:/home/faith/Work/carto_ws/install/sllidar_ros2:/home/faith/Work/carto_ws/install/orbbec_description:/home/faith/Work/carto_ws/install/orbbec_camera:/home/faith/Work/carto_ws/install/orbbec_camera_msgs:/home/faith/Work/carto_ws/install/faithbot_cartographer:/home/faith/Work/carto_ws/install/cartographer_rviz:/home/faith/Work/carto_ws/install/fishbot_description:/opt/ros/humble LD_LIBRARY_PATH=/home/faith/Work/carto_ws/install/cartographer_ros_msgs/lib:/home/faith/Work/carto_ws/install/astra_camera/lib:/home/faith/Work/carto_ws/install/astra_camera_msgs/lib:/home/faith/Work/carto_ws/install/orbbec_camera/lib:/home/faith/Work/carto_ws/install/orbbec_camera_msgs/lib:/home/faith/Work/carto_ws/install/cartographer_rviz/lib:/home/faith/Work/carto_ws/install/cartographer_ros/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/faith/Work/carto_ws/build/cartographer_rviz -- -j8 -l8
+[18.607s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/faith/Work/carto_ws/build/cartographer_rviz' returned '0': CMAKE_PREFIX_PATH=/home/faith/Work/carto_ws/install/cartographer_ros:/home/faith/Work/carto_ws/install/cartographer_ros_msgs:/home/faith/Work/carto_ws/install/cartographer:/home/faith/Work/carto_ws/install/astra_camera:/home/faith/Work/carto_ws/install/astra_camera_msgs:/home/faith/Work/carto_ws/install/sllidar_ros2:/home/faith/Work/carto_ws/install/orbbec_description:/home/faith/Work/carto_ws/install/orbbec_camera:/home/faith/Work/carto_ws/install/orbbec_camera_msgs:/home/faith/Work/carto_ws/install/faithbot_cartographer:/home/faith/Work/carto_ws/install/cartographer_rviz:/home/faith/Work/carto_ws/install/fishbot_description:/opt/ros/humble LD_LIBRARY_PATH=/home/faith/Work/carto_ws/install/cartographer_ros_msgs/lib:/home/faith/Work/carto_ws/install/astra_camera/lib:/home/faith/Work/carto_ws/install/astra_camera_msgs/lib:/home/faith/Work/carto_ws/install/orbbec_camera/lib:/home/faith/Work/carto_ws/install/orbbec_camera_msgs/lib:/home/faith/Work/carto_ws/install/cartographer_rviz/lib:/home/faith/Work/carto_ws/install/cartographer_ros/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/faith/Work/carto_ws/build/cartographer_rviz -- -j8 -l8
+[18.730s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/faith/Work/carto_ws/build/cartographer_rviz': CMAKE_PREFIX_PATH=/home/faith/Work/carto_ws/install/cartographer_ros:/home/faith/Work/carto_ws/install/cartographer_ros_msgs:/home/faith/Work/carto_ws/install/cartographer:/home/faith/Work/carto_ws/install/astra_camera:/home/faith/Work/carto_ws/install/astra_camera_msgs:/home/faith/Work/carto_ws/install/sllidar_ros2:/home/faith/Work/carto_ws/install/orbbec_description:/home/faith/Work/carto_ws/install/orbbec_camera:/home/faith/Work/carto_ws/install/orbbec_camera_msgs:/home/faith/Work/carto_ws/install/faithbot_cartographer:/home/faith/Work/carto_ws/install/cartographer_rviz:/home/faith/Work/carto_ws/install/fishbot_description:/opt/ros/humble LD_LIBRARY_PATH=/home/faith/Work/carto_ws/install/cartographer_ros_msgs/lib:/home/faith/Work/carto_ws/install/astra_camera/lib:/home/faith/Work/carto_ws/install/astra_camera_msgs/lib:/home/faith/Work/carto_ws/install/orbbec_camera/lib:/home/faith/Work/carto_ws/install/orbbec_camera_msgs/lib:/home/faith/Work/carto_ws/install/cartographer_rviz/lib:/home/faith/Work/carto_ws/install/cartographer_ros/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/faith/Work/carto_ws/build/cartographer_rviz
+[18.766s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cartographer_rviz)
+[18.778s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/cartographer_rviz' for CMake module files
+[18.784s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/cartographer_rviz' for CMake config files
+[18.795s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/faith/Work/carto_ws/build/cartographer_rviz' returned '0': CMAKE_PREFIX_PATH=/home/faith/Work/carto_ws/install/cartographer_ros:/home/faith/Work/carto_ws/install/cartographer_ros_msgs:/home/faith/Work/carto_ws/install/cartographer:/home/faith/Work/carto_ws/install/astra_camera:/home/faith/Work/carto_ws/install/astra_camera_msgs:/home/faith/Work/carto_ws/install/sllidar_ros2:/home/faith/Work/carto_ws/install/orbbec_description:/home/faith/Work/carto_ws/install/orbbec_camera:/home/faith/Work/carto_ws/install/orbbec_camera_msgs:/home/faith/Work/carto_ws/install/faithbot_cartographer:/home/faith/Work/carto_ws/install/cartographer_rviz:/home/faith/Work/carto_ws/install/fishbot_description:/opt/ros/humble LD_LIBRARY_PATH=/home/faith/Work/carto_ws/install/cartographer_ros_msgs/lib:/home/faith/Work/carto_ws/install/astra_camera/lib:/home/faith/Work/carto_ws/install/astra_camera_msgs/lib:/home/faith/Work/carto_ws/install/orbbec_camera/lib:/home/faith/Work/carto_ws/install/orbbec_camera_msgs/lib:/home/faith/Work/carto_ws/install/cartographer_rviz/lib:/home/faith/Work/carto_ws/install/cartographer_ros/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/faith/Work/carto_ws/build/cartographer_rviz
+[18.796s] Level 1:colcon.colcon_core.shell:create_environment_hook('cartographer_rviz', 'cmake_prefix_path')
+[18.803s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faith/Work/carto_ws/install/cartographer_rviz/share/cartographer_rviz/hook/cmake_prefix_path.ps1'
+[18.805s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/faith/Work/carto_ws/install/cartographer_rviz/share/cartographer_rviz/hook/cmake_prefix_path.dsv'
+[18.806s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faith/Work/carto_ws/install/cartographer_rviz/share/cartographer_rviz/hook/cmake_prefix_path.sh'
+[18.808s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/cartographer_rviz/lib'
+[18.809s] Level 1:colcon.colcon_core.shell:create_environment_hook('cartographer_rviz', 'ld_library_path_lib')
+[18.818s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faith/Work/carto_ws/install/cartographer_rviz/share/cartographer_rviz/hook/ld_library_path_lib.ps1'
+[18.820s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/faith/Work/carto_ws/install/cartographer_rviz/share/cartographer_rviz/hook/ld_library_path_lib.dsv'
+[18.821s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faith/Work/carto_ws/install/cartographer_rviz/share/cartographer_rviz/hook/ld_library_path_lib.sh'
+[18.823s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/cartographer_rviz/bin'
+[18.823s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/cartographer_rviz/lib/pkgconfig/cartographer_rviz.pc'
+[18.824s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/cartographer_rviz/lib/python3.10/site-packages'
+[18.825s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/cartographer_rviz/bin'
+[18.832s] INFO:colcon.colcon_core.shell:Creating package script '/home/faith/Work/carto_ws/install/cartographer_rviz/share/cartographer_rviz/package.ps1'
+[18.834s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/faith/Work/carto_ws/install/cartographer_rviz/share/cartographer_rviz/package.dsv'
+[18.836s] INFO:colcon.colcon_core.shell:Creating package script '/home/faith/Work/carto_ws/install/cartographer_rviz/share/cartographer_rviz/package.sh'
+[18.838s] INFO:colcon.colcon_core.shell:Creating package script '/home/faith/Work/carto_ws/install/cartographer_rviz/share/cartographer_rviz/package.bash'
+[18.840s] INFO:colcon.colcon_core.shell:Creating package script '/home/faith/Work/carto_ws/install/cartographer_rviz/share/cartographer_rviz/package.zsh'
+[18.841s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/faith/Work/carto_ws/install/cartographer_rviz/share/colcon-core/packages/cartographer_rviz)
+[18.954s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cartographer_rviz)
+[18.965s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/cartographer_rviz' for CMake module files
+[18.968s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/cartographer_rviz' for CMake config files
+[18.970s] Level 1:colcon.colcon_core.shell:create_environment_hook('cartographer_rviz', 'cmake_prefix_path')
+[18.977s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faith/Work/carto_ws/install/cartographer_rviz/share/cartographer_rviz/hook/cmake_prefix_path.ps1'
+[18.979s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/faith/Work/carto_ws/install/cartographer_rviz/share/cartographer_rviz/hook/cmake_prefix_path.dsv'
+[18.980s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faith/Work/carto_ws/install/cartographer_rviz/share/cartographer_rviz/hook/cmake_prefix_path.sh'
+[18.983s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/cartographer_rviz/lib'
+[18.983s] Level 1:colcon.colcon_core.shell:create_environment_hook('cartographer_rviz', 'ld_library_path_lib')
+[18.989s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faith/Work/carto_ws/install/cartographer_rviz/share/cartographer_rviz/hook/ld_library_path_lib.ps1'
+[18.991s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/faith/Work/carto_ws/install/cartographer_rviz/share/cartographer_rviz/hook/ld_library_path_lib.dsv'
+[18.992s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faith/Work/carto_ws/install/cartographer_rviz/share/cartographer_rviz/hook/ld_library_path_lib.sh'
+[18.993s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/cartographer_rviz/bin'
+[18.994s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/cartographer_rviz/lib/pkgconfig/cartographer_rviz.pc'
+[18.995s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/cartographer_rviz/lib/python3.10/site-packages'
+[18.996s] Level 1:colcon.colcon_core.environment:checking '/home/faith/Work/carto_ws/install/cartographer_rviz/bin'
+[19.002s] INFO:colcon.colcon_core.shell:Creating package script '/home/faith/Work/carto_ws/install/cartographer_rviz/share/cartographer_rviz/package.ps1'
+[19.004s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/faith/Work/carto_ws/install/cartographer_rviz/share/cartographer_rviz/package.dsv'
+[19.006s] INFO:colcon.colcon_core.shell:Creating package script '/home/faith/Work/carto_ws/install/cartographer_rviz/share/cartographer_rviz/package.sh'
+[19.008s] INFO:colcon.colcon_core.shell:Creating package script '/home/faith/Work/carto_ws/install/cartographer_rviz/share/cartographer_rviz/package.bash'
+[19.010s] INFO:colcon.colcon_core.shell:Creating package script '/home/faith/Work/carto_ws/install/cartographer_rviz/share/cartographer_rviz/package.zsh'
+[19.011s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/faith/Work/carto_ws/install/cartographer_rviz/share/colcon-core/packages/cartographer_rviz)
+[19.012s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[19.014s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[19.015s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[19.015s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[19.041s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[19.041s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[19.042s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[44.072s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.NoReply: Did not receive a reply. Possible causes include: the remote application did not send a reply, the message bus security policy blocked the reply, the reply timeout expired, or the network connection was broken.
+[44.074s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[44.083s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/faith/Work/carto_ws/install/local_setup.ps1'
+[44.090s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/faith/Work/carto_ws/install/_local_setup_util_ps1.py'
+[44.100s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/faith/Work/carto_ws/install/setup.ps1'
+[44.112s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/faith/Work/carto_ws/install/local_setup.sh'
+[44.116s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/faith/Work/carto_ws/install/_local_setup_util_sh.py'
+[44.119s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/faith/Work/carto_ws/install/setup.sh'
+[44.130s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/faith/Work/carto_ws/install/local_setup.bash'
+[44.133s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/faith/Work/carto_ws/install/setup.bash'
+[44.145s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/faith/Work/carto_ws/install/local_setup.zsh'
+[44.148s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/faith/Work/carto_ws/install/setup.zsh'

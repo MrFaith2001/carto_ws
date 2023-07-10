@@ -1,0 +1,10 @@
+/home/faith/Work/carto_ws/build/city_w/CMakeFiles/uninstall.dir
+/home/faith/Work/carto_ws/build/city_w/CMakeFiles/city_w_uninstall.dir
+/home/faith/Work/carto_ws/build/city_w/CMakeFiles/wang2_node.dir
+/home/faith/Work/carto_ws/build/city_w/CMakeFiles/test.dir
+/home/faith/Work/carto_ws/build/city_w/CMakeFiles/edit_cache.dir
+/home/faith/Work/carto_ws/build/city_w/CMakeFiles/rebuild_cache.dir
+/home/faith/Work/carto_ws/build/city_w/CMakeFiles/list_install_components.dir
+/home/faith/Work/carto_ws/build/city_w/CMakeFiles/install.dir
+/home/faith/Work/carto_ws/build/city_w/CMakeFiles/install/local.dir
+/home/faith/Work/carto_ws/build/city_w/CMakeFiles/install/strip.dir

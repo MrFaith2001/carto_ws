@@ -1,0 +1,49 @@
+[0.033s] Invoking command in '/home/faith/Work/carto_ws/build/faithbot_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/faith/Work/carto_ws/src/faithbot_cartographer -DCMAKE_INSTALL_PREFIX=/home/faith/Work/carto_ws/install/faithbot_cartographer
+[0.410s] -- The C compiler identification is GNU 11.3.0
+[0.739s] -- The CXX compiler identification is GNU 11.3.0
+[0.774s] -- Detecting C compiler ABI info
+[1.013s] -- Detecting C compiler ABI info - done
+[1.051s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.054s] -- Detecting C compile features
+[1.057s] -- Detecting C compile features - done
+[1.070s] -- Detecting CXX compiler ABI info
+[1.353s] -- Detecting CXX compiler ABI info - done
+[1.392s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.394s] -- Detecting CXX compile features
+[1.396s] -- Detecting CXX compile features - done
+[1.409s] -- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.825s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[2.087s] -- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.368s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.368s] -- Added test 'lint_cmake' to check CMake code style
+[2.369s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.371s] -- Added test 'xmllint' to check XML markup files
+[2.374s] -- Configuring done
+[2.378s] -- Generating done
+[2.380s] -- Build files have been written to: /home/faith/Work/carto_ws/build/faithbot_cartographer
+[2.391s] Invoked command in '/home/faith/Work/carto_ws/build/faithbot_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/faith/Work/carto_ws/src/faithbot_cartographer -DCMAKE_INSTALL_PREFIX=/home/faith/Work/carto_ws/install/faithbot_cartographer
+[2.393s] Invoking command in '/home/faith/Work/carto_ws/build/faithbot_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/faith/Work/carto_ws/build/faithbot_cartographer -- -j8 -l8
+[2.522s] Invoked command in '/home/faith/Work/carto_ws/build/faithbot_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/faith/Work/carto_ws/build/faithbot_cartographer -- -j8 -l8
+[2.621s] Invoking command in '/home/faith/Work/carto_ws/build/faithbot_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/faith/Work/carto_ws/build/faithbot_cartographer
+[2.645s] -- Install configuration: ""
+[2.647s] -- Installing: /home/faith/Work/carto_ws/install/faithbot_cartographer/share/ament_index/resource_index/package_run_dependencies/faithbot_cartographer
+[2.648s] -- Installing: /home/faith/Work/carto_ws/install/faithbot_cartographer/share/ament_index/resource_index/parent_prefix_path/faithbot_cartographer
+[2.648s] -- Installing: /home/faith/Work/carto_ws/install/faithbot_cartographer/share/faithbot_cartographer/environment/ament_prefix_path.sh
+[2.649s] -- Installing: /home/faith/Work/carto_ws/install/faithbot_cartographer/share/faithbot_cartographer/environment/ament_prefix_path.dsv
+[2.649s] -- Installing: /home/faith/Work/carto_ws/install/faithbot_cartographer/share/faithbot_cartographer/environment/path.sh
+[2.649s] -- Installing: /home/faith/Work/carto_ws/install/faithbot_cartographer/share/faithbot_cartographer/environment/path.dsv
+[2.650s] -- Installing: /home/faith/Work/carto_ws/install/faithbot_cartographer/share/faithbot_cartographer/local_setup.bash
+[2.650s] -- Installing: /home/faith/Work/carto_ws/install/faithbot_cartographer/share/faithbot_cartographer/local_setup.sh
+[2.651s] -- Installing: /home/faith/Work/carto_ws/install/faithbot_cartographer/share/faithbot_cartographer/local_setup.zsh
+[2.653s] -- Installing: /home/faith/Work/carto_ws/install/faithbot_cartographer/share/faithbot_cartographer/local_setup.dsv
+[2.658s] -- Installing: /home/faith/Work/carto_ws/install/faithbot_cartographer/share/faithbot_cartographer/package.dsv
+[2.658s] -- Installing: /home/faith/Work/carto_ws/install/faithbot_cartographer/share/ament_index/resource_index/packages/faithbot_cartographer
+[2.659s] -- Installing: /home/faith/Work/carto_ws/install/faithbot_cartographer/share/faithbot_cartographer/cmake/faithbot_cartographerConfig.cmake
+[2.660s] -- Installing: /home/faith/Work/carto_ws/install/faithbot_cartographer/share/faithbot_cartographer/cmake/faithbot_cartographerConfig-version.cmake
+[2.660s] -- Installing: /home/faith/Work/carto_ws/install/faithbot_cartographer/share/faithbot_cartographer/package.xml
+[2.660s] -- Installing: /home/faith/Work/carto_ws/install/faithbot_cartographer/share/faithbot_cartographer/config
+[2.661s] -- Installing: /home/faith/Work/carto_ws/install/faithbot_cartographer/share/faithbot_cartographer/config/faithbot_2d.lua
+[2.661s] -- Installing: /home/faith/Work/carto_ws/install/faithbot_cartographer/share/faithbot_cartographer/launch
+[2.663s] -- Installing: /home/faith/Work/carto_ws/install/faithbot_cartographer/share/faithbot_cartographer/launch/cartographer.launch.py
+[2.664s] -- Installing: /home/faith/Work/carto_ws/install/faithbot_cartographer/share/faithbot_cartographer/rviz
+[2.668s] Invoked command in '/home/faith/Work/carto_ws/build/faithbot_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/faith/Work/carto_ws/build/faithbot_cartographer

@@ -1,0 +1,589 @@
+[0.000000] (-) TimerEvent: {}
+[0.001239] (-) JobUnselected: {'identifier': 'cartographer'}
+[0.002784] (-) JobUnselected: {'identifier': 'cartographer_ros'}
+[0.002921] (-) JobUnselected: {'identifier': 'cartographer_ros_msgs'}
+[0.003040] (-) JobUnselected: {'identifier': 'cartographer_rviz'}
+[0.003226] (sllidar_ros2) JobQueued: {'identifier': 'sllidar_ros2', 'dependencies': OrderedDict()}
+[0.003352] (sllidar_ros2) JobStarted: {'identifier': 'sllidar_ros2'}
+[0.020711] (sllidar_ros2) JobProgress: {'identifier': 'sllidar_ros2', 'progress': 'cmake'}
+[0.021338] (sllidar_ros2) Command: {'cmd': ['/usr/bin/cmake', '/home/faith/Work/carto_ws/src/sllidar_ros2', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/faith/Work/carto_ws/install/sllidar_ros2'], 'cwd': '/home/faith/Work/carto_ws/build/sllidar_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN.UTF-8'), ('USER', 'faith'), ('SSH_CLIENT', '192.168.0.106 52826 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/faith/Work/carto_ws/install/cartographer_ros/lib:/home/faith/Work/carto_ws/install/cartographer_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/faith'), ('OLDPWD', '/home/faith/Work/carto_ws/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/faith/Work/carto_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'faith'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/faith/Work/carto_ws/install/cartographer/lib/aarch64-linux-gnu/pkgconfig:/home/faith/Work/carto_ws/install/cartographer/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '13'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/faith/Work/carto_ws/install/cartographer/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/faith/Work/carto_ws/install/sllidar_ros2:/home/faith/Work/carto_ws/install/cartographer_ros:/home/faith/Work/carto_ws/install/cartographer_ros_msgs:/opt/ros/humble'), ('LC_MESSAGES', 'en_US.UTF-8'), ('SHELL', '/usr/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/faith/Work/carto_ws/build/sllidar_ros2'), ('LC_ALL', 'zh_CN.UTF-8'), ('SSH_CONNECTION', '192.168.0.106 52826 192.168.0.107 22'), ('PYTHONPATH', '/home/faith/Work/carto_ws/install/cartographer_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/faith/Work/carto_ws/install/sllidar_ros2:/home/faith/Work/carto_ws/install/cartographer_ros:/home/faith/Work/carto_ws/install/cartographer_ros_msgs:/home/faith/Work/carto_ws/install/cartographer:/opt/ros/humble')]), 'shell': False}
+[0.097464] (-) TimerEvent: {}
+[0.198509] (-) TimerEvent: {}
+[0.216816] (sllidar_ros2) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[0.298833] (-) TimerEvent: {}
+[0.390016] (sllidar_ros2) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[0.399021] (-) TimerEvent: {}
+[0.416621] (sllidar_ros2) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.499385] (-) TimerEvent: {}
+[0.600553] (-) TimerEvent: {}
+[0.640152] (sllidar_ros2) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.677309] (sllidar_ros2) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.678289] (sllidar_ros2) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.679919] (sllidar_ros2) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.692236] (sllidar_ros2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.700757] (-) TimerEvent: {}
+[0.801643] (-) TimerEvent: {}
+[0.902832] (-) TimerEvent: {}
+[0.923392] (sllidar_ros2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.963094] (sllidar_ros2) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.965144] (sllidar_ros2) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.967107] (sllidar_ros2) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.975834] (sllidar_ros2) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.003074] (-) TimerEvent: {}
+[1.104181] (-) TimerEvent: {}
+[1.205235] (-) TimerEvent: {}
+[1.306844] (-) TimerEvent: {}
+[1.370491] (sllidar_ros2) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[1.407135] (-) TimerEvent: {}
+[1.497279] (sllidar_ros2) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.507359] (-) TimerEvent: {}
+[1.557023] (sllidar_ros2) StdoutLine: {'line': b'-- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.607677] (-) TimerEvent: {}
+[1.610401] (sllidar_ros2) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.616118] (sllidar_ros2) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.626833] (sllidar_ros2) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.645196] (sllidar_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.670936] (sllidar_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.707904] (-) TimerEvent: {}
+[1.766000] (sllidar_ros2) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.768905] (sllidar_ros2) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.808135] (-) TimerEvent: {}
+[1.909041] (-) TimerEvent: {}
+[1.965606] (sllidar_ros2) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[2.009379] (-) TimerEvent: {}
+[2.013545] (sllidar_ros2) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[2.091184] (sllidar_ros2) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.102868] (sllidar_ros2) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[2.109570] (-) TimerEvent: {}
+[2.210666] (-) TimerEvent: {}
+[2.311979] (-) TimerEvent: {}
+[2.319916] (sllidar_ros2) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[2.321063] (sllidar_ros2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[2.412408] (-) TimerEvent: {}
+[2.513823] (-) TimerEvent: {}
+[2.577651] (sllidar_ros2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[2.579499] (sllidar_ros2) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[2.614066] (-) TimerEvent: {}
+[2.715075] (-) TimerEvent: {}
+[2.816277] (-) TimerEvent: {}
+[2.841179] (sllidar_ros2) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[2.916593] (-) TimerEvent: {}
+[3.017759] (-) TimerEvent: {}
+[3.029814] (sllidar_ros2) StdoutLine: {'line': b'-- Found std_srvs: 4.2.3 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[3.118087] (-) TimerEvent: {}
+[3.219202] (-) TimerEvent: {}
+[3.320448] (-) TimerEvent: {}
+[3.353059] (sllidar_ros2) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.375016] (sllidar_ros2) StdoutLine: {'line': b'-- Generating done\n'}
+[3.377607] (sllidar_ros2) StdoutLine: {'line': b'-- Build files have been written to: /home/faith/Work/carto_ws/build/sllidar_ros2\n'}
+[3.400792] (sllidar_ros2) CommandEnded: {'returncode': 0}
+[3.406092] (sllidar_ros2) JobProgress: {'identifier': 'sllidar_ros2', 'progress': 'build'}
+[3.406476] (sllidar_ros2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/faith/Work/carto_ws/build/sllidar_ros2', '--', '-j8', '-l8'], 'cwd': '/home/faith/Work/carto_ws/build/sllidar_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN.UTF-8'), ('USER', 'faith'), ('SSH_CLIENT', '192.168.0.106 52826 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/faith/Work/carto_ws/install/cartographer_ros/lib:/home/faith/Work/carto_ws/install/cartographer_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/faith'), ('OLDPWD', '/home/faith/Work/carto_ws/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/faith/Work/carto_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'faith'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/faith/Work/carto_ws/install/cartographer/lib/aarch64-linux-gnu/pkgconfig:/home/faith/Work/carto_ws/install/cartographer/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '13'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/faith/Work/carto_ws/install/cartographer/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/faith/Work/carto_ws/install/sllidar_ros2:/home/faith/Work/carto_ws/install/cartographer_ros:/home/faith/Work/carto_ws/install/cartographer_ros_msgs:/opt/ros/humble'), ('LC_MESSAGES', 'en_US.UTF-8'), ('SHELL', '/usr/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/faith/Work/carto_ws/build/sllidar_ros2'), ('LC_ALL', 'zh_CN.UTF-8'), ('SSH_CONNECTION', '192.168.0.106 52826 192.168.0.107 22'), ('PYTHONPATH', '/home/faith/Work/carto_ws/install/cartographer_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/faith/Work/carto_ws/install/sllidar_ros2:/home/faith/Work/carto_ws/install/cartographer_ros:/home/faith/Work/carto_ws/install/cartographer_ros_msgs:/home/faith/Work/carto_ws/install/cartographer:/opt/ros/humble')]), 'shell': False}
+[3.420659] (-) TimerEvent: {}
+[3.521662] (-) TimerEvent: {}
+[3.546619] (sllidar_ros2) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/rplidar_driver.cpp.o\x1b[0m\n'}
+[3.547264] (sllidar_ros2) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/sl_crc.cpp.o\x1b[0m\n'}
+[3.547574] (sllidar_ros2) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/arch/linux/net_serial.cpp.o\x1b[0m\n'}
+[3.547698] (sllidar_ros2) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/sllidar_node.dir/src/sllidar_node.cpp.o\x1b[0m\n'}
+[3.558671] (sllidar_ros2) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/arch/linux/net_socket.cpp.o\x1b[0m\n'}
+[3.560508] (sllidar_ros2) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/hal/thread.cpp.o\x1b[0m\n'}
+[3.561810] (sllidar_ros2) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/arch/linux/timer.cpp.o\x1b[0m\n'}
+[3.576990] (sllidar_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:36\x1b[m\x1b[K,\n'}
+[3.577565] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/./sdk/include/sl_crc.h:36\x1b[m\x1b[K,\n'}
+[3.577883] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/sdk/src/sl_crc.cpp:33\x1b[m\x1b[K:\n'}
+[3.578017] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:58:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[3.578104] (sllidar_ros2) StderrLine: {'line': b'   58 |     sl_u8 data[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[3.578347] (sllidar_ros2) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[3.578460] (sllidar_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/./sdk/include/sl_crc.h:36\x1b[m\x1b[K,\n'}
+[3.578537] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/sdk/src/sl_crc.cpp:33\x1b[m\x1b[K:\n'}
+[3.578608] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:295:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kpayload\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[3.578707] (sllidar_ros2) StderrLine: {'line': b'  295 |     sl_u8  payload[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[3.578777] (sllidar_ros2) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[3.578844] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/sdk/src/sl_crc.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Ksl_u32 sl::crc32::cal(sl_u32, void*, sl_u16)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.578915] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/sdk/src/sl_crc.cpp:77:29:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ksuggest parentheses around \xe2\x80\x98\x1b[01m\x1b[K-\x1b[m\x1b[K\xe2\x80\x99 in operand of \xe2\x80\x98\x1b[01m\x1b[K&\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wparentheses\x1b[m\x1b[K]\n'}
+[3.579004] (sllidar_ros2) StderrLine: {'line': b'   77 |         sl_u8 leftBytes = \x1b[01;35m\x1b[K4 - len\x1b[m\x1b[K & 0x3;\n'}
+[3.579075] (sllidar_ros2) StderrLine: {'line': b'      |                           \x1b[01;35m\x1b[K~~^~~~~\x1b[m\x1b[K\n'}
+[3.580058] (sllidar_ros2) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/sllidar_client.dir/src/sllidar_client.cpp.o\x1b[0m\n'}
+[3.621717] (-) TimerEvent: {}
+[3.636121] (sllidar_ros2) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/sl_lidar_driver.cpp.o\x1b[0m\n'}
+[3.709935] (sllidar_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/sdk/src/sdkcommon.h:47\x1b[m\x1b[K,\n'}
+[3.710280] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/sdk/src/rplidar_driver.cpp:33\x1b[m\x1b[K:\n'}
+[3.710369] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/sdk/src/hal/assert.h:1:1:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Knull character(s) ignored\n'}
+[3.710446] (sllidar_ros2) StderrLine: {'line': b'    1 | \x1b[01;35m\x1b[K \x1b[m\x1b[K                                                                                                                                                                                                                                                                                                                        \n'}
+[3.710524] (sllidar_ros2) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[3.712235] (sllidar_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/./sdk/src/sdkcommon.h:47\x1b[m\x1b[K,\n'}
+[3.712542] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/sdk/src/arch/linux/net_socket.cpp:10\x1b[m\x1b[K:\n'}
+[3.712627] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/./sdk/src/hal/assert.h:1:1:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Knull character(s) ignored\n'}
+[3.712703] (sllidar_ros2) StderrLine: {'line': b'    1 | \x1b[01;35m\x1b[K \x1b[m\x1b[K                                                                                                                                                                                                                                                                                                                        \n'}
+[3.712782] (sllidar_ros2) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[3.721843] (-) TimerEvent: {}
+[3.728785] (sllidar_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/sdk/src/rplidar_driver.cpp:37\x1b[m\x1b[K:\n'}
+[3.729132] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/sdk/src/hal/assert.h:1:1:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Knull character(s) ignored\n'}
+[3.729245] (sllidar_ros2) StderrLine: {'line': b'    1 | \x1b[01;35m\x1b[K \x1b[m\x1b[K                                                                                                                                                                                                                                                                                                                        \n'}
+[3.729328] (sllidar_ros2) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[3.821967] (-) TimerEvent: {}
+[3.922400] (-) TimerEvent: {}
+[4.022873] (-) TimerEvent: {}
+[4.063046] (sllidar_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/./sdk/include/rplidar_protocol.h:36\x1b[m\x1b[K,\n'}
+[4.063833] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/./sdk/include/rplidar.h:39\x1b[m\x1b[K,\n'}
+[4.064055] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/./sdk/src/sdkcommon.h:49\x1b[m\x1b[K,\n'}
+[4.064166] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/sdk/src/arch/linux/net_socket.cpp:10\x1b[m\x1b[K:\n'}
+[4.064282] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:58:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[4.064370] (sllidar_ros2) StderrLine: {'line': b'   58 |     sl_u8 data[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[4.064441] (sllidar_ros2) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[4.064511] (sllidar_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/./sdk/include/rplidar_cmd.h:36\x1b[m\x1b[K,\n'}
+[4.064582] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/./sdk/include/rplidar.h:40\x1b[m\x1b[K,\n'}
+[4.064651] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/./sdk/src/sdkcommon.h:49\x1b[m\x1b[K,\n'}
+[4.064720] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/sdk/src/arch/linux/net_socket.cpp:10\x1b[m\x1b[K:\n'}
+[4.064790] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:295:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kpayload\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[4.064863] (sllidar_ros2) StderrLine: {'line': b'  295 |     sl_u8  payload[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[4.064933] (sllidar_ros2) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[4.068308] (sllidar_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/./sdk/src/sdkcommon.h:47\x1b[m\x1b[K,\n'}
+[4.068645] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/sdk/src/hal/thread.cpp:35\x1b[m\x1b[K:\n'}
+[4.068772] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/./sdk/src/hal/assert.h:1:1:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Knull character(s) ignored\n'}
+[4.068863] (sllidar_ros2) StderrLine: {'line': b'    1 | \x1b[01;35m\x1b[K \x1b[m\x1b[K                                                                                                                                                                                                                                                                                                                        \n'}
+[4.068979] (sllidar_ros2) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[4.087182] (sllidar_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/./sdk/include/rplidar_protocol.h:36\x1b[m\x1b[K,\n'}
+[4.087632] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/./sdk/include/rplidar.h:39\x1b[m\x1b[K,\n'}
+[4.087737] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/sdk/src/sdkcommon.h:49\x1b[m\x1b[K,\n'}
+[4.087814] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/sdk/src/rplidar_driver.cpp:33\x1b[m\x1b[K:\n'}
+[4.087885] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:58:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[4.087958] (sllidar_ros2) StderrLine: {'line': b'   58 |     sl_u8 data[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[4.088026] (sllidar_ros2) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[4.088677] (sllidar_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/./sdk/include/rplidar_cmd.h:36\x1b[m\x1b[K,\n'}
+[4.089090] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/./sdk/include/rplidar.h:40\x1b[m\x1b[K,\n'}
+[4.089180] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/sdk/src/sdkcommon.h:49\x1b[m\x1b[K,\n'}
+[4.089252] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/sdk/src/rplidar_driver.cpp:33\x1b[m\x1b[K:\n'}
+[4.089321] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:295:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kpayload\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[4.089393] (sllidar_ros2) StderrLine: {'line': b'  295 |     sl_u8  payload[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[4.089460] (sllidar_ros2) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[4.123027] (-) TimerEvent: {}
+[4.139386] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/sdk/src/arch/linux/net_socket.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual u_result rp::arch::net::StreamSocketImpl::send(const void*, size_t)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.139706] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/sdk/src/arch/linux/net_socket.cpp:438:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[4.139865] (sllidar_ros2) StderrLine: {'line': b'  438 |         if (\x1b[01;35m\x1b[Kans == (int)len\x1b[m\x1b[K) {\n'}
+[4.139972] (sllidar_ros2) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.143182] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/sdk/src/arch/linux/net_socket.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual u_result rp::arch::net::DGramSocketImpl::sendTo(const rp::net::SocketAddress&, const void*, size_t)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.143767] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/sdk/src/arch/linux/net_socket.cpp:722:39:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kthe compiler can assume that the address of \xe2\x80\x98\x1b[01m\x1b[Ktarget\x1b[m\x1b[K\xe2\x80\x99 will never be NULL [\x1b[01;35m\x1b[K-Waddress\x1b[m\x1b[K]\n'}
+[4.143973] (sllidar_ros2) StderrLine: {'line': b'  722 |         const struct sockaddr* addr = \x1b[01;35m\x1b[K&target\x1b[m\x1b[K ? reinterpret_cast<const struct sockaddr*>(target.getPlatformData()) : NULL;\n'}
+[4.144095] (sllidar_ros2) StderrLine: {'line': b'      |                                       \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[4.144174] (sllidar_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/./sdk/src/arch/linux/arch_linux.h:42\x1b[m\x1b[K,\n'}
+[4.144248] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/./sdk/src/sdkcommon.h:41\x1b[m\x1b[K,\n'}
+[4.144317] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/sdk/src/arch/linux/net_socket.cpp:10\x1b[m\x1b[K:\n'}
+[4.144387] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/sdk/src/arch/linux/net_socket.cpp:726:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[4.144466] (sllidar_ros2) StderrLine: {'line': b'  726 |             assert(\x1b[01;35m\x1b[Kans == (int)len\x1b[m\x1b[K);\n'}
+[4.144555] (sllidar_ros2) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.145413] (sllidar_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/sdk/src/sdkcommon.h:47\x1b[m\x1b[K,\n'}
+[4.145653] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:33\x1b[m\x1b[K:\n'}
+[4.145746] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/sdk/src/hal/assert.h:1:1:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Knull character(s) ignored\n'}
+[4.145824] (sllidar_ros2) StderrLine: {'line': b'    1 | \x1b[01;35m\x1b[K \x1b[m\x1b[K                                                                                                                                                                                                                                                                                                                        \n'}
+[4.145902] (sllidar_ros2) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[4.201410] (sllidar_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:37\x1b[m\x1b[K:\n'}
+[4.201719] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/sdk/src/hal/assert.h:1:1:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Knull character(s) ignored\n'}
+[4.201809] (sllidar_ros2) StderrLine: {'line': b'    1 | \x1b[01;35m\x1b[K \x1b[m\x1b[K                                                                                                                                                                                                                                                                                                                        \n'}
+[4.201893] (sllidar_ros2) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[4.223190] (-) TimerEvent: {}
+[4.250368] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/sdk/src/arch/linux/net_socket.cpp:722:47:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Knonnull\x1b[m\x1b[K\xe2\x80\x99 argument \xe2\x80\x98\x1b[01m\x1b[Ktarget\x1b[m\x1b[K\xe2\x80\x99 compared to NULL [\x1b[01;35m\x1b[K-Wnonnull-compare\x1b[m\x1b[K]\n'}
+[4.251266] (sllidar_ros2) StderrLine: {'line': b'  722 |         const struct sockaddr* addr = &target \x1b[01;35m\x1b[K?\x1b[m\x1b[K reinterpret_cast<const struct sockaddr*>(target.getPlatformData()) : NULL;\n'}
+[4.251843] (sllidar_ros2) StderrLine: {'line': b'      |                                               \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[4.301981] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/sdk/src/rplidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Ku_result rp::standalone::rplidar::RPlidarDriver::connect(const char*, _u32, _u32)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.302815] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/sdk/src/rplidar_driver.cpp:67:77:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kflag\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[4.303346] (sllidar_ros2) StderrLine: {'line': b'   67 |     u_result RPlidarDriver::connect(const char *path, _u32 portOrBaud, \x1b[01;35m\x1b[K_u32 flag\x1b[m\x1b[K)\n'}
+[4.303778] (sllidar_ros2) StderrLine: {'line': b'      |                                                                        \x1b[01;35m\x1b[K~~~~~^~~~\x1b[m\x1b[K\n'}
+[4.304241] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/sdk/src/rplidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Ku_result rp::standalone::rplidar::RPlidarDriver::reset(_u32)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.304653] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/sdk/src/rplidar_driver.cpp:101:40:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktimeout\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[4.305053] (sllidar_ros2) StderrLine: {'line': b'  101 |     u_result RPlidarDriver::reset(\x1b[01;35m\x1b[K_u32 timeout\x1b[m\x1b[K)\n'}
+[4.305504] (sllidar_ros2) StderrLine: {'line': b'      |                                   \x1b[01;35m\x1b[K~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[4.306359] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/sdk/src/rplidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Ku_result rp::standalone::rplidar::RPlidarDriver::getScanDataWithInterval(rplidar_response_measurement_node_t*, size_t&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.306908] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/sdk/src/rplidar_driver.cpp:175:91:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Knodebuffer\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[4.307386] (sllidar_ros2) StderrLine: {'line': b'  175 |     u_result RPlidarDriver::getScanDataWithInterval(\x1b[01;35m\x1b[Krplidar_response_measurement_node_t * nodebuffer\x1b[m\x1b[K, size_t & count)\n'}
+[4.307811] (sllidar_ros2) StderrLine: {'line': b'      |                                                     \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.308215] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/sdk/src/rplidar_driver.cpp:175:112:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kcount\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[4.308645] (sllidar_ros2) StderrLine: {'line': b'  175 |     u_result RPlidarDriver::getScanDataWithInterval(rplidar_response_measurement_node_t * nodebuffer, \x1b[01;35m\x1b[Ksize_t & count\x1b[m\x1b[K)\n'}
+[4.309098] (sllidar_ros2) StderrLine: {'line': b'      |                                                                                                       \x1b[01;35m\x1b[K~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[4.323512] (-) TimerEvent: {}
+[4.398006] (sllidar_ros2) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/sl_serial_channel.cpp.o\x1b[0m\n'}
+[4.414251] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/sdk/src/sl_serial_channel.cpp:33:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K#pragma once in main file\n'}
+[4.414543] (sllidar_ros2) StderrLine: {'line': b'   33 | #pragma \x1b[01;35m\x1b[Konce\x1b[m\x1b[K\n'}
+[4.414633] (sllidar_ros2) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[4.423639] (-) TimerEvent: {}
+[4.451448] (sllidar_ros2) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/sl_tcp_channel.cpp.o\x1b[0m\n'}
+[4.466877] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/sdk/src/sl_tcp_channel.cpp:33:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K#pragma once in main file\n'}
+[4.467173] (sllidar_ros2) StderrLine: {'line': b'   33 | #pragma \x1b[01;35m\x1b[Konce\x1b[m\x1b[K\n'}
+[4.467263] (sllidar_ros2) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[4.523797] (-) TimerEvent: {}
+[4.624285] (-) TimerEvent: {}
+[4.724749] (-) TimerEvent: {}
+[4.731325] (sllidar_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:36\x1b[m\x1b[K,\n'}
+[4.731644] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/./sdk/include/sl_lidar_driver.h:54\x1b[m\x1b[K,\n'}
+[4.731742] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/sdk/src/sl_serial_channel.cpp:34\x1b[m\x1b[K:\n'}
+[4.731819] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:58:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[4.732016] (sllidar_ros2) StderrLine: {'line': b'   58 |     sl_u8 data[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[4.732138] (sllidar_ros2) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[4.732212] (sllidar_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/./sdk/include/sl_lidar_driver.h:54\x1b[m\x1b[K,\n'}
+[4.732282] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/sdk/src/sl_serial_channel.cpp:34\x1b[m\x1b[K:\n'}
+[4.732351] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:295:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kpayload\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[4.732451] (sllidar_ros2) StderrLine: {'line': b'  295 |     sl_u8  payload[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[4.732526] (sllidar_ros2) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[4.785464] (sllidar_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:36\x1b[m\x1b[K,\n'}
+[4.785831] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/./sdk/include/sl_lidar_driver.h:54\x1b[m\x1b[K,\n'}
+[4.785930] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/sdk/src/sl_tcp_channel.cpp:34\x1b[m\x1b[K:\n'}
+[4.786007] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:58:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[4.786108] (sllidar_ros2) StderrLine: {'line': b'   58 |     sl_u8 data[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[4.786180] (sllidar_ros2) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[4.786385] (sllidar_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/./sdk/include/sl_lidar_driver.h:54\x1b[m\x1b[K,\n'}
+[4.786546] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/sdk/src/sl_tcp_channel.cpp:34\x1b[m\x1b[K:\n'}
+[4.786624] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:295:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kpayload\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[4.786701] (sllidar_ros2) StderrLine: {'line': b'  295 |     sl_u8  payload[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[4.786769] (sllidar_ros2) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[4.792435] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/sdk/src/sl_tcp_channel.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid sl::TcpChannel::setStatus(_u32)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.792789] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/sdk/src/sl_tcp_channel.cpp:95:29:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kflag\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[4.792891] (sllidar_ros2) StderrLine: {'line': b'   95 |         void setStatus(\x1b[01;35m\x1b[K_u32 flag\x1b[m\x1b[K){}\n'}
+[4.792965] (sllidar_ros2) StderrLine: {'line': b'      |                        \x1b[01;35m\x1b[K~~~~~^~~~\x1b[m\x1b[K\n'}
+[4.822014] (sllidar_ros2) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/sl_udp_channel.cpp.o\x1b[0m\n'}
+[4.824895] (-) TimerEvent: {}
+[4.837498] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/sdk/src/sl_udp_channel.cpp:33:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K#pragma once in main file\n'}
+[4.837787] (sllidar_ros2) StderrLine: {'line': b'   33 | #pragma \x1b[01;35m\x1b[Konce\x1b[m\x1b[K\n'}
+[4.837874] (sllidar_ros2) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[4.925046] (-) TimerEvent: {}
+[5.025764] (-) TimerEvent: {}
+[5.126877] (-) TimerEvent: {}
+[5.153193] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool rp::arch::net::raw_serial::open(const char*, uint32_t, uint32_t)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.154709] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp:97:74:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kflags\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[5.155312] (sllidar_ros2) StderrLine: {'line': b'   97 | bool raw_serial::open(const char * portname, uint32_t baudrate, \x1b[01;35m\x1b[Kuint32_t flags\x1b[m\x1b[K)\n'}
+[5.155865] (sllidar_ros2) StderrLine: {'line': b'      |                                                                 \x1b[01;35m\x1b[K~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[5.156338] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void rp::arch::net::raw_serial::flush(_u32)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.156775] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp:281:30:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kflags\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[5.157670] (sllidar_ros2) StderrLine: {'line': b'  281 | void raw_serial::flush( \x1b[01;35m\x1b[K_u32 flags\x1b[m\x1b[K)\n'}
+[5.158391] (sllidar_ros2) StderrLine: {'line': b'      |                         \x1b[01;35m\x1b[K~~~~~^~~~~\x1b[m\x1b[K\n'}
+[5.158806] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual int rp::arch::net::raw_serial::waitforsent(_u32, size_t*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.159188] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp:286:34:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktimeout\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[5.159560] (sllidar_ros2) StderrLine: {'line': b'  286 | int raw_serial::waitforsent(\x1b[01;35m\x1b[K_u32 timeout\x1b[m\x1b[K, size_t * returned_size)\n'}
+[5.159919] (sllidar_ros2) StderrLine: {'line': b'      |                             \x1b[01;35m\x1b[K~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[5.160316] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual int rp::arch::net::raw_serial::waitforrecv(_u32, size_t*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.160763] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp:292:34:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktimeout\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[5.161141] (sllidar_ros2) StderrLine: {'line': b'  292 | int raw_serial::waitforrecv(\x1b[01;35m\x1b[K_u32 timeout\x1b[m\x1b[K, size_t * returned_size)\n'}
+[5.161493] (sllidar_ros2) StderrLine: {'line': b'      |                             \x1b[01;35m\x1b[K~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[5.161847] (sllidar_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:36\x1b[m\x1b[K,\n'}
+[5.162201] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/./sdk/include/sl_lidar_driver.h:54\x1b[m\x1b[K,\n'}
+[5.162557] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/sdk/src/sl_udp_channel.cpp:34\x1b[m\x1b[K:\n'}
+[5.162921] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:58:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[5.163284] (sllidar_ros2) StderrLine: {'line': b'   58 |     sl_u8 data[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[5.164070] (sllidar_ros2) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[5.164498] (sllidar_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/./sdk/include/sl_lidar_driver.h:54\x1b[m\x1b[K,\n'}
+[5.164885] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/sdk/src/sl_udp_channel.cpp:34\x1b[m\x1b[K:\n'}
+[5.165282] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:295:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kpayload\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[5.165713] (sllidar_ros2) StderrLine: {'line': b'  295 |     sl_u8  payload[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[5.166083] (sllidar_ros2) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[5.166512] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/sdk/src/sl_udp_channel.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid sl::UdpChannel::setStatus(_u32)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.166896] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/sdk/src/sl_udp_channel.cpp:103:29:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kflag\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[5.167272] (sllidar_ros2) StderrLine: {'line': b'  103 |         void setStatus(\x1b[01;35m\x1b[K_u32 flag\x1b[m\x1b[K){}\n'}
+[5.167695] (sllidar_ros2) StderrLine: {'line': b'      |                        \x1b[01;35m\x1b[K~~~~~^~~~\x1b[m\x1b[K\n'}
+[5.227229] (-) TimerEvent: {}
+[5.283695] (sllidar_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/./sdk/include/rplidar_protocol.h:36\x1b[m\x1b[K,\n'}
+[5.284729] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/./sdk/include/rplidar.h:39\x1b[m\x1b[K,\n'}
+[5.285716] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/./sdk/src/sdkcommon.h:49\x1b[m\x1b[K,\n'}
+[5.286226] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/sdk/src/hal/thread.cpp:35\x1b[m\x1b[K:\n'}
+[5.286717] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:58:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[5.287133] (sllidar_ros2) StderrLine: {'line': b'   58 |     sl_u8 data[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[5.287687] (sllidar_ros2) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[5.288100] (sllidar_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/./sdk/include/rplidar_protocol.h:36\x1b[m\x1b[K,\n'}
+[5.288489] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/./sdk/include/rplidar.h:39\x1b[m\x1b[K,\n'}
+[5.288859] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/sdk/src/sdkcommon.h:49\x1b[m\x1b[K,\n'}
+[5.289227] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:33\x1b[m\x1b[K:\n'}
+[5.289595] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:58:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[5.289960] (sllidar_ros2) StderrLine: {'line': b'   58 |     sl_u8 data[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[5.290314] (sllidar_ros2) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[5.290709] (sllidar_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/./sdk/include/rplidar_cmd.h:36\x1b[m\x1b[K,\n'}
+[5.291086] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/./sdk/include/rplidar.h:40\x1b[m\x1b[K,\n'}
+[5.291481] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/sdk/src/sdkcommon.h:49\x1b[m\x1b[K,\n'}
+[5.291841] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:33\x1b[m\x1b[K:\n'}
+[5.292227] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:295:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kpayload\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[5.292586] (sllidar_ros2) StderrLine: {'line': b'  295 |     sl_u8  payload[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[5.292944] (sllidar_ros2) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[5.293324] (sllidar_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/./sdk/include/rplidar_cmd.h:36\x1b[m\x1b[K,\n'}
+[5.293697] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/./sdk/include/rplidar.h:40\x1b[m\x1b[K,\n'}
+[5.294108] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/./sdk/src/sdkcommon.h:49\x1b[m\x1b[K,\n'}
+[5.294485] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/sdk/src/hal/thread.cpp:35\x1b[m\x1b[K:\n'}
+[5.294842] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:295:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kpayload\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[5.295202] (sllidar_ros2) StderrLine: {'line': b'  295 |     sl_u8  payload[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[5.295555] (sllidar_ros2) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[5.327572] (-) TimerEvent: {}
+[5.376791] (sllidar_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/sdk/src/hal/thread.cpp:43\x1b[m\x1b[K:\n'}
+[5.377774] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/./sdk/src/arch/linux/thread.hpp:\x1b[m\x1b[K In static member function \xe2\x80\x98\x1b[01m\x1b[Kstatic rp::hal::Thread rp::hal::Thread::create(thread_proc_t, void*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.378237] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/./sdk/src/arch/linux/thread.hpp:48:57:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcast between incompatible function types from \xe2\x80\x98\x1b[01m\x1b[Kthread_proc_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int (*)(void*)\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kvoid* (*)(void*)\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wcast-function-type\x1b[m\x1b[K]\n'}
+[5.378653] (sllidar_ros2) StderrLine: {'line': b'   48 |     pthread_create((pthread_t *)&newborn._handle, NULL, \x1b[01;35m\x1b[K(void * (*)(void *))proc\x1b[m\x1b[K, data);\n'}
+[5.379077] (sllidar_ros2) StderrLine: {'line': b'      |                                                         \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.379433] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/./sdk/src/arch/linux/thread.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Ku_result rp::hal::Thread::join(long unsigned int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.379791] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/./sdk/src/arch/linux/thread.hpp:129:37:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktimeout\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[5.380147] (sllidar_ros2) StderrLine: {'line': b'  129 | u_result Thread::join(\x1b[01;35m\x1b[Kunsigned long timeout\x1b[m\x1b[K)\n'}
+[5.380493] (sllidar_ros2) StderrLine: {'line': b'      |                       \x1b[01;35m\x1b[K~~~~~~~~~~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[5.427795] (-) TimerEvent: {}
+[5.481577] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual sl_result sl::SlamtecLidarDriver::reset(sl_u32)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.482279] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:273:32:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KtimeoutInMs\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[5.482702] (sllidar_ros2) StderrLine: {'line': b'  273 |         sl_result reset(\x1b[01;35m\x1b[Ksl_u32 timeoutInMs = DEFAULT_TIMEOUT\x1b[m\x1b[K)\n'}
+[5.483069] (sllidar_ros2) StderrLine: {'line': b'      |                         \x1b[01;35m\x1b[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.484891] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual sl_result sl::SlamtecLidarDriver::getAllSupportedScanModes(std::vector<sl::LidarScanMode>&, sl_u32)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.485430] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:286:89:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KtimeoutInMs\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[5.485816] (sllidar_ros2) StderrLine: {'line': b'  286 |         sl_result getAllSupportedScanModes(std::vector<LidarScanMode>& outModes, \x1b[01;35m\x1b[Ksl_u32 timeoutInMs = DEFAULT_TIMEOUT\x1b[m\x1b[K)\n'}
+[5.486398] (sllidar_ros2) StderrLine: {'line': b'      |                                                                                  \x1b[01;35m\x1b[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.486757] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual sl_result sl::SlamtecLidarDriver::startScan(bool, bool, sl_u32, sl::LidarScanMode*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.487109] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:347:69:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Koptions\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[5.487526] (sllidar_ros2) StderrLine: {'line': b'  347 |         sl_result startScan(bool force, bool useTypicalScan, \x1b[01;35m\x1b[Ksl_u32 options = 0\x1b[m\x1b[K, LidarScanMode* outUsedScanMode = nullptr)\n'}
+[5.487887] (sllidar_ros2) StderrLine: {'line': b'      |                                                              \x1b[01;35m\x1b[K~~~~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.488758] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual sl_result sl::SlamtecLidarDriver::stop(sl_u32)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.489198] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:534:31:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktimeout\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[5.490053] (sllidar_ros2) StderrLine: {'line': b'  534 |         sl_result stop(\x1b[01;35m\x1b[Ksl_u32 timeout = DEFAULT_TIMEOUT\x1b[m\x1b[K)\n'}
+[5.490585] (sllidar_ros2) StderrLine: {'line': b'      |                        \x1b[01;35m\x1b[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.490991] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual sl_result sl::SlamtecLidarDriver::getDeviceInfo(sl_lidar_response_device_info_t&, sl_u32)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.491386] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:579:79:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktimeout\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[5.491742] (sllidar_ros2) StderrLine: {'line': b'  579 |         sl_result getDeviceInfo(sl_lidar_response_device_info_t& info, \x1b[01;35m\x1b[Ksl_u32 timeout = DEFAULT_TIMEOUT\x1b[m\x1b[K)\n'}
+[5.492303] (sllidar_ros2) StderrLine: {'line': b'      |                                                                        \x1b[01;35m\x1b[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.492663] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual sl_result sl::SlamtecLidarDriver::checkMotorCtrlSupport(sl::MotorCtrlSupport&, sl_u32)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.493054] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:592:76:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktimeout\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[5.493399] (sllidar_ros2) StderrLine: {'line': b'  592 |         sl_result checkMotorCtrlSupport(MotorCtrlSupport & support, \x1b[01;35m\x1b[Ksl_u32 timeout = DEFAULT_TIMEOUT\x1b[m\x1b[K)\n'}
+[5.493743] (sllidar_ros2) StderrLine: {'line': b'      |                                                                     \x1b[01;35m\x1b[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.494131] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual sl_result sl::SlamtecLidarDriver::getFrequency(const sl::LidarScanMode&, const sl_lidar_response_measurement_node_hq_t*, size_t, float&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.494498] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:627:110:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Knodes\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[5.494887] (sllidar_ros2) StderrLine: {'line': b'  627 |         sl_result getFrequency(const LidarScanMode& scanMode, \x1b[01;35m\x1b[Kconst sl_lidar_response_measurement_node_hq_t* nodes\x1b[m\x1b[K, size_t count, float& frequency)\n'}
+[5.495235] (sllidar_ros2) StderrLine: {'line': b'      |                                                               \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[5.495580] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual sl_result sl::SlamtecLidarDriver::getHealth(sl_lidar_response_device_health_t&, sl_u32)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.495926] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:640:79:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktimeout\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[5.496309] (sllidar_ros2) StderrLine: {'line': b'  640 |         sl_result getHealth(sl_lidar_response_device_health_t& health, \x1b[01;35m\x1b[Ksl_u32 timeout = DEFAULT_TIMEOUT\x1b[m\x1b[K)\n'}
+[5.496653] (sllidar_ros2) StderrLine: {'line': b'      |                                                                        \x1b[01;35m\x1b[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.497090] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual sl_result sl::SlamtecLidarDriver::getMotorInfo(sl::LidarMotorInfo&, sl_u32)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.497530] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:730:66:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KtimeoutInMs\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[5.497891] (sllidar_ros2) StderrLine: {'line': b'  730 |         sl_result getMotorInfo(LidarMotorInfo &motorInfo, \x1b[01;35m\x1b[Ksl_u32 timeoutInMs\x1b[m\x1b[K)\n'}
+[5.498235] (sllidar_ros2) StderrLine: {'line': b'      |                                                           \x1b[01;35m\x1b[K~~~~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.498578] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Ksl_result sl::SlamtecLidarDriver::_sendCommand(sl_u16, const void*, size_t)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.498923] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:1089:35:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<unsigned char>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[5.499276] (sllidar_ros2) StderrLine: {'line': b' 1089 |             for (int pos = 0; \x1b[01;35m\x1b[Kpos < cmd_packet.size()\x1b[m\x1b[K; pos++) {\n'}
+[5.499617] (sllidar_ros2) StderrLine: {'line': b'      |                               \x1b[01;35m\x1b[K~~~~^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.499957] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:1058:19:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kpkt_header\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[5.500384] (sllidar_ros2) StderrLine: {'line': b' 1058 |             sl_u8 \x1b[01;35m\x1b[Kpkt_header\x1b[m\x1b[K[10];\n'}
+[5.500761] (sllidar_ros2) StderrLine: {'line': b'      |                   \x1b[01;35m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.501116] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid sl::SlamtecLidarDriver::_ultraCapsuleToNormal(const sl_lidar_response_ultra_capsule_measurement_nodes_t&, sl_lidar_response_measurement_node_hq_t*, size_t&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.501469] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:1370:40:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kunsigned int\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[5.501859] (sllidar_ros2) StderrLine: {'line': b' 1370 |                     if ((\x1b[01;35m\x1b[Kdist_predict1 == 0xFFFFFE00\x1b[m\x1b[K) || (dist_predict1 == 0x1FF)) {\n'}
+[5.502201] (sllidar_ros2) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K~~~~~~~~~~~~~~^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.502541] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:1379:40:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kunsigned int\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[5.502928] (sllidar_ros2) StderrLine: {'line': b' 1379 |                     if ((\x1b[01;35m\x1b[Kdist_predict2 == 0xFFFFFE00\x1b[m\x1b[K) || (dist_predict2 == 0x1FF)) {\n'}
+[5.503334] (sllidar_ros2) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K~~~~~~~~~~~~~~^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.503676] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid sl::SlamtecLidarDriver::_dense_capsuleToNormal(const sl_lidar_response_capsule_measurement_nodes_t&, sl_lidar_response_measurement_node_hq_t*, size_t&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.504097] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:1577:38:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ktype qualifiers ignored on cast result type [\x1b[01;35m\x1b[K-Wignored-qualifiers\x1b[m\x1b[K]\n'}
+[5.504458] (sllidar_ros2) StderrLine: {'line': b' 1577 |                     const int dist = \x1b[01;35m\x1b[Kstatic_cast<const int>(_cached_previous_dense_capsuledata.cabins[pos].distance)\x1b[m\x1b[K;\n'}
+[5.504799] (sllidar_ros2) StderrLine: {'line': b'      |                                      \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.527950] (-) TimerEvent: {}
+[5.540446] (sllidar_ros2) StderrLine: {'line': b'/home/faith/Work/carto_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Ksl_result sl::ascendScanData_(TNode*, size_t) [with TNode = sl_lidar_response_measurement_node_hq_t; sl_result = unsigned int; size_t = long unsigned int]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.541145] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:677:76:\x1b[m\x1b[K   required from here\n'}
+[5.541560] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:178:31:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of unsigned expression in \xe2\x80\x98\x1b[01m\x1b[K>= 0\x1b[m\x1b[K\xe2\x80\x99 is always true [\x1b[01;35m\x1b[K-Wtype-limits\x1b[m\x1b[K]\n'}
+[5.541925] (sllidar_ros2) StderrLine: {'line': b'  178 |         for (i = count - 1; \x1b[01;35m\x1b[Ki >= 0\x1b[m\x1b[K; i--) {\n'}
+[5.542273] (sllidar_ros2) StderrLine: {'line': b'      |                             \x1b[01;35m\x1b[K~~^~~~\x1b[m\x1b[K\n'}
+[5.628243] (-) TimerEvent: {}
+[5.635795] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:\x1b[m\x1b[K At global scope:\n'}
+[5.636525] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:72:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid sl::convert(const sl_lidar_response_measurement_node_hq_t&, sl_lidar_response_measurement_node_t&)\x1b[m\x1b[K\xe2\x80\x99 defined but not used [\x1b[01;35m\x1b[K-Wunused-function\x1b[m\x1b[K]\n'}
+[5.636953] (sllidar_ros2) StderrLine: {'line': b'   72 |     static void \x1b[01;35m\x1b[Kconvert\x1b[m\x1b[K(const sl_lidar_response_measurement_node_hq_t& from, sl_lidar_response_measurement_node_t& to)\n'}
+[5.637355] (sllidar_ros2) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[5.637737] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:59:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid sl::printDeprecationWarn(const char*, const char*)\x1b[m\x1b[K\xe2\x80\x99 defined but not used [\x1b[01;35m\x1b[K-Wunused-function\x1b[m\x1b[K]\n'}
+[5.638089] (sllidar_ros2) StderrLine: {'line': b'   59 |     static void \x1b[01;35m\x1b[KprintDeprecationWarn\x1b[m\x1b[K(const char* fn, const char* replacement)\n'}
+[5.638474] (sllidar_ros2) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.728504] (-) TimerEvent: {}
+[5.829364] (-) TimerEvent: {}
+[5.930182] (-) TimerEvent: {}
+[6.030970] (-) TimerEvent: {}
+[6.131807] (-) TimerEvent: {}
+[6.232676] (-) TimerEvent: {}
+[6.333523] (-) TimerEvent: {}
+[6.434456] (-) TimerEvent: {}
+[6.535225] (-) TimerEvent: {}
+[6.636082] (-) TimerEvent: {}
+[6.736928] (-) TimerEvent: {}
+[6.837830] (-) TimerEvent: {}
+[6.938679] (-) TimerEvent: {}
+[7.039545] (-) TimerEvent: {}
+[7.130930] (sllidar_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:36\x1b[m\x1b[K,\n'}
+[7.131609] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/./sdk/include/sl_lidar_driver.h:54\x1b[m\x1b[K,\n'}
+[7.131988] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/./sdk/include/sl_lidar.h:36\x1b[m\x1b[K,\n'}
+[7.132337] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/src/sllidar_node.cpp:38\x1b[m\x1b[K:\n'}
+[7.132680] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:58:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[7.133028] (sllidar_ros2) StderrLine: {'line': b'   58 |     sl_u8 data[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[7.133366] (sllidar_ros2) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[7.133704] (sllidar_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/./sdk/include/sl_lidar_driver.h:54\x1b[m\x1b[K,\n'}
+[7.134124] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/./sdk/include/sl_lidar.h:36\x1b[m\x1b[K,\n'}
+[7.134480] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/src/sllidar_node.cpp:38\x1b[m\x1b[K:\n'}
+[7.134821] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:295:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kpayload\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[7.135166] (sllidar_ros2) StderrLine: {'line': b'  295 |     sl_u8  payload[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[7.135506] (sllidar_ros2) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[7.139776] (-) TimerEvent: {}
+[7.240574] (-) TimerEvent: {}
+[7.341486] (-) TimerEvent: {}
+[7.442589] (-) TimerEvent: {}
+[7.543640] (-) TimerEvent: {}
+[7.644761] (-) TimerEvent: {}
+[7.745814] (-) TimerEvent: {}
+[7.846779] (-) TimerEvent: {}
+[7.947800] (-) TimerEvent: {}
+[8.048878] (-) TimerEvent: {}
+[8.149929] (-) TimerEvent: {}
+[8.251009] (-) TimerEvent: {}
+[8.351956] (-) TimerEvent: {}
+[8.453037] (-) TimerEvent: {}
+[8.554079] (-) TimerEvent: {}
+[8.655138] (-) TimerEvent: {}
+[8.668945] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/src/sllidar_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool SLlidarNode::checkSLLIDARHealth(sl::ILidarDriver*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.669700] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/faith/Work/carto_ws/src/sllidar_ros2/src/sllidar_node.cpp:147:5:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcontrol reaches end of non-void function [\x1b[01;35m\x1b[K-Wreturn-type\x1b[m\x1b[K]\n'}
+[8.670154] (sllidar_ros2) StderrLine: {'line': b'  147 |     \x1b[01;35m\x1b[K}\x1b[m\x1b[K\n'}
+[8.670501] (sllidar_ros2) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[8.755426] (-) TimerEvent: {}
+[8.856428] (-) TimerEvent: {}
+[8.957547] (-) TimerEvent: {}
+[9.058573] (-) TimerEvent: {}
+[9.159521] (-) TimerEvent: {}
+[9.260505] (-) TimerEvent: {}
+[9.361476] (-) TimerEvent: {}
+[9.462458] (-) TimerEvent: {}
+[9.563422] (-) TimerEvent: {}
+[9.664472] (-) TimerEvent: {}
+[9.765465] (-) TimerEvent: {}
+[9.866483] (-) TimerEvent: {}
+[9.967459] (-) TimerEvent: {}
+[10.068479] (-) TimerEvent: {}
+[10.169505] (-) TimerEvent: {}
+[10.270522] (-) TimerEvent: {}
+[10.371508] (-) TimerEvent: {}
+[10.472536] (-) TimerEvent: {}
+[10.573520] (-) TimerEvent: {}
+[10.674593] (-) TimerEvent: {}
+[10.775598] (-) TimerEvent: {}
+[10.876611] (-) TimerEvent: {}
+[10.977651] (-) TimerEvent: {}
+[11.078758] (-) TimerEvent: {}
+[11.180048] (-) TimerEvent: {}
+[11.256580] (sllidar_ros2) StdoutLine: {'line': b'[ 92%] \x1b[32m\x1b[1mLinking CXX executable sllidar_node\x1b[0m\n'}
+[11.280378] (-) TimerEvent: {}
+[11.381538] (-) TimerEvent: {}
+[11.482906] (-) TimerEvent: {}
+[11.584161] (-) TimerEvent: {}
+[11.685381] (-) TimerEvent: {}
+[11.786637] (-) TimerEvent: {}
+[11.819166] (sllidar_ros2) StdoutLine: {'line': b'[ 92%] Built target sllidar_node\n'}
+[11.886968] (-) TimerEvent: {}
+[11.988086] (-) TimerEvent: {}
+[12.089319] (-) TimerEvent: {}
+[12.190644] (-) TimerEvent: {}
+[12.291733] (-) TimerEvent: {}
+[12.392848] (-) TimerEvent: {}
+[12.494278] (-) TimerEvent: {}
+[12.595699] (-) TimerEvent: {}
+[12.697141] (-) TimerEvent: {}
+[12.798616] (-) TimerEvent: {}
+[12.900043] (-) TimerEvent: {}
+[13.001496] (-) TimerEvent: {}
+[13.102932] (-) TimerEvent: {}
+[13.204341] (-) TimerEvent: {}
+[13.305781] (-) TimerEvent: {}
+[13.407132] (-) TimerEvent: {}
+[13.508537] (-) TimerEvent: {}
+[13.609898] (-) TimerEvent: {}
+[13.711389] (-) TimerEvent: {}
+[13.812788] (-) TimerEvent: {}
+[13.914290] (-) TimerEvent: {}
+[14.015729] (-) TimerEvent: {}
+[14.117201] (-) TimerEvent: {}
+[14.218668] (-) TimerEvent: {}
+[14.320118] (-) TimerEvent: {}
+[14.421580] (-) TimerEvent: {}
+[14.523068] (-) TimerEvent: {}
+[14.624522] (-) TimerEvent: {}
+[14.726033] (-) TimerEvent: {}
+[14.827504] (-) TimerEvent: {}
+[14.929005] (-) TimerEvent: {}
+[15.030425] (-) TimerEvent: {}
+[15.131947] (-) TimerEvent: {}
+[15.233347] (-) TimerEvent: {}
+[15.334855] (-) TimerEvent: {}
+[15.436389] (-) TimerEvent: {}
+[15.537792] (-) TimerEvent: {}
+[15.639214] (-) TimerEvent: {}
+[15.740649] (-) TimerEvent: {}
+[15.842205] (-) TimerEvent: {}
+[15.943676] (-) TimerEvent: {}
+[16.045165] (-) TimerEvent: {}
+[16.146597] (-) TimerEvent: {}
+[16.248039] (-) TimerEvent: {}
+[16.349437] (-) TimerEvent: {}
+[16.450926] (-) TimerEvent: {}
+[16.552308] (-) TimerEvent: {}
+[16.654138] (-) TimerEvent: {}
+[16.755794] (-) TimerEvent: {}
+[16.857779] (-) TimerEvent: {}
+[16.959849] (-) TimerEvent: {}
+[17.061369] (-) TimerEvent: {}
+[17.067118] (sllidar_ros2) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable sllidar_client\x1b[0m\n'}
+[17.162099] (-) TimerEvent: {}
+[17.264215] (-) TimerEvent: {}
+[17.366160] (-) TimerEvent: {}
+[17.467710] (-) TimerEvent: {}
+[17.568692] (-) TimerEvent: {}
+[17.669619] (-) TimerEvent: {}
+[17.770498] (-) TimerEvent: {}
+[17.871404] (-) TimerEvent: {}
+[17.972316] (-) TimerEvent: {}
+[18.016476] (sllidar_ros2) StdoutLine: {'line': b'[100%] Built target sllidar_client\n'}
+[18.060878] (sllidar_ros2) CommandEnded: {'returncode': 0}
+[18.072544] (-) TimerEvent: {}
+[18.173345] (-) TimerEvent: {}
+[18.193943] (sllidar_ros2) JobProgress: {'identifier': 'sllidar_ros2', 'progress': 'install'}
+[18.230395] (sllidar_ros2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/faith/Work/carto_ws/build/sllidar_ros2'], 'cwd': '/home/faith/Work/carto_ws/build/sllidar_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN.UTF-8'), ('USER', 'faith'), ('SSH_CLIENT', '192.168.0.106 52826 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/faith/Work/carto_ws/install/cartographer_ros/lib:/home/faith/Work/carto_ws/install/cartographer_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/faith'), ('OLDPWD', '/home/faith/Work/carto_ws/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/faith/Work/carto_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'faith'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/faith/Work/carto_ws/install/cartographer/lib/aarch64-linux-gnu/pkgconfig:/home/faith/Work/carto_ws/install/cartographer/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '13'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/faith/Work/carto_ws/install/cartographer/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/faith/Work/carto_ws/install/sllidar_ros2:/home/faith/Work/carto_ws/install/cartographer_ros:/home/faith/Work/carto_ws/install/cartographer_ros_msgs:/opt/ros/humble'), ('LC_MESSAGES', 'en_US.UTF-8'), ('SHELL', '/usr/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/faith/Work/carto_ws/build/sllidar_ros2'), ('LC_ALL', 'zh_CN.UTF-8'), ('SSH_CONNECTION', '192.168.0.106 52826 192.168.0.107 22'), ('PYTHONPATH', '/home/faith/Work/carto_ws/install/cartographer_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/faith/Work/carto_ws/install/sllidar_ros2:/home/faith/Work/carto_ws/install/cartographer_ros:/home/faith/Work/carto_ws/install/cartographer_ros_msgs:/home/faith/Work/carto_ws/install/cartographer:/opt/ros/humble')]), 'shell': False}
+[18.257228] (sllidar_ros2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[18.258877] (sllidar_ros2) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[18.261291] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/faith/Work/carto_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a3_launch.py\n'}
+[18.273533] (-) TimerEvent: {}
+[18.292692] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/faith/Work/carto_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_launch.py\n'}
+[18.337363] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/faith/Work/carto_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_launch.py\n'}
+[18.365466] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/faith/Work/carto_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_tcp_launch.py\n'}
+[18.373797] (-) TimerEvent: {}
+[18.399548] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/faith/Work/carto_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2_launch.py\n'}
+[18.436391] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/faith/Work/carto_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2e_launch.py\n'}
+[18.474663] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/faith/Work/carto_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_t1_launch.py\n'}
+[18.475670] (-) TimerEvent: {}
+[18.503016] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/faith/Work/carto_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a3_launch.py\n'}
+[18.534945] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/faith/Work/carto_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_launch.py\n'}
+[18.564746] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/faith/Work/carto_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_launch.py\n'}
+[18.575981] (-) TimerEvent: {}
+[18.596381] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/faith/Work/carto_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_tcp_launch.py\n'}
+[18.625505] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/faith/Work/carto_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2_launch.py\n'}
+[18.656657] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/faith/Work/carto_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2e_launch.py\n'}
+[18.676310] (-) TimerEvent: {}
+[18.689465] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/faith/Work/carto_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_t1_launch.py\n'}
+[18.721634] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/faith/Work/carto_ws/install/sllidar_ros2/share/sllidar_ros2/rviz/sllidar_ros2.rviz\n'}
+[18.756398] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/faith/Work/carto_ws/install/sllidar_ros2/lib/sllidar_ros2/sllidar_node\n'}
+[18.776674] (-) TimerEvent: {}
+[18.789026] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/faith/Work/carto_ws/install/sllidar_ros2/lib/sllidar_ros2/sllidar_client\n'}
+[18.817353] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/faith/Work/carto_ws/install/sllidar_ros2/share/ament_index/resource_index/package_run_dependencies/sllidar_ros2\n'}
+[18.846663] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/faith/Work/carto_ws/install/sllidar_ros2/share/ament_index/resource_index/parent_prefix_path/sllidar_ros2\n'}
+[18.877041] (-) TimerEvent: {}
+[18.880821] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/faith/Work/carto_ws/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.sh\n'}
+[18.910103] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/faith/Work/carto_ws/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.dsv\n'}
+[18.943621] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/faith/Work/carto_ws/install/sllidar_ros2/share/sllidar_ros2/environment/path.sh\n'}
+[18.976896] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/faith/Work/carto_ws/install/sllidar_ros2/share/sllidar_ros2/environment/path.dsv\n'}
+[18.977857] (-) TimerEvent: {}
+[19.010168] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/faith/Work/carto_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.bash\n'}
+[19.043567] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/faith/Work/carto_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.sh\n'}
+[19.072626] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/faith/Work/carto_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.zsh\n'}
+[19.078131] (-) TimerEvent: {}
+[19.105641] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/faith/Work/carto_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.dsv\n'}
+[19.137433] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/faith/Work/carto_ws/install/sllidar_ros2/share/sllidar_ros2/package.dsv\n'}
+[19.171129] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/faith/Work/carto_ws/install/sllidar_ros2/share/ament_index/resource_index/packages/sllidar_ros2\n'}
+[19.178313] (-) TimerEvent: {}
+[19.200149] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/faith/Work/carto_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[19.233623] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/faith/Work/carto_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[19.265520] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/faith/Work/carto_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config.cmake\n'}
+[19.278514] (-) TimerEvent: {}
+[19.295310] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/faith/Work/carto_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config-version.cmake\n'}
+[19.329096] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/faith/Work/carto_ws/install/sllidar_ros2/share/sllidar_ros2/package.xml\n'}
+[19.381220] (sllidar_ros2) CommandEnded: {'returncode': 0}
+[19.382828] (-) TimerEvent: {}
+[19.483697] (-) TimerEvent: {}
+[19.585092] (-) TimerEvent: {}
+[19.619441] (sllidar_ros2) JobEnded: {'identifier': 'sllidar_ros2', 'rc': 0}
+[19.624636] (-) EventReactorShutdown: {}

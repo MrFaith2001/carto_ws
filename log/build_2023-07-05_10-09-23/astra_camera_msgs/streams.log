@@ -1,0 +1,356 @@
+[0.102s] Invoking command in '/home/faith/Work/carto_ws/build/astra_camera_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/faith/Work/carto_ws/install/fishbot_description:/opt/ros/humble /usr/bin/cmake /home/faith/Work/carto_ws/src/ros2_astra_camera/astra_camera_msgs -DCMAKE_INSTALL_PREFIX=/home/faith/Work/carto_ws/install/astra_camera_msgs
+[0.562s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.562s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.562s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.585s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.701s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.812s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.031s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.684s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.566s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.679s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[3.741s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.742s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[3.742s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[3.846s] -- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.870s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.873s] -- Added test 'lint_cmake' to check CMake code style
+[3.874s] -- Added test 'xmllint' to check XML markup files
+[3.887s] -- Configuring done
+[4.155s] -- Generating done
+[4.160s] -- Build files have been written to: /home/faith/Work/carto_ws/build/astra_camera_msgs
+[4.183s] Invoked command in '/home/faith/Work/carto_ws/build/astra_camera_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/faith/Work/carto_ws/install/fishbot_description:/opt/ros/humble /usr/bin/cmake /home/faith/Work/carto_ws/src/ros2_astra_camera/astra_camera_msgs -DCMAKE_INSTALL_PREFIX=/home/faith/Work/carto_ws/install/astra_camera_msgs
+[4.187s] Invoking command in '/home/faith/Work/carto_ws/build/astra_camera_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/faith/Work/carto_ws/install/fishbot_description:/opt/ros/humble /usr/bin/cmake --build /home/faith/Work/carto_ws/build/astra_camera_msgs -- -j8 -l8
+[4.277s] [35m[1mConsolidate compiler generated dependencies of target astra_camera_msgs__rosidl_generator_c[0m
+[4.310s] [  1%] Built target astra_camera_msgs__cpp
+[4.325s] [ 12%] Built target astra_camera_msgs__rosidl_generator_c
+[4.344s] [35m[1mConsolidate compiler generated dependencies of target astra_camera_msgs__rosidl_typesupport_introspection_cpp[0m
+[4.382s] [ 12%] Built target ament_cmake_python_copy_astra_camera_msgs
+[4.395s] [35m[1mConsolidate compiler generated dependencies of target astra_camera_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[4.406s] [35m[1mConsolidate compiler generated dependencies of target astra_camera_msgs__rosidl_typesupport_cpp[0m
+[4.422s] [35m[1mConsolidate compiler generated dependencies of target astra_camera_msgs__rosidl_typesupport_fastrtps_c[0m
+[4.422s] [35m[1mConsolidate compiler generated dependencies of target astra_camera_msgs__rosidl_typesupport_c[0m
+[4.440s] [35m[1mConsolidate compiler generated dependencies of target astra_camera_msgs__rosidl_typesupport_introspection_c[0m
+[4.476s] [ 24%] Built target astra_camera_msgs__rosidl_typesupport_introspection_cpp
+[4.518s] [ 35%] Built target astra_camera_msgs__rosidl_typesupport_c
+[4.540s] [ 47%] Built target astra_camera_msgs__rosidl_typesupport_cpp
+[4.550s] [ 58%] Built target astra_camera_msgs__rosidl_typesupport_fastrtps_cpp
+[4.573s] [ 70%] Built target astra_camera_msgs__rosidl_typesupport_introspection_c
+[4.583s] [ 82%] Built target astra_camera_msgs__rosidl_typesupport_fastrtps_c
+[4.777s] [ 82%] Built target astra_camera_msgs
+[4.904s] [ 83%] Built target astra_camera_msgs__py
+[4.956s] [35m[1mConsolidate compiler generated dependencies of target astra_camera_msgs__rosidl_generator_py[0m
+[5.093s] [ 93%] Built target astra_camera_msgs__rosidl_generator_py
+[5.155s] [35m[1mConsolidate compiler generated dependencies of target astra_camera_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[5.161s] [35m[1mConsolidate compiler generated dependencies of target astra_camera_msgs__rosidl_typesupport_c__pyext[0m
+[5.170s] [35m[1mConsolidate compiler generated dependencies of target astra_camera_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[5.187s] [ 95%] Built target astra_camera_msgs__rosidl_typesupport_c__pyext
+[5.209s] [ 97%] Built target astra_camera_msgs__rosidl_typesupport_introspection_c__pyext
+[5.216s] [100%] Built target astra_camera_msgs__rosidl_typesupport_fastrtps_c__pyext
+[5.218s] running egg_info
+[5.220s] writing astra_camera_msgs.egg-info/PKG-INFO
+[5.221s] writing dependency_links to astra_camera_msgs.egg-info/dependency_links.txt
+[5.222s] writing top-level names to astra_camera_msgs.egg-info/top_level.txt
+[5.226s] reading manifest file 'astra_camera_msgs.egg-info/SOURCES.txt'
+[5.229s] writing manifest file 'astra_camera_msgs.egg-info/SOURCES.txt'
+[5.334s] [100%] Built target ament_cmake_python_build_astra_camera_msgs_egg
+[5.354s] Invoked command in '/home/faith/Work/carto_ws/build/astra_camera_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/faith/Work/carto_ws/install/fishbot_description:/opt/ros/humble /usr/bin/cmake --build /home/faith/Work/carto_ws/build/astra_camera_msgs -- -j8 -l8
+[6.025s] Invoking command in '/home/faith/Work/carto_ws/build/astra_camera_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/faith/Work/carto_ws/install/fishbot_description:/opt/ros/humble /usr/bin/cmake --install /home/faith/Work/carto_ws/build/astra_camera_msgs
+[6.059s] -- Install configuration: "Release"
+[6.059s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/share/ament_index/resource_index/rosidl_interfaces/astra_camera_msgs
+[6.060s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs
+[6.060s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv
+[6.062s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/get_device_info.h
+[6.065s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/set_int32.h
+[6.065s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/get_camera_info.h
+[6.065s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail
+[6.066s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_string__functions.c
+[6.066s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_device_info__type_support.h
+[6.066s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/set_int32__functions.h
+[6.066s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_info__functions.c
+[6.066s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_params__functions.c
+[6.066s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_info__type_support.h
+[6.067s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_params__functions.h
+[6.067s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_info__struct.h
+[6.067s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_params__type_support.h
+[6.067s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/set_int32__type_support.h
+[6.067s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_int32__functions.c
+[6.068s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_string__functions.h
+[6.068s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_string__struct.h
+[6.068s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_int32__functions.h
+[6.069s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_params__struct.h
+[6.069s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_int32__type_support.h
+[6.069s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_string__type_support.h
+[6.069s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_device_info__functions.h
+[6.069s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/set_int32__functions.c
+[6.069s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_int32__struct.h
+[6.069s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_device_info__struct.h
+[6.070s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_device_info__functions.c
+[6.070s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_info__functions.h
+[6.071s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/set_int32__struct.h
+[6.072s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/get_string.h
+[6.072s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/get_camera_params.h
+[6.072s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/get_int32.h
+[6.072s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg
+[6.072s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail
+[6.073s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/extrinsics__functions.c
+[6.073s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/metadata__functions.c
+[6.073s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/extrinsics__functions.h
+[6.073s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/device_info__functions.c
+[6.074s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/metadata__type_support.h
+[6.074s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/metadata__struct.h
+[6.074s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/extrinsics__type_support.h
+[6.074s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/metadata__functions.h
+[6.075s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/device_info__functions.h
+[6.075s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/device_info__type_support.h
+[6.075s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/extrinsics__struct.h
+[6.075s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/device_info__struct.h
+[6.075s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/device_info.h
+[6.075s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/rosidl_generator_c__visibility_control.h
+[6.075s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/metadata.h
+[6.075s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/extrinsics.h
+[6.075s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/share/astra_camera_msgs/environment/library_path.sh
+[6.075s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera_msgs/share/astra_camera_msgs/environment/library_path.dsv
+[6.075s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_generator_c.so
+[6.076s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs
+[6.076s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv
+[6.076s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail
+[6.076s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_device_info__rosidl_typesupport_fastrtps_c.h
+[6.076s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/set_int32__rosidl_typesupport_fastrtps_c.h
+[6.076s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_string__rosidl_typesupport_fastrtps_c.h
+[6.076s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_int32__rosidl_typesupport_fastrtps_c.h
+[6.076s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_info__rosidl_typesupport_fastrtps_c.h
+[6.076s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_params__rosidl_typesupport_fastrtps_c.h
+[6.077s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg
+[6.077s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail
+[6.077s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/metadata__rosidl_typesupport_fastrtps_c.h
+[6.077s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/extrinsics__rosidl_typesupport_fastrtps_c.h
+[6.077s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/device_info__rosidl_typesupport_fastrtps_c.h
+[6.077s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[6.078s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_typesupport_fastrtps_c.so
+[6.078s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs
+[6.078s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv
+[6.078s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail
+[6.078s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_info__type_support.c
+[6.079s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_int32__type_support.c
+[6.079s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_params__type_support.c
+[6.079s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_device_info__rosidl_typesupport_introspection_c.h
+[6.079s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_info__rosidl_typesupport_introspection_c.h
+[6.079s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_string__type_support.c
+[6.079s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_string__rosidl_typesupport_introspection_c.h
+[6.079s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_params__rosidl_typesupport_introspection_c.h
+[6.080s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_int32__rosidl_typesupport_introspection_c.h
+[6.080s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/set_int32__type_support.c
+[6.080s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/set_int32__rosidl_typesupport_introspection_c.h
+[6.080s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_device_info__type_support.c
+[6.080s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg
+[6.081s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail
+[6.081s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/device_info__rosidl_typesupport_introspection_c.h
+[6.081s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/extrinsics__rosidl_typesupport_introspection_c.h
+[6.081s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/metadata__rosidl_typesupport_introspection_c.h
+[6.081s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/device_info__type_support.c
+[6.081s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/metadata__type_support.c
+[6.081s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/extrinsics__type_support.c
+[6.081s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[6.082s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_typesupport_introspection_c.so
+[6.082s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_typesupport_c.so
+[6.082s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs
+[6.082s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv
+[6.082s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail
+[6.082s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_string__traits.hpp
+[6.082s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_int32__traits.hpp
+[6.082s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_string__builder.hpp
+[6.083s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_params__builder.hpp
+[6.083s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_info__traits.hpp
+[6.084s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_int32__builder.hpp
+[6.084s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_params__traits.hpp
+[6.085s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/set_int32__builder.hpp
+[6.085s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_info__struct.hpp
+[6.085s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_params__struct.hpp
+[6.085s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_info__builder.hpp
+[6.085s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/set_int32__traits.hpp
+[6.085s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_device_info__traits.hpp
+[6.085s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/set_int32__struct.hpp
+[6.085s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_int32__struct.hpp
+[6.086s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_string__struct.hpp
+[6.086s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_device_info__struct.hpp
+[6.086s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_device_info__builder.hpp
+[6.086s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/get_camera_params.hpp
+[6.086s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/get_device_info.hpp
+[6.086s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/get_int32.hpp
+[6.086s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/set_int32.hpp
+[6.086s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/get_camera_info.hpp
+[6.087s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/get_string.hpp
+[6.087s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg
+[6.087s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/device_info.hpp
+[6.087s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail
+[6.087s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/extrinsics__traits.hpp
+[6.087s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/metadata__struct.hpp
+[6.087s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/device_info__builder.hpp
+[6.087s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/extrinsics__builder.hpp
+[6.087s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/extrinsics__struct.hpp
+[6.087s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/device_info__traits.hpp
+[6.087s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/metadata__traits.hpp
+[6.087s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/metadata__builder.hpp
+[6.088s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/device_info__struct.hpp
+[6.088s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/extrinsics.hpp
+[6.088s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/metadata.hpp
+[6.088s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs
+[6.088s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv
+[6.088s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail
+[6.088s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/dds_fastrtps
+[6.088s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_int32__rosidl_typesupport_fastrtps_cpp.hpp
+[6.088s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_info__rosidl_typesupport_fastrtps_cpp.hpp
+[6.088s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_string__rosidl_typesupport_fastrtps_cpp.hpp
+[6.088s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/set_int32__rosidl_typesupport_fastrtps_cpp.hpp
+[6.089s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_device_info__rosidl_typesupport_fastrtps_cpp.hpp
+[6.089s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_params__rosidl_typesupport_fastrtps_cpp.hpp
+[6.089s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg
+[6.089s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail
+[6.089s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/dds_fastrtps
+[6.089s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/device_info__rosidl_typesupport_fastrtps_cpp.hpp
+[6.089s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/extrinsics__rosidl_typesupport_fastrtps_cpp.hpp
+[6.089s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/metadata__rosidl_typesupport_fastrtps_cpp.hpp
+[6.089s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[6.089s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_typesupport_fastrtps_cpp.so
+[6.089s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs
+[6.089s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv
+[6.090s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail
+[6.090s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/set_int32__type_support.cpp
+[6.090s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/set_int32__rosidl_typesupport_introspection_cpp.hpp
+[6.090s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_info__type_support.cpp
+[6.090s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_string__rosidl_typesupport_introspection_cpp.hpp
+[6.090s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_device_info__rosidl_typesupport_introspection_cpp.hpp
+[6.090s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_int32__type_support.cpp
+[6.090s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_string__type_support.cpp
+[6.090s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_info__rosidl_typesupport_introspection_cpp.hpp
+[6.090s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_params__rosidl_typesupport_introspection_cpp.hpp
+[6.090s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_params__type_support.cpp
+[6.091s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_int32__rosidl_typesupport_introspection_cpp.hpp
+[6.091s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_device_info__type_support.cpp
+[6.091s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg
+[6.091s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail
+[6.091s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/metadata__rosidl_typesupport_introspection_cpp.hpp
+[6.091s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/device_info__type_support.cpp
+[6.091s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/device_info__rosidl_typesupport_introspection_cpp.hpp
+[6.091s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/extrinsics__rosidl_typesupport_introspection_cpp.hpp
+[6.091s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/extrinsics__type_support.cpp
+[6.091s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/metadata__type_support.cpp
+[6.091s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_typesupport_introspection_cpp.so
+[6.091s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_typesupport_cpp.so
+[6.092s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/share/astra_camera_msgs/environment/pythonpath.sh
+[6.092s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera_msgs/share/astra_camera_msgs/environment/pythonpath.dsv
+[6.092s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs-1.0.1-py3.10.egg-info
+[6.092s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs-1.0.1-py3.10.egg-info/SOURCES.txt
+[6.092s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs-1.0.1-py3.10.egg-info/PKG-INFO
+[6.092s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs-1.0.1-py3.10.egg-info/top_level.txt
+[6.092s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs-1.0.1-py3.10.egg-info/dependency_links.txt
+[6.092s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs
+[6.092s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/_astra_camera_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[6.092s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/astra_camera_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[6.092s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/_astra_camera_msgs_s.ep.rosidl_typesupport_c.c
+[6.092s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv
+[6.092s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv/_get_camera_info_s.c
+[6.093s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv/_get_string_s.c
+[6.093s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv/_get_camera_info.py
+[6.093s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv/_set_int32.py
+[6.093s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv/_get_camera_params_s.c
+[6.093s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv/_get_device_info.py
+[6.093s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv/_get_camera_params.py
+[6.093s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv/_get_device_info_s.c
+[6.093s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv/_get_int32_s.c
+[6.093s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv/_get_string.py
+[6.093s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv/__init__.py
+[6.093s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv/_set_int32_s.c
+[6.094s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv/_get_int32.py
+[6.094s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/astra_camera_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[6.094s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/msg
+[6.094s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/msg/_extrinsics.py
+[6.094s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/msg/_metadata_s.c
+[6.094s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/msg/_metadata.py
+[6.094s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/msg/_device_info_s.c
+[6.094s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/msg/__init__.py
+[6.094s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/msg/_device_info.py
+[6.094s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/msg/_extrinsics_s.c
+[6.095s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/__init__.py
+[6.095s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/libastra_camera_msgs__rosidl_generator_py.so
+[6.095s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/astra_camera_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[6.095s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/_astra_camera_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[6.140s] Listing '/home/faith/Work/carto_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs'...
+[6.141s] Compiling '/home/faith/Work/carto_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/__init__.py'...
+[6.142s] Listing '/home/faith/Work/carto_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/msg'...
+[6.143s] Listing '/home/faith/Work/carto_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv'...
+[6.155s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/astra_camera_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[6.158s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/astra_camera_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[6.160s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/astra_camera_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[6.162s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_generator_py.so
+[6.163s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/share/astra_camera_msgs/msg/DeviceInfo.idl
+[6.163s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/share/astra_camera_msgs/msg/Extrinsics.idl
+[6.163s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/share/astra_camera_msgs/msg/Metadata.idl
+[6.164s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetDeviceInfo.idl
+[6.164s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetCameraInfo.idl
+[6.164s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetCameraParams.idl
+[6.164s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetInt32.idl
+[6.165s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetString.idl
+[6.165s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/SetInt32.idl
+[6.165s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/share/astra_camera_msgs/msg/DeviceInfo.msg
+[6.165s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/share/astra_camera_msgs/msg/Extrinsics.msg
+[6.165s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/share/astra_camera_msgs/msg/Metadata.msg
+[6.165s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetDeviceInfo.srv
+[6.165s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetDeviceInfo_Request.msg
+[6.166s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetDeviceInfo_Response.msg
+[6.166s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetCameraInfo.srv
+[6.166s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetCameraInfo_Request.msg
+[6.166s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetCameraInfo_Response.msg
+[6.166s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetCameraParams.srv
+[6.167s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetCameraParams_Request.msg
+[6.167s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetCameraParams_Response.msg
+[6.167s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetInt32.srv
+[6.167s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetInt32_Request.msg
+[6.167s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetInt32_Response.msg
+[6.168s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetString.srv
+[6.168s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetString_Request.msg
+[6.168s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetString_Response.msg
+[6.168s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/SetInt32.srv
+[6.168s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/SetInt32_Request.msg
+[6.169s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/SetInt32_Response.msg
+[6.169s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/share/ament_index/resource_index/package_run_dependencies/astra_camera_msgs
+[6.169s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera_msgs/share/ament_index/resource_index/parent_prefix_path/astra_camera_msgs
+[6.170s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/share/astra_camera_msgs/environment/ament_prefix_path.sh
+[6.170s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera_msgs/share/astra_camera_msgs/environment/ament_prefix_path.dsv
+[6.171s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/share/astra_camera_msgs/environment/path.sh
+[6.171s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera_msgs/share/astra_camera_msgs/environment/path.dsv
+[6.172s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/share/astra_camera_msgs/local_setup.bash
+[6.172s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/share/astra_camera_msgs/local_setup.sh
+[6.172s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/share/astra_camera_msgs/local_setup.zsh
+[6.172s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera_msgs/share/astra_camera_msgs/local_setup.dsv
+[6.173s] -- Installing: /home/faith/Work/carto_ws/install/astra_camera_msgs/share/astra_camera_msgs/package.dsv
+[6.174s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/share/ament_index/resource_index/packages/astra_camera_msgs
+[6.175s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/export_astra_camera_msgs__rosidl_generator_cExport.cmake
+[6.175s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/export_astra_camera_msgs__rosidl_generator_cExport-release.cmake
+[6.176s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/export_astra_camera_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[6.176s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/export_astra_camera_msgs__rosidl_typesupport_fastrtps_cExport-release.cmake
+[6.177s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgs__rosidl_typesupport_introspection_cExport.cmake
+[6.177s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgs__rosidl_typesupport_introspection_cExport-release.cmake
+[6.178s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgs__rosidl_typesupport_cExport.cmake
+[6.178s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgs__rosidl_typesupport_cExport-release.cmake
+[6.179s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/export_astra_camera_msgs__rosidl_generator_cppExport.cmake
+[6.179s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/export_astra_camera_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[6.180s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/export_astra_camera_msgs__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[6.181s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[6.182s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgs__rosidl_typesupport_introspection_cppExport-release.cmake
+[6.182s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgs__rosidl_typesupport_cppExport.cmake
+[6.182s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgs__rosidl_typesupport_cppExport-release.cmake
+[6.183s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/export_astra_camera_msgs__rosidl_generator_pyExport.cmake
+[6.183s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/export_astra_camera_msgs__rosidl_generator_pyExport-release.cmake
+[6.184s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/rosidl_cmake-extras.cmake
+[6.184s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.184s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.184s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[6.185s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[6.186s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[6.186s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[6.187s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgsConfig.cmake
+[6.187s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgsConfig-version.cmake
+[6.187s] -- Up-to-date: /home/faith/Work/carto_ws/install/astra_camera_msgs/share/astra_camera_msgs/package.xml
+[6.197s] Invoked command in '/home/faith/Work/carto_ws/build/astra_camera_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/faith/Work/carto_ws/install/fishbot_description:/opt/ros/humble /usr/bin/cmake --install /home/faith/Work/carto_ws/build/astra_camera_msgs

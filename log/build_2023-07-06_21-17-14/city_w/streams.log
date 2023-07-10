@@ -1,0 +1,10 @@
+[0.024s] Invoking command in '/home/faith/Work/carto_ws/build/city_w': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/faith/Work/carto_ws/install/yahboomcar_description:/home/faith/Work/carto_ws/install/fishbot_description:/home/faith/Work/carto_ws/install/city_li:/opt/ros/humble /usr/bin/cmake --build /home/faith/Work/carto_ws/build/city_w -- -j8 -l8
+[0.161s] [35m[1mConsolidate compiler generated dependencies of target wang2_node[0m
+[0.217s] [ 50%] [32mBuilding CXX object CMakeFiles/wang2_node.dir/src/wang2.cpp.o[0m
+[3.510s] [01m[K/home/faith/Work/carto_ws/src/city_w/src/wang2.cpp:8:5:[m[K [01;31m[Kerror: [m[Kextra qualification ‘[01m[KSinglePerson::[m[K’ on member ‘[01m[KSinglePerson[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[3.510s]     8 |     [01;31m[KSinglePerson[m[K::SinglePerson(std::string name):Node(name)
+[3.511s]       |     [01;31m[K^~~~~~~~~~~~[m[K
+[4.210s] gmake[2]: *** [CMakeFiles/wang2_node.dir/build.make:76: CMakeFiles/wang2_node.dir/src/wang2.cpp.o] Error 1
+[4.211s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/wang2_node.dir/all] Error 2
+[4.212s] gmake: *** [Makefile:146: all] Error 2
+[4.217s] Invoked command in '/home/faith/Work/carto_ws/build/city_w' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/faith/Work/carto_ws/install/yahboomcar_description:/home/faith/Work/carto_ws/install/fishbot_description:/home/faith/Work/carto_ws/install/city_li:/opt/ros/humble /usr/bin/cmake --build /home/faith/Work/carto_ws/build/city_w -- -j8 -l8
