@@ -1,0 +1,4 @@
+source;share/faithcar_msgs/local_setup.bash
+source;share/faithcar_msgs/local_setup.dsv
+source;share/faithcar_msgs/local_setup.sh
+source;share/faithcar_msgs/local_setup.zsh

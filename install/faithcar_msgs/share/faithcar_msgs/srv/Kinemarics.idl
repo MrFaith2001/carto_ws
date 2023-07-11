@@ -1,0 +1,25 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from faithcar_msgs/srv/Kinemarics.srv
+// generated code does not contain a copyright notice
+
+
+module faithcar_msgs {
+  module srv {
+    @verbatim (language="comment", text=
+      "request")
+    struct Kinemarics_Request {
+      string kin_name;
+
+      sequence<double> src_pos;
+
+      sequence<double> src_joints;
+    };
+    @verbatim (language="comment", text=
+      "response")
+    struct Kinemarics_Response {
+      sequence<double> target_joints;
+
+      sequence<double> target_pos;
+    };
+  };
+};

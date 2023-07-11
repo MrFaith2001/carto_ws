@@ -1,0 +1,17 @@
+[31mCMake Error at /opt/ros/humble/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:59 (message):
+  execute_process(/usr/bin/python3.10 -m rosidl_adapter --package-name
+  faithcar_msgs --arguments-file
+  /home/faith/Work/carto_ws/build/faithcar_msgs/rosidl_adapter__arguments__faithcar_msgs.json
+  --output-dir
+  /home/faith/Work/carto_ws/build/faithcar_msgs/rosidl_adapter/faithcar_msgs
+  --output-file
+  /home/faith/Work/carto_ws/build/faithcar_msgs/rosidl_adapter/faithcar_msgs.idls)
+  returned error code 1:
+
+  KeyError processing template 'struct.idl.em': 'time'
+
+Call Stack (most recent call first):
+  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+  CMakeLists.txt:14 (rosidl_generate_interfaces)
+
+[0m

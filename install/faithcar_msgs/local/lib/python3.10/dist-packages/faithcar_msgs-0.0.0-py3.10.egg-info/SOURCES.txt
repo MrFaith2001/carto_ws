@@ -1,0 +1,15 @@
+setup.py
+faithcar_msgs/__init__.py
+faithcar_msgs.egg-info/PKG-INFO
+faithcar_msgs.egg-info/SOURCES.txt
+faithcar_msgs.egg-info/dependency_links.txt
+faithcar_msgs.egg-info/top_level.txt
+faithcar_msgs/msg/__init__.py
+faithcar_msgs/msg/_arm_joint.py
+faithcar_msgs/msg/_image_msg.py
+faithcar_msgs/msg/_point_array.py
+faithcar_msgs/msg/_position.py
+faithcar_msgs/msg/_target.py
+faithcar_msgs/srv/__init__.py
+faithcar_msgs/srv/_kinemarics.py
+faithcar_msgs/srv/_robot_arm_array.py

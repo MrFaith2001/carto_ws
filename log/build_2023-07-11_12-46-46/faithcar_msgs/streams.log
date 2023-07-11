@@ -1,0 +1,28 @@
+[0.024s] Invoking command in '/home/faith/Work/carto_ws/build/faithcar_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/faith/Work/carto_ws/install/yahboomcar_description:/home/faith/Work/carto_ws/install/fishbot_description:/home/faith/Work/carto_ws/install/faithcar_ctrl:/home/faith/Work/carto_ws/install/city_li:/opt/ros/humble /usr/bin/cmake /home/faith/Work/carto_ws/src/faithcar_msgs -DCMAKE_INSTALL_PREFIX=/home/faith/Work/carto_ws/install/faithcar_msgs
+[0.073s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.402s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.419s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.438s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.481s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.521s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.700s] -- Found actionlib_msgs: 4.2.3 (/opt/ros/humble/share/actionlib_msgs/cmake)
+[1.019s] [31mCMake Error at /opt/ros/humble/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:59 (message):
+[1.020s]   execute_process(/usr/bin/python3.10 -m rosidl_adapter --package-name
+[1.020s]   faithcar_msgs --arguments-file
+[1.020s]   /home/faith/Work/carto_ws/build/faithcar_msgs/rosidl_adapter__arguments__faithcar_msgs.json
+[1.020s]   --output-dir
+[1.020s]   /home/faith/Work/carto_ws/build/faithcar_msgs/rosidl_adapter/faithcar_msgs
+[1.020s]   --output-file
+[1.020s]   /home/faith/Work/carto_ws/build/faithcar_msgs/rosidl_adapter/faithcar_msgs.idls)
+[1.020s]   returned error code 1:
+[1.020s] 
+[1.020s]   KeyError processing template 'struct.idl.em': 'time'
+[1.020s] 
+[1.020s] Call Stack (most recent call first):
+[1.020s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[1.021s]   CMakeLists.txt:14 (rosidl_generate_interfaces)
+[1.021s] 
+[1.021s] [0m
+[1.021s] -- Configuring incomplete, errors occurred!
+[1.021s] See also "/home/faith/Work/carto_ws/build/faithcar_msgs/CMakeFiles/CMakeOutput.log".
+[1.036s] Invoked command in '/home/faith/Work/carto_ws/build/faithcar_msgs' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/faith/Work/carto_ws/install/yahboomcar_description:/home/faith/Work/carto_ws/install/fishbot_description:/home/faith/Work/carto_ws/install/faithcar_ctrl:/home/faith/Work/carto_ws/install/city_li:/opt/ros/humble /usr/bin/cmake /home/faith/Work/carto_ws/src/faithcar_msgs -DCMAKE_INSTALL_PREFIX=/home/faith/Work/carto_ws/install/faithcar_msgs

@@ -1,0 +1,13 @@
+{
+  "package_name": "faithcar_msgs",
+  "non_idl_tuples": [
+    "/home/faith/Work/carto_ws/src/faithcar_msgs:msg/Position.msg",
+    "/home/faith/Work/carto_ws/src/faithcar_msgs:msg/PointArray.msg",
+    "/home/faith/Work/carto_ws/src/faithcar_msgs:msg/ImageMsg.msg",
+    "/home/faith/Work/carto_ws/src/faithcar_msgs:msg/Target.msg",
+    "/home/faith/Work/carto_ws/src/faithcar_msgs:msg/TargetArray.msg",
+    "/home/faith/Work/carto_ws/src/faithcar_msgs:msg/ArmJoint.msg",
+    "/home/faith/Work/carto_ws/src/faithcar_msgs:srv/RobotArmArray.srv",
+    "/home/faith/Work/carto_ws/src/faithcar_msgs:srv/Kinemarics.srv"
+  ]
+}

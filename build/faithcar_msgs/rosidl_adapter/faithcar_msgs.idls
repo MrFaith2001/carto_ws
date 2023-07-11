@@ -1,0 +1,8 @@
+/home/faith/Work/carto_ws/build/faithcar_msgs/rosidl_adapter/faithcar_msgs:msg/Position.idl
+/home/faith/Work/carto_ws/build/faithcar_msgs/rosidl_adapter/faithcar_msgs:msg/PointArray.idl
+/home/faith/Work/carto_ws/build/faithcar_msgs/rosidl_adapter/faithcar_msgs:msg/ImageMsg.idl
+/home/faith/Work/carto_ws/build/faithcar_msgs/rosidl_adapter/faithcar_msgs:msg/Target.idl
+/home/faith/Work/carto_ws/build/faithcar_msgs/rosidl_adapter/faithcar_msgs:msg/TargetArray.idl
+/home/faith/Work/carto_ws/build/faithcar_msgs/rosidl_adapter/faithcar_msgs:msg/ArmJoint.idl
+/home/faith/Work/carto_ws/build/faithcar_msgs/rosidl_adapter/faithcar_msgs:srv/RobotArmArray.idl
+/home/faith/Work/carto_ws/build/faithcar_msgs/rosidl_adapter/faithcar_msgs:srv/Kinemarics.idl

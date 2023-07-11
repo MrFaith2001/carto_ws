@@ -1,0 +1,508 @@
+[0.000000] (-) TimerEvent: {}
+[0.002548] (-) JobUnselected: {'identifier': 'ORB_SLAM3'}
+[0.002726] (-) JobUnselected: {'identifier': 'astra_camera'}
+[0.003784] (-) JobUnselected: {'identifier': 'astra_camera_msgs'}
+[0.004212] (-) JobUnselected: {'identifier': 'cartographer'}
+[0.004274] (-) JobUnselected: {'identifier': 'cartographer_ros'}
+[0.004322] (-) JobUnselected: {'identifier': 'cartographer_ros_msgs'}
+[0.004367] (-) JobUnselected: {'identifier': 'cartographer_rviz'}
+[0.004410] (-) JobUnselected: {'identifier': 'city_li'}
+[0.004453] (-) JobUnselected: {'identifier': 'city_w'}
+[0.004496] (-) JobUnselected: {'identifier': 'faithbot_cartographer'}
+[0.004538] (-) JobUnselected: {'identifier': 'faithcar_ctrl'}
+[0.004581] (-) JobUnselected: {'identifier': 'fishbot_description'}
+[0.004625] (-) JobUnselected: {'identifier': 'orbbec_camera'}
+[0.004669] (-) JobUnselected: {'identifier': 'orbbec_camera_msgs'}
+[0.004729] (-) JobUnselected: {'identifier': 'orbbec_description'}
+[0.004771] (-) JobUnselected: {'identifier': 'orbslam3'}
+[0.004835] (-) JobUnselected: {'identifier': 'sllidar_ros2'}
+[0.004892] (-) JobUnselected: {'identifier': 'yahboomcar_description'}
+[0.005006] (faithcar_msgs) JobQueued: {'identifier': 'faithcar_msgs', 'dependencies': OrderedDict()}
+[0.005042] (faithcar_msgs) JobStarted: {'identifier': 'faithcar_msgs'}
+[0.024639] (faithcar_msgs) JobProgress: {'identifier': 'faithcar_msgs', 'progress': 'cmake'}
+[0.025778] (faithcar_msgs) JobProgress: {'identifier': 'faithcar_msgs', 'progress': 'build'}
+[0.026769] (faithcar_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/faith/Work/carto_ws/build/faithcar_msgs', '--', '-j8', '-l8'], 'cwd': '/home/faith/Work/carto_ws/build/faithcar_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7890/'), ('no_proxy', '127.0.0.1,localhost'), ('LANGUAGE', 'zh_CN.UTF-8'), ('USER', 'faith'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1734'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/faith/Work/carto_ws/install/orbbec_camera/lib:/home/faith/Work/carto_ws/install/orbbec_camera_msgs/lib:/home/faith/Work/carto_ws/install/cartographer_rviz/lib:/home/faith/Work/carto_ws/install/cartographer_ros/lib:/home/faith/Work/carto_ws/install/cartographer_ros_msgs/lib:/home/faith/Work/carto_ws/install/astra_camera/lib:/home/faith/Work/carto_ws/install/astra_camera_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/faith'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.79.2'), ('DESKTOP_SESSION', 'xfce'), ('NO_PROXY', '127.0.0.1,localhost'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'gail:atk-bridge'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('https_proxy', 'http://127.0.0.1:7890/'), ('COLCON_PREFIX_PATH', '/home/faith/Work/carto_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'faith'), ('http_proxy', 'http://127.0.0.1:7890/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/faith/Work/carto_ws/install/cartographer/lib/aarch64-linux-gnu/pkgconfig:/home/faith/Work/carto_ws/install/cartographer/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', 'c1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/faith/Work/carto_ws/install/cartographer/bin:/opt/ros/humble/bin:/home/faith/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/rock-5b:@/tmp/.ICE-unix/1469,unix/rock-5b:/tmp/.ICE-unix/1469'), ('GTK3_MODULES', 'xapp-gtk3-module'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'xfce-'), ('ftp_proxy', 'http://127.0.0.1:7890/'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0.0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'XFCE'), ('XDG_SESSION_DESKTOP', 'xfce'), ('XAUTHORITY', '/home/faith/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-95479d47ec.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXX6kfScf/agent.1731'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/faith'), ('AMENT_PREFIX_PATH', '/home/faith/Work/carto_ws/install/yahboomcar_description:/home/faith/Work/carto_ws/install/sllidar_ros2:/home/faith/Work/carto_ws/install/orbbec_description:/home/faith/Work/carto_ws/install/orbbec_camera:/home/faith/Work/carto_ws/install/orbbec_camera_msgs:/home/faith/Work/carto_ws/install/fishbot_description:/home/faith/Work/carto_ws/install/faithcar_ctrl:/home/faith/Work/carto_ws/install/faithbot_cartographer:/home/faith/Work/carto_ws/install/city_w:/home/faith/Work/carto_ws/install/city_li:/home/faith/Work/carto_ws/install/cartographer_rviz:/home/faith/Work/carto_ws/install/cartographer_ros:/home/faith/Work/carto_ws/install/cartographer_ros_msgs:/home/faith/Work/carto_ws/install/astra_camera:/home/faith/Work/carto_ws/install/astra_camera_msgs:/opt/ros/humble'), ('LC_MESSAGES', 'en_US.UTF-8'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'XFCE'), ('SHELL', '/usr/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:a548219d-c285-4724-a843-f08f7c9d151c'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'xfce'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('XDG_VTNR', '7'), ('PWD', '/home/faith/Work/carto_ws/build/faithcar_msgs'), ('LC_ALL', 'zh_CN.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-xfce:/etc/xdg:/etc/xdg'), ('FTP_PROXY', 'http://127.0.0.1:7890/'), ('XDG_DATA_DIRS', '/usr/share/xfce4:/usr/local/share/:/usr/share/:/usr/share'), ('PYTHONPATH', '/home/faith/Work/carto_ws/install/yahboomcar_description/lib/python3.10/site-packages:/home/faith/Work/carto_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages:/home/faith/Work/carto_ws/install/fishbot_description/lib/python3.10/site-packages:/home/faith/Work/carto_ws/install/faithcar_ctrl/lib/python3.10/site-packages:/home/faith/Work/carto_ws/install/city_li/lib/python3.10/site-packages:/home/faith/Work/carto_ws/install/cartographer_ros_msgs/local/lib/python3.10/dist-packages:/home/faith/Work/carto_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890/'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/faith/Work/carto_ws/install/sllidar_ros2:/home/faith/Work/carto_ws/install/orbbec_description:/home/faith/Work/carto_ws/install/orbbec_camera:/home/faith/Work/carto_ws/install/orbbec_camera_msgs:/home/faith/Work/carto_ws/install/faithbot_cartographer:/home/faith/Work/carto_ws/install/city_w:/home/faith/Work/carto_ws/install/cartographer_rviz:/home/faith/Work/carto_ws/install/cartographer_ros:/home/faith/Work/carto_ws/install/cartographer_ros_msgs:/home/faith/Work/carto_ws/install/cartographer:/home/faith/Work/carto_ws/install/astra_camera:/home/faith/Work/carto_ws/install/astra_camera_msgs:/home/faith/Work/carto_ws/install/yahboomcar_description:/home/faith/Work/carto_ws/install/fishbot_description:/home/faith/Work/carto_ws/install/faithcar_ctrl:/home/faith/Work/carto_ws/install/city_li:/opt/ros/humble')]), 'shell': False}
+[0.094075] (faithcar_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.098123] (-) TimerEvent: {}
+[0.198507] (-) TimerEvent: {}
+[0.298983] (-) TimerEvent: {}
+[0.376722] (faithcar_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.381012] (faithcar_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.384550] (faithcar_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.399040] (-) TimerEvent: {}
+[0.429454] (faithcar_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.467288] (faithcar_msgs) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.499397] (-) TimerEvent: {}
+[0.600477] (-) TimerEvent: {}
+[0.645652] (faithcar_msgs) StdoutLine: {'line': b'-- Found actionlib_msgs: 4.2.3 (/opt/ros/humble/share/actionlib_msgs/cmake)\n'}
+[0.700678] (-) TimerEvent: {}
+[0.801538] (-) TimerEvent: {}
+[0.902392] (-) TimerEvent: {}
+[1.003331] (-) TimerEvent: {}
+[1.104210] (-) TimerEvent: {}
+[1.205088] (-) TimerEvent: {}
+[1.305976] (-) TimerEvent: {}
+[1.349809] (faithcar_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.406328] (-) TimerEvent: {}
+[1.507254] (-) TimerEvent: {}
+[1.607986] (-) TimerEvent: {}
+[1.708976] (-) TimerEvent: {}
+[1.809881] (-) TimerEvent: {}
+[1.865925] (faithcar_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.910162] (-) TimerEvent: {}
+[2.010994] (-) TimerEvent: {}
+[2.111929] (-) TimerEvent: {}
+[2.212895] (-) TimerEvent: {}
+[2.313845] (-) TimerEvent: {}
+[2.414733] (-) TimerEvent: {}
+[2.487378] (faithcar_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.514997] (-) TimerEvent: {}
+[2.543498] (faithcar_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[2.606091] (faithcar_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.606823] (faithcar_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[2.607184] (faithcar_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so\n'}
+[2.615205] (-) TimerEvent: {}
+[2.698390] (faithcar_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.710056] (faithcar_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.711411] (faithcar_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.713573] (faithcar_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.715248] (-) TimerEvent: {}
+[2.783436] (faithcar_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[2.788516] (faithcar_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/faith/Work/carto_ws/build/faithcar_msgs\n'}
+[2.815401] (-) TimerEvent: {}
+[2.882037] (faithcar_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target faithcar_msgs__rosidl_generator_c\x1b[0m\n'}
+[2.899152] (faithcar_msgs) StdoutLine: {'line': b'[  1%] Built target faithcar_msgs__cpp\n'}
+[2.913193] (faithcar_msgs) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_copy_faithcar_msgs\n'}
+[2.915550] (faithcar_msgs) StdoutLine: {'line': b'[  2%] \x1b[32mBuilding C object CMakeFiles/faithcar_msgs__rosidl_generator_c.dir/rosidl_generator_c/faithcar_msgs/srv/detail/robot_arm_array__functions.c.o\x1b[0m\n'}
+[2.916097] (-) TimerEvent: {}
+[2.916890] (faithcar_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target faithcar_msgs__rosidl_typesupport_cpp\x1b[0m\n'}
+[2.928501] (faithcar_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target faithcar_msgs__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[2.928902] (faithcar_msgs) StdoutLine: {'line': b'[  3%] \x1b[32mBuilding C object CMakeFiles/faithcar_msgs__rosidl_generator_c.dir/rosidl_generator_c/faithcar_msgs/msg/detail/arm_joint__functions.c.o\x1b[0m\n'}
+[2.929060] (faithcar_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target faithcar_msgs__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[2.931008] (faithcar_msgs) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding C object CMakeFiles/faithcar_msgs__rosidl_generator_c.dir/rosidl_generator_c/faithcar_msgs/srv/detail/kinemarics__functions.c.o\x1b[0m\n'}
+[2.954599] (faithcar_msgs) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding CXX object CMakeFiles/faithcar_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/faithcar_msgs/msg/detail/arm_joint__type_support.cpp.o\x1b[0m\n'}
+[2.980860] (faithcar_msgs) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding CXX object CMakeFiles/faithcar_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/faithcar_msgs/srv/detail/robot_arm_array__type_support.cpp.o\x1b[0m\n'}
+[2.992383] (faithcar_msgs) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding CXX object CMakeFiles/faithcar_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/faithcar_msgs/srv/robot_arm_array__type_support.cpp.o\x1b[0m\n'}
+[3.004516] (faithcar_msgs) StdoutLine: {'line': b'[ 10%] \x1b[32m\x1b[1mLinking CXX shared library libfaithcar_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[3.016372] (-) TimerEvent: {}
+[3.072643] (faithcar_msgs) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding CXX object CMakeFiles/faithcar_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/faithcar_msgs/srv/kinemarics__type_support.cpp.o\x1b[0m\n'}
+[3.081147] (faithcar_msgs) StdoutLine: {'line': b'[ 12%] \x1b[32m\x1b[1mLinking C shared library libfaithcar_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[3.085574] (faithcar_msgs) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding CXX object CMakeFiles/faithcar_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/faithcar_msgs/srv/detail/kinemarics__type_support.cpp.o\x1b[0m\n'}
+[3.116582] (-) TimerEvent: {}
+[3.217440] (-) TimerEvent: {}
+[3.304192] (faithcar_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[3.305827] (faithcar_msgs) StdoutLine: {'line': b'writing faithcar_msgs.egg-info/PKG-INFO\n'}
+[3.306538] (faithcar_msgs) StdoutLine: {'line': b'writing dependency_links to faithcar_msgs.egg-info/dependency_links.txt\n'}
+[3.307059] (faithcar_msgs) StdoutLine: {'line': b'writing top-level names to faithcar_msgs.egg-info/top_level.txt\n'}
+[3.311261] (faithcar_msgs) StdoutLine: {'line': b"reading manifest file 'faithcar_msgs.egg-info/SOURCES.txt'\n"}
+[3.312089] (faithcar_msgs) StdoutLine: {'line': b"writing manifest file 'faithcar_msgs.egg-info/SOURCES.txt'\n"}
+[3.317582] (faithcar_msgs) StdoutLine: {'line': b'[ 20%] Built target faithcar_msgs__rosidl_generator_c\n'}
+[3.318377] (-) TimerEvent: {}
+[3.386930] (faithcar_msgs) StdoutLine: {'line': b'[ 21%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.397280] (faithcar_msgs) StdoutLine: {'line': b'[ 21%] Built target ament_cmake_python_build_faithcar_msgs_egg\n'}
+[3.413706] (faithcar_msgs) StdoutLine: {'line': b'[ 22%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[3.418663] (-) TimerEvent: {}
+[3.496892] (faithcar_msgs) StdoutLine: {'line': b'[ 24%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.518934] (-) TimerEvent: {}
+[3.554247] (faithcar_msgs) StdoutLine: {'line': b'[ 34%] Built target faithcar_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[3.619278] (-) TimerEvent: {}
+[3.720196] (-) TimerEvent: {}
+[3.750455] (faithcar_msgs) StdoutLine: {'line': b'[ 35%] \x1b[32m\x1b[1mLinking CXX shared library libfaithcar_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[3.820431] (-) TimerEvent: {}
+[3.873123] (faithcar_msgs) StdoutLine: {'line': b'[ 43%] Built target faithcar_msgs__rosidl_typesupport_cpp\n'}
+[3.920677] (-) TimerEvent: {}
+[4.021619] (-) TimerEvent: {}
+[4.122297] (-) TimerEvent: {}
+[4.159858] (faithcar_msgs) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/faithcar_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/faithcar_msgs/msg/target__type_support.cpp.o\x1b[0m\n'}
+[4.160406] (faithcar_msgs) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/faithcar_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/faithcar_msgs/msg/point_array__type_support.cpp.o\x1b[0m\n'}
+[4.174695] (faithcar_msgs) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/faithcar_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/faithcar_msgs/msg/position__type_support.cpp.o\x1b[0m\n'}
+[4.176324] (faithcar_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/faithcar_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/faithcar_msgs/msg/image_msg__type_support.cpp.o\x1b[0m\n'}
+[4.177521] (faithcar_msgs) StdoutLine: {'line': b'[ 49%] \x1b[32m\x1b[1mLinking CXX shared library libfaithcar_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[4.179927] (faithcar_msgs) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/faithcar_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/faithcar_msgs/msg/arm_joint__type_support.cpp.o\x1b[0m\n'}
+[4.206949] (faithcar_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/faithcar_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/faithcar_msgs/srv/robot_arm_array__type_support.cpp.o\x1b[0m\n'}
+[4.222431] (-) TimerEvent: {}
+[4.236588] (faithcar_msgs) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/faithcar_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/faithcar_msgs/srv/kinemarics__type_support.cpp.o\x1b[0m\n'}
+[4.313086] (faithcar_msgs) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX shared library libfaithcar_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[4.322885] (-) TimerEvent: {}
+[4.382708] (faithcar_msgs) StdoutLine: {'line': b'[ 60%] Built target faithcar_msgs__rosidl_typesupport_introspection_cpp\n'}
+[4.422975] (-) TimerEvent: {}
+[4.441049] (faithcar_msgs) StdoutLine: {'line': b'[ 60%] Built target faithcar_msgs__rosidl_typesupport_c\n'}
+[4.456888] (faithcar_msgs) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/faithcar_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/faithcar_msgs/msg/detail/point_array__type_support_c.cpp.o\x1b[0m\n'}
+[4.458338] (faithcar_msgs) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/faithcar_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/faithcar_msgs/msg/detail/arm_joint__type_support_c.cpp.o\x1b[0m\n'}
+[4.462009] (faithcar_msgs) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/faithcar_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/faithcar_msgs/srv/detail/kinemarics__type_support_c.cpp.o\x1b[0m\n'}
+[4.467751] (faithcar_msgs) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/faithcar_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/faithcar_msgs/msg/detail/image_msg__type_support_c.cpp.o\x1b[0m\n'}
+[4.468198] (faithcar_msgs) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding C object CMakeFiles/faithcar_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/faithcar_msgs/msg/detail/position__type_support.c.o\x1b[0m\n'}
+[4.475411] (faithcar_msgs) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/faithcar_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/faithcar_msgs/srv/detail/robot_arm_array__type_support_c.cpp.o\x1b[0m\n'}
+[4.475755] (faithcar_msgs) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/faithcar_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/faithcar_msgs/msg/detail/position__type_support_c.cpp.o\x1b[0m\n'}
+[4.492393] (faithcar_msgs) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/faithcar_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/faithcar_msgs/msg/detail/target__type_support_c.cpp.o\x1b[0m\n'}
+[4.523102] (-) TimerEvent: {}
+[4.554586] (faithcar_msgs) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding C object CMakeFiles/faithcar_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/faithcar_msgs/msg/detail/point_array__type_support.c.o\x1b[0m\n'}
+[4.623358] (-) TimerEvent: {}
+[4.693681] (faithcar_msgs) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding C object CMakeFiles/faithcar_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/faithcar_msgs/msg/detail/image_msg__type_support.c.o\x1b[0m\n'}
+[4.723604] (-) TimerEvent: {}
+[4.824693] (-) TimerEvent: {}
+[4.905662] (faithcar_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding C object CMakeFiles/faithcar_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/faithcar_msgs/msg/detail/target__type_support.c.o\x1b[0m\n'}
+[4.924927] (-) TimerEvent: {}
+[4.995630] (faithcar_msgs) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding C object CMakeFiles/faithcar_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/faithcar_msgs/msg/detail/arm_joint__type_support.c.o\x1b[0m\n'}
+[5.025259] (-) TimerEvent: {}
+[5.053049] (faithcar_msgs) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/faithcar_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/faithcar_msgs/srv/detail/robot_arm_array__type_support.c.o\x1b[0m\n'}
+[5.058582] (faithcar_msgs) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding C object CMakeFiles/faithcar_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/faithcar_msgs/srv/detail/kinemarics__type_support.c.o\x1b[0m\n'}
+[5.125546] (-) TimerEvent: {}
+[5.171066] (faithcar_msgs) StdoutLine: {'line': b'[ 79%] \x1b[32m\x1b[1mLinking C shared library libfaithcar_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[5.225859] (-) TimerEvent: {}
+[5.285473] (faithcar_msgs) StdoutLine: {'line': b'[ 79%] Built target faithcar_msgs__rosidl_typesupport_introspection_c\n'}
+[5.326177] (-) TimerEvent: {}
+[5.427000] (-) TimerEvent: {}
+[5.450333] (faithcar_msgs) StdoutLine: {'line': b'[ 81%] \x1b[32m\x1b[1mLinking CXX shared library libfaithcar_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[5.527292] (-) TimerEvent: {}
+[5.628436] (-) TimerEvent: {}
+[5.635343] (faithcar_msgs) StdoutLine: {'line': b'[ 81%] Built target faithcar_msgs__rosidl_typesupport_fastrtps_c\n'}
+[5.706972] (faithcar_msgs) StdoutLine: {'line': b'[ 81%] Built target faithcar_msgs\n'}
+[5.728680] (-) TimerEvent: {}
+[5.783761] (faithcar_msgs) StdoutLine: {'line': b'[ 82%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[5.828955] (-) TimerEvent: {}
+[5.929845] (-) TimerEvent: {}
+[6.030755] (-) TimerEvent: {}
+[6.131559] (-) TimerEvent: {}
+[6.232468] (-) TimerEvent: {}
+[6.333264] (-) TimerEvent: {}
+[6.434167] (-) TimerEvent: {}
+[6.535030] (-) TimerEvent: {}
+[6.635903] (-) TimerEvent: {}
+[6.736745] (-) TimerEvent: {}
+[6.837603] (-) TimerEvent: {}
+[6.938427] (-) TimerEvent: {}
+[7.039435] (-) TimerEvent: {}
+[7.140251] (-) TimerEvent: {}
+[7.241121] (-) TimerEvent: {}
+[7.335658] (faithcar_msgs) StdoutLine: {'line': b'[ 82%] Built target faithcar_msgs__py\n'}
+[7.341141] (-) TimerEvent: {}
+[7.394915] (faithcar_msgs) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/faithcar_msgs__rosidl_generator_py.dir/rosidl_generator_py/faithcar_msgs/msg/_point_array_s.c.o\x1b[0m\n'}
+[7.396142] (faithcar_msgs) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/faithcar_msgs__rosidl_generator_py.dir/rosidl_generator_py/faithcar_msgs/msg/_image_msg_s.c.o\x1b[0m\n'}
+[7.404597] (faithcar_msgs) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding C object CMakeFiles/faithcar_msgs__rosidl_generator_py.dir/rosidl_generator_py/faithcar_msgs/msg/_target_s.c.o\x1b[0m\n'}
+[7.407816] (faithcar_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/faithcar_msgs__rosidl_generator_py.dir/rosidl_generator_py/faithcar_msgs/srv/_robot_arm_array_s.c.o\x1b[0m\n'}
+[7.409426] (faithcar_msgs) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/faithcar_msgs__rosidl_generator_py.dir/rosidl_generator_py/faithcar_msgs/msg/_position_s.c.o\x1b[0m\n'}
+[7.411266] (faithcar_msgs) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/faithcar_msgs__rosidl_generator_py.dir/rosidl_generator_py/faithcar_msgs/srv/_kinemarics_s.c.o\x1b[0m\n'}
+[7.416360] (faithcar_msgs) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/faithcar_msgs__rosidl_generator_py.dir/rosidl_generator_py/faithcar_msgs/msg/_arm_joint_s.c.o\x1b[0m\n'}
+[7.441356] (-) TimerEvent: {}
+[7.546894] (-) TimerEvent: {}
+[7.648141] (-) TimerEvent: {}
+[7.749390] (-) TimerEvent: {}
+[7.796517] (faithcar_msgs) StdoutLine: {'line': b'[ 92%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/faithcar_msgs/libfaithcar_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[7.849454] (-) TimerEvent: {}
+[7.904160] (faithcar_msgs) StdoutLine: {'line': b'[ 92%] Built target faithcar_msgs__rosidl_generator_py\n'}
+[7.937213] (faithcar_msgs) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/faithcar_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/faithcar_msgs/_faithcar_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[7.949726] (-) TimerEvent: {}
+[7.950500] (faithcar_msgs) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/faithcar_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/faithcar_msgs/_faithcar_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[7.969123] (faithcar_msgs) StdoutLine: {'line': b'[ 96%] \x1b[32mBuilding C object CMakeFiles/faithcar_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/faithcar_msgs/_faithcar_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[8.049931] (-) TimerEvent: {}
+[8.150723] (-) TimerEvent: {}
+[8.167005] (faithcar_msgs) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/faithcar_msgs/faithcar_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[8.168654] (faithcar_msgs) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/faithcar_msgs/faithcar_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[8.172069] (faithcar_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/faithcar_msgs/faithcar_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[8.233202] (faithcar_msgs) StdoutLine: {'line': b'[100%] Built target faithcar_msgs__rosidl_typesupport_c__pyext\n'}
+[8.250925] (-) TimerEvent: {}
+[8.290363] (faithcar_msgs) StdoutLine: {'line': b'[100%] Built target faithcar_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[8.298728] (faithcar_msgs) StdoutLine: {'line': b'[100%] Built target faithcar_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[8.334648] (faithcar_msgs) CommandEnded: {'returncode': 0}
+[8.351118] (-) TimerEvent: {}
+[8.451939] (-) TimerEvent: {}
+[8.552870] (-) TimerEvent: {}
+[8.653785] (-) TimerEvent: {}
+[8.754588] (-) TimerEvent: {}
+[8.855513] (-) TimerEvent: {}
+[8.857941] (faithcar_msgs) JobProgress: {'identifier': 'faithcar_msgs', 'progress': 'install'}
+[8.891093] (faithcar_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/faith/Work/carto_ws/build/faithcar_msgs'], 'cwd': '/home/faith/Work/carto_ws/build/faithcar_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7890/'), ('no_proxy', '127.0.0.1,localhost'), ('LANGUAGE', 'zh_CN.UTF-8'), ('USER', 'faith'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1734'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/faith/Work/carto_ws/install/orbbec_camera/lib:/home/faith/Work/carto_ws/install/orbbec_camera_msgs/lib:/home/faith/Work/carto_ws/install/cartographer_rviz/lib:/home/faith/Work/carto_ws/install/cartographer_ros/lib:/home/faith/Work/carto_ws/install/cartographer_ros_msgs/lib:/home/faith/Work/carto_ws/install/astra_camera/lib:/home/faith/Work/carto_ws/install/astra_camera_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/faith'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.79.2'), ('DESKTOP_SESSION', 'xfce'), ('NO_PROXY', '127.0.0.1,localhost'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'gail:atk-bridge'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('https_proxy', 'http://127.0.0.1:7890/'), ('COLCON_PREFIX_PATH', '/home/faith/Work/carto_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'faith'), ('http_proxy', 'http://127.0.0.1:7890/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/faith/Work/carto_ws/install/cartographer/lib/aarch64-linux-gnu/pkgconfig:/home/faith/Work/carto_ws/install/cartographer/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', 'c1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/faith/Work/carto_ws/install/cartographer/bin:/opt/ros/humble/bin:/home/faith/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/rock-5b:@/tmp/.ICE-unix/1469,unix/rock-5b:/tmp/.ICE-unix/1469'), ('GTK3_MODULES', 'xapp-gtk3-module'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'xfce-'), ('ftp_proxy', 'http://127.0.0.1:7890/'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0.0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'XFCE'), ('XDG_SESSION_DESKTOP', 'xfce'), ('XAUTHORITY', '/home/faith/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-95479d47ec.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXX6kfScf/agent.1731'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/faith'), ('AMENT_PREFIX_PATH', '/home/faith/Work/carto_ws/install/yahboomcar_description:/home/faith/Work/carto_ws/install/sllidar_ros2:/home/faith/Work/carto_ws/install/orbbec_description:/home/faith/Work/carto_ws/install/orbbec_camera:/home/faith/Work/carto_ws/install/orbbec_camera_msgs:/home/faith/Work/carto_ws/install/fishbot_description:/home/faith/Work/carto_ws/install/faithcar_ctrl:/home/faith/Work/carto_ws/install/faithbot_cartographer:/home/faith/Work/carto_ws/install/city_w:/home/faith/Work/carto_ws/install/city_li:/home/faith/Work/carto_ws/install/cartographer_rviz:/home/faith/Work/carto_ws/install/cartographer_ros:/home/faith/Work/carto_ws/install/cartographer_ros_msgs:/home/faith/Work/carto_ws/install/astra_camera:/home/faith/Work/carto_ws/install/astra_camera_msgs:/opt/ros/humble'), ('LC_MESSAGES', 'en_US.UTF-8'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'XFCE'), ('SHELL', '/usr/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:a548219d-c285-4724-a843-f08f7c9d151c'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'xfce'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('XDG_VTNR', '7'), ('PWD', '/home/faith/Work/carto_ws/build/faithcar_msgs'), ('LC_ALL', 'zh_CN.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-xfce:/etc/xdg:/etc/xdg'), ('FTP_PROXY', 'http://127.0.0.1:7890/'), ('XDG_DATA_DIRS', '/usr/share/xfce4:/usr/local/share/:/usr/share/:/usr/share'), ('PYTHONPATH', '/home/faith/Work/carto_ws/install/yahboomcar_description/lib/python3.10/site-packages:/home/faith/Work/carto_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages:/home/faith/Work/carto_ws/install/fishbot_description/lib/python3.10/site-packages:/home/faith/Work/carto_ws/install/faithcar_ctrl/lib/python3.10/site-packages:/home/faith/Work/carto_ws/install/city_li/lib/python3.10/site-packages:/home/faith/Work/carto_ws/install/cartographer_ros_msgs/local/lib/python3.10/dist-packages:/home/faith/Work/carto_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890/'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/faith/Work/carto_ws/install/sllidar_ros2:/home/faith/Work/carto_ws/install/orbbec_description:/home/faith/Work/carto_ws/install/orbbec_camera:/home/faith/Work/carto_ws/install/orbbec_camera_msgs:/home/faith/Work/carto_ws/install/faithbot_cartographer:/home/faith/Work/carto_ws/install/city_w:/home/faith/Work/carto_ws/install/cartographer_rviz:/home/faith/Work/carto_ws/install/cartographer_ros:/home/faith/Work/carto_ws/install/cartographer_ros_msgs:/home/faith/Work/carto_ws/install/cartographer:/home/faith/Work/carto_ws/install/astra_camera:/home/faith/Work/carto_ws/install/astra_camera_msgs:/home/faith/Work/carto_ws/install/yahboomcar_description:/home/faith/Work/carto_ws/install/fishbot_description:/home/faith/Work/carto_ws/install/faithcar_ctrl:/home/faith/Work/carto_ws/install/city_li:/opt/ros/humble')]), 'shell': False}
+[8.923652] (faithcar_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.924426] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/share/ament_index/resource_index/rosidl_interfaces/faithcar_msgs\n'}
+[8.924998] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs\n'}
+[8.925460] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/srv\n'}
+[8.925892] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/srv/detail\n'}
+[8.926341] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/srv/detail/robot_arm_array__functions.c\n'}
+[8.926747] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/srv/detail/robot_arm_array__type_support.h\n'}
+[8.927144] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/srv/detail/kinemarics__type_support.h\n'}
+[8.927536] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/srv/detail/kinemarics__struct.h\n'}
+[8.928016] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/srv/detail/kinemarics__functions.c\n'}
+[8.928405] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/srv/detail/robot_arm_array__struct.h\n'}
+[8.928792] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/srv/detail/kinemarics__functions.h\n'}
+[8.929161] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/srv/detail/robot_arm_array__functions.h\n'}
+[8.929581] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/srv/robot_arm_array.h\n'}
+[8.929959] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/srv/kinemarics.h\n'}
+[8.930343] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/msg\n'}
+[8.930716] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/msg/arm_joint.h\n'}
+[8.931075] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/msg/image_msg.h\n'}
+[8.931447] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/msg/detail\n'}
+[8.931803] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/msg/detail/arm_joint__functions.c\n'}
+[8.932213] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/msg/detail/position__type_support.h\n'}
+[8.932627] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/msg/detail/target__functions.h\n'}
+[8.933048] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/msg/detail/target_array__functions.c\n'}
+[8.933480] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/msg/detail/image_msg__type_support.h\n'}
+[8.933850] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/msg/detail/target__functions.c\n'}
+[8.934242] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/msg/detail/image_msg__struct.h\n'}
+[8.934639] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/msg/detail/target_array__type_support.h\n'}
+[8.935033] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/msg/detail/target_array__functions.h\n'}
+[8.935393] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/msg/detail/target__type_support.h\n'}
+[8.935782] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/msg/detail/target_array__struct.h\n'}
+[8.936196] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/msg/detail/arm_joint__type_support.h\n'}
+[8.936548] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/msg/detail/target__struct.h\n'}
+[8.936911] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/msg/detail/arm_joint__struct.h\n'}
+[8.937343] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/msg/detail/position__functions.h\n'}
+[8.937759] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/msg/detail/point_array__struct.h\n'}
+[8.938115] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/msg/detail/point_array__functions.c\n'}
+[8.938509] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/msg/detail/point_array__type_support.h\n'}
+[8.938890] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/msg/detail/position__struct.h\n'}
+[8.939267] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/msg/detail/position__functions.c\n'}
+[8.939680] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/msg/detail/image_msg__functions.h\n'}
+[8.940089] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/msg/detail/arm_joint__functions.h\n'}
+[8.940524] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/msg/detail/point_array__functions.h\n'}
+[8.940886] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/msg/detail/image_msg__functions.c\n'}
+[8.941269] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/msg/target_array.h\n'}
+[8.941700] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/msg/position.h\n'}
+[8.942142] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/msg/point_array.h\n'}
+[8.942515] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[8.942923] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/msg/target.h\n'}
+[8.943299] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/share/faithcar_msgs/environment/library_path.sh\n'}
+[8.943643] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/share/faithcar_msgs/environment/library_path.dsv\n'}
+[8.944031] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/lib/libfaithcar_msgs__rosidl_generator_c.so\n'}
+[8.944468] (faithcar_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/faith/Work/carto_ws/install/faithcar_msgs/lib/libfaithcar_msgs__rosidl_generator_c.so" to ""\n'}
+[8.944841] (faithcar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs\n'}
+[8.945243] (faithcar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/srv\n'}
+[8.945616] (faithcar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/srv/detail\n'}
+[8.946016] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/srv/detail/robot_arm_array__rosidl_typesupport_fastrtps_c.h\n'}
+[8.946420] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/srv/detail/kinemarics__rosidl_typesupport_fastrtps_c.h\n'}
+[8.946765] (faithcar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/msg\n'}
+[8.947156] (faithcar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/msg/detail\n'}
+[8.947514] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/msg/detail/image_msg__rosidl_typesupport_fastrtps_c.h\n'}
+[8.947896] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/msg/detail/point_array__rosidl_typesupport_fastrtps_c.h\n'}
+[8.948258] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/msg/detail/position__rosidl_typesupport_fastrtps_c.h\n'}
+[8.948640] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/msg/detail/target__rosidl_typesupport_fastrtps_c.h\n'}
+[8.949012] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/msg/detail/arm_joint__rosidl_typesupport_fastrtps_c.h\n'}
+[8.949413] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[8.949804] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/lib/libfaithcar_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[8.950199] (faithcar_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/faith/Work/carto_ws/install/faithcar_msgs/lib/libfaithcar_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[8.950572] (faithcar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs\n'}
+[8.950956] (faithcar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/srv\n'}
+[8.951337] (faithcar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/srv/detail\n'}
+[8.951718] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/srv/detail/kinemarics__type_support.c\n'}
+[8.952109] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/srv/detail/robot_arm_array__type_support.c\n'}
+[8.952471] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/srv/detail/kinemarics__rosidl_typesupport_introspection_c.h\n'}
+[8.952891] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/srv/detail/robot_arm_array__rosidl_typesupport_introspection_c.h\n'}
+[8.953244] (faithcar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/msg\n'}
+[8.953587] (faithcar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/msg/detail\n'}
+[8.953929] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/msg/detail/point_array__rosidl_typesupport_introspection_c.h\n'}
+[8.954273] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/msg/detail/target__type_support.c\n'}
+[8.954615] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/msg/detail/position__rosidl_typesupport_introspection_c.h\n'}
+[8.954959] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/msg/detail/image_msg__type_support.c\n'}
+[8.955302] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/msg/detail/point_array__type_support.c\n'}
+[8.955632] (-) TimerEvent: {}
+[8.956039] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/msg/detail/target__rosidl_typesupport_introspection_c.h\n'}
+[8.956435] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/msg/detail/image_msg__rosidl_typesupport_introspection_c.h\n'}
+[8.956790] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/msg/detail/position__type_support.c\n'}
+[8.957141] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/msg/detail/arm_joint__type_support.c\n'}
+[8.957491] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/msg/detail/arm_joint__rosidl_typesupport_introspection_c.h\n'}
+[8.957839] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[8.958185] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/lib/libfaithcar_msgs__rosidl_typesupport_introspection_c.so\n'}
+[8.958530] (faithcar_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/faith/Work/carto_ws/install/faithcar_msgs/lib/libfaithcar_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[8.958909] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/lib/libfaithcar_msgs__rosidl_typesupport_c.so\n'}
+[8.959254] (faithcar_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/faith/Work/carto_ws/install/faithcar_msgs/lib/libfaithcar_msgs__rosidl_typesupport_c.so" to ""\n'}
+[8.959646] (faithcar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs\n'}
+[8.959995] (faithcar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/srv\n'}
+[8.960339] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/srv/kinemarics.hpp\n'}
+[8.960684] (faithcar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/srv/detail\n'}
+[8.961028] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/srv/detail/robot_arm_array__builder.hpp\n'}
+[8.961377] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/srv/detail/robot_arm_array__struct.hpp\n'}
+[8.961726] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/srv/detail/kinemarics__builder.hpp\n'}
+[8.962075] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/srv/detail/kinemarics__struct.hpp\n'}
+[8.962421] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/srv/detail/robot_arm_array__traits.hpp\n'}
+[8.962804] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/srv/detail/kinemarics__traits.hpp\n'}
+[8.963163] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/srv/robot_arm_array.hpp\n'}
+[8.963511] (faithcar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/msg\n'}
+[8.963856] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/msg/image_msg.hpp\n'}
+[8.964271] (faithcar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/msg/detail\n'}
+[8.964617] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/msg/detail/point_array__struct.hpp\n'}
+[8.964962] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/msg/detail/position__builder.hpp\n'}
+[8.965307] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/msg/detail/arm_joint__builder.hpp\n'}
+[8.965651] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/msg/detail/arm_joint__traits.hpp\n'}
+[8.966023] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/msg/detail/position__struct.hpp\n'}
+[8.966386] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/msg/detail/image_msg__builder.hpp\n'}
+[8.966757] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/msg/detail/target_array__traits.hpp\n'}
+[8.967126] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/msg/detail/target_array__struct.hpp\n'}
+[8.967471] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/msg/detail/point_array__builder.hpp\n'}
+[8.967815] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/msg/detail/arm_joint__struct.hpp\n'}
+[8.968161] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/msg/detail/image_msg__traits.hpp\n'}
+[8.968506] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/msg/detail/target__builder.hpp\n'}
+[8.968852] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/msg/detail/point_array__traits.hpp\n'}
+[8.969197] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/msg/detail/target__traits.hpp\n'}
+[8.969583] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/msg/detail/target_array__builder.hpp\n'}
+[8.969931] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/msg/detail/target__struct.hpp\n'}
+[8.970278] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/msg/detail/image_msg__struct.hpp\n'}
+[8.970623] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/msg/detail/position__traits.hpp\n'}
+[8.970968] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/msg/point_array.hpp\n'}
+[8.971315] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/msg/position.hpp\n'}
+[8.971661] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/msg/target.hpp\n'}
+[8.972005] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/msg/target_array.hpp\n'}
+[8.972351] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/msg/arm_joint.hpp\n'}
+[8.972714] (faithcar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs\n'}
+[8.973075] (faithcar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/srv\n'}
+[8.973419] (faithcar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/srv/detail\n'}
+[8.973768] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/srv/detail/dds_fastrtps\n'}
+[8.974113] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/srv/detail/robot_arm_array__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[8.974459] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/srv/detail/kinemarics__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[8.974805] (faithcar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/msg\n'}
+[8.975236] (faithcar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/msg/detail\n'}
+[8.975646] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/msg/detail/target__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[8.976020] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/msg/detail/dds_fastrtps\n'}
+[8.976388] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/msg/detail/point_array__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[8.976735] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/msg/detail/image_msg__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[8.977085] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/msg/detail/arm_joint__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[8.977470] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/msg/detail/target_array__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[8.977827] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/msg/detail/position__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[8.978180] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[8.978568] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/lib/libfaithcar_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[8.978709] (faithcar_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/faith/Work/carto_ws/install/faithcar_msgs/lib/libfaithcar_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[8.978795] (faithcar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs\n'}
+[8.978870] (faithcar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/srv\n'}
+[8.978942] (faithcar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/srv/detail\n'}
+[8.979011] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/srv/detail/robot_arm_array__rosidl_typesupport_introspection_cpp.hpp\n'}
+[8.979082] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/srv/detail/kinemarics__rosidl_typesupport_introspection_cpp.hpp\n'}
+[8.979153] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/srv/detail/kinemarics__type_support.cpp\n'}
+[8.979224] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/srv/detail/robot_arm_array__type_support.cpp\n'}
+[8.979293] (faithcar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/msg\n'}
+[8.979393] (faithcar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/msg/detail\n'}
+[8.979466] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/msg/detail/image_msg__rosidl_typesupport_introspection_cpp.hpp\n'}
+[8.979566] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/msg/detail/target_array__rosidl_typesupport_introspection_cpp.hpp\n'}
+[8.979639] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/msg/detail/arm_joint__rosidl_typesupport_introspection_cpp.hpp\n'}
+[8.979709] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/msg/detail/arm_joint__type_support.cpp\n'}
+[8.979779] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/msg/detail/target_array__type_support.cpp\n'}
+[8.979848] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/msg/detail/position__type_support.cpp\n'}
+[8.979915] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/msg/detail/image_msg__type_support.cpp\n'}
+[8.979982] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/msg/detail/point_array__type_support.cpp\n'}
+[8.980049] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/msg/detail/target__type_support.cpp\n'}
+[8.980117] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/msg/detail/target__rosidl_typesupport_introspection_cpp.hpp\n'}
+[8.980220] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/msg/detail/point_array__rosidl_typesupport_introspection_cpp.hpp\n'}
+[8.980291] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/include/faithcar_msgs/faithcar_msgs/msg/detail/position__rosidl_typesupport_introspection_cpp.hpp\n'}
+[8.980359] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/lib/libfaithcar_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[8.980440] (faithcar_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/faith/Work/carto_ws/install/faithcar_msgs/lib/libfaithcar_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[8.980510] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/lib/libfaithcar_msgs__rosidl_typesupport_cpp.so\n'}
+[8.980579] (faithcar_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/faith/Work/carto_ws/install/faithcar_msgs/lib/libfaithcar_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[8.980647] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/share/faithcar_msgs/environment/pythonpath.sh\n'}
+[8.980714] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/share/faithcar_msgs/environment/pythonpath.dsv\n'}
+[8.980780] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/local/lib/python3.10/dist-packages/faithcar_msgs-0.0.0-py3.10.egg-info\n'}
+[8.980848] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/local/lib/python3.10/dist-packages/faithcar_msgs-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[8.980915] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/local/lib/python3.10/dist-packages/faithcar_msgs-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[8.980983] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/local/lib/python3.10/dist-packages/faithcar_msgs-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[8.981064] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/local/lib/python3.10/dist-packages/faithcar_msgs-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[8.981133] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/local/lib/python3.10/dist-packages/faithcar_msgs\n'}
+[8.981200] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/local/lib/python3.10/dist-packages/faithcar_msgs/_faithcar_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[8.981267] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/local/lib/python3.10/dist-packages/faithcar_msgs/faithcar_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[8.981337] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/local/lib/python3.10/dist-packages/faithcar_msgs/faithcar_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[8.981407] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/local/lib/python3.10/dist-packages/faithcar_msgs/srv\n'}
+[8.981473] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/local/lib/python3.10/dist-packages/faithcar_msgs/srv/_kinemarics_s.c\n'}
+[8.981541] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/local/lib/python3.10/dist-packages/faithcar_msgs/srv/__init__.py\n'}
+[8.981608] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/local/lib/python3.10/dist-packages/faithcar_msgs/srv/_kinemarics.py\n'}
+[8.981675] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/local/lib/python3.10/dist-packages/faithcar_msgs/srv/_robot_arm_array_s.c\n'}
+[8.981742] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/local/lib/python3.10/dist-packages/faithcar_msgs/srv/_robot_arm_array.py\n'}
+[8.981809] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/local/lib/python3.10/dist-packages/faithcar_msgs/faithcar_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[8.981878] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/local/lib/python3.10/dist-packages/faithcar_msgs/_faithcar_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[8.981947] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/local/lib/python3.10/dist-packages/faithcar_msgs/libfaithcar_msgs__rosidl_generator_py.so\n'}
+[8.982015] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/local/lib/python3.10/dist-packages/faithcar_msgs/msg\n'}
+[8.982081] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/local/lib/python3.10/dist-packages/faithcar_msgs/msg/_position.py\n'}
+[8.982149] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/local/lib/python3.10/dist-packages/faithcar_msgs/msg/_target.py\n'}
+[8.982237] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/local/lib/python3.10/dist-packages/faithcar_msgs/msg/_image_msg.py\n'}
+[8.982307] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/local/lib/python3.10/dist-packages/faithcar_msgs/msg/_image_msg_s.c\n'}
+[8.982382] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/local/lib/python3.10/dist-packages/faithcar_msgs/msg/_target_s.c\n'}
+[8.982450] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/local/lib/python3.10/dist-packages/faithcar_msgs/msg/__init__.py\n'}
+[8.982527] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/local/lib/python3.10/dist-packages/faithcar_msgs/msg/_arm_joint.py\n'}
+[8.982595] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/local/lib/python3.10/dist-packages/faithcar_msgs/msg/_arm_joint_s.c\n'}
+[8.982674] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/local/lib/python3.10/dist-packages/faithcar_msgs/msg/_point_array_s.c\n'}
+[8.982750] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/local/lib/python3.10/dist-packages/faithcar_msgs/msg/_point_array.py\n'}
+[8.982817] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/local/lib/python3.10/dist-packages/faithcar_msgs/msg/_position_s.c\n'}
+[8.982885] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/local/lib/python3.10/dist-packages/faithcar_msgs/__init__.py\n'}
+[8.982952] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/local/lib/python3.10/dist-packages/faithcar_msgs/_faithcar_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[9.033012] (faithcar_msgs) StdoutLine: {'line': b"Listing '/home/faith/Work/carto_ws/install/faithcar_msgs/local/lib/python3.10/dist-packages/faithcar_msgs'...\n"}
+[9.033348] (faithcar_msgs) StdoutLine: {'line': b"Compiling '/home/faith/Work/carto_ws/install/faithcar_msgs/local/lib/python3.10/dist-packages/faithcar_msgs/__init__.py'...\n"}
+[9.033434] (faithcar_msgs) StdoutLine: {'line': b"Listing '/home/faith/Work/carto_ws/install/faithcar_msgs/local/lib/python3.10/dist-packages/faithcar_msgs/msg'...\n"}
+[9.033507] (faithcar_msgs) StdoutLine: {'line': b"Compiling '/home/faith/Work/carto_ws/install/faithcar_msgs/local/lib/python3.10/dist-packages/faithcar_msgs/msg/__init__.py'...\n"}
+[9.033578] (faithcar_msgs) StdoutLine: {'line': b"Compiling '/home/faith/Work/carto_ws/install/faithcar_msgs/local/lib/python3.10/dist-packages/faithcar_msgs/msg/_arm_joint.py'...\n"}
+[9.033647] (faithcar_msgs) StdoutLine: {'line': b"Compiling '/home/faith/Work/carto_ws/install/faithcar_msgs/local/lib/python3.10/dist-packages/faithcar_msgs/msg/_image_msg.py'...\n"}
+[9.033715] (faithcar_msgs) StdoutLine: {'line': b"Compiling '/home/faith/Work/carto_ws/install/faithcar_msgs/local/lib/python3.10/dist-packages/faithcar_msgs/msg/_point_array.py'...\n"}
+[9.033783] (faithcar_msgs) StdoutLine: {'line': b"Compiling '/home/faith/Work/carto_ws/install/faithcar_msgs/local/lib/python3.10/dist-packages/faithcar_msgs/msg/_position.py'...\n"}
+[9.033849] (faithcar_msgs) StdoutLine: {'line': b"Compiling '/home/faith/Work/carto_ws/install/faithcar_msgs/local/lib/python3.10/dist-packages/faithcar_msgs/msg/_target.py'...\n"}
+[9.033916] (faithcar_msgs) StdoutLine: {'line': b"Listing '/home/faith/Work/carto_ws/install/faithcar_msgs/local/lib/python3.10/dist-packages/faithcar_msgs/srv'...\n"}
+[9.033983] (faithcar_msgs) StdoutLine: {'line': b"Compiling '/home/faith/Work/carto_ws/install/faithcar_msgs/local/lib/python3.10/dist-packages/faithcar_msgs/srv/__init__.py'...\n"}
+[9.034050] (faithcar_msgs) StdoutLine: {'line': b"Compiling '/home/faith/Work/carto_ws/install/faithcar_msgs/local/lib/python3.10/dist-packages/faithcar_msgs/srv/_kinemarics.py'...\n"}
+[9.034117] (faithcar_msgs) StdoutLine: {'line': b"Compiling '/home/faith/Work/carto_ws/install/faithcar_msgs/local/lib/python3.10/dist-packages/faithcar_msgs/srv/_robot_arm_array.py'...\n"}
+[9.043224] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/local/lib/python3.10/dist-packages/faithcar_msgs/faithcar_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[9.043539] (faithcar_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/faith/Work/carto_ws/install/faithcar_msgs/local/lib/python3.10/dist-packages/faithcar_msgs/faithcar_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[9.043691] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/local/lib/python3.10/dist-packages/faithcar_msgs/faithcar_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[9.044087] (faithcar_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/faith/Work/carto_ws/install/faithcar_msgs/local/lib/python3.10/dist-packages/faithcar_msgs/faithcar_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[9.044499] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/local/lib/python3.10/dist-packages/faithcar_msgs/faithcar_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[9.044831] (faithcar_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/faith/Work/carto_ws/install/faithcar_msgs/local/lib/python3.10/dist-packages/faithcar_msgs/faithcar_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[9.044951] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/lib/libfaithcar_msgs__rosidl_generator_py.so\n'}
+[9.045465] (faithcar_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/faith/Work/carto_ws/install/faithcar_msgs/lib/libfaithcar_msgs__rosidl_generator_py.so" to ""\n'}
+[9.045636] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/share/faithcar_msgs/msg/Position.idl\n'}
+[9.045903] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/share/faithcar_msgs/msg/PointArray.idl\n'}
+[9.046054] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/share/faithcar_msgs/msg/ImageMsg.idl\n'}
+[9.046164] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/share/faithcar_msgs/msg/Target.idl\n'}
+[9.046301] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/share/faithcar_msgs/msg/ArmJoint.idl\n'}
+[9.046464] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/share/faithcar_msgs/srv/RobotArmArray.idl\n'}
+[9.046623] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/share/faithcar_msgs/srv/Kinemarics.idl\n'}
+[9.046838] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/share/faithcar_msgs/msg/Position.msg\n'}
+[9.046939] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/share/faithcar_msgs/msg/PointArray.msg\n'}
+[9.047092] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/share/faithcar_msgs/msg/ImageMsg.msg\n'}
+[9.047302] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/share/faithcar_msgs/msg/Target.msg\n'}
+[9.047454] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/share/faithcar_msgs/msg/ArmJoint.msg\n'}
+[9.047610] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/share/faithcar_msgs/srv/RobotArmArray.srv\n'}
+[9.047766] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/share/faithcar_msgs/srv/RobotArmArray_Request.msg\n'}
+[9.047875] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/share/faithcar_msgs/srv/RobotArmArray_Response.msg\n'}
+[9.048028] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/share/faithcar_msgs/srv/Kinemarics.srv\n'}
+[9.048186] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/share/faithcar_msgs/srv/Kinemarics_Request.msg\n'}
+[9.048343] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/share/faithcar_msgs/srv/Kinemarics_Response.msg\n'}
+[9.048576] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/share/ament_index/resource_index/package_run_dependencies/faithcar_msgs\n'}
+[9.048787] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/share/ament_index/resource_index/parent_prefix_path/faithcar_msgs\n'}
+[9.048964] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/share/faithcar_msgs/environment/ament_prefix_path.sh\n'}
+[9.049124] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/share/faithcar_msgs/environment/ament_prefix_path.dsv\n'}
+[9.049284] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/share/faithcar_msgs/environment/path.sh\n'}
+[9.049483] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/share/faithcar_msgs/environment/path.dsv\n'}
+[9.049699] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/share/faithcar_msgs/local_setup.bash\n'}
+[9.049856] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/share/faithcar_msgs/local_setup.sh\n'}
+[9.050021] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/share/faithcar_msgs/local_setup.zsh\n'}
+[9.050173] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/share/faithcar_msgs/local_setup.dsv\n'}
+[9.050270] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/share/faithcar_msgs/package.dsv\n'}
+[9.050523] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/share/ament_index/resource_index/packages/faithcar_msgs\n'}
+[9.050742] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/share/faithcar_msgs/cmake/export_faithcar_msgs__rosidl_generator_cExport.cmake\n'}
+[9.050916] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/share/faithcar_msgs/cmake/export_faithcar_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[9.051152] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/share/faithcar_msgs/cmake/export_faithcar_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[9.051449] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/share/faithcar_msgs/cmake/export_faithcar_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[9.051958] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/share/faithcar_msgs/cmake/faithcar_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[9.052330] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/share/faithcar_msgs/cmake/faithcar_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[9.052734] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/share/faithcar_msgs/cmake/faithcar_msgs__rosidl_typesupport_cExport.cmake\n'}
+[9.053121] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/share/faithcar_msgs/cmake/faithcar_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[9.053535] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/share/faithcar_msgs/cmake/export_faithcar_msgs__rosidl_generator_cppExport.cmake\n'}
+[9.053918] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/share/faithcar_msgs/cmake/export_faithcar_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[9.054341] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/share/faithcar_msgs/cmake/export_faithcar_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[9.054702] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/share/faithcar_msgs/cmake/faithcar_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[9.055083] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/share/faithcar_msgs/cmake/faithcar_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[9.055444] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/share/faithcar_msgs/cmake/faithcar_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[9.055775] (-) TimerEvent: {}
+[9.056183] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/share/faithcar_msgs/cmake/faithcar_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[9.056552] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/share/faithcar_msgs/cmake/export_faithcar_msgs__rosidl_generator_pyExport.cmake\n'}
+[9.056903] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/share/faithcar_msgs/cmake/export_faithcar_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[9.057254] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/share/faithcar_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[9.057598] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/share/faithcar_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[9.057943] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/share/faithcar_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[9.058303] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/share/faithcar_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[9.058931] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/share/faithcar_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[9.061406] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/share/faithcar_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[9.065337] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/share/faithcar_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[9.065898] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/share/faithcar_msgs/cmake/faithcar_msgsConfig.cmake\n'}
+[9.068201] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/share/faithcar_msgs/cmake/faithcar_msgsConfig-version.cmake\n'}
+[9.072617] (faithcar_msgs) StdoutLine: {'line': b'-- Installing: /home/faith/Work/carto_ws/install/faithcar_msgs/share/faithcar_msgs/package.xml\n'}
+[9.073154] (faithcar_msgs) CommandEnded: {'returncode': 0}
+[9.156133] (-) TimerEvent: {}
+[9.256936] (-) TimerEvent: {}
+[9.357780] (-) TimerEvent: {}
+[9.458575] (-) TimerEvent: {}
+[9.559390] (-) TimerEvent: {}
+[9.633330] (faithcar_msgs) JobEnded: {'identifier': 'faithcar_msgs', 'rc': 0}
+[9.635017] (-) EventReactorShutdown: {}

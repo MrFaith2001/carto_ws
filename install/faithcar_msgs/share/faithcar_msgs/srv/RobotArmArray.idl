@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from faithcar_msgs/srv/RobotArmArray.srv
+// generated code does not contain a copyright notice
+
+
+module faithcar_msgs {
+  module srv {
+    @verbatim (language="comment", text=
+      "request")
+    struct RobotArmArray_Request {
+      string apply;
+    };
+    @verbatim (language="comment", text=
+      "response")
+    struct RobotArmArray_Response {
+      sequence<double> angles;
+    };
+  };
+};
