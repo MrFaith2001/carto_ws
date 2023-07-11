@@ -1,0 +1,37 @@
+running egg_info
+creating ../../build/faithcar_bringup/faithcar_bringup.egg-info
+writing ../../build/faithcar_bringup/faithcar_bringup.egg-info/PKG-INFO
+writing dependency_links to ../../build/faithcar_bringup/faithcar_bringup.egg-info/dependency_links.txt
+writing entry points to ../../build/faithcar_bringup/faithcar_bringup.egg-info/entry_points.txt
+writing requirements to ../../build/faithcar_bringup/faithcar_bringup.egg-info/requires.txt
+writing top-level names to ../../build/faithcar_bringup/faithcar_bringup.egg-info/top_level.txt
+writing manifest file '../../build/faithcar_bringup/faithcar_bringup.egg-info/SOURCES.txt'
+reading manifest file '../../build/faithcar_bringup/faithcar_bringup.egg-info/SOURCES.txt'
+writing manifest file '../../build/faithcar_bringup/faithcar_bringup.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/faith/Work/carto_ws/build/faithcar_bringup/build
+creating /home/faith/Work/carto_ws/build/faithcar_bringup/build/lib
+creating /home/faith/Work/carto_ws/build/faithcar_bringup/build/lib/faithcar_bringup
+copying faithcar_bringup/faithcar_bringup.py -> /home/faith/Work/carto_ws/build/faithcar_bringup/build/lib/faithcar_bringup
+copying faithcar_bringup/__init__.py -> /home/faith/Work/carto_ws/build/faithcar_bringup/build/lib/faithcar_bringup
+running install
+running install_lib
+creating /home/faith/Work/carto_ws/install/faithcar_bringup/lib/python3.10/site-packages/faithcar_bringup
+copying /home/faith/Work/carto_ws/build/faithcar_bringup/build/lib/faithcar_bringup/faithcar_bringup.py -> /home/faith/Work/carto_ws/install/faithcar_bringup/lib/python3.10/site-packages/faithcar_bringup
+copying /home/faith/Work/carto_ws/build/faithcar_bringup/build/lib/faithcar_bringup/__init__.py -> /home/faith/Work/carto_ws/install/faithcar_bringup/lib/python3.10/site-packages/faithcar_bringup
+byte-compiling /home/faith/Work/carto_ws/install/faithcar_bringup/lib/python3.10/site-packages/faithcar_bringup/faithcar_bringup.py to faithcar_bringup.cpython-310.pyc
+byte-compiling /home/faith/Work/carto_ws/install/faithcar_bringup/lib/python3.10/site-packages/faithcar_bringup/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/faith/Work/carto_ws/install/faithcar_bringup/share
+creating /home/faith/Work/carto_ws/install/faithcar_bringup/share/ament_index
+creating /home/faith/Work/carto_ws/install/faithcar_bringup/share/ament_index/resource_index
+creating /home/faith/Work/carto_ws/install/faithcar_bringup/share/ament_index/resource_index/packages
+copying resource/faithcar_bringup -> /home/faith/Work/carto_ws/install/faithcar_bringup/share/ament_index/resource_index/packages
+creating /home/faith/Work/carto_ws/install/faithcar_bringup/share/faithcar_bringup
+copying package.xml -> /home/faith/Work/carto_ws/install/faithcar_bringup/share/faithcar_bringup
+running install_egg_info
+Copying ../../build/faithcar_bringup/faithcar_bringup.egg-info to /home/faith/Work/carto_ws/install/faithcar_bringup/lib/python3.10/site-packages/faithcar_bringup-0.0.0-py3.10.egg-info
+running install_scripts
+Installing faithcar_driver_node script to /home/faith/Work/carto_ws/install/faithcar_bringup/lib/faithcar_bringup
+writing list of installed files to '/home/faith/Work/carto_ws/build/faithcar_bringup/install.log'

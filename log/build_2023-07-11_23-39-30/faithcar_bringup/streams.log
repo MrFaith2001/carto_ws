@@ -1,0 +1,41 @@
+[1.336s] Invoking command in '/home/faith/Work/carto_ws/src/faithcar_bringup': PYTHONPATH=/home/faith/Work/carto_ws/build/faithcar_bringup/prefix_override:/home/faith/Work/carto_ws/install/faithcar_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/faithcar_bringup build --build-base /home/faith/Work/carto_ws/build/faithcar_bringup/build install --record /home/faith/Work/carto_ws/build/faithcar_bringup/install.log --single-version-externally-managed
+[1.666s] running egg_info
+[1.667s] creating ../../build/faithcar_bringup/faithcar_bringup.egg-info
+[1.667s] writing ../../build/faithcar_bringup/faithcar_bringup.egg-info/PKG-INFO
+[1.668s] writing dependency_links to ../../build/faithcar_bringup/faithcar_bringup.egg-info/dependency_links.txt
+[1.668s] writing entry points to ../../build/faithcar_bringup/faithcar_bringup.egg-info/entry_points.txt
+[1.669s] writing requirements to ../../build/faithcar_bringup/faithcar_bringup.egg-info/requires.txt
+[1.669s] writing top-level names to ../../build/faithcar_bringup/faithcar_bringup.egg-info/top_level.txt
+[1.669s] writing manifest file '../../build/faithcar_bringup/faithcar_bringup.egg-info/SOURCES.txt'
+[1.670s] reading manifest file '../../build/faithcar_bringup/faithcar_bringup.egg-info/SOURCES.txt'
+[1.671s] writing manifest file '../../build/faithcar_bringup/faithcar_bringup.egg-info/SOURCES.txt'
+[1.672s] running build
+[1.672s] running build_py
+[1.673s] creating /home/faith/Work/carto_ws/build/faithcar_bringup/build
+[1.673s] creating /home/faith/Work/carto_ws/build/faithcar_bringup/build/lib
+[1.673s] creating /home/faith/Work/carto_ws/build/faithcar_bringup/build/lib/faithcar_bringup
+[1.673s] copying faithcar_bringup/faithcar_bringup.py -> /home/faith/Work/carto_ws/build/faithcar_bringup/build/lib/faithcar_bringup
+[1.673s] copying faithcar_bringup/__init__.py -> /home/faith/Work/carto_ws/build/faithcar_bringup/build/lib/faithcar_bringup
+[1.673s] running install
+[1.673s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.673s]   warnings.warn(
+[1.673s] running install_lib
+[1.674s] creating /home/faith/Work/carto_ws/install/faithcar_bringup/lib/python3.10/site-packages/faithcar_bringup
+[1.674s] copying /home/faith/Work/carto_ws/build/faithcar_bringup/build/lib/faithcar_bringup/faithcar_bringup.py -> /home/faith/Work/carto_ws/install/faithcar_bringup/lib/python3.10/site-packages/faithcar_bringup
+[1.674s] copying /home/faith/Work/carto_ws/build/faithcar_bringup/build/lib/faithcar_bringup/__init__.py -> /home/faith/Work/carto_ws/install/faithcar_bringup/lib/python3.10/site-packages/faithcar_bringup
+[1.675s] byte-compiling /home/faith/Work/carto_ws/install/faithcar_bringup/lib/python3.10/site-packages/faithcar_bringup/faithcar_bringup.py to faithcar_bringup.cpython-310.pyc
+[1.678s] byte-compiling /home/faith/Work/carto_ws/install/faithcar_bringup/lib/python3.10/site-packages/faithcar_bringup/__init__.py to __init__.cpython-310.pyc
+[1.678s] running install_data
+[1.678s] creating /home/faith/Work/carto_ws/install/faithcar_bringup/share
+[1.679s] creating /home/faith/Work/carto_ws/install/faithcar_bringup/share/ament_index
+[1.679s] creating /home/faith/Work/carto_ws/install/faithcar_bringup/share/ament_index/resource_index
+[1.679s] creating /home/faith/Work/carto_ws/install/faithcar_bringup/share/ament_index/resource_index/packages
+[1.679s] copying resource/faithcar_bringup -> /home/faith/Work/carto_ws/install/faithcar_bringup/share/ament_index/resource_index/packages
+[1.679s] creating /home/faith/Work/carto_ws/install/faithcar_bringup/share/faithcar_bringup
+[1.679s] copying package.xml -> /home/faith/Work/carto_ws/install/faithcar_bringup/share/faithcar_bringup
+[1.679s] running install_egg_info
+[1.682s] Copying ../../build/faithcar_bringup/faithcar_bringup.egg-info to /home/faith/Work/carto_ws/install/faithcar_bringup/lib/python3.10/site-packages/faithcar_bringup-0.0.0-py3.10.egg-info
+[1.683s] running install_scripts
+[1.715s] Installing faithcar_driver_node script to /home/faith/Work/carto_ws/install/faithcar_bringup/lib/faithcar_bringup
+[1.715s] writing list of installed files to '/home/faith/Work/carto_ws/build/faithcar_bringup/install.log'
+[1.775s] Invoked command in '/home/faith/Work/carto_ws/src/faithcar_bringup' returned '0': PYTHONPATH=/home/faith/Work/carto_ws/build/faithcar_bringup/prefix_override:/home/faith/Work/carto_ws/install/faithcar_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/faithcar_bringup build --build-base /home/faith/Work/carto_ws/build/faithcar_bringup/build install --record /home/faith/Work/carto_ws/build/faithcar_bringup/install.log --single-version-externally-managed
