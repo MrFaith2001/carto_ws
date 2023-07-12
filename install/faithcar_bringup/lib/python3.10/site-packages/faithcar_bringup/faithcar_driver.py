@@ -24,7 +24,6 @@ class faithcar_driver(Node):
     def __init__(self, name):
         super().__init__(name)
         self.context.on_shutdown(self.cancel)
-        # rospy.on_shutdown(self.cancel)
         # 弧度转角度
         # Radians turn angle
         self.RA2DE = 180 / pi
@@ -32,26 +31,6 @@ class faithcar_driver(Node):
         self.car.set_car_type(2)
         self.last_update_time = 1
         self.pos = [0, 0, 0, 0]
-
-        # self.imu_link = rospy.get_param("~imu_link", "imu_link")
-        # self.Prefix = rospy.get_param("~prefix", "")
-        # self.xlinear_limit = rospy.get_param('~xlinear_speed_limit', 1.0)
-        # self.ylinear_limit = rospy.get_param('~ylinear_speed_limit', 1.0)
-        # self.angular_limit = rospy.get_param('~angular_speed_limit', 5.0)
-        # gen.add("Kp", 1.5)
-        # gen.add("Ki", 0.3)
-        # gen.add("Kd", 0.2)
-        # gen.add("linear_max", 0.4)
-        # gen.add("angular_max", 2.0)
-        # gen.add("linear_min", 0.0)
-        # gen.add("angular_min", 0.0)
-        # gen.add("joint1", 90)
-        # gen.add("joint2", 145)
-        # gen.add("joint3", 0)
-        # gen.add("joint4", 0)
-        # gen.add("joint5", 90)
-        # gen.add("joint6", 30)
-        # gen.add("SetArmjoint", False)
 
         self.declare_parameter('Kp', 1.5)
         self.declare_parameter('Ki', 0.3)
@@ -73,25 +52,11 @@ class faithcar_driver(Node):
         self.declare_parameter('ylinear_speed_limit', 1.0)
         self.declare_parameter('angular_speed_limit', 5.0)
         
-        # self.sub_cmd_vel = rospy.Subscriber('cmd_vel', Twist, self.cmd_vel_callback, queue_size=100)
-        # self.sub_RGBLight = rospy.Subscriber("RGBLight", Int32, self.RGBLightcallback, queue_size=100)
-        # self.sub_Buzzer = rospy.Subscriber("Buzzer", Bool, self.Buzzercallback, queue_size=100)
-        # self.sub_Arm = rospy.Subscriber("TargetAngle", ArmJoint, self.Armcallback, queue_size=1000)
-        
         self.sub_cmd_vel = self.create_subscription(Twist, '/cmd_vel', self.cmd_vel_callback, 100)
         # self.sub_RGBLight = self.create_subscription(Int32, 'RGBLight', self.RGBLightcallback, 100)
         # self.sub_Buzzer = self.create_subscription(Bool, 'Buzzer', self.Buzzercallback, 100)
         # self.sub_Arm = self.create_subscription(ArmJoint, 'TargetAngle', self.Armcallback, 1000)
 
-        # self.ArmPubUpdate = rospy.Publisher("ArmAngleUpdate", ArmJoint, queue_size=1000)
-        # self.EdiPublisher = rospy.Publisher('edition', Float32, queue_size=100)
-        # self.volPublisher = rospy.Publisher('voltage', Float32, queue_size=100)
-        # self.staPublisher = rospy.Publisher('joint_states', JointState, queue_size=100)
-        # self.velPublisher = rospy.Publisher("/pub_vel", Twist, queue_size=100)
-        # self.imuPublisher = rospy.Publisher("/pub_imu", Imu, queue_size=100)
-        # self.magPublisher = rospy.Publisher("/pub_mag", MagneticField, queue_size=100)
-        # self.srv_armAngle = rospy.Service("CurrentAngle", RobotArmArray, self.srv_Armcallback)
-        
         self.ArmPubUpdate = self.create_publisher(ArmJoint, 'ArmAngleUpdate', 1000)
         self.EdiPublisher = self.create_publisher(Float32, 'edition', 100)
         self.volPublisher = self.create_publisher(Float32, 'voltage', 100)
@@ -101,22 +66,19 @@ class faithcar_driver(Node):
         self.magPublisher = self.create_publisher(MagneticField, '/pub_mag', 100)
         # self.srv_armAngle = self.create_service(RobotArmArray, 'CurrentAngle', self.srv_Armcallback)
 
-        # self.dyn_server = Server(PIDparamConfig, self.dynamic_reconfigure_callback)
-        # self.car.create_receive_threading()
+        self.car.create_receive_threading()
         self.car.set_car_motion(0, 0, 0)
         #self.joints = [90, 2.0, 60.0, 40.0, 90]
         self.joints = [90, 145, 0, 45, 90, 30]
         self.car.set_uart_servo_angle_array(self.joints, 1000)
         '''sleep(5)
         self.joints = [90, 2.0, 60.0, 40.0, 90]
-        self.car.set_uart_servo_angle_array(self.joints, 1000) '''       
+        self.car.set_uart_servo_angle_array(self.joints, 1000) '''    
+        self.pub_timer = self.create_timer(0.05, self.pub_data)   
 
     def pub_data(self):
         # 发布小车运动速度、陀螺仪数据、电池电压
         ## Publish the speed of the car, gyroscope data, and battery voltage
-        # while not rospy.is_shutdown():
-        while self.context.ok():
-            sleep(0.05)
             imu = Imu()
             twist = Twist()
             battery = Float32()
@@ -128,6 +90,7 @@ class faithcar_driver(Node):
             gx, gy, gz = self.car.get_gyroscope_data()
             mx, my, mz = self.car.get_magnetometer_data()
             vx, vy, angular = self.car.get_motion_data()
+            
             # 发布陀螺仪的数据
             # Publish gyroscope data
             imu.header.stamp = self.get_clock().now().to_msg()
@@ -142,11 +105,6 @@ class faithcar_driver(Node):
             self.linear_min = self.get_parameter("linear_min").get_parameter_value().double_value
             self.angular_max = self.get_parameter("angular_max").get_parameter_value().double_value
             self.angular_min = self.get_parameter("angular_min").get_parameter_value().double_value
-
-            # self.Prefix = rospy.get_param("~prefix", "")
-            # self.xlinear_limit = rospy.get_param('~xlinear_speed_limit', 1.0)
-            # self.ylinear_limit = rospy.get_param('~ylinear_speed_limit', 1.0)
-            # self.angular_limit = rospy.get_param('~angular_speed_limit', 5.0)
 
             imu.header.frame_id = self.imu_link
             imu.linear_acceleration.x = float(ax)
@@ -259,8 +217,8 @@ class faithcar_driver(Node):
         self.staPublisher.destroy()
         self.magPublisher.destroy()
         self.sub_cmd_vel.destroy()
-        self.sub_RGBLight.destroy()
-        self.sub_Buzzer.destroy()
+        # self.sub_RGBLight.destroy()
+        # self.sub_Buzzer.destroy()
         # Always stop the robot when shutting down the node
         self.get_logger().info("Stop the robot...")
         sleep(1)
@@ -306,9 +264,8 @@ def main(args=None):
         sleep(2)
         #driver.joints = [90, 2.0, 60.0, 40.0, 90]
         #driver.car.set_uart_servo_angle_array(driver.joints, 1000)
-        
-        driver_node.pub_data()
         rclpy.spin(driver_node)
+        
     except Exception as e:
         print(e.args)
         print('===========')

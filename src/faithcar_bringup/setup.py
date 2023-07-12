@@ -20,7 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            "faithcar_driver_node=faithcar_bringup.faithcar_driver:main"
+            "faithcar_driver_node=faithcar_bringup.faithcar_driver:main",
+            "faithcar_driver_test_node=faithcar_bringup.faithcar_driver_without_driver:main"
         ],
     },
 )

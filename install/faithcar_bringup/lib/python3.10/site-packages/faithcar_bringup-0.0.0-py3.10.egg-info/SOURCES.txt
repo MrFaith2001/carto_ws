@@ -10,6 +10,7 @@ setup.py
 ../../build/faithcar_bringup/faithcar_bringup.egg-info/zip-safe
 faithcar_bringup/__init__.py
 faithcar_bringup/faithcar_driver.py
+faithcar_bringup/faithcar_driver_without_driver.py
 resource/faithcar_bringup
 test/test_copyright.py
 test/test_flake8.py
